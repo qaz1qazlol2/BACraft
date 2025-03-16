@@ -153,12 +153,12 @@ org.embeddedt.embeddium.gui.EmbeddiumVideoOptionsScreen {
 net.irisshaders.iris.gui.screen.ShaderPackScreen {
 }
 
-team.teampotato.ruok.gui.vanilla.screen.ListScreen {
-}
-
 net.minecraft.client.gui.screens.telemetry.TelemetryInfoScreen {
 }
 
 net.minecraft.client.gui.screens.SoundOptionsScreen {
+}
+
+net.minecraft.client.gui.screens.CreditsAndAttributionScreen {
 }
 
