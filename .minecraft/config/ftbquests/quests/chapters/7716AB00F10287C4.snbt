@@ -176,8 +176,10 @@
 				}
 				{
 					auto: "enabled"
-					command: "/say 请使用任务书查看流程~"
+					command: "/tellraw @s  \"请使用任务书查看流程~\""
+					elevate_perms: true
 					id: "3F616A17F6AF54C9"
+					silent: true
 					type: "command"
 				}
 			]
