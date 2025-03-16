@@ -1,0 +1,17 @@
+{
+	icon: "minecraft:end_stone"
+	id: "4D85B0612A6D928D"
+	loot_size: 1
+	order_index: 4
+	rewards: [
+		{
+			type: "xp"
+			weight: 10.0f
+			xp: 3000
+		}
+		{ count: 5, item: "minecraft:enchanted_golden_apple", weight: 10.0f }
+		{ count: 10, item: "enigmaticlegacy:etherium_ingot" }
+		{ count: 5, item: "enigmaticlegacy:etherium_ore", weight: 5.0f }
+	]
+	title: "boss（末地）"
+}

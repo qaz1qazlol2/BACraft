@@ -1,0 +1,195 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "7716AB00F10287C4"
+	group: "365D2B80CD0DEDCA"
+	icon: "kubejs:luguan"
+	id: "7716AB00F10287C4"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			icon: "kubejs:luguan"
+			id: "6000C4A6AC06009B"
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/effect give @s minecraft:blindness 204"
+					id: "0025FF57D289B79E"
+					silent: true
+					type: "command"
+				}
+				{
+					auto: "enabled"
+					command: "/effect give @s minecraft:slowness 204 255"
+					id: "53C540230C32813D"
+					silent: true
+					type: "command"
+				}
+				{
+					auto: "enabled"
+					command: "/playsound blue_archivescraft:god_apple block @s ~ ~ ~"
+					id: "62C00078A215B1E6"
+					silent: true
+					type: "command"
+				}
+			]
+			shape: "rsquare"
+			subtitle: "🦌🦌🦌🦌🦌🦌🦌🦌🦌🦌🦌🦌🦌🦌🦌"
+			tasks: [{
+				id: "3B760EE20E3F8B18"
+				item: "kubejs:luguan"
+				type: "item"
+			}]
+			title: "水滴"
+			x: -1.0d
+			y: 0.0d
+		}
+		{
+			icon: "minecraft:beacon"
+			id: "5938B17F63A32909"
+			invisible: true
+			rewards: [{
+				id: "27D1D3E7510FC849"
+				item: {
+					Count: 1
+					id: "twilightforest:mazebreaker_pickaxe"
+					tag: {
+						Damage: 0
+						Enchantments: [
+							{
+								id: "minecraft:efficiency"
+								lvl: 100s
+							}
+							{
+								id: "minecraft:unbreaking"
+								lvl: 100s
+							}
+							{
+								id: "minecraft:fortune"
+								lvl: 10s
+							}
+							{
+								id: "minecraft:mending"
+								lvl: 10s
+							}
+						]
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "没时间为frank的盗墓精神纪念，接下来到来的是暴力盗墓！"
+			tasks: [
+				{
+					entity: "majruszsdifficulty:cursed_armor"
+					id: "5CFEDD3602F13B18"
+					type: "kill"
+					value: 100L
+				}
+				{
+					entity: "graveyard:corrupted_pillager"
+					icon: "graveyard:corrupted_pillager_spawn_egg"
+					id: "61C349B012FF116B"
+					type: "kill"
+					value: 100L
+				}
+				{
+					entity: "graveyard:corrupted_vindicator"
+					icon: "graveyard:corrupted_vindicator_spawn_egg"
+					id: "607137EAEF5C9175"
+					type: "kill"
+					value: 100L
+				}
+				{
+					entity: "graveyard:ghoul"
+					icon: "graveyard:ghoul_spawn_egg"
+					id: "2AC1373E35AAA685"
+					type: "kill"
+					value: 100L
+				}
+				{
+					entity: "graveyard:wraith"
+					icon: "graveyard:wraith_spawn_egg"
+					id: "189CC47C771D2607"
+					type: "kill"
+					value: 100L
+				}
+				{
+					entity: "graveyard:nightmare"
+					icon: "graveyard:nightmare_spawn_egg"
+					id: "1AE272F41054BF95"
+					type: "kill"
+					value: 100L
+				}
+			]
+			title: "弗兰克的盗墓传承"
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			id: "5ADAB437F608A24E"
+			invisible: true
+			rewards: [
+				{
+					command: "/title @s title \"恭喜你获得了第一个信标，但是该物品无法放置\""
+					id: "2ED773F96A630BF7"
+					silent: true
+					type: "command"
+				}
+				{
+					command: "/title @s subtitle \"如果你一不小心放置了信标，而且消失了，你可以按下q键丢出这个消失的信标\""
+					id: "26AA5335B01439D9"
+					silent: true
+					type: "command"
+				}
+				{
+					command: "/title @s actionbar \"该信息只显示一次\""
+					id: "5471CE178651A7C4"
+					silent: true
+					type: "command"
+				}
+			]
+			tasks: [{
+				id: "070F5CCB1784DB1A"
+				item: "minecraft:beacon"
+				type: "item"
+			}]
+			x: 0.5d
+			y: 0.0d
+		}
+		{
+			disable_toast: true
+			id: "6CAE4B888CE8ECDF"
+			rewards: [
+				{
+					auto: "no_toast"
+					id: "27A1C8861C4D1AC0"
+					item: "ftbquests:book"
+					type: "item"
+				}
+				{
+					auto: "no_toast"
+					command: "/title @p title [{\"text\":\"请观看任务以方便游玩\",\"color\":\"blue\"}]"
+					id: "796216E0E0AF95EC"
+					silent: true
+					type: "command"
+				}
+				{
+					auto: "enabled"
+					command: "/say 请使用任务书查看流程~"
+					id: "3F616A17F6AF54C9"
+					type: "command"
+				}
+			]
+			tasks: [{
+				dimension: "minecraft:overworld"
+				disable_toast: true
+				id: "70CE3A457FBDCFB2"
+				type: "dimension"
+			}]
+			x: 3.5d
+			y: 0.0d
+		}
+	]
+	title: "开发者的小彩蛋"
+}

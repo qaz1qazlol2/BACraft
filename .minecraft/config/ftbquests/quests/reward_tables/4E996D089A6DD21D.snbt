@@ -1,0 +1,8 @@
+{
+	icon: "aquaculture:treasure_chest"
+	id: "4E996D089A6DD21D"
+	loot_size: 1
+	order_index: 9
+	rewards: [ ]
+	title: "征服者成就礼盒"
+}

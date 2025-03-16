@@ -1,0 +1,151 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "3432E8A802C1DFAB"
+	group: "3A341F8C3B4A5B73"
+	icon: "blue_archivescraft:adult_card"
+	id: "3432E8A802C1DFAB"
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			can_repeat: true
+			dependencies: ["07AE256A44548A33"]
+			id: "758C5D1C4EA5DA43"
+			rewards: [{
+				id: "07243FF6CB96F5F9"
+				item: "blue_archivescraft:adult_card"
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 3L
+				id: "05DB65CE21889631"
+				item: "kubejs:gold_coin"
+				type: "item"
+			}]
+			title: "金币x3 >> 信用点x1 兑换"
+			x: -1.0d
+			y: -2.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["07AE256A44548A33"]
+			id: "5FC90C333317EF0A"
+			rewards: [{
+				count: 32
+				id: "12F28D914C350BFF"
+				item: "blue_archivescraft:adult_card"
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 96L
+				id: "68F2EBECB29DC7D4"
+				item: "kubejs:gold_coin"
+				type: "item"
+			}]
+			title: "金币x96 >> 信用点x32 兑换"
+			x: 0.5d
+			y: -2.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["07AE256A44548A33"]
+			id: "1167D95E44BB7D22"
+			rewards: [{
+				count: 64
+				id: "216866C49FA1D773"
+				item: "blue_archivescraft:adult_card"
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 196L
+				id: "6DBA77305CC0A8C1"
+				item: "kubejs:gold_coin"
+				type: "item"
+			}]
+			title: "金币x196 >> 信用点x64 兑换"
+			x: 2.0d
+			y: -2.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["07AE256A44548A33"]
+			id: "7214E7618C14F29E"
+			rewards: [{
+				count: 100
+				id: "6FD2BF143D1755B4"
+				item: "blue_archivescraft:adult_card"
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				id: "7267ED655D966057"
+				item: "kubejs:diamond_coin"
+				type: "item"
+			}]
+			title: "钻石币x1 >> 信用点x100"
+			x: -1.0d
+			y: 1.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["07AE256A44548A33"]
+			id: "3A56567F2CC488CD"
+			rewards: [{
+				count: 3200
+				id: "41FEFEC1F63DE423"
+				item: "blue_archivescraft:adult_card"
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 32L
+				id: "1E5921F7A6FE3F53"
+				item: "kubejs:diamond_coin"
+				type: "item"
+			}]
+			title: "钻石币x32 >> 信用点x3200"
+			x: 0.5d
+			y: 1.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["07AE256A44548A33"]
+			id: "2C5FDDB93BDABA95"
+			rewards: [{
+				count: 6400
+				id: "75344C2A22C0D370"
+				item: "blue_archivescraft:adult_card"
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 64L
+				id: "0877415E1D20C6DF"
+				item: "kubejs:diamond_coin"
+				type: "item"
+			}]
+			title: "钻石币x64 >> 信用点x6400"
+			x: 2.0d
+			y: 1.0d
+		}
+		{
+			id: "07AE256A44548A33"
+			tasks: [{
+				entity: "minecraft:ender_dragon"
+				icon: "minecraft:dragon_egg"
+				id: "3364ECB93ECF2C8F"
+				title: "末影龙"
+				type: "kill"
+				value: 1L
+			}]
+			title: "开启兑换的前提"
+			x: 0.5d
+			y: -0.5d
+		}
+	]
+	title: "信用点兑换商店"
+}

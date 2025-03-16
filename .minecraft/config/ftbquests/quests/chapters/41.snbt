@@ -1,0 +1,427 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "41"
+	group: "644FCC46DEE59C59"
+	icon: "minecraft:ender_eye"
+	id: "5BFC84DB252A5D76"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["1A749D45C9B1CF79"]
+			description: ["会出现在猪灵堡垒的箱子里"]
+			hide_dependency_lines: false
+			hide_details_until_startable: false
+			id: "4F31AA4EACCF7A57"
+			tasks: [{
+				id: "3D86A15E341A4B90"
+				item: {
+					Count: 1
+					id: "endrem:cursed_eye"
+					tag: {
+						Damage: 0
+					}
+				}
+				title: "诅咒之眼"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["1A749D45C9B1CF79"]
+			description: ["使用一些亡灵生物的掉落物制作，中间的是杀死骷髅马的掉落物"]
+			hide_dependency_lines: false
+			id: "194B1EA3E1B7B4C6"
+			tasks: [{
+				id: "71C967FE3BFE6938"
+				item: {
+					Count: 1
+					id: "endrem:undead_eye"
+					tag: {
+						Damage: 0
+					}
+				}
+				title: "亡灵之眼"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["1A749D45C9B1CF79"]
+			description: ["凋灵的掉落物（几乎必掉）"]
+			hide_dependency_lines: false
+			id: "5ADD90B24DDCB5B8"
+			tasks: [{
+				id: "0FDDB65809D68DEA"
+				item: {
+					Count: 1
+					id: "endrem:wither_eye"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 1.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["1A749D45C9B1CF79"]
+			description: ["远古守卫者概率掉落"]
+			hide_dependency_lines: false
+			id: "6627881809740A91"
+			tasks: [{
+				id: "4319A18C630B9DE0"
+				item: {
+					Count: 1
+					id: "endrem:guardian_eye"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 3.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["1A749D45C9B1CF79"]
+			description: ["会出现在丛林神庙以及位于丛林群系的变种建筑内"]
+			id: "498544F9D9AB976D"
+			tasks: [{
+				id: "1CD9DE056BE96C19"
+				item: {
+					Count: 1
+					id: "endrem:rogue_eye"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 2.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["1A749D45C9B1CF79"]
+			description: ["击杀唤魔者有概率掉落"]
+			hide_dependency_lines: false
+			id: "7C3F5AB5EDCCC0AD"
+			tasks: [{
+				id: "759651885D7C6D6D"
+				item: {
+					Count: 1
+					id: "endrem:magical_eye"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -1.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["1A749D45C9B1CF79"]
+			description: ["击杀女巫概率获得他的合成材料"]
+			hide_dependency_lines: false
+			id: "188153D5D1DF9CB6"
+			tasks: [{
+				id: "4C52F41F9669174F"
+				item: {
+					Count: 1
+					id: "endrem:witch_eye"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["1A749D45C9B1CF79"]
+			description: ["大师级的牧师概率出售，需要准备兔子腿来兑换"]
+			hide_dependency_lines: false
+			id: "6980BD3BA748DAF2"
+			tasks: [{
+				id: "4DBCFDB36C86BCF3"
+				item: {
+					Count: 1
+					id: "endrem:evil_eye"
+					tag: {
+						Damage: 0
+					}
+				}
+				title: "邪恶之眼"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["1A749D45C9B1CF79"]
+			description: ["使用两个潮涌核心和一些海洋垃圾来制作"]
+			hide_dependency_lines: false
+			id: "20DF76DA0E31F2B3"
+			tasks: [{
+				id: "0BC7D9D867E8F5E2"
+				item: {
+					Count: 1
+					id: "endrem:exotic_eye"
+					tag: {
+						Damage: 0
+					}
+				}
+				title: "海洋之眼"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["1A749D45C9B1CF79"]
+			description: ["可以在下界堡垒中的箱子翻出"]
+			hide_dependency_lines: false
+			id: "15633A3C1A62B5AE"
+			tasks: [{
+				id: "69788ECB60A893BE"
+				item: {
+					Count: 1
+					id: "endrem:nether_eye"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["1A749D45C9B1CF79"]
+			description: ["会出现在沙漠神殿或沙漠群系的建筑当中"]
+			hide_dependency_lines: false
+			id: "4D2051D026BF4ED0"
+			tasks: [{
+				id: "23D499EF2D62A7BC"
+				item: {
+					Count: 1
+					id: "endrem:old_eye"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -3.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["1A749D45C9B1CF79"]
+			description: ["会出现在掠夺者哨塔及其变种的箱子内"]
+			hide_dependency_lines: false
+			id: "1B83F98D27BB509E"
+			tasks: [{
+				id: "0F3AF3D567311A92"
+				item: {
+					Count: 1
+					id: "endrem:corrupted_eye"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -3.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["1A749D45C9B1CF79"]
+			dependency_requirement: "one_started"
+			description: ["会出现在废弃矿井"]
+			hide_dependency_lines: false
+			id: "50D2E0F8ABD51B89"
+			tasks: [{
+				id: "79945169B2B166B6"
+				item: {
+					Count: 1
+					id: "endrem:lost_eye"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 3.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["1A749D45C9B1CF79"]
+			description: ["会出现在雪屋地下室的箱子内"]
+			hide_dependency_lines: false
+			id: "59F214140223F69E"
+			tasks: [{
+				id: "5C9E28A4982D072F"
+				item: {
+					Count: 1
+					id: "endrem:cold_eye"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 3.0d
+			y: 3.0d
+		}
+		{
+			dependencies: [
+				"21C44D3267AB0458"
+				"1A749D45C9B1CF79"
+			]
+			dependency_requirement: "one_completed"
+			description: ["会出现在埋藏的宝藏当中"]
+			hide_dependency_lines: false
+			id: "085BBB98D9A95C0C"
+			tasks: [{
+				id: "62F1F4CC0FB99896"
+				item: {
+					Count: 1
+					id: "endrem:black_eye"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -2.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["156FFDE358CEC7C6"]
+			dependency_requirement: "one_completed"
+			description: [
+				"你在游荡世界各处的时候无意间发现了一些长的酷似眼睛的东西，就像是末影之眼，而且在你仔细研究其功能的时候，他又像末影之眼那样给你指出了一个方向……"
+				"“这不就是末影之眼吗？”你疑惑地看着在空中的眼睛。而当你将末影珍珠与烈焰粉结合得到末影之眼时，你发现无论如何，你手中的末影之眼也不会飞出。"
+				""
+			]
+			icon: "minecraft:ender_eye"
+			id: "1A749D45C9B1CF79"
+			rewards: [{
+				id: "33831254611614A4"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "这些眼睛长得有些奇怪？"
+			tasks: [{
+				id: "21C44D3267AB0458"
+				item: "minecraft:ender_eye"
+				type: "item"
+			}]
+			title: "怪异的眼睛"
+			x: 0.0d
+			y: -3.0d
+		}
+		{
+			dependency_requirement: "one_completed"
+			description: [
+				"末地重置模组添加了多种不同的眼睛，且原版末影之眼&c无法再起到定位末地要塞&f的作用。您需要&6收集12种不同的眼睛&f并&a使用它们来定位末地要塞&f；此进度列出了所有添加的眼睛及获取方式"
+				" "
+				"还有一种眼睛在&6使用附魔台时概率获得"
+				""
+				"&c如果嫌太麻烦，你或许可以点左边进度看看提示？"
+			]
+			id: "575708FD1BA350DB"
+			rewards: [{
+				id: "4BF4A15F13795DC8"
+				type: "xp"
+				xp: 30
+			}]
+			subtitle: "漫长的旅途"
+			tasks: [{
+				id: "21CE2D9C1D2D4845"
+				title: "懂了"
+				type: "checkmark"
+			}]
+			title: "如何去末地"
+			x: 2.5d
+			y: -2.0d
+		}
+		{
+			dependencies: [
+				"6627881809740A91"
+				"6980BD3BA748DAF2"
+				"085BBB98D9A95C0C"
+				"4F31AA4EACCF7A57"
+				"20DF76DA0E31F2B3"
+				"5ADD90B24DDCB5B8"
+				"7C3F5AB5EDCCC0AD"
+				"1B83F98D27BB509E"
+				"15633A3C1A62B5AE"
+				"50D2E0F8ABD51B89"
+				"194B1EA3E1B7B4C6"
+				"498544F9D9AB976D"
+				"59F214140223F69E"
+				"188153D5D1DF9CB6"
+				"4D2051D026BF4ED0"
+			]
+			icon: "minecraft:end_portal_frame"
+			id: "5B17411B819324A6"
+			min_required_dependencies: 12
+			tasks: [{
+				advancement: "minecraft:story/enter_the_end"
+				criterion: ""
+				id: "51BB1276A52D6D63"
+				type: "advancement"
+			}]
+			x: 0.0d
+			y: 2.0d
+		}
+		{
+			description: [
+				"通过制作空白传送钥匙并在末地传送门上雕刻可以获得随机的主题钥匙"
+				" "
+				"&c具体搭建方法查看指南书"
+			]
+			id: "45A495ADDD2A058C"
+			rewards: [
+				{
+					id: "4B6A84B26B28FD0C"
+					item: "dimdungeons:item_portal_key"
+					type: "item"
+				}
+				{
+					id: "08D26C0790B74510"
+					type: "xp"
+					xp: 250
+				}
+				{
+					id: "23E50F716F3C0E50"
+					item: {
+						Count: 1
+						id: "patchouli:guide_book"
+						tag: {
+							"patchouli:book": "dimdungeons:guide_book"
+						}
+					}
+					type: "item"
+				}
+			]
+			subtitle: "解密地牢"
+			tasks: [{
+				id: "5FE41594F0CFA5E7"
+				item: "dimdungeons:item_portal_key"
+				only_from_crafting: true
+				type: "item"
+			}]
+			x: -3.5d
+			y: -3.0d
+		}
+	]
+	title: "3.1：初见端倪"
+}

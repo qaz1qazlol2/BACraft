@@ -1,0 +1,11 @@
+{
+	id: "575BEB3B8AC67D42"
+	loot_size: 1
+	order_index: 3
+	rewards: [
+		{ item: "minecraft:golden_apple" }
+		{ count: 2, item: "minecraft:diamond", random_bonus: 2 }
+		{ item: "minecraft:netherite_scrap" }
+	]
+	title: "初心者成就奖励盒"
+}

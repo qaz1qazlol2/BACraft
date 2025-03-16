@@ -1,0 +1,34 @@
+{
+	icon: "blue_archivescraft:recruit"
+	id: "73E92943C3F802A7"
+	loot_size: 1
+	order_index: 0
+	rewards: [
+		{
+			command: "/effect give @p blue_archivescraft:airs 1000000"
+			icon: "blue_archivescraft:recruit"
+			ignore_reward_blocking: true
+			title: "爱丽丝"
+			type: "command"
+		}
+		{
+			command: "/effect give @p blue_archivescraft:momoi 1000000"
+			icon: "blue_archivescraft:recruit"
+			title: "桃井"
+			type: "command"
+		}
+		{
+			command: "/effect give @p blue_archivescraft:midori 1000000"
+			icon: "blue_archivescraft:recruit"
+			title: "绿"
+			type: "command"
+		}
+		{
+			command: "/effect give @p blue_archivescraft:yuzu 1000000"
+			icon: "blue_archivescraft:recruit"
+			title: "柚子"
+			type: "command"
+		}
+	]
+	title: "学生选择"
+}

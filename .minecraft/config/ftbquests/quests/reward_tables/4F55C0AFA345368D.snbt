@@ -1,0 +1,15 @@
+{
+	id: "4F55C0AFA345368D"
+	loot_size: 1
+	order_index: 14
+	rewards: [
+		{ count: 10, item: "minecraft:iron_ingot", weight: 110.0f }
+		{ count: 10, item: "minecraft:diamond", weight: 100.0f }
+		{ count: 10, item: "minecraft:gold_ingot", weight: 100.0f }
+		{ count: 3, item: "minecraft:netherite_ingot", weight: 70.0f }
+		{ item: "enigmaticlegacy:etherium_ingot" }
+		{ count: 10, item: "minecraft:copper_ingot", weight: 130.0f }
+		{ count: 3, item: "aquaculture:neptunium_ingot", weight: 10.0f }
+	]
+	title: "矿物抽奖"
+}

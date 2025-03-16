@@ -1,0 +1,11 @@
+{
+	icon: "blue_archivescraft:adult_card"
+	id: "476AFE94DFDED2E4"
+	loot_size: 1
+	order_index: 30
+	rewards: [
+		{ count: 1000, item: "blue_archivescraft:adult_card" }
+		{ count: 1000, item: "blue_archivescraft:adult_card" }
+	]
+	title: "信用点"
+}

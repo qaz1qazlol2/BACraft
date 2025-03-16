@@ -1,0 +1,35 @@
+{
+	id: "5FC05F69695732D7"
+	loot_size: 1
+	order_index: 25
+	rewards: [
+		{ item: "artifacts:night_vision_goggles" }
+		{ item: "artifacts:cloud_in_a_bottle" }
+		{ item: "artifacts:plastic_drinking_hat" }
+		{ item: "artifacts:novelty_drinking_hat" }
+		{ item: "artifacts:panic_necklace" }
+		{ item: "artifacts:obsidian_skull" }
+		{ item: "artifacts:antidote_vessel" }
+		{ item: "artifacts:villager_hat" }
+		{ item: "artifacts:helium_flamingo" }
+		{ item: "artifacts:digging_claws" }
+		{ item: "artifacts:feral_claws" }
+		{ item: "artifacts:power_glove" }
+		{ item: "artifacts:fire_gauntlet" }
+		{ item: "artifacts:bunny_hoppers" }
+		{ item: "artifacts:kitty_slippers" }
+		{ item: "artifacts:running_shoes" }
+		{ item: "artifacts:steadfast_spikes" }
+		{ item: "artifacts:vampiric_glove" }
+		{ item: "artifacts:snorkel" }
+		{ item: "artifacts:aqua_dashers" }
+		{ item: "artifacts:golden_hook" }
+		{ item: "artifacts:superstitious_hat" }
+		{ item: "artifacts:lucky_scarf" }
+		{ item: "artifacts:scarf_of_invisibility" }
+		{ item: "artifacts:universal_attractor" }
+		{ item: "artifacts:crystal_heart" }
+		{ item: "artifacts:everlasting_beef" }
+	]
+	title: "饰品"
+}

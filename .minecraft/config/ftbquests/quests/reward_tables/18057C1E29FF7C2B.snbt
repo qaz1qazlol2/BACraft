@@ -1,0 +1,16 @@
+{
+	icon: "aquaculture:treasure_chest"
+	id: "18057C1E29FF7C2B"
+	loot_size: 1
+	order_index: 7
+	rewards: [
+		{ count: 2, item: "minecraft:netherite_ingot", weight: 20.0f }
+		{ count: 2, item: "enigmaticlegacy:etherium_ingot", weight: 10.0f }
+		{ item: "minecraft:enchanted_golden_apple", weight: 10.0f }
+		{ count: 20, item: "minecraft:diamond", weight: 30.0f }
+		{ item: "minecraft:nether_star", weight: 3.0f }
+		{ count: 6, item: "minecraft:netherite_scrap", weight: 10.0f }
+		{ item: "minecraft:totem_of_undying", weight: 10.0f }
+	]
+	title: "高级成就礼盒"
+}

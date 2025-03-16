@@ -1,0 +1,256 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "16A623DC748CED40"
+	group: "349B3345B63646FF"
+	icon: "minecraft:command_block"
+	id: "16A623DC748CED40"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				"不止这个世界的生物，当获得学生能力后，你也会拥有指定的&a攻击类型&f和&a装甲类型&f，但是他们是&6随机分配&f的......"
+				"现在，把刚才获得的随机饰品和COST装备到饰品栏指定位置吧！"
+			]
+			id: "50432D78A7FFE83A"
+			subtitle: "现在，你的旅程正式开始"
+			tasks: [{
+				id: "4806EA35B2F7501D"
+				title: "自身属性"
+				type: "checkmark"
+			}]
+			x: 4.0d
+			y: -4.0d
+		}
+		{
+			description: [
+				"sensei如果对学生能力有什么疑问的话"
+				" "
+				"&6只需要输入指令:"
+				"&b/blue_archivescraft 学生名字 &f即可查询"
+				" "
+				"按下键盘上&6\"Z\"键&f，即可消耗饱食度短时间激活学生能力"
+				"特别提醒各位sensei，部分学生的能力&c破坏性极高&f，请慎重在家里使用学生能力哦~"
+				" "
+				"如果未开启保留学生能力的设定，在你死亡后，你所拥有的力量将会一起消失。不过不要担心，你每次重生都会给你一个招募劵以便你去获得新的能力"
+			]
+			id: "39B51CE52E38A85F"
+			rewards: [{
+				count: 15
+				id: "608D753382B95B97"
+				item: "minecraft:cooked_beef"
+				type: "item"
+			}]
+			subtitle: "由于指令无法输入中文，请使用鼠标点击学生名字"
+			tasks: [{
+				id: "2F51563147016A84"
+				title: "关于学生特性"
+				type: "checkmark"
+			}]
+			title: "关于学生能力"
+			x: 5.5d
+			y: -4.0d
+		}
+		{
+			description: [
+				"在这里，所有生物都有了额外的&a护甲属性&f和&a攻击属性&f，他们之间也存在着一些&b克制关系&f"
+				"&c&l弱点打击&f：对其造成伤害&c提高 "
+				"&b&l抵抗&f：对其造成伤害&b降低"
+				""
+				"&c&l爆发&f:"
+				"对&c轻装甲&f的生物造成&c弱点打击&f，&b特殊装甲&f生物会&a抵抗&f此种攻击类型，&6重装甲&f不受此种攻击克制影响"
+				" "
+				"&6&l贯穿&f:"
+				"对&6重装甲&f的生物造成&6弱点打击，&c轻装甲&f生物会&a抵抗&f此种类型攻击，&b特殊装甲&f不受此种攻击克制影响"
+				" "
+				"&b&l神秘&f:"
+				"对&b特殊装甲&f的生物造成&b弱点打击，&6重装甲&f生物会&a抵抗&f此种类型攻击，&c轻装甲&f不受此种攻击克制影响"
+				" "
+				"&c当前版本存在一些BUG，属性克制参考性不大"
+			]
+			id: "5759D90354C17059"
+			rewards: [{
+				id: "276076C6D8696D8F"
+				item: {
+					Count: 1
+					id: "minecraft:iron_sword"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "知己知彼"
+			tasks: [{
+				id: "66D0BDD2C8D38B07"
+				title: "关于属性"
+				type: "checkmark"
+			}]
+			title: "关于属性克制"
+			x: 2.5d
+			y: -2.5d
+		}
+		{
+			dependency_requirement: "one_completed"
+			description: [
+				"当然，你也可以选择不使用学生的能力去探索这个世界。如果你&6未拥有任何学生能力&f，你可以右键使用卡片以&c消耗生命值&f的代价换取一段时间的能力加成~"
+				"&9Tips：目前卡片能力存在bug会导致存档崩坏，请勿使用"
+			]
+			id: "3042BE11616FA4B1"
+			rewards: [{
+				id: "14371039B935AB75"
+				item: "blue_archivescraft:card"
+				type: "item"
+			}]
+			subtitle: "我的卡片...在这里也能用？"
+			tasks: [{
+				id: "19CF8016E7ABB081"
+				title: "关于卡片"
+				type: "checkmark"
+			}]
+			x: 2.5d
+			y: -4.0d
+		}
+		{
+			description: [
+				"如果想避免因为死亡失去这份羁绊，那就输入以下指令："
+				"&b/gamerule KeepBaeffect true"
+				" "
+				"部分学生能力是以&c玩家死亡&f为判定条件，还请特别注意"
+				"&9Tips:开启学生buff保留之后重生将失去攻击以及护甲属性"
+			]
+			id: "26650A3C6ABD9643"
+			rewards: [{
+				id: "7C3152507AFC736E"
+				item: "enigmaticlegacy:soul_crystal"
+				type: "item"
+			}]
+			subtitle: "我不想......失去这份力量"
+			tasks: [{
+				id: "2396E5BF47BBA8F7"
+				title: "如何保留学生能力"
+				type: "checkmark"
+			}]
+			x: 5.5d
+			y: -1.0d
+		}
+		{
+			description: [
+				"整合包添加了&c禁疗mod（禁止自然回复生命值设定）"
+				"回复生命值需要通过靠近篝火，使用部分学生buff技能，食用部分食物回复生命值"
+				"可通过指令:"
+				""
+				"&b/gamerule naturalRegeneration true"
+				"开启自然回复~"
+			]
+			id: "34DE803CF4A721C5"
+			rewards: [{
+				auto: "enabled"
+				count: 3
+				id: "31ECAE8D7B65FB7F"
+				item: {
+					Count: 1
+					id: "minecraft:potion"
+					tag: {
+						Potion: "minecraft:long_regeneration"
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "32D702D03F391CCD"
+				title: "关于自然回复生命值"
+				type: "checkmark"
+			}]
+			x: 5.5d
+			y: -2.5d
+		}
+		{
+			description: [
+				"整合包作者：小水滴的源头(原作)，sfhuewui(现作)"
+				"任务系统作者：sfhuewui（传奇测试员）"
+				"bamod制作者：我之战（wzz），小水滴的源头"
+				"整合包仓库提供+辅助更新维护：qaz1qazlol"
+			]
+			id: "685EA8C5766F9621"
+			rewards: [
+				{
+					id: "1B2F0D6C4769A45C"
+					item: "minecraft:end_rod"
+					type: "item"
+				}
+				{
+					id: "49189FB69794D8EE"
+					item: "kubejs:luguan"
+					type: "item"
+				}
+			]
+			subtitle: "blue achive ~"
+			tasks: [{
+				id: "3C54DB81B6A4FEC0"
+				title: "整合包制作名单"
+				type: "checkmark"
+			}]
+			x: 4.0d
+			y: -1.0d
+		}
+		{
+			description: [
+				"1:拆解台:无法合成，可以破坏和放置，但无法使用"
+				"2.信标:无法合成，无法放置，无法拆除，无法使用"
+				"3.附魔:禁用了异常治疗,混乱原体,求生捷径,求生诡计,必要之恶"
+			]
+			id: "1A8062052B44884F"
+			rewards: [{
+				id: "64874A0CB218D1F5"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "14F9E1C8F542FF49"
+				title: "该整合包禁止使用了部分物品和附魔"
+				type: "checkmark"
+			}]
+			x: 2.5d
+			y: -1.0d
+		}
+		{
+			description: [
+				""
+				"&5整合包内不提供ysm模型，亲自行移步到b站购买~"
+				""
+			]
+			id: "1E4977E102751174"
+			rewards: [{
+				id: "3469289592424BC4"
+				item: "kubejs:gold_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "12A385E859AF2A86"
+				title: "关于ysm模型"
+				type: "checkmark"
+			}]
+			x: 4.0d
+			y: -2.5d
+		}
+		{
+			description: [
+				"&9手持什亭之匣+蹲下+右键即可进入什亭之匣内部"
+				""
+				"&5tips：如果进入什亭之匣后发现掉入水中请输入 /tp 0 0 0"
+				"&4tips2：请不要在什亭之匣内丢出任意物品，会导致物品消失"
+			]
+			id: "700CCAD1BB5B34AD"
+			tasks: [{
+				id: "702939390CCB73CD"
+				title: "什亭之匣相关提示"
+				type: "checkmark"
+			}]
+			x: 7.0d
+			y: -4.0d
+		}
+	]
+	title: "1.0:游玩前请看"
+}

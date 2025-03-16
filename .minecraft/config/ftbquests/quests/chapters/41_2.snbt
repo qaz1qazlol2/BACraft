@@ -1,0 +1,530 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "41_2"
+	group: "3F6E92AE7F64E4AB"
+	icon: "mowziesmobs:wrought_helmet"
+	id: "32A0A6A702DBB131"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			description: ["当你点到这里时候，相信你已经有足够实力挑战世界BOSS了；出发吧，勇敢的sensei啊"]
+			id: "708DB8AF157F9D09"
+			rewards: [{
+				id: "2A2A1135B5622E9D"
+				type: "xp"
+				xp: 100
+			}]
+			size: 1.8d
+			subtitle: "挑战世界BOSS"
+			tasks: [{
+				id: "112AB0862C375046"
+				title: "踏上讨伐boss之路"
+				type: "checkmark"
+			}]
+			title: "勇者冒险之路"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["708DB8AF157F9D09"]
+			icon: "minecraft:end_stone"
+			id: "0ECF6556C0700D77"
+			size: 1.8d
+			tasks: [{
+				dimension: "minecraft:the_end"
+				id: "55CD787466BF97D8"
+				type: "dimension"
+			}]
+			title: "末地篇"
+			x: 3.5999999999999996d
+			y: 0.0d
+		}
+		{
+			dependencies: ["708DB8AF157F9D09"]
+			icon: "minecraft:netherrack"
+			id: "1BD2FAC7E668DFE3"
+			size: 1.8d
+			tasks: [{
+				dimension: "minecraft:the_nether"
+				id: "72127D38302E860F"
+				type: "dimension"
+			}]
+			title: "下界篇"
+			x: 0.0d
+			y: -3.5999999999999996d
+		}
+		{
+			dependencies: ["708DB8AF157F9D09"]
+			icon: "minecraft:grass_block"
+			id: "50DD2FF103FEE47C"
+			size: 1.8d
+			tasks: [{
+				dimension: "minecraft:overworld"
+				id: "0DF65309B60504C2"
+				type: "dimension"
+			}]
+			title: "主世界篇"
+			x: -3.5999999999999996d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0ECF6556C0700D77"]
+			id: "609041CC65279D46"
+			rewards: [{
+				id: "4701B7A7052EEF27"
+				type: "xp_levels"
+				xp_levels: 50
+			}]
+			tasks: [{
+				entity: "cataclysm:ender_guardian"
+				icon: "cataclysm:ender_guardian_spawn_egg"
+				id: "708AE013E555677F"
+				type: "kill"
+				value: 5L
+			}]
+			title: "这是潜影贝吗？"
+			x: 6.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["0ECF6556C0700D77"]
+			id: "5CF2D99938D732FD"
+			rewards: [{
+				id: "4B508335E7C5D25F"
+				type: "xp_levels"
+				xp_levels: 50
+			}]
+			tasks: [{
+				entity: "cataclysm:ender_golem"
+				icon: "cataclysm:ender_golem_spawn_egg"
+				id: "00B7472D7140C1D1"
+				type: "kill"
+				value: 12L
+			}]
+			title: "紫色铁傀儡"
+			x: 6.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["0ECF6556C0700D77"]
+			icon: "alexsmobs:spawn_egg_void_worm"
+			id: "1AE3811F0A9DA145"
+			rewards: [{
+				id: "7291BB2435EEE958"
+				type: "xp_levels"
+				xp_levels: 50
+			}]
+			tasks: [{
+				entity: "alexsmobs:void_worm"
+				icon: "alexsmobs:spawn_egg_void_worm"
+				id: "0E27180A2412B58B"
+				type: "kill"
+				value: 10L
+			}]
+			title: "“神明吞噬者”"
+			x: 6.5d
+			y: 2.0d
+		}
+		{
+			dependencies: [
+				"5CF2D99938D732FD"
+				"1AE3811F0A9DA145"
+				"609041CC65279D46"
+				"07977F316DD1C73E"
+			]
+			icon: "quark:purpur_chest"
+			id: "30D8FA1C677BC3A8"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					icon: "minecraft:end_crystal"
+					id: "38056AF0A9C10FF6"
+					table_id: 5586064844193108621L
+					title: "宝藏袋（末地）"
+					type: "loot"
+				}
+				{
+					icon: "minecraft:end_crystal"
+					id: "523446ECA7A96294"
+					table_id: 5586064844193108621L
+					title: "宝藏袋（末地）"
+					type: "random"
+				}
+				{
+					icon: "minecraft:end_crystal"
+					id: "67B4D822913B207E"
+					table_id: 5586064844193108621L
+					title: "宝藏袋（末地）"
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "50517123FE8C0610"
+				title: "抽取随机奖励"
+				type: "checkmark"
+			}]
+			title: "奖励"
+			x: 9.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["50DD2FF103FEE47C"]
+			id: "644F48A00155BEAA"
+			rewards: [{
+				id: "306D7CA69DB077FD"
+				type: "xp_levels"
+				xp_levels: 50
+			}]
+			subtitle: "在洞穴层有几率生成"
+			tasks: [{
+				entity: "mowziesmobs:ferrous_wroughtnaut"
+				icon: "mowziesmobs:wroughtnaut_spawn_egg"
+				id: "1B252C09D0AB79F2"
+				type: "kill"
+				value: 3L
+			}]
+			title: "击杀地下的钢铁守护者"
+			x: -6.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["50DD2FF103FEE47C"]
+			id: "4855C856B83395CB"
+			rewards: [{
+				id: "095AB77E56FDA1A1"
+				type: "xp_levels"
+				xp_levels: 50
+			}]
+			subtitle: "主世界寒冰迷宫水边使用特殊物品召唤"
+			tasks: [{
+				entity: "aquamirae:captain_cornelia"
+				icon: "aquamirae:captain_cornelia_spawn_egg"
+				id: "3D78B500BA13C5D4"
+				type: "kill"
+				value: 8L
+			}]
+			title: "寒冰回响"
+			x: -6.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["50DD2FF103FEE47C"]
+			id: "3034576625D5C2BE"
+			rewards: [{
+				id: "412A781C01535A78"
+				type: "xp_levels"
+				xp_levels: 50
+			}]
+			subtitle: "在冷水海洋群系上空生成的空岛祭坛处摆放特定祭品召唤"
+			tasks: [{
+				entity: "graveyard:lich"
+				icon: "graveyard:lich_spawn_egg"
+				id: "0353CAA05C1546B5"
+				type: "kill"
+				value: 3L
+			}]
+			title: "墓园之主"
+			x: -6.5d
+			y: -1.0d
+		}
+		{
+			can_repeat: true
+			description: ["需要尸巫的堕落精华来合成头部"]
+			id: "41DD386E48FDB472"
+			rewards: [{
+				id: "7161438EBC5B43BC"
+				item: "graveyard:upper_bone_staff"
+				type: "item"
+			}]
+			shape: "rsquare"
+			subtitle: "获取骨杖残片"
+			tasks: [
+				{
+					entity: "graveyard:lich"
+					icon: "graveyard:lich_spawn_egg"
+					id: "3DC6F2201B21F773"
+					type: "kill"
+					value: 1L
+				}
+				{
+					consume_items: true
+					count: 24L
+					id: "48272966252BB0DA"
+					item: "graveyard:corruption"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 16L
+					id: "37347DB06FE48332"
+					item: "minecraft:bone_block"
+					type: "item"
+				}
+				{
+					consume_items: true
+					id: "2B39B1FB53791194"
+					item: "minecraft:skeleton_skull"
+					type: "item"
+				}
+			]
+			title: "获取骨杖残片-头部"
+			x: -3.0d
+			y: -1.5d
+		}
+		{
+			can_repeat: true
+			description: ["在吸收一点被感染的灾厄村民的堕落精华合成身体"]
+			id: "612F21582AD84047"
+			rewards: [{
+				id: "044E22CDBFD953D7"
+				item: "graveyard:middle_bone_staff"
+				type: "item"
+			}]
+			shape: "rsquare"
+			subtitle: "获取骨杖残片"
+			tasks: [
+				{
+					entity: "graveyard:corrupted_pillager"
+					icon: "graveyard:corrupted_pillager_spawn_egg"
+					id: "24249449C47698E8"
+					type: "kill"
+					value: 20L
+				}
+				{
+					entity: "graveyard:corrupted_vindicator"
+					icon: "graveyard:corrupted_vindicator_spawn_egg"
+					id: "4B63402F0F63FFFA"
+					type: "kill"
+					value: 20L
+				}
+				{
+					consume_items: true
+					count: 16L
+					id: "14F7FFC564558D01"
+					item: "graveyard:corruption"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 12L
+					id: "5F4859F9148EB3F3"
+					item: "minecraft:bone_block"
+					type: "item"
+				}
+			]
+			title: "获取骨杖残片-身体"
+			x: -2.0d
+			y: -1.5d
+		}
+		{
+			can_repeat: true
+			description: ["在吸收一点墓园生物的堕落精华合成尾部"]
+			id: "2C5B28E8E65C41CB"
+			rewards: [{
+				id: "3E4CAD1446958653"
+				item: "graveyard:lower_bone_staff"
+				type: "item"
+			}]
+			shape: "rsquare"
+			subtitle: "获取骨杖残片"
+			tasks: [
+				{
+					entity: "graveyard:ghoul"
+					icon: "graveyard:ghoul_spawn_egg"
+					id: "6675D59BFE7E963A"
+					type: "kill"
+					value: 8L
+				}
+				{
+					entity: "graveyard:revenant"
+					icon: "graveyard:revenant_spawn_egg"
+					id: "48375E08B1400350"
+					type: "kill"
+					value: 8L
+				}
+				{
+					entity: "graveyard:nightmare"
+					icon: "graveyard:nightmare_spawn_egg"
+					id: "3FB84F1F71679078"
+					type: "kill"
+					value: 1L
+				}
+				{
+					consume_items: true
+					count: 8L
+					id: "2B60EF7115BD75BB"
+					item: "minecraft:bone_block"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 12L
+					id: "2A7C54B034C76879"
+					item: "graveyard:corruption"
+					type: "item"
+				}
+			]
+			title: "获取骨杖残片-尾部"
+			x: -1.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["1BD2FAC7E668DFE3"]
+			description: ["boss难度：总力Torment（极强）"]
+			id: "2F6F1F56DCC22DD7"
+			rewards: [{
+				id: "2EAB0AB18C6D8D36"
+				type: "xp_levels"
+				xp_levels: 50
+			}]
+			subtitle: "不灭之火的化身——焰魔"
+			tasks: [{
+				entity: "cataclysm:ignis"
+				icon: "cataclysm:ignis_spawn_egg"
+				id: "6AF054840B15EDEB"
+				type: "kill"
+				value: 3L
+			}]
+			title: "火焰之主"
+			x: -2.5d
+			y: -5.5d
+		}
+		{
+			dependencies: ["1BD2FAC7E668DFE3"]
+			id: "06D3BF835CD5A9CE"
+			rewards: [{
+				id: "2B67BCD9F622B0D4"
+				type: "xp_levels"
+				xp_levels: 50
+			}]
+			tasks: [{
+				entity: "cataclysm:netherite_monstrosity"
+				icon: "cataclysm:netherite_monstrosity_spawn_egg"
+				id: "48D111E82E9F2A4C"
+				type: "kill"
+				value: 3L
+			}]
+			title: "钢铁巨兽"
+			x: 2.5d
+			y: -5.5d
+		}
+		{
+			dependencies: [
+				"2F6F1F56DCC22DD7"
+				"06D3BF835CD5A9CE"
+			]
+			icon: "quark:nether_brick_chest"
+			id: "411DE1370769D931"
+			rewards: [
+				{
+					icon: "minecraft:nether_star"
+					id: "2B9CB931FA649C85"
+					table_id: 1551913740157613839L
+					title: "宝藏袋（下界）"
+					type: "random"
+				}
+				{
+					icon: "minecraft:nether_star"
+					id: "7FEB901A7C5383C4"
+					table_id: 1551913740157613839L
+					title: "宝藏袋（下界）"
+					type: "random"
+				}
+				{
+					icon: "minecraft:nether_star"
+					id: "503FD75B2E2194E7"
+					table_id: 1551913740157613839L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "48F2479AD8F7643B"
+				title: "抽取随机奖励"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: -7.5d
+		}
+		{
+			dependencies: ["50DD2FF103FEE47C"]
+			id: "6F4A932CD37BA665"
+			rewards: [{
+				id: "317630C485DB28D2"
+				type: "xp_levels"
+				xp_levels: 50
+			}]
+			tasks: [{
+				entity: "mowziesmobs:umvuthi"
+				icon: "mowziesmobs:umvuthi_spawn_egg"
+				id: "444CB7F31294D7D7"
+				type: "kill"
+				value: 5L
+			}]
+			title: "太阳的后裔"
+			x: -6.5d
+			y: 2.5d
+		}
+		{
+			dependencies: [
+				"6F4A932CD37BA665"
+				"3034576625D5C2BE"
+				"4855C856B83395CB"
+				"644F48A00155BEAA"
+			]
+			icon: "quark:acacia_chest"
+			id: "5E61FCE225BFE28A"
+			rewards: [
+				{
+					icon: "quark:golden_apple_crate"
+					id: "3A8DC0FC6D3973CB"
+					table_id: 1441554788072320190L
+					title: "宝藏袋（主世界）"
+					type: "random"
+				}
+				{
+					icon: "quark:golden_apple_crate"
+					id: "75246DA6F7520232"
+					table_id: 1441554788072320190L
+					title: "宝藏袋（主世界）"
+					type: "random"
+				}
+				{
+					icon: "quark:golden_apple_crate"
+					id: "713B3732015BA81A"
+					table_id: 1441554788072320190L
+					title: "宝藏袋（主世界）"
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "1FAA5F63FC5FE735"
+				title: "抽取随机奖励"
+				type: "checkmark"
+			}]
+			x: -9.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0ECF6556C0700D77"]
+			id: "07977F316DD1C73E"
+			rewards: [{
+				id: "01F1866B8AE31F1E"
+				type: "xp_levels"
+				xp_levels: 50
+			}]
+			tasks: [{
+				entity: "stalwart_dungeons:shelterer_without_armor"
+				icon: "stalwart_dungeons:shelterer_spawn_egg"
+				id: "16A8A6604F1E0149"
+				type: "kill"
+				value: 5L
+			}]
+			title: "紫色屏障"
+			x: 6.5d
+			y: 0.5d
+		}
+	]
+	title: "4.1：征战四方"
+}

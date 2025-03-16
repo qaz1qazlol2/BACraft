@@ -1,0 +1,20 @@
+{
+	icon: "blue_archivescraft:card"
+	id: "33C59F5EE7197D91"
+	loot_size: 1
+	order_index: 28
+	rewards: [
+		{
+			item: {
+				Count: 1b
+				id: "kubejs:shuijing"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{ item: "kubejs:aris" }
+		{ item: "kubejs:luguan" }
+	]
+	title: "blue achive"
+}

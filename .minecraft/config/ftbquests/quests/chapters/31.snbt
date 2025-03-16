@@ -1,0 +1,719 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "31"
+	group: "4DA08CD6EB0E472F"
+	icon: "twilightforest:twilight_portal_miniature_structure"
+	id: "581EF08A0E2F438F"
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["4367D675787FB16C"]
+			description: ["大法师巫妖管理着暮色沼泽、黑暗森林和积雪森林的结界领域——即使他们的身躯早已化为了白骨。这些大法师们并不是很健谈，而且脾气相当的差劲"]
+			id: "7AFBBCE286CFEA47"
+			rewards: [
+				{
+					id: "5FDF733411E5C72C"
+					type: "xp"
+					xp: 100
+				}
+				{
+					icon: "aquaculture:treasure_chest"
+					id: "5AF0568E3E45865B"
+					table_id: 1987487354723405431L
+					title: "宝藏袋—巫妖"
+					type: "random"
+				}
+			]
+			subtitle: "击杀巫妖"
+			tasks: [{
+				id: "19065698C8CCDECD"
+				item: "twilightforest:lich_trophy"
+				type: "item"
+			}]
+			x: 4.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["7AFBBCE286CFEA47"]
+			description: ["雪怪原始的洞穴社会中总会有那么一只强大的存在成为首领。雪怪们总是会为了这个毫无意义的位子疯狂地进行着毫无意义的斗争。"]
+			id: "6B168C62F7974D0E"
+			rewards: [
+				{
+					count: 3
+					id: "5B4590C295CC778C"
+					item: "twilightforest:alpha_yeti_fur"
+					type: "item"
+				}
+				{
+					count: 5
+					id: "572145579E58A47A"
+					item: "twilightforest:ice_bomb"
+					type: "item"
+				}
+				{
+					id: "334633323800F542"
+					type: "xp"
+					xp: 200
+				}
+			]
+			subtitle: "雪怪头目"
+			tasks: [{
+				id: "14E3FE32418F7CAB"
+				item: "twilightforest:alpha_yeti_trophy"
+				type: "item"
+			}]
+			x: 6.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["7AFBBCE286CFEA47"]
+			description: ["和一般的米诺陶不一样，米诺菇拥有着奇异的半哞菇半米诺陶外观。它们是一种凶猛的野兽，对任何事物都有着疯狂的攻击欲望；这类猛兽总是被关押在迷宫要塞的深处，用来作为保护迷宫宝物的最后一道防线"]
+			id: "7462ED12D97477E7"
+			rewards: [
+				{
+					count: 5
+					id: "47D95EB476D347DA"
+					item: "twilightforest:meef_stroganoff"
+					type: "item"
+				}
+				{
+					id: "5DC75430C373E237"
+					type: "xp"
+					xp: 200
+				}
+			]
+			subtitle: "牛头人"
+			tasks: [{
+				id: "5D4D3C512BB88A6B"
+				item: "twilightforest:minoshroom_trophy"
+				type: "item"
+			}]
+			x: 8.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["7AFBBCE286CFEA47"]
+			description: ["古老强大的骑士文明曾是暮色森林中最辉煌的那一支，但如今他们已经衰落。现在骑士们不安的亡灵游荡在黑暗森林中的骑士要塞，在空荡荡的墓室中等待着入侵者的到来。当你在探索要塞时发现由黑曜石和铁栏杆构成的屏障，那么你就找对地方了。"]
+			id: "05083A2F98B3AA23"
+			rewards: [
+				{
+					count: 5
+					id: "57217683A0861824"
+					item: "twilightforest:knightmetal_ingot"
+					type: "item"
+				}
+				{
+					id: "19742E21F25B2485"
+					type: "xp"
+					xp: 200
+				}
+			]
+			subtitle: "分身术"
+			tasks: [{
+				id: "4988163213DCA499"
+				item: "twilightforest:knight_phantom_trophy"
+				type: "item"
+			}]
+			x: 6.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["05083A2F98B3AA23"]
+			description: ["没人知道在过去发生了什么，这片森林只是伴随着一场灾难永远地成为了文明的遗迹。如今被称作暮初恶魂的生物盘踞在黑暗高塔顶部，终日徘徊在破碎不堪的塔楼遗址上空，并毫不珍惜昔日曾属于自己的高塔"]
+			id: "18E0788F30C7C671"
+			rewards: [
+				{
+					count: 3
+					id: "1689D38625D10188"
+					item: "twilightforest:fiery_tears"
+					type: "item"
+				}
+				{
+					count: 5
+					id: "53531B1044162F07"
+					item: "minecraft:ghast_tear"
+					type: "item"
+				}
+				{
+					count: 3
+					id: "1C4294E2A95C5490"
+					item: "twilightforest:carminite"
+					random_bonus: 2
+					type: "item"
+				}
+				{
+					id: "2EDB1DD6B5544CD2"
+					type: "xp"
+					xp: 400
+				}
+			]
+			subtitle: "哭泣"
+			tasks: [{
+				id: "3B8DC28935A98172"
+				item: "twilightforest:ur_ghast_trophy"
+				type: "item"
+			}]
+			x: 8.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["7462ED12D97477E7"]
+			description: ["强大的九头蛇栖身于火焰沼泽的深处，当玩家接近它所栖身的洞穴时，九头蛇就会出现，并毫不留情地杀死一切试图闯入它的领地范围的人。"]
+			id: "2E3FB032249F247B"
+			rewards: [
+				{
+					count: 4
+					id: "5D93FB2AB309DFF0"
+					item: "twilightforest:hydra_chop"
+					random_bonus: 3
+					type: "item"
+				}
+				{
+					count: 3
+					id: "585CF308F6025830"
+					item: "twilightforest:fiery_blood"
+					random_bonus: 2
+					type: "item"
+				}
+				{
+					id: "0AB90319245833D4"
+					type: "xp"
+					xp: 450
+				}
+			]
+			subtitle: "九头怪物"
+			tasks: [{
+				id: "0EFB9F39C46FEF25"
+				item: "twilightforest:hydra_trophy"
+				type: "item"
+			}]
+			x: 11.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["6B168C62F7974D0E"]
+			description: ["野心勃勃的冰雪女王是这片森林中最危险的独裁者。她将自己封藏在冰川之上，于极光宫殿的最顶层的禁室中，妄图以此隔绝一切外来的威胁。当你在极光宫殿中看见满是冰做成的螺旋楼梯时，那么上面就一定是冰雪女王的藏身之地了。"]
+			id: "3B20E69B4EE31231"
+			rewards: [
+				{
+					icon: "aquaculture:treasure_chest"
+					id: "4990DB2DA0E22EA1"
+					table_id: 1895124935609340293L
+					title: "宝藏袋—冰雪女王"
+					type: "random"
+				}
+				{
+					id: "31632BBF8D6B2732"
+					type: "xp"
+					xp: 300
+				}
+			]
+			subtitle: "白雪公主"
+			tasks: [{
+				id: "55799F64FB23D86C"
+				item: "twilightforest:snow_queen_trophy"
+				type: "item"
+			}]
+			x: 8.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["05083A2F98B3AA23"]
+			description: ["看似平平无奇，实际它可以快速摧毁绝大多数玩家可以破坏的方块，可以作用于巨型黑曜石上"]
+			id: "29F7806622CC226E"
+			rewards: [{
+				id: "009EA53ACCEAF5D1"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "6D7A5DBB2EBF29AD"
+				item: "twilightforest:carminite_reactor"
+				type: "item"
+			}]
+			title: "暗藏玄机"
+			x: 8.5d
+			y: 4.0d
+		}
+		{
+			dependencies: [
+				"18E0788F30C7C671"
+				"2E3FB032249F247B"
+				"3B20E69B4EE31231"
+			]
+			id: "2AF776055E5DCEE3"
+			rewards: [{
+				id: "60C86471AF79EBAE"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "5FA673E35B366838"
+				item: "twilightforest:magic_beans"
+				type: "item"
+			}]
+			x: 11.0d
+			y: -2.0d
+		}
+		{
+			dependencies: [
+				"18E0788F30C7C671"
+				"2E3FB032249F247B"
+				"3B20E69B4EE31231"
+			]
+			description: ["使用砷铅铁反应堆可以快速破坏巨型黑曜石"]
+			id: "455C46092F09B9F0"
+			tasks: [{
+				id: "2B29B0E2D5F2D9C1"
+				item: {
+					Count: 1
+					id: "twilightforest:lamp_of_cinders"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 11.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["2AF776055E5DCEE3"]
+			id: "557E2104E94B1F85"
+			rewards: [
+				{
+					id: "69AA05FF70BA7C66"
+					type: "xp"
+					xp: 300
+				}
+				{
+					id: "08B16FD5109CEA5E"
+					item: "twilightforest:carminite"
+					type: "item"
+				}
+			]
+			tasks: [{
+				consume_items: true
+				id: "3E9B7C42C7C578F8"
+				item: {
+					Count: 1
+					id: "twilightforest:giant_sword"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 13.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["2AF776055E5DCEE3"]
+			id: "73FD20B1FCE7574A"
+			rewards: [
+				{
+					id: "078C9DC64C70720F"
+					type: "xp"
+					xp: 300
+				}
+				{
+					id: "438E520DF2ADB97B"
+					item: "twilightforest:carminite"
+					type: "item"
+				}
+			]
+			tasks: [{
+				consume_items: true
+				id: "575C423E74CD88C9"
+				item: {
+					Count: 1
+					id: "twilightforest:giant_pickaxe"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 13.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["455C46092F09B9F0"]
+			id: "13C10990C9267F2F"
+			tasks: [{
+				advancement: "twilightforest:progress_thorns"
+				criterion: ""
+				id: "4E66976047BE93DD"
+				type: "advancement"
+			}]
+			x: 13.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["13C10990C9267F2F"]
+			id: "44F93B6DF62B8340"
+			rewards: [{
+				icon: "aquaculture:treasure_chest"
+				id: "5F491EE607DF381E"
+				table_id: 7293452712939900517L
+				type: "random"
+			}]
+			tasks: [
+				{
+					id: "2D3E0DBF7C17012C"
+					item: "twilightforest:pink_castle_door"
+					type: "item"
+				}
+				{
+					id: "7662385A89FB08F3"
+					item: "twilightforest:yellow_castle_door"
+					type: "item"
+				}
+				{
+					id: "7F500C9DE07F6CC4"
+					item: "twilightforest:blue_castle_door"
+					type: "item"
+				}
+				{
+					id: "12191537952B2D9F"
+					item: "twilightforest:violet_castle_door"
+					type: "item"
+				}
+			]
+			title: "抄家*2！"
+			x: 15.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["3B20E69B4EE31231"]
+			id: "3630DD0FBFF6D8D4"
+			rewards: [{
+				icon: "aquaculture:treasure_chest"
+				id: "4D8464E248A94A9B"
+				table_id: 6294883545144261954L
+				type: "random"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 64L
+				id: "0ADD4E7C23F624BF"
+				item: "twilightforest:aurora_block"
+				type: "item"
+			}]
+			title: "抄家！"
+			x: 8.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["332194B835A12B2E"]
+			id: "7789C0AFE63977F3"
+			rewards: [{
+				id: "7C6E37F7545EDD3D"
+				type: "xp"
+				xp: 100
+			}]
+			size: 2.0d
+			subtitle: "新世界"
+			tasks: [{
+				dimension: "twilightforest:twilight_forest"
+				icon: "twilightforest:twilight_portal_miniature_structure"
+				id: "06E041A70D73C8A2"
+				title: "进入暮色森林"
+				type: "dimension"
+			}]
+			x: -3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["448F0E09E12E49A1"]
+			description: ["在一座娜迦庭院内只会生成一只娜迦，作为暮色森林主进度的第一个BOSS。它几乎可以摧毁任何方块"]
+			id: "4367D675787FB16C"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "27DFAD05378FC138"
+					table_id: 7293452712939900517L
+					type: "random"
+				}
+				{
+					count: 8
+					id: "5CCCDE3231C96BC1"
+					item: "twilightforest:naga_scale"
+					type: "item"
+				}
+				{
+					id: "07831C8C04E2735F"
+					type: "xp"
+					xp: 100
+				}
+			]
+			subtitle: "寻找娜迦"
+			tasks: [{
+				id: "3CB194B353A13E47"
+				item: "twilightforest:naga_trophy"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["7789C0AFE63977F3"]
+			description: ["合成魔法地图以开始你的暮色森林之旅"]
+			id: "448F0E09E12E49A1"
+			rewards: [{
+				id: "6334195569D52AA3"
+				type: "xp"
+				xp: 150
+			}]
+			subtitle: "开始探索"
+			tasks: [
+				{
+					id: "09C7538C6F31B018"
+					item: "twilightforest:magic_map"
+					only_from_crafting: true
+					type: "item"
+				}
+				{
+					id: "7A1EE7CE4C65D1B2"
+					item: "twilightforest:torchberries"
+					type: "item"
+				}
+				{
+					id: "4629D4F4030845CF"
+					item: "twilightforest:raven_feather"
+					type: "item"
+				}
+				{
+					id: "4D5962B96463E219"
+					item: "minecraft:glowstone_dust"
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["7AFBBCE286CFEA47"]
+			dependency_requirement: "one_completed"
+			id: "6F3712BC53BE2E76"
+			invisible: true
+			rewards: [{
+				auto: "enabled"
+				id: "651DE004457C05B8"
+				item: {
+					Count: 1b
+					id: "minecraft:emerald_pickaxe"
+					tag: {
+						AttributeModifiers: [
+							{
+								Amount: 4.0d
+								AttributeName: "minecraft:generic.attack_damage"
+								Operation: 0
+								Slot: "mainhand"
+								UUID: [I;
+									-685154047
+									1608533549
+									-1925776473
+									1248880868
+								]
+							}
+							{
+								Amount: -2.8d
+								AttributeName: "minecraft:generic.attack_speed"
+								Operation: 0
+								Slot: "mainhand"
+								UUID: [I;
+									1200091069
+									531188962
+									-1098651596
+									1204714795
+								]
+							}
+							{
+								Amount: 3.0d
+								AttributeName: "forge:attack_range"
+								Operation: 0
+								Slot: "mainhand"
+								UUID: [I;
+									-1115013592
+									-1026996134
+									-1643818604
+									1341773570
+								]
+							}
+							{
+								Amount: 3.0d
+								AttributeName: "forge:reach_distance"
+								Operation: 0
+								Slot: "mainhand"
+								UUID: [I;
+									474910677
+									-115980859
+									-1849724618
+									195983618
+								]
+							}
+						]
+						Damage: 0
+						Enchantments: [
+							{
+								id: "minecraft:efficiency"
+								lvl: 5
+							}
+							{
+								id: "minecraft:unbreaking"
+								lvl: 3
+							}
+							{
+								id: "minecraft:fortune"
+								lvl: 3
+							}
+							{
+								id: "minecraft:mending"
+								lvl: 1
+							}
+							{
+								id: "flowingagony:guidens_regret"
+								lvl: 1
+							}
+							{
+								id: "flowingagony:morirs_deathwish"
+								lvl: 1
+							}
+							{
+								id: "flowingagony:morirs_lifebound"
+								lvl: 1
+							}
+							{
+								id: "flowingagony:nimble_finger"
+								lvl: 3
+							}
+							{
+								id: "flowingagony:cleansing_before_using"
+								lvl: 1
+							}
+						]
+						HideFlags: 3
+						display: {
+							Lore: ["{\"italic\":false,\"color\":\"white\",\"extra\":[{\"text\":\"\"},{\"color\":\"gold\",\"text\":\"哇哇，哎呀我的审稿\"}],\"text\":\"\"}"]
+							Name: "{\"italic\":false,\"extra\":[{\"text\":\"\"},{\"color\":\"light_purple\",\"text\":\"\\\"神 稿\\\"\"}],\"text\":\"\"}"
+						}
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				icon: {
+					Count: 1b
+					id: "minecraft:emerald_pickaxe"
+					tag: {
+						AttributeModifiers: [
+							{
+								Amount: 4.0d
+								AttributeName: "minecraft:generic.attack_damage"
+								Operation: 0
+								Slot: "mainhand"
+								UUID: [I;
+									-685154047
+									1608533549
+									-1925776473
+									1248880868
+								]
+							}
+							{
+								Amount: -2.8d
+								AttributeName: "minecraft:generic.attack_speed"
+								Operation: 0
+								Slot: "mainhand"
+								UUID: [I;
+									1200091069
+									531188962
+									-1098651596
+									1204714795
+								]
+							}
+							{
+								Amount: 3.0d
+								AttributeName: "forge:attack_range"
+								Operation: 0
+								Slot: "mainhand"
+								UUID: [I;
+									-1115013592
+									-1026996134
+									-1643818604
+									1341773570
+								]
+							}
+							{
+								Amount: 3.0d
+								AttributeName: "forge:reach_distance"
+								Operation: 0
+								Slot: "mainhand"
+								UUID: [I;
+									474910677
+									-115980859
+									-1849724618
+									195983618
+								]
+							}
+						]
+						Damage: 0
+						Enchantments: [
+							{
+								id: "minecraft:efficiency"
+								lvl: 5
+							}
+							{
+								id: "minecraft:unbreaking"
+								lvl: 3
+							}
+							{
+								id: "minecraft:fortune"
+								lvl: 3
+							}
+							{
+								id: "minecraft:mending"
+								lvl: 1
+							}
+							{
+								id: "flowingagony:guidens_regret"
+								lvl: 1
+							}
+							{
+								id: "flowingagony:morirs_deathwish"
+								lvl: 1
+							}
+							{
+								id: "flowingagony:morirs_lifebound"
+								lvl: 1
+							}
+							{
+								id: "flowingagony:nimble_finger"
+								lvl: 3
+							}
+							{
+								id: "flowingagony:cleansing_before_using"
+								lvl: 1
+							}
+						]
+						HideFlags: 3
+						display: {
+							Lore: ["{\"italic\":false,\"color\":\"white\",\"extra\":[{\"text\":\"\"},{\"color\":\"gold\",\"text\":\"哇哇，哎呀我的审稿\"}],\"text\":\"\"}"]
+							Name: "{\"italic\":false,\"extra\":[{\"text\":\"\"},{\"color\":\"light_purple\",\"text\":\"\\\"神 稿\\\"\"}],\"text\":\"\"}"
+						}
+					}
+				}
+				id: "79D8AB68126600F5"
+				structure: "twilightforest:labyrinth"
+				title: "探访神稿遗址"
+				type: "structure"
+			}]
+			x: 6.5d
+			y: 0.0d
+		}
+	]
+	subtitle: ["最熟悉的一章"]
+	title: "2.2：暮色森林"
+}

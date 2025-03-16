@@ -1,0 +1,151 @@
+{
+	id: "332674D492F216C4"
+	loot_size: 1
+	order_index: 23
+	rewards: [
+		{
+			item: {
+				Count: 1
+				id: "minecraft:enchanted_book"
+				tag: {
+					StoredEnchantments: [{
+						id: "flowingagony:prototype_chaotic_type_beta"
+						lvl: 1s
+					}]
+				}
+			}
+			title: "混沌原体β型"
+		}
+		{
+			item: {
+				Count: 1
+				id: "minecraft:enchanted_book"
+				tag: {
+					StoredEnchantments: [{
+						id: "flowingagony:corrupted_kindred"
+						lvl: 4s
+					}]
+				}
+			}
+			title: "腐败血脉IV"
+		}
+		{
+			item: {
+				Count: 1
+				id: "minecraft:enchanted_book"
+				tag: {
+					StoredEnchantments: [{
+						id: "flowingagony:scholar_of_original_sin"
+						lvl: 3s
+					}]
+				}
+			}
+			title: "原罪学者III"
+		}
+		{
+			item: {
+				Count: 1
+				id: "minecraft:enchanted_book"
+				tag: {
+					StoredEnchantments: [{
+						id: "flowingagony:original_sin_erosion"
+						lvl: 3s
+					}]
+				}
+			}
+			title: "原罪侵蚀III"
+		}
+		{
+			item: {
+				Count: 1
+				id: "minecraft:enchanted_book"
+				tag: {
+					StoredEnchantments: [{
+						id: "flowingagony:deathpunk"
+						lvl: 1s
+					}]
+				}
+			}
+			title: "死亡朋克"
+		}
+		{
+			item: {
+				Count: 1
+				id: "minecraft:enchanted_book"
+				tag: {
+					StoredEnchantments: [{
+						id: "flowingagony:armor_up"
+						lvl: 3s
+					}]
+				}
+			}
+			title: "叠甲回合III"
+		}
+		{
+			item: {
+				Count: 1
+				id: "minecraft:enchanted_book"
+				tag: {
+					StoredEnchantments: [{
+						id: "flowingagony:constrained_heart"
+						lvl: 1s
+					}]
+				}
+			}
+			title: "束缚之心"
+		}
+		{
+			item: {
+				Count: 1
+				id: "minecraft:enchanted_book"
+				tag: {
+					StoredEnchantments: [{
+						id: "flowingagony:piercing_fever"
+						lvl: 1s
+					}]
+				}
+			}
+			title: "穿刺狂热"
+		}
+		{
+			item: {
+				Count: 1
+				id: "minecraft:enchanted_book"
+				tag: {
+					StoredEnchantments: [{
+						id: "flowingagony:destruction_worship"
+						lvl: 1s
+					}]
+				}
+			}
+			title: "毁灭崇拜"
+		}
+		{
+			item: {
+				Count: 1
+				id: "minecraft:enchanted_book"
+				tag: {
+					StoredEnchantments: [{
+						id: "flowingagony:envious_kind"
+						lvl: 1s
+					}]
+				}
+			}
+			title: "善妒之人"
+		}
+		{
+			item: {
+				Count: 1
+				id: "minecraft:enchanted_book"
+				tag: {
+					StoredEnchantments: [{
+						id: "flowingagony:source_of_envy"
+						lvl: 5s
+					}]
+				}
+			}
+			title: "嫉妒之源V"
+		}
+	]
+	title: "高级胸甲附魔选择"
+}

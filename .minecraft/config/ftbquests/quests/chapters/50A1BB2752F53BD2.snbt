@@ -1,0 +1,194 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "50A1BB2752F53BD2"
+	group: "644FCC46DEE59C59"
+	icon: {
+		Count: 1
+		id: "enigmaticlegacy:enigmatic_eye"
+		tag: {
+			ActivationAnimation: -1
+			IsDormant: 0b
+		}
+	}
+	id: "50A1BB2752F53BD2"
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			id: "0DA768CCD68ABAF1"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "10480BD157B24DFA"
+				table_id: 7288393512694204567L
+				type: "random"
+			}]
+			tasks: [{
+				consume_items: true
+				id: "043B016B396417B0"
+				item: "twilightforest:lich_trophy"
+				type: "item"
+			}]
+			x: 4.5d
+			y: -0.5d
+		}
+		{
+			id: "4AAC9936AE2CD697"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "52844B6338333218"
+				table_id: 7288393512694204567L
+				type: "random"
+			}]
+			tasks: [{
+				consume_items: true
+				id: "2CAC2075E893C257"
+				item: "twilightforest:naga_trophy"
+				type: "item"
+			}]
+			x: 3.0d
+			y: -0.5d
+		}
+		{
+			id: "38A63D1BE05E3C01"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "483B78B23B179614"
+				table_id: 7288393512694204567L
+				type: "random"
+			}]
+			tasks: [{
+				consume_items: true
+				id: "7F810EA12DFC8E40"
+				item: "twilightforest:hydra_trophy"
+				type: "item"
+			}]
+			x: 6.0d
+			y: -0.5d
+		}
+		{
+			id: "2307553FBB1ED955"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "745893E3D151FD10"
+				table_id: 7288393512694204567L
+				type: "random"
+			}]
+			tasks: [{
+				consume_items: true
+				id: "2CF6618805B8B361"
+				item: "twilightforest:minoshroom_trophy"
+				type: "item"
+			}]
+			x: 6.0d
+			y: -2.0d
+		}
+		{
+			id: "7FA9D84D2169E23F"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "04F7AC188B441EAB"
+				table_id: 7288393512694204567L
+				type: "random"
+			}]
+			tasks: [{
+				consume_items: true
+				id: "1A954283DFA4522D"
+				item: "twilightforest:alpha_yeti_trophy"
+				type: "item"
+			}]
+			x: 7.5d
+			y: -2.0d
+		}
+		{
+			id: "6A4637C5F60F7631"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "639E84515AC65920"
+				table_id: 7288393512694204567L
+				type: "random"
+			}]
+			tasks: [{
+				consume_items: true
+				id: "70C698EA89015E01"
+				item: "twilightforest:snow_queen_trophy"
+				type: "item"
+			}]
+			x: 7.5d
+			y: -0.5d
+		}
+		{
+			id: "18BD1C870177DFFF"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "1EC9340AE63B7E49"
+				table_id: 7288393512694204567L
+				type: "random"
+			}]
+			tasks: [{
+				consume_items: true
+				id: "70E955A70DD0BB0D"
+				item: "twilightforest:knight_phantom_trophy"
+				type: "item"
+			}]
+			x: 9.0d
+			y: -2.0d
+		}
+		{
+			id: "2C5807D53055954D"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "0778427A44014571"
+				table_id: 7288393512694204567L
+				type: "random"
+			}]
+			tasks: [{
+				consume_items: true
+				id: "3CEDBA201739B958"
+				item: "twilightforest:ur_ghast_trophy"
+				type: "item"
+			}]
+			x: 9.0d
+			y: -0.5d
+		}
+		{
+			id: "4F8C25C2BF3A8F4F"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "0927624B72878348"
+				table_id: 7288393512694204567L
+				type: "random"
+			}]
+			tasks: [
+				{
+					consume_items: true
+					id: "3D1A4D854937DC55"
+					item: {
+						Count: 1
+						id: "twilightforest:giant_sword"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					consume_items: true
+					id: "6E5BE9370E05B00D"
+					item: {
+						Count: 1
+						id: "twilightforest:giant_pickaxe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "暮色巨人"
+			x: 4.5d
+			y: -2.0d
+		}
+	]
+	title: "3.11：眼睛抽奖"
+}

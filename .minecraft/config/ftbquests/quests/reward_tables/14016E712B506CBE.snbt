@@ -1,0 +1,15 @@
+{
+	id: "14016E712B506CBE"
+	loot_size: 1
+	order_index: 13
+	rewards: [
+		{ count: 30, item: "minecraft:diamond_block" }
+		{ count: 10, item: "minecraft:enchanted_golden_apple" }
+		{ count: 5, item: "minecraft:totem_of_undying" }
+		{
+			type: "xp"
+			xp: 3000
+		}
+	]
+	title: "宝藏袋（主世界）"
+}

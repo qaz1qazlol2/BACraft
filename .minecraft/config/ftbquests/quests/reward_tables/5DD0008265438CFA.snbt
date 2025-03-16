@@ -1,0 +1,73 @@
+{
+	id: "5DD0008265438CFA"
+	loot_size: 1
+	order_index: 24
+	rewards: [
+		{
+			item: {
+				Count: 1
+				id: "minecraft:enchanted_book"
+				tag: {
+					StoredEnchantments: [{
+						id: "flowingagony:pilferage_creed"
+						lvl: 1s
+					}]
+				}
+			}
+			title: "盗窃之典"
+		}
+		{
+			item: {
+				Count: 1
+				id: "minecraft:enchanted_book"
+				tag: {
+					StoredEnchantments: [{
+						id: "flowingagony:potential_burst"
+						lvl: 3s
+					}]
+				}
+			}
+			title: "潜能爆发III"
+		}
+		{
+			item: {
+				Count: 1
+				id: "minecraft:enchanted_book"
+				tag: {
+					StoredEnchantments: [{
+						id: "flowingagony:stubborn_step"
+						lvl: 2s
+					}]
+				}
+			}
+			title: "固执脚步II"
+		}
+		{
+			item: {
+				Count: 1
+				id: "minecraft:enchanted_book"
+				tag: {
+					StoredEnchantments: [{
+						id: "flowingagony:frivolous_step"
+						lvl: 2s
+					}]
+				}
+			}
+			title: "轻浮步伐II"
+		}
+		{
+			item: {
+				Count: 1
+				id: "minecraft:enchanted_book"
+				tag: {
+					StoredEnchantments: [{
+						id: "flowingagony:miraculous_escape"
+						lvl: 1s
+					}]
+				}
+			}
+			title: "奇迹逃脱"
+		}
+	]
+	title: "高级鞋子附魔选择"
+}

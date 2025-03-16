@@ -1,0 +1,33 @@
+{
+	id: "65378C999CE44E65"
+	loot_size: 1
+	order_index: 2
+	rewards: [
+		{
+			type: "xp"
+			weight: 20.0f
+			xp: 100
+		}
+		{
+			type: "xp"
+			weight: 15.0f
+			xp: 150
+		}
+		{
+			type: "xp"
+			weight: 10.0f
+			xp: 200
+		}
+		{
+			type: "xp"
+			weight: 5.0f
+			xp: 250
+		}
+		{ count: 2, item: "minecraft:iron_ingot", random_bonus: 2, weight: 20.0f }
+		{ count: 2, item: "minecraft:gold_ingot", random_bonus: 2, weight: 10.0f }
+		{ count: 8, item: "minecraft:lapis_lazuli", random_bonus: 4, weight: 10.0f }
+		{ count: 2, item: "minecraft:diamond", random_bonus: 2, weight: 5.0f }
+		{ count: 2, item: "minecraft:emerald", random_bonus: 2, weight: 5.0f }
+	]
+	title: "残片奖励盒"
+}

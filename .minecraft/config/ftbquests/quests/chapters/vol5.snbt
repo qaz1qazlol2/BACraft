@@ -1,0 +1,31 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "vol5"
+	group: "6CD631262DC6A680"
+	icon: "kubejs:kapian"
+	id: "228120503C6C22C6"
+	order_index: 0
+	quest_links: [ ]
+	quests: [{
+		icon: "kubejs:kapian"
+		id: "56F33B416B4E189D"
+		rewards: [{
+			auto: "enabled"
+			id: "012F6092D62FC1C1"
+			item: "kubejs:kapian"
+			type: "item"
+		}]
+		tasks: [{
+			consume_items: true
+			count: 1200L
+			id: "4A92685077AE932F"
+			item: "blue_archivescraft:cyanoaugite"
+			type: "item"
+		}]
+		title: "被阉割的项目"
+		x: 0.5d
+		y: 0.5d
+	}]
+	title: "vol.5：方舟之战"
+}

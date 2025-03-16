@@ -1,0 +1,14 @@
+{
+	id: "662C4D995690E9A9"
+	loot_size: 1
+	order_index: 1
+	rewards: [
+		{ item: "blue_archivescraft:watch" }
+		{ item: "blue_archivescraft:amulet" }
+		{ item: "blue_archivescraft:boots" }
+		{ item: "blue_archivescraft:glove" }
+		{ item: "blue_archivescraft:cap" }
+		{ item: "blue_archivescraft:bracelet" }
+	]
+	title: "饰品选择"
+}

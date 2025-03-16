@@ -1,0 +1,99 @@
+{
+	id: "7CB8263F0386C57D"
+	loot_size: 1
+	order_index: 21
+	rewards: [
+		{
+			item: {
+				Count: 1
+				id: "minecraft:enchanted_book"
+				tag: {
+					StoredEnchantments: [{
+						id: "minecraft:multishot"
+						lvl: 1s
+					}]
+				}
+			}
+			title: "多重射击"
+		}
+		{
+			item: {
+				Count: 1
+				id: "minecraft:enchanted_book"
+				tag: {
+					StoredEnchantments: [{
+						id: "minecraft:quick_charge"
+						lvl: 3s
+					}]
+				}
+			}
+			title: "快速装填"
+		}
+		{
+			item: {
+				Count: 1
+				id: "minecraft:enchanted_book"
+				tag: {
+					StoredEnchantments: [{
+						id: "enigmaticlegacy:ceaseless"
+						lvl: 1s
+					}]
+				}
+			}
+			title: "无尽"
+		}
+		{
+			item: {
+				Count: 1
+				id: "minecraft:enchanted_book"
+				tag: {
+					StoredEnchantments: [{
+						id: "enigmaticlegacy:sharpshooter"
+						lvl: 3s
+					}]
+				}
+			}
+			title: "神射手III"
+		}
+		{
+			item: {
+				Count: 1
+				id: "minecraft:enchanted_book"
+				tag: {
+					StoredEnchantments: [{
+						id: "flowingagony:thorn_in_flesh"
+						lvl: 3s
+					}]
+				}
+			}
+			title: "肉中荆棘III"
+		}
+		{
+			item: {
+				Count: 1
+				id: "minecraft:enchanted_book"
+				tag: {
+					StoredEnchantments: [{
+						id: "flowingagony:back_and_fill"
+						lvl: 3s
+					}]
+				}
+			}
+			title: "见风使舵III"
+		}
+		{
+			item: {
+				Count: 1
+				id: "minecraft:enchanted_book"
+				tag: {
+					StoredEnchantments: [{
+						id: "minecraft:piercing"
+						lvl: 4s
+					}]
+				}
+			}
+			title: "穿透IV"
+		}
+	]
+	title: "弩类武器附魔书选择"
+}
