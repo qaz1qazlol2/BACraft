@@ -131,18 +131,21 @@
 			invisible: true
 			rewards: [
 				{
+					auto: "no_toast"
 					command: "/title @s title \"恭喜你获得了第一个信标，但是该物品无法放置\""
 					id: "2ED773F96A630BF7"
 					silent: true
 					type: "command"
 				}
 				{
+					auto: "no_toast"
 					command: "/title @s subtitle \"如果你一不小心放置了信标，而且消失了，你可以按下q键丢出这个消失的信标\""
 					id: "26AA5335B01439D9"
 					silent: true
 					type: "command"
 				}
 				{
+					auto: "no_toast"
 					command: "/title @s actionbar \"该信息只显示一次\""
 					id: "5471CE178651A7C4"
 					silent: true

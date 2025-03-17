@@ -1,4 +1,5 @@
-LootJS.modifiers((event) =>{
+//金币掉落池
+LootJS.modifiers((event) => {
     const monsters = [
         "minecraft:blaze", //烈焰人
         "minecraft:cave_spider", //洞穴蜘蛛
@@ -37,8 +38,10 @@ LootJS.modifiers((event) =>{
     const goldCoinId = "kubejs:gold_coin";
     const diamondcoinID = "kubjs:diamond_coin";
     monsters.forEach(monstersID => {
-            event.addEntityLootModifier(monstersID).pool((pool)=>{
-                pool.rolls([1,2])
-                pool.randomChance(1).addLoot(goldCoinId)
-            }
-)})})
+        event.addEntityLootModifier(monstersID).pool((pool) => {
+            pool.rolls([1, 2])
+            pool.killedByPlayer()
+            pool.randomChance(1).addLoot(goldCoinId)
+        })
+    })
+})

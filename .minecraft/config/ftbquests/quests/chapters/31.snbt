@@ -503,7 +503,7 @@
 				auto: "enabled"
 				id: "651DE004457C05B8"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "minecraft:emerald_pickaxe"
 					tag: {
 						AttributeModifiers: [
@@ -533,26 +533,26 @@
 							}
 							{
 								Amount: 3.0d
-								AttributeName: "forge:attack_range"
+								AttributeName: "forge:block_reach"
 								Operation: 0
 								Slot: "mainhand"
 								UUID: [I;
-									-1115013592
-									-1026996134
-									-1643818604
-									1341773570
+									-536424331
+									-2129048396
+									-1624212130
+									1584645775
 								]
 							}
 							{
 								Amount: 3.0d
-								AttributeName: "forge:reach_distance"
+								AttributeName: "forge:entity_reach"
 								Operation: 0
 								Slot: "mainhand"
 								UUID: [I;
-									474910677
-									-115980859
-									-1849724618
-									195983618
+									93740549
+									-1866969137
+									-1200700447
+									1342297406
 								]
 							}
 						]
@@ -563,39 +563,19 @@
 								lvl: 5
 							}
 							{
-								id: "minecraft:unbreaking"
+								id: "minecraft:fortune"
 								lvl: 3
 							}
 							{
-								id: "minecraft:fortune"
+								id: "minecraft:unbreaking"
 								lvl: 3
 							}
 							{
 								id: "minecraft:mending"
 								lvl: 1
 							}
-							{
-								id: "flowingagony:guidens_regret"
-								lvl: 1
-							}
-							{
-								id: "flowingagony:morirs_deathwish"
-								lvl: 1
-							}
-							{
-								id: "flowingagony:morirs_lifebound"
-								lvl: 1
-							}
-							{
-								id: "flowingagony:nimble_finger"
-								lvl: 3
-							}
-							{
-								id: "flowingagony:cleansing_before_using"
-								lvl: 1
-							}
 						]
-						HideFlags: 3
+						HideFlags: 35
 						display: {
 							Lore: ["{\"italic\":false,\"color\":\"white\",\"extra\":[{\"text\":\"\"},{\"color\":\"gold\",\"text\":\"哇哇，哎呀我的审稿\"}],\"text\":\"\"}"]
 							Name: "{\"italic\":false,\"extra\":[{\"text\":\"\"},{\"color\":\"light_purple\",\"text\":\"\\\"神 稿\\\"\"}],\"text\":\"\"}"
@@ -606,7 +586,7 @@
 			}]
 			tasks: [{
 				icon: {
-					Count: 1b
+					Count: 1
 					id: "minecraft:emerald_pickaxe"
 					tag: {
 						AttributeModifiers: [

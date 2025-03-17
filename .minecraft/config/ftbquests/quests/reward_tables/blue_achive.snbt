@@ -6,7 +6,7 @@
 	rewards: [
 		{
 			item: {
-				Count: 1b
+				Count: 1
 				id: "kubejs:shuijing"
 				tag: {
 					Damage: 0
