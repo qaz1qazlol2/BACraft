@@ -162,3 +162,6 @@ net.minecraft.client.gui.screens.SoundOptionsScreen {
 net.minecraft.client.gui.screens.CreditsAndAttributionScreen {
 }
 
+com.jab125.mpuc.client.gui.screen.changelog.NewChangelogScreen {
+}
+
