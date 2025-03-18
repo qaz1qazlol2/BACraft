@@ -1,5 +1,5 @@
 {
-	menuAlert: true,
+	menuAlert: false,
 	chatAlert: true,
 	chatMessage: "整合包有更新可用！",
 	platform: "CUSTOM",
