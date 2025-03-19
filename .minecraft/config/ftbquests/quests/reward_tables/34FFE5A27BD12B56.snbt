@@ -49,19 +49,6 @@
 			}
 			title: "时运V"
 		}
-		{
-			item: {
-				Count: 1
-				id: "minecraft:enchanted_book"
-				tag: {
-					StoredEnchantments: [{
-						id: "flowingagony:carefully_identified"
-						lvl: 5s
-					}]
-				}
-			}
-			title: "精挑细选V"
-		}
 	]
 	title: "镐类工具附魔抽奖"
 }

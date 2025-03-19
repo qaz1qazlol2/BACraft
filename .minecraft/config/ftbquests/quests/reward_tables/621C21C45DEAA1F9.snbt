@@ -87,77 +87,12 @@
 				id: "minecraft:enchanted_book"
 				tag: {
 					StoredEnchantments: [{
-						id: "flowingagony:outrageous_spirit"
-						lvl: 3s
-					}]
-				}
-			}
-			title: "暴怒之灵III"
-		}
-		{
-			item: {
-				Count: 1
-				id: "minecraft:enchanted_book"
-				tag: {
-					StoredEnchantments: [{
-						id: "flowingagony:fresh_revenge"
-						lvl: 3s
-					}]
-				}
-			}
-			title: "仇不隔夜III"
-		}
-		{
-			item: {
-				Count: 1
-				id: "minecraft:enchanted_book"
-				tag: {
-					StoredEnchantments: [{
-						id: "flowingagony:savor_the_tasted"
-						lvl: 3s
-					}]
-				}
-			}
-			title: "食髓知味III"
-		}
-		{
-			item: {
-				Count: 1
-				id: "minecraft:enchanted_book"
-				tag: {
-					StoredEnchantments: [{
-						id: "flowingagony:trickster"
-						lvl: 2s
-					}]
-				}
-			}
-			title: "欺诈师II"
-		}
-		{
-			item: {
-				Count: 1
-				id: "minecraft:enchanted_book"
-				tag: {
-					StoredEnchantments: [{
 						id: "enigmaticlegacy:slayer"
 						lvl: 5s
 					}]
 				}
 			}
 			title: "杀手V"
-		}
-		{
-			item: {
-				Count: 1
-				id: "minecraft:enchanted_book"
-				tag: {
-					StoredEnchantments: [{
-						id: "flowingagony:shock_therapy"
-						lvl: 3s
-					}]
-				}
-			}
-			title: "电击疗法III"
 		}
 	]
 	title: "剑类武器附魔"

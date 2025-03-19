@@ -12,87 +12,6 @@
 			can_repeat: true
 			icon: {
 				Count: 1
-				id: "minecraft:netherite_chestplate"
-				tag: {
-					Damage: 0
-				}
-			}
-			id: "281042712F9A6200"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "36FD6269E08A2316"
-				table_id: 3685761801396557508L
-				type: "choice"
-			}]
-			tasks: [{
-				consume_items: true
-				count: 5L
-				id: "3E16DDCDCD1412DC"
-				item: "kubejs:diamond_coin"
-				type: "item"
-			}]
-			title: "高级胸甲附魔"
-			x: 1.5d
-			y: -7.0d
-		}
-		{
-			can_repeat: true
-			icon: {
-				Count: 1
-				id: "minecraft:netherite_boots"
-				tag: {
-					Damage: 0
-				}
-			}
-			id: "035B2AC2FA7FA25B"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "69373159B2B60C73"
-				table_id: 6759903600727788794L
-				type: "choice"
-			}]
-			tasks: [{
-				consume_items: true
-				count: 5L
-				id: "2ED69FADA347DD24"
-				item: "kubejs:diamond_coin"
-				type: "item"
-			}]
-			title: "高级鞋子附魔"
-			x: 0.5d
-			y: -7.0d
-		}
-		{
-			can_repeat: true
-			icon: {
-				Count: 1
-				id: "minecraft:netherite_helmet"
-				tag: {
-					Damage: 0
-				}
-			}
-			id: "59FFCF19FE628FC2"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "5B6B7903C5D7B61E"
-				table_id: 5619702696235309502L
-				type: "choice"
-			}]
-			tasks: [{
-				consume_items: true
-				count: 5L
-				id: "4355B8B2885A01BF"
-				item: "kubejs:diamond_coin"
-				type: "item"
-			}]
-			title: "高级头盔附魔"
-			x: 2.5d
-			y: -7.0d
-		}
-		{
-			can_repeat: true
-			icon: {
-				Count: 1
 				id: "minecraft:diamond_chestplate"
 				tag: {
 					Damage: 0
@@ -123,8 +42,8 @@
 				type: "item"
 			}]
 			title: "装备类防护附魔"
-			x: 3.5d
-			y: -7.0d
+			x: 4.5d
+			y: -5.0d
 		}
 		{
 			can_repeat: true

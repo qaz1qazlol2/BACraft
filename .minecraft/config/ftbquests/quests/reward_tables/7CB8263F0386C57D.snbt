@@ -74,19 +74,6 @@
 				id: "minecraft:enchanted_book"
 				tag: {
 					StoredEnchantments: [{
-						id: "flowingagony:back_and_fill"
-						lvl: 3s
-					}]
-				}
-			}
-			title: "见风使舵III"
-		}
-		{
-			item: {
-				Count: 1
-				id: "minecraft:enchanted_book"
-				tag: {
-					StoredEnchantments: [{
 						id: "minecraft:piercing"
 						lvl: 4s
 					}]

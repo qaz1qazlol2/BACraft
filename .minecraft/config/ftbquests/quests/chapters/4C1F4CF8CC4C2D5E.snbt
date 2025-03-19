@@ -5,7 +5,7 @@
 	group: "50204E0DD499969B"
 	icon: "graveyard:lying_skeleton"
 	id: "4C1F4CF8CC4C2D5E"
-	order_index: 1
+	order_index: 0
 	quest_links: [ ]
 	quests: [{
 		description: ["没玩过，不写"]
