@@ -562,7 +562,7 @@
 					consume_items: true
 					id: "0CBC648F4D861A46"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "castle_in_the_sky:levitation_stone"
 						tag: {
 							castle_in_the_sky: { }

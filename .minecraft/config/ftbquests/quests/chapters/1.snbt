@@ -35,13 +35,13 @@
 				{
 					auto: "no_toast"
 					id: "66DBD6E060500F13"
-					item: "enigmaticlegacy:dark_mirror"
+					item: "enigmaticlegacy:twisted_mirror"
 					type: "item"
 				}
 				{
 					auto: "no_toast"
 					id: "405F8FBF72FDB556"
-					item: "arisidcard:idcard"
+					item: "blue_archivescraft:idcard"
 					type: "item"
 				}
 			]
