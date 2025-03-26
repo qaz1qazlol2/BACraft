@@ -1,0 +1,44 @@
+{
+  "title.modpack-update-checker": "模组包更新检查器",
+
+  "screen.modpack-update-checker.modpack-update.title": "更新日志",
+  "screen.modpack-update-checker.modpack-update.currentVersion-null": "currentVersion 为空！",
+  "screen.modpack-update-checker.modpack-update.latestVersion-null": "latestVersion 为空！",
+  "screen.modpack-update-checker.modpack-update.changelogs-null": "changelogs 为空！",
+  "screen.modpack-update-checker.modpack-update.modpackName-null": "modpackName 为空！",
+  "screen.modpack-update-checker.modpack-update.up-to-date": "您已经是最新版本了 ^_^",
+  "screen.modpack-update-checker.info.title": "信息",
+
+  "screen.modpack-update-checker.hotfix.downloading-text": "下载中 %s/%s %s %s%% 完成",
+  "screen.modpack-update-checker.hotfix.title": "热修补",
+  "screen.modpack-update-checker.hotfix.estimated-time": "预计剩余时间：%s:%s:%s",
+  "screen.modpack-update-checker.hotfix.select-all": "全选",
+  "screen.modpack-update-checker.hotfix.deselect-all": "取消全选",
+  "screen.modpack-update-checker.hotfix.apply-hotfix": "应用热修补",
+  "screen.modpack-update-checker.hotfix.hotfix-applied": "热修补已应用",
+  "screen.modpack-update-checker.hotfix.hotfix-applied.description": "您可能需要重新启动游戏。",
+  "screen.modpack-update-checker.hotfix.no-leaving": "在热修补程序被应用之前，您不能离开此屏幕。",
+
+  "screen.modpack-update-checker.changelog.modpackInfo": "整合包信息",
+
+  "toast.modpack-update-checker.modpack-update-available": "整合包更新可用",
+  "toast.modpack-update-checker.modpack-update-available.description": "%s -> %s",
+
+  "toast.modpack-update-checker.hotfix-available": "热修补可用",
+  "toast.modpack-update-checker.hotfix-available.description": "在模组包菜单中安装。",
+
+  "button.modpack-update-checker.changelog-button": "更新日志",
+  "button.modpack-update-checker.changelog-button.update-available": "有更新可用",
+
+  "screen.modpack-update-checker.changelog.date-time-format": "ISO_LOCAL_DATE",
+  "screen.modpack-update-checker.changelog.to-be-announced": "发布日期：TBA",
+  "screen.modpack-update-checker.changelog.releasingOn": "发布日期：%s",
+  "screen.modpack-update-checker.changelog.releasedAt": "发布日期：%s",
+
+  "command.mpuc.error.invalid-hotfix": "%s 不是有效的热修补",
+  "command.mpuc.error.hotfix-already-queued": "%s 已经在排队中",
+
+  "screen.modpack-update-checker.select-world.modpack-backup": "这个世界上次在%s %s版本里游玩; 而现在的版本是%s %s. 请备份存档以免发生炸档事件.",
+  "screen.modpack-update-checker.select-world.modpack-backup.incompatible": "这个世界上次在%s %s版本里游玩, 这个版本和%s %s版本不兼容.",
+  "screen.modpack-update-checker.select-world.incompatible-modpack-version": "这个世界不兼容该整合包."
+}
