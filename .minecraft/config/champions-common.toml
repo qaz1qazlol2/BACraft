@@ -4,19 +4,19 @@
 	enableDebug = false
 	#The range from an active beacon where no champions will spawn (0 to disable)
 	#Range: 0 ~ 1000
-	beaconProtectionRange = 64
+	beaconProtectionRange = 0
 	#Set to true to enable champions from mob spawners
-	championSpawners = false
+	championSpawners = true
 	#The minimum tier of champions that will have death messages sent out upon defeat (0 to disable)
 	#Range: > 0
-	deathMessageTier = 0
+	deathMessageTier = 5
 	#A list of dimension names that are blacklisted/whitelisted for champions
-	dimensionList = []
+	dimensionList = ["blue_archivescraft:bai_gui_ye_xing", "blue_archivescraft:casket_shittin"]
 	#Set whether the dimension list is a blacklist or whitelist
 	#Allowed Values: BLACKLIST, WHITELIST
 	dimensionPermission = "BLACKLIST"
 	#A list of entities that are blacklisted/whitelisted for champions
-	entitiesList = []
+	entitiesList = ["blue_archivescraft:izuna", "blue_archivescraft:chise", "blue_archivescraft:tsubaki", "blue_archivescraft:resident", "blue_archivescraft:mimori", "blue_archivescraft:renge", "blue_archivescraft:shizuko", "blue_archivescraft:vacuole", "blue_archivescraft:xing_ye", "blue_archivescraft:knife_moon", "blue_archivescraft:michiru", "blue_archivescraft:serika", "blue_archivescraft:shiroko", "blue_archivescraft:izayoi_nonomi", "blue_archivescraft:ling_yin", "blue_archivescraft:kikyou", "blue_archivescraft:yukari", "blue_archivescraft:arona", "blue_archivescraft:plana", "minecraft:player"]
 	#Set whether the entities list is a blacklist or whitelist
 	#Allowed Values: BLACKLIST, WHITELIST
 	entitiesPermission = "BLACKLIST"

@@ -1,6 +1,5 @@
 const banned_rightclick_blocks = [
-    "minecraft:beacon",
-    "twilightforest:uncrafting_table"
+    "twilightforest:uncrafting_table"   //拆解台
 ]
 
 banned_rightclick_blocks.forEach(banned_rightclick_block =>{

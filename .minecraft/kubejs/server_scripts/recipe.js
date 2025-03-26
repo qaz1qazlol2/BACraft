@@ -41,4 +41,13 @@ ServerEvents.recipes(event => {
         A: 'minecraft:emerald',
         B: '#forge:rods/wooden'
     })
+    event.shaped(Item.of("blue_archivescraft:strawberry_swiss_roll", 10), [
+        "ACA",
+        "CBC",
+        "ACA"
+    ], {
+        A: "#forge:fruits/strawberry",
+        B: "pamhc2foodextended:meringueitem",
+        C: "#forge:dough"
+    })
 })
