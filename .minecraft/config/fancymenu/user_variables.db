@@ -1,2 +1,8 @@
 type = user_variables
 
+variable {
+  name = volume
+  value = 100
+  reset_on_launch = false
+}
+
