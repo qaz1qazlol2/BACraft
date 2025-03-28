@@ -16,7 +16,7 @@
 	#Allowed Values: BLACKLIST, WHITELIST
 	dimensionPermission = "BLACKLIST"
 	#A list of entities that are blacklisted/whitelisted for champions
-	entitiesList = ["blue_archivescraft:izuna", "blue_archivescraft:chise", "blue_archivescraft:tsubaki", "blue_archivescraft:resident", "blue_archivescraft:mimori", "blue_archivescraft:renge", "blue_archivescraft:shizuko", "blue_archivescraft:vacuole", "blue_archivescraft:xing_ye", "blue_archivescraft:knife_moon", "blue_archivescraft:michiru", "blue_archivescraft:serika", "blue_archivescraft:shiroko", "blue_archivescraft:izayoi_nonomi", "blue_archivescraft:ling_yin", "blue_archivescraft:kikyou", "blue_archivescraft:yukari", "blue_archivescraft:arona", "blue_archivescraft:plana", "minecraft:player"]
+	entitiesList = []
 	#Set whether the entities list is a blacklist or whitelist
 	#Allowed Values: BLACKLIST, WHITELIST
 	entitiesPermission = "BLACKLIST"
@@ -32,5 +32,5 @@
 	allowChampionsList = true
 	#The permission of champions entity allow list datapack.
 	#Allowed Values: BLACKLIST, WHITELIST
-	allowChampionsPermission = "BLACKLIST"
+	allowChampionsPermission = "WHITELIST"
 
