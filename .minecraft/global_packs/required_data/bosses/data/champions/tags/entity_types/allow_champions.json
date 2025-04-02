@@ -58,6 +58,8 @@
     "legendary_monsters:endersent",
     "legendary_monsters:lava_eater",
     "legendary_monsters:cloud_golem",
+    "legendary_monsters:withered_abomination",
+    "legendary_monsters:overgrown_colossus",
     "mokels_boss_mantyd:boss_mantyd",
     "mokels_bossfight_saphyra:nameless",
     "mokels_bossfight_saphyra:witchboss",
@@ -92,6 +94,15 @@
     "terramity:gundalf",
     "terramity:ultra_sniffer",
     "aquamirae:captain_cornelia",
-    "aquamirae:eel"
+    "aquamirae:eel",
+    "threateningly_mobs:solscarab_maximus",
+    "threateningly_mobs:terra_dragon",
+    "born_in_chaos_v1:sir_pumpkinhead_without_horse",
+    "born_in_chaos_v1:lords_felsteed",
+    "born_in_chaos_v1:lord_pumpkinhead_withouta_horse",
+    "born_in_chaos_v1:lord_pumpkinhead_head",
+    "born_in_chaos_v1:felsteed",
+    "born_in_chaos_v1:pumpkinhead",
+    "born_in_chaos_v1:sir_the_headless"
   ]
 }
