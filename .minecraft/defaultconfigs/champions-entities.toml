@@ -570,64 +570,128 @@
 
 [[entities]]
     entity = "mowziesmobs:sculptor"
-    minTier = 3
-    maxTier = 3
+    minTier = 5
+    maxTier = 5
     presetAffixes = []
     affixList = ["shielding"]
     affixPermission = "BLACKLIST"
 
 [[entities]]
-    entity = "sons_of_sins:butcher"
-    minTier = 3
-    maxTier = 3
+    entity = "threateningly_mobs:rock_snail"
+    minTier = 5
+    maxTier = 5
     presetAffixes = []
     affixList = ["shielding"]
     affixPermission = "BLACKLIST"
 
 [[entities]]
-    entity = "sons_of_sins:blud"
-    minTier = 3
-    maxTier = 3
+    entity = "threateningly_mobs:earth_loong"
+    minTier = 5
+    maxTier = 5
     presetAffixes = []
     affixList = ["shielding"]
     affixPermission = "BLACKLIST"
 
 [[entities]]
-    entity = "sons_of_sins:curse"
-    minTier = 3
-    maxTier = 3
+    entity = "threateningly_mobs:titan_rabbit"
+    minTier = 5
+    maxTier = 5
     presetAffixes = []
     affixList = ["shielding"]
     affixPermission = "BLACKLIST"
 
 [[entities]]
-    entity = "sons_of_sins:kelvin"
-    minTier = 3
-    maxTier = 3
+    entity = "threateningly_mobs:armor_of_desert"
+    minTier = 5
+    maxTier = 5
     presetAffixes = []
     affixList = ["shielding"]
     affixPermission = "BLACKLIST"
 
 [[entities]]
-    entity = "sons_of_sins:prowler"
-    minTier = 3
-    maxTier = 3
+    entity = "threateningly_mobs:beast_horseshoe_crab"
+    minTier = 5
+    maxTier = 5
     presetAffixes = []
     affixList = ["shielding"]
     affixPermission = "BLACKLIST"
 
 [[entities]]
-    entity = "sons_of_sins:walking_bed"
-    minTier = 3
-    maxTier = 3
+    entity = "threateningly_mobs:lich"
+    minTier = 5
+    maxTier = 5
     presetAffixes = []
     affixList = ["shielding"]
     affixPermission = "BLACKLIST"
 
 [[entities]]
-    entity = "sons_of_sins:wistiver"
-    minTier = 3
-    maxTier = 3
+    entity = "threateningly_mobs:moon_priest"
+    minTier = 5
+    maxTier = 5
+    presetAffixes = []
+    affixList = ["shielding"]
+    affixPermission = "BLACKLIST"
+
+[[entities]]
+    entity = "threateningly_mobs:inferno"
+    minTier = 5
+    maxTier = 5
+    presetAffixes = []
+    affixList = ["shielding"]
+    affixPermission = "BLACKLIST"
+
+[[entities]]
+    entity = "threateningly_mobs:hydra"
+    minTier = 5
+    maxTier = 5
+    presetAffixes = []
+    affixList = ["shielding"]
+    affixPermission = "BLACKLIST"
+
+[[entities]]
+    entity = "threateningly_mobs:regalhart"
+    minTier = 5
+    maxTier = 5
+    presetAffixes = []
+    affixList = ["shielding"]
+    affixPermission = "BLACKLIST"
+
+[[entities]]
+    entity = "threateningly_mobs:steelboar"
+    minTier = 5
+    maxTier = 5
+    presetAffixes = []
+    affixList = ["shielding"]
+    affixPermission = "BLACKLIST"
+
+[[entities]]
+    entity = "threateningly_mobs:basalt_wyvern"
+    minTier = 5
+    maxTier = 5
+    presetAffixes = []
+    affixList = ["shielding"]
+    affixPermission = "BLACKLIST"
+
+[[entities]]
+    entity = "threateningly_mobs:ferox_death_worm"
+    minTier = 5
+    maxTier = 5
+    presetAffixes = []
+    affixList = ["shielding"]
+    affixPermission = "BLACKLIST"
+
+[[entities]]
+    entity = "threateningly_mobs:ferox_ice_worm"
+    minTier = 5
+    maxTier = 5
+    presetAffixes = []
+    affixList = ["shielding"]
+    affixPermission = "BLACKLIST"
+
+[[entities]]
+    entity = "threateningly_mobs:saint"
+    minTier = 10
+    maxTier = 10
     presetAffixes = []
     affixList = ["shielding"]
     affixPermission = "BLACKLIST"
@@ -724,6 +788,22 @@
     entity = "minecraft:slime"
     minTier = 1
     maxTier = 1
+    presetAffixes = []
+    affixList = ["shielding"]
+    affixPermission = "BLACKLIST"
+
+[[entities]]
+    entity = "aquamirae:captain_cornelia"
+    minTier = 4
+    maxTier = 4
+    presetAffixes = []
+    affixList = ["shielding"]
+    affixPermission = "BLACKLIST"
+
+[[entities]]
+    entity = "aquamirae:eel"
+    minTier = 2
+    maxTier = 2
     presetAffixes = []
     affixList = ["shielding"]
     affixPermission = "BLACKLIST"
