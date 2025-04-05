@@ -1,5 +1,10 @@
 const banned_items = [
-    "bountifulbaubles:dark_dagger"
+    "bountifulbaubles:dark_dagger",
+    "twilightforest:uncrafting_table",
+    "born_in_chaos_v1:soul_cutlass",
+    "cataclysm:the_incinerator",
+    "cataclysm:the_immolator",
+    "enigmaticaddons:forger_gem"
 ]
 
 
