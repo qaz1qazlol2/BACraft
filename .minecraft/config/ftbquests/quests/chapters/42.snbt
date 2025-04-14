@@ -294,25 +294,6 @@
 			y: -4.0d
 		}
 		{
-			dependencies: ["2299EFF603CCA96C"]
-			id: "08484B38E8D95BC5"
-			rewards: [{
-				id: "001212377A49F5D4"
-				type: "xp"
-				xp: 100
-			}]
-			subtitle: "在末地乱逛的你发现这个&5【奇怪的建筑】&f于是你选择进去看看"
-			tasks: [{
-				icon: "cataclysm:void_stone"
-				id: "68DB2068C3CD2287"
-				structure: "cataclysm:ruined_citadel"
-				title: "废弃的堡垒"
-				type: "structure"
-			}]
-			x: 4.5d
-			y: 2.0d
-		}
-		{
 			dependencies: ["1DBC4BCE54760A45"]
 			id: "2BB0E78CF413885B"
 			rewards: [{
@@ -337,47 +318,6 @@
 			title: "黑手！"
 			x: -2.0d
 			y: -4.0d
-		}
-		{
-			dependencies: ["1686715FEE8ABA03"]
-			id: "29BBC1641784EA73"
-			rewards: [
-				{
-					id: "260A7BAF59E8D6C4"
-					type: "xp"
-					xp: 100
-				}
-				{
-					count: 2
-					id: "66C968EDC9F993FE"
-					item: "minecraft:shulker_shell"
-					type: "item"
-				}
-			]
-			tasks: [{
-				id: "4F55C2D245B5AE53"
-				item: "cataclysm:void_core"
-				type: "item"
-			}]
-			x: 6.5d
-			y: 5.5d
-		}
-		{
-			dependencies: ["1686715FEE8ABA03"]
-			id: "043A1F5DE23D219E"
-			rewards: [{
-				count: 30
-				id: "082313B76976DD84"
-				item: "relics:relic_experience_bottle"
-				type: "item"
-			}]
-			tasks: [{
-				id: "662B93D2E431036F"
-				item: "cataclysm:gauntlet_of_guard"
-				type: "item"
-			}]
-			x: 6.5d
-			y: 4.0d
 		}
 		{
 			dependencies: ["1139920D35883BAC"]
@@ -581,34 +521,6 @@
 			y: 4.0d
 		}
 		{
-			dependencies: ["3E686BCA0CC1A541"]
-			id: "1686715FEE8ABA03"
-			rewards: [
-				{
-					exclude_from_claim_all: true
-					id: "1037A7145B396C87"
-					table_id: 5586064844193108621L
-					type: "random"
-				}
-				{
-					count: 2
-					id: "08CDB98DF8E903F2"
-					item: "cataclysm:enderite_ingot"
-					type: "item"
-				}
-			]
-			subtitle: "经历一番搏斗，你终于战胜了这个硕大的机器人，但是这个机器人让你不得不思考这个世界当中是否存在比他更为强大的生物……"
-			tasks: [{
-				entity: "cataclysm:ender_guardian"
-				icon: "cataclysm:ender_guardian_spawn_egg"
-				id: "7395F371326E5293"
-				type: "kill"
-				value: 1L
-			}]
-			x: 4.5d
-			y: 5.0d
-		}
-		{
 			dependencies: ["0607D930600F8B92"]
 			id: "7DB3E8B1698904CC"
 			tasks: [{
@@ -635,26 +547,6 @@
 			}]
 			x: 6.5d
 			y: 0.0d
-		}
-		{
-			dependencies: ["08484B38E8D95BC5"]
-			icon: "cataclysm:ender_golem_spawn_egg"
-			id: "3E686BCA0CC1A541"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "5466E71E01F8994B"
-				table_id: 424537417769760900L
-				type: "random"
-			}]
-			tasks: [{
-				entity: "cataclysm:ender_golem"
-				icon: "cataclysm:ender_golem_spawn_egg"
-				id: "16902B41EC06F7C1"
-				type: "kill"
-				value: 1L
-			}]
-			x: 4.5d
-			y: 3.5d
 		}
 	]
 	title: "3.2：虚空的呼唤"
