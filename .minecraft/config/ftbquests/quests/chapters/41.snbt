@@ -303,7 +303,6 @@
 			y: -1.0d
 		}
 		{
-			dependencies: ["156FFDE358CEC7C6"]
 			dependency_requirement: "one_completed"
 			description: [
 				"你在游荡世界各处的时候无意间发现了一些长的酷似眼睛的东西，就像是末影之眼，而且在你仔细研究其功能的时候，他又像末影之眼那样给你指出了一个方向……"
@@ -373,11 +372,15 @@
 			icon: "minecraft:end_portal_frame"
 			id: "5B17411B819324A6"
 			min_required_dependencies: 12
+			rewards: [{
+				count: 12
+				id: "570704E5F19F240B"
+				item: "minecraft:end_portal_frame"
+				type: "item"
+			}]
 			tasks: [{
-				advancement: "minecraft:story/enter_the_end"
-				criterion: ""
-				id: "51BB1276A52D6D63"
-				type: "advancement"
+				id: "563D57175D5B354D"
+				type: "checkmark"
 			}]
 			x: 0.0d
 			y: 2.0d

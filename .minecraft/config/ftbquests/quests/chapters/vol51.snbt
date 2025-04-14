@@ -1,0 +1,623 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "vol51"
+	group: "2653C57A82885EF0"
+	icon: "binah:binah_desert_trophy"
+	id: "3223DE6DB0268DE8"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			id: "1C19BB0965959C09"
+			tasks: [{
+				entity: "aquamirae:captain_cornelia"
+				icon: {
+					Count: 1
+					id: "aquamirae:coral_lance"
+					tag: {
+						Damage: 0
+						Enchantments: [{
+							id: "minecraft:unbreaking"
+							lvl: 4s
+						}]
+					}
+				}
+				id: "170A56A11272F72D"
+				type: "kill"
+				value: 1L
+			}]
+			x: -0.5d
+			y: 0.0d
+		}
+		{
+			id: "244E93A28A6505BB"
+			tasks: [{
+				entity: "eeeabsmobs:immortal"
+				icon: "eeeabsmobs:immortal_boss_egg"
+				id: "66D06C9BF2CDC394"
+				type: "kill"
+				value: 1L
+			}]
+			x: 1.0d
+			y: 0.0d
+		}
+		{
+			icon: "corundumguardian:corundum_guardian_spawn_egg"
+			id: "5E9CA99D695AC167"
+			tasks: [{
+				entity: "corundumguardian:corundum_guardian"
+				id: "57B4B098A1A1A03C"
+				type: "kill"
+				value: 1L
+			}]
+			x: 2.5d
+			y: 0.0d
+		}
+		{
+			icon: "alexsmobs:spawn_egg_warped_mosco"
+			id: "1522DFD09AF225B5"
+			tasks: [{
+				entity: "alexsmobs:warped_mosco"
+				id: "529938E58DD0F80B"
+				type: "kill"
+				value: 1L
+			}]
+			x: 4.0d
+			y: 0.0d
+		}
+		{
+			icon: "animatedmobsmod:ender_king_spawn_egg"
+			id: "0EB24F7C163C97CD"
+			tasks: [{
+				entity: "animatedmobsmod:ender_king"
+				id: "423D9F050D8DE0CF"
+				type: "kill"
+				value: 1L
+			}]
+			x: 5.5d
+			y: 0.0d
+		}
+		{
+			icon: "twilightforest:naga_spawn_egg"
+			id: "7223C4844C69DB6F"
+			tasks: [{
+				entity: "twilightforest:naga"
+				id: "4A59470B8FE2BC9B"
+				type: "kill"
+				value: 1L
+			}]
+			x: -0.5d
+			y: 1.5d
+		}
+		{
+			icon: "twilightforest:lich_spawn_egg"
+			id: "104704617FE8CDEE"
+			tasks: [{
+				entity: "twilightforest:lich"
+				id: "306990B33F085461"
+				type: "kill"
+				value: 1L
+			}]
+			x: 1.0d
+			y: 1.5d
+		}
+		{
+			icon: "twilightforest:minoshroom_spawn_egg"
+			id: "7271D3F13F0404FB"
+			tasks: [{
+				entity: "twilightforest:minoshroom"
+				id: "0CC70C2C7572A581"
+				type: "kill"
+				value: 1L
+			}]
+			x: 2.5d
+			y: 1.5d
+		}
+		{
+			icon: "twilightforest:hydra_spawn_egg"
+			id: "0481C38823798D4B"
+			tasks: [{
+				entity: "twilightforest:hydra"
+				id: "303AF1AF4A32883E"
+				type: "kill"
+				value: 1L
+			}]
+			x: 4.0d
+			y: 1.5d
+		}
+		{
+			icon: "twilightforest:knight_phantom_spawn_egg"
+			id: "71457ADFA2B5A440"
+			tasks: [{
+				entity: "twilightforest:knight_phantom"
+				id: "0BD147A88A112CD5"
+				type: "kill"
+				value: 5L
+			}]
+			x: 5.5d
+			y: 1.5d
+		}
+		{
+			icon: "twilightforest:ur_ghast_spawn_egg"
+			id: "4B0DB258A8D6B246"
+			tasks: [{
+				entity: "twilightforest:ur_ghast"
+				id: "41C5CDB929EE8064"
+				type: "kill"
+				value: 1L
+			}]
+			x: -0.5d
+			y: 3.0d
+		}
+		{
+			icon: "twilightforest:alpha_yeti_spawn_egg"
+			id: "720E723FAFFD9193"
+			tasks: [{
+				entity: "twilightforest:alpha_yeti"
+				id: "63CD58D7F9678095"
+				type: "kill"
+				value: 1L
+			}]
+			x: 1.0d
+			y: 3.0d
+		}
+		{
+			icon: "twilightforest:snow_queen_spawn_egg"
+			id: "427C180449B21214"
+			tasks: [{
+				entity: "twilightforest:snow_queen"
+				id: "7F49C4692D8F7681"
+				type: "kill"
+				value: 1L
+			}]
+			x: 2.5d
+			y: 3.0d
+		}
+		{
+			icon: "cataclysm:ignis_spawn_egg"
+			id: "00A4E955FAA7569F"
+			tasks: [{
+				entity: "cataclysm:ignis"
+				id: "42FF3C45DA74B73A"
+				type: "kill"
+				value: 1L
+			}]
+			x: 4.0d
+			y: 3.0d
+		}
+		{
+			icon: "cataclysm:netherite_monstrosity_spawn_egg"
+			id: "3833BAFC6BFC45E0"
+			tasks: [{
+				entity: "cataclysm:netherite_monstrosity"
+				id: "19BD3991C4B41B73"
+				type: "kill"
+				value: 1L
+			}]
+			x: 5.5d
+			y: 3.0d
+		}
+		{
+			icon: "cataclysm:ender_guardian_spawn_egg"
+			id: "360AC32235F8A4B1"
+			tasks: [{
+				entity: "cataclysm:ender_guardian"
+				id: "4739734144D69C52"
+				type: "kill"
+				value: 1L
+			}]
+			x: -0.5d
+			y: 4.5d
+		}
+		{
+			icon: "cataclysm:maledictus_spawn_egg"
+			id: "3E1FABA676523410"
+			tasks: [{
+				entity: "cataclysm:maledictus"
+				id: "16F366091A45742A"
+				type: "kill"
+				value: 1L
+			}]
+			x: 1.0d
+			y: 4.5d
+		}
+		{
+			icon: "cataclysm:the_leviathan_spawn_egg"
+			id: "47D2453B99EE813E"
+			tasks: [{
+				entity: "cataclysm:the_leviathan"
+				id: "7903AE91F6D39929"
+				type: "kill"
+				value: 1L
+			}]
+			x: 2.5d
+			y: 4.5d
+		}
+		{
+			icon: "cataclysm:the_harbinger_spawn_egg"
+			id: "710DB0F8D0D7A1FD"
+			tasks: [{
+				entity: "cataclysm:the_harbinger"
+				id: "714C006785026F8E"
+				type: "kill"
+				value: 1L
+			}]
+			x: 4.0d
+			y: 4.5d
+		}
+		{
+			icon: "cataclysm:ancient_remnant_spawn_egg"
+			id: "2B5BDD33A6706A74"
+			tasks: [{
+				entity: "cataclysm:ancient_remnant"
+				id: "7C02737D5BCDE482"
+				type: "kill"
+				value: 1L
+			}]
+			x: 5.5d
+			y: 4.5d
+		}
+		{
+			icon: "eeeabsmobs:nameless_guardian_egg"
+			id: "63A9BA20F99A687D"
+			tasks: [{
+				entity: "eeeabsmobs:nameless_guardian"
+				id: "320F15B7CF406E38"
+				type: "kill"
+				value: 1L
+			}]
+			x: -0.5d
+			y: 6.0d
+		}
+		{
+			icon: "galosphere:berserker_spawn_egg"
+			id: "49F168CA7FC79999"
+			tasks: [{
+				entity: "galosphere:berserker"
+				id: "0DBB3A978A985876"
+				type: "kill"
+				value: 1L
+			}]
+			x: 1.0d
+			y: 6.0d
+		}
+		{
+			icon: "illagerinvasion:invoker_spawn_egg"
+			id: "437011FFBCCC0306"
+			tasks: [{
+				entity: "illagerinvasion:invoker"
+				id: "233C2C9CC5DC3278"
+				type: "kill"
+				value: 1L
+			}]
+			x: 2.5d
+			y: 6.0d
+		}
+		{
+			icon: "mokels_boss_mantyd:boss_mantyd_spawn_egg"
+			id: "42ECE34B23423C53"
+			tasks: [{
+				entity: "mokels_boss_mantyd:boss_mantyd"
+				id: "7D81A56359A9CDB2"
+				type: "kill"
+				value: 1L
+			}]
+			x: 4.0d
+			y: 6.0d
+		}
+		{
+			icon: "mokels_bossfight_saphyra:nameless_spawn_egg"
+			id: "0E5667DC3F857770"
+			tasks: [{
+				entity: "mokels_bossfight_saphyra:nameless"
+				id: "1EA3A5BD11C7B6E5"
+				type: "kill"
+				value: 1L
+			}]
+			x: 5.5d
+			y: 6.0d
+		}
+		{
+			icon: "mokels_bossfight_saphyra:mothboss_spawn_egg"
+			id: "3B2E80CBC05B9419"
+			tasks: [{
+				entity: "mokels_bossfight_saphyra:mothboss"
+				id: "5622945AC430940F"
+				type: "kill"
+				value: 1L
+			}]
+			x: -0.5d
+			y: 7.5d
+		}
+		{
+			id: "4D66F88AD8C9052B"
+			tasks: [{
+				entity: "stalwart_dungeons:awful_ghast"
+				icon: "stalwart_dungeons:awful_ghast_spawn_egg"
+				id: "29453C8CDD6BD599"
+				type: "kill"
+				value: 1L
+			}]
+			x: 1.0d
+			y: 7.5d
+		}
+		{
+			icon: "stalwart_dungeons:nether_keeper_spawn_egg"
+			id: "5DC2F7E115A85AD3"
+			tasks: [{
+				entity: "stalwart_dungeons:nether_keeper"
+				id: "4B8CF4D83F623AF5"
+				type: "kill"
+				value: 1L
+			}]
+			x: 2.5d
+			y: 7.5d
+		}
+		{
+			icon: "stalwart_dungeons:shelterer_spawn_egg"
+			id: "0C6B8413BBAF3736"
+			tasks: [{
+				entity: "stalwart_dungeons:shelterer_without_armor"
+				id: "5D0231C0DE562991"
+				type: "kill"
+				value: 1L
+			}]
+			x: 4.0d
+			y: 7.5d
+		}
+		{
+			icon: "threateningly_mobs:rock_snail_spawn_egg"
+			id: "468F011F0A90A710"
+			tasks: [{
+				entity: "threateningly_mobs:rock_snail"
+				id: "5AD82CD6D6EB34E1"
+				type: "kill"
+				value: 1L
+			}]
+			x: 5.5d
+			y: 7.5d
+		}
+		{
+			icon: "threateningly_mobs:earth_loong_spawn_egg"
+			id: "56904EDCDC1FD9A9"
+			tasks: [{
+				entity: "threateningly_mobs:earth_loong"
+				id: "3C4DE011D58A518F"
+				type: "kill"
+				value: 1L
+			}]
+			x: -0.5d
+			y: 9.0d
+		}
+		{
+			icon: "threateningly_mobs:titan_rabbit_spawn_egg"
+			id: "2D4AF33B4DEC329E"
+			tasks: [{
+				entity: "threateningly_mobs:titan_rabbit"
+				id: "21C88D1C36D4762C"
+				type: "kill"
+				value: 1L
+			}]
+			x: 1.0d
+			y: 9.0d
+		}
+		{
+			icon: "threateningly_mobs:armor_of_desert_spawn_egg"
+			id: "6AC5080979D715E3"
+			tasks: [{
+				entity: "threateningly_mobs:armor_of_desert"
+				id: "4868B0A7E6492EDE"
+				type: "kill"
+				value: 1L
+			}]
+			x: 2.5d
+			y: 9.0d
+		}
+		{
+			icon: "threateningly_mobs:lich_spawn_egg"
+			id: "3CA469F0601AE606"
+			tasks: [{
+				entity: "threateningly_mobs:lich"
+				id: "75F7775D1C8218A7"
+				type: "kill"
+				value: 1L
+			}]
+			x: 4.0d
+			y: 9.0d
+		}
+		{
+			icon: "threateningly_mobs:beast_horseshoe_crab_spawn_egg"
+			id: "46880D4DF094086F"
+			tasks: [{
+				entity: "threateningly_mobs:beast_horseshoe_crab"
+				id: "562AA475BB90538E"
+				type: "kill"
+				value: 1L
+			}]
+			x: 5.5d
+			y: 9.0d
+		}
+		{
+			icon: "threateningly_mobs:moon_priest_spawn_egg"
+			id: "2D7C6C9C994FC194"
+			tasks: [{
+				entity: "threateningly_mobs:moon_priest"
+				id: "1970362391A302FA"
+				type: "kill"
+				value: 1L
+			}]
+			x: -0.5d
+			y: 10.5d
+		}
+		{
+			icon: "threateningly_mobs:inferno_spawn_egg"
+			id: "12374984AED8A2D2"
+			tasks: [{
+				entity: "threateningly_mobs:inferno"
+				id: "2F1EE4EC8258FA3D"
+				type: "kill"
+				value: 1L
+			}]
+			x: 1.0d
+			y: 10.5d
+		}
+		{
+			icon: "threateningly_mobs:solscarab_maximus_spawn_egg"
+			id: "5B9B6B12937451E0"
+			tasks: [{
+				entity: "threateningly_mobs:solscarab_maximus"
+				id: "51C2A105E65527EE"
+				type: "kill"
+				value: 1L
+			}]
+			x: 2.5d
+			y: 10.5d
+		}
+		{
+			icon: "threateningly_mobs:hydra_spawn_egg"
+			id: "2429CF1C5BC05F3D"
+			tasks: [{
+				entity: "threateningly_mobs:hydra"
+				id: "1ABED7841A6AADEE"
+				type: "kill"
+				value: 1L
+			}]
+			x: 4.0d
+			y: 10.5d
+		}
+		{
+			icon: "threateningly_mobs:regalhart_spawn_egg"
+			id: "7B89A0EA25973E49"
+			tasks: [{
+				entity: "threateningly_mobs:regalhart"
+				id: "62D0F13E8265D79D"
+				type: "kill"
+				value: 1L
+			}]
+			x: 5.5d
+			y: 10.5d
+		}
+		{
+			icon: "threateningly_mobs:steelboar_spawn_egg"
+			id: "401A3D3971C7BAF4"
+			tasks: [{
+				entity: "threateningly_mobs:steelboar"
+				id: "3E512FB77609E907"
+				type: "kill"
+				value: 1L
+			}]
+			x: -0.5d
+			y: 12.0d
+		}
+		{
+			id: "6E96D5C23591412D"
+			tasks: [{
+				entity: "threateningly_mobs:basalt_wyvern"
+				icon: "threateningly_mobs:basalt_wyvern_spawn_egg"
+				id: "155FA8F5910F769E"
+				type: "kill"
+				value: 1L
+			}]
+			x: 1.0d
+			y: 12.0d
+		}
+		{
+			id: "15D84307754B2D9C"
+			tasks: [{
+				entity: "threateningly_mobs:saint"
+				icon: "threateningly_mobs:saint_spawn_egg"
+				id: "5C42678E628C6C07"
+				type: "kill"
+				value: 1L
+			}]
+			x: 2.5d
+			y: 12.0d
+		}
+		{
+			id: "0ED8CC9906F62656"
+			tasks: [{
+				entity: "threateningly_mobs:terra_dragon"
+				icon: "threateningly_mobs:terra_dragon_spawn_egg"
+				id: "033ABB44D7BEEE7C"
+				type: "kill"
+				value: 1L
+			}]
+			x: 4.0d
+			y: 12.0d
+		}
+		{
+			id: "4BB97FED4124CC0F"
+			tasks: [{
+				entity: "threateningly_mobs:ferox_death_worm"
+				icon: "threateningly_mobs:ferox_death_worm_spawn_egg"
+				id: "5F3AB4ACDE1683FA"
+				type: "kill"
+				value: 1L
+			}]
+			x: 5.5d
+			y: 12.0d
+		}
+		{
+			id: "55FAC0D8FAB9F2BD"
+			tasks: [{
+				entity: "threateningly_mobs:ferox_ice_worm"
+				icon: "threateningly_mobs:ferox_ice_worm_spawn_egg"
+				id: "46B162F2610B1FA2"
+				type: "kill"
+				value: 1L
+			}]
+			x: -0.5d
+			y: 13.5d
+		}
+		{
+			id: "2FAD41A982FD3AD1"
+			tasks: [{
+				entity: "graveyard:lich"
+				icon: "graveyard:lich_spawn_egg"
+				id: "08617DA8CAAE1CEF"
+				type: "kill"
+				value: 1L
+			}]
+			x: 1.0d
+			y: 13.5d
+		}
+		{
+			id: "2BB3E1A35CF1A6FC"
+			tasks: [{
+				entity: "illageandspillage:absorber"
+				icon: "illageandspillage:absorber_spawn_egg"
+				id: "773DF7D8EB83BA37"
+				type: "kill"
+				value: 1L
+			}]
+			x: 2.5d
+			y: 13.5d
+		}
+		{
+			id: "5750D7121CA8BEDE"
+			tasks: [{
+				entity: "illageandspillage:spiritcaller"
+				icon: "illageandspillage:spiritcaller_spawn_egg"
+				id: "09081F4CDFFAF841"
+				type: "kill"
+				value: 1L
+			}]
+			x: 4.0d
+			y: 13.5d
+		}
+		{
+			id: "5B2624A28763E7E3"
+			tasks: [{
+				entity: "illageandspillage:freakager"
+				icon: "illageandspillage:freakager_spawn_egg"
+				id: "3EF5360D2D5C876B"
+				type: "kill"
+				value: 1L
+			}]
+			x: 5.5d
+			y: 13.5d
+		}
+	]
+	title: "vol5.1"
+}

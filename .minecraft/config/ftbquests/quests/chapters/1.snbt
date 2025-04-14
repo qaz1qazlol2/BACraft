@@ -9,15 +9,12 @@
 	quest_links: [ ]
 	quests: [
 		{
-			description: [
-				"你在夏莱办公室偷偷地玩Minecraft这款游戏的时候，看到自己玩了两年的极限生存存档被高压苦力怕炸死的那一刹那，眼前出现了闪光，然后你昏迷了过去。"
-				"当你醒来时发现自己在&a一处荒野&f，周围感觉非常的&6熟悉又陌生&f。你下意识地摸了摸自己的口袋，&6好在卡片还在自己的身边&f，但是你不经意间发现自己的&d手指上多了一颗戒指&f。你试图&c摘下它&f，但怎么也&c摘不掉。"
-				"你拿起一块泥土看了看，“这不是Minecraft当中的泥土吗？我穿越到Minecraft了？”你又惊喜又有些许伤感。“那我会不会再也见不到学生们了？”"
-				" "
-				"&6&l如果遇到不会合成的物品，请善用JEI的搜索功能查询"
-			]
+			dependency_requirement: "one_completed"
+			description: ["&f这次，你将在这个危机四伏世界展开探险。尽管如此， 奇迹仍然在你身上发生，你并不孤单，学生们的&9力量&f将会伴随着你。你也并非一无所有，至少你还有&9什停之匣&f，一个足以当做&9避风港&f的地方"]
 			icon: "minecraft:grass_block"
 			id: "65C8B0D68C47F76B"
+			min_required_dependencies: 100
+			progression_mode: "linear"
 			rewards: [
 				{
 					auto: "no_toast"
@@ -46,1544 +43,209 @@
 				}
 			]
 			size: 1.5d
-			subtitle: "我这是......来到游戏里了？"
+			subtitle: "在这里，也会有奇迹吗......"
 			tasks: [{
 				id: "7685401FFA81CA96"
 				title: "1"
 				type: "checkmark"
 			}]
-			title: "误入迷途"
+			title: "初入世界"
 			x: -12.0d
-			y: 0.0d
+			y: 3.0d
 		}
 		{
 			dependencies: ["65C8B0D68C47F76B"]
-			description: ["作为一个两年的极限生存玩家，你十分的清楚这款游戏的基本流程"]
-			id: "78B907BB9329FEF1"
+			dependency_requirement: "one_completed"
+			description: ["MC常规玩法第一步，要致富先撸树，试试做个工作台吧。"]
+			id: "0EDE290A45894DAA"
+			min_required_dependencies: 1
 			rewards: [
-				{
-					count: 4
-					id: "7DD53D3E343E2A4F"
-					item: "minecraft:oak_log"
-					type: "item"
-				}
-				{
-					count: 2
-					id: "41487D901DB9182D"
-					item: "minecraft:apple"
-					type: "item"
-				}
-			]
-			subtitle: "要致富，先撸树！"
-			tasks: [{
-				id: "7CB28555E0D46FC4"
-				item: "minecraft:crafting_table"
-				type: "item"
-			}]
-			x: -10.0d
-			y: 0.0d
-		}
-		{
-			dependencies: ["78B907BB9329FEF1"]
-			description: [
-				""
-				"“获得了足够的木头，那么接下来.......”"
-			]
-			id: "0AF406BDE165BB37"
-			rewards: [
-				{
-					count: 8
-					id: "2AD1DE09A9E8B3C6"
-					item: "minecraft:cobblestone"
-					type: "item"
-				}
-				{
-					count: 4
-					id: "374D331EC13D915A"
-					item: "minecraft:oak_log"
-					type: "item"
-				}
 				{
 					count: 16
-					id: "36EFAB966B8B2D76"
+					id: "00D6D22D84C87A20"
 					item: "minecraft:torch"
 					type: "item"
 				}
+				{
+					id: "5BBB2CCAC9976BAF"
+					item: "blue_archivescraft:will_go"
+					type: "item"
+				}
+				{
+					id: "773035469A0F3D2E"
+					item: "minecraft:jukebox"
+					type: "item"
+				}
 			]
-			subtitle: "石器时代！"
 			tasks: [{
-				count: 16L
-				id: "0E4154B65F3BF04C"
-				item: "minecraft:cobblestone"
+				id: "03EF23D64C1B4D27"
+				item: "minecraft:crafting_table"
 				type: "item"
 			}]
-			title: "获取石材"
-			x: -8.5d
-			y: 0.0d
-		}
-		{
-			dependencies: ["0F1821EDCACB07DA"]
-			description: [
-				"你来到了一处村庄，本以为村庄内会像以前那样非常的单调……看起来这些村民也住上了大房子，而这些房子甚至比你的房子还要好。而且这村庄内除了铁傀儡还出现了一些从未见过的武装村民，看起来他们并不欢迎你，见到你时都以示剑弩想要将你驱逐，铁傀儡也主动向你发起攻击……"
-				""
-			]
-			id: "4F4D5F25B5FBE134"
-			rewards: [
-				{
-					count: 4
-					id: "6CB91EAB7DDC9587"
-					item: "minecraft:emerald"
-					random_bonus: 4
-					type: "item"
-				}
-				{
-					id: "62738541FC177255"
-					type: "xp"
-					xp: 40
-				}
-			]
-			subtitle: "他们好像并不欢迎我"
-			tasks: [
-				{
-					entity: "guardvillagers:guard"
-					icon: {
-						Count: 1
-						id: "minecraft:crossbow"
-						tag: {
-							Damage: 0
-						}
-					}
-					id: "6CA226FB82CB77C4"
-					type: "kill"
-					value: 1L
-				}
-				{
-					entity: "minecraft:iron_golem"
-					icon: "minecraft:iron_golem_spawn_egg"
-					id: "2740216A6103529E"
-					type: "kill"
-					value: 1L
-				}
-			]
-			title: "异乡人"
-			x: -15.5d
-			y: 1.5d
-		}
-		{
-			dependencies: ["0AF406BDE165BB37"]
-			description: ["偶然的一次遭遇，你发现有些怪物身上散发着一些强者的气息，而且相比于一般的怪物他们更难被击杀"]
-			id: "7D46801DB95372E8"
-			rewards: [
-				{
-					count: 4
-					id: "1E261B1040FE4D02"
-					item: "minecraft:leather"
-					type: "item"
-				}
-				{
-					id: "6EC8AA681A302BED"
-					type: "xp"
-					xp: 100
-				}
-				{
-					count: 10
-					id: "4119C41FE7D14FEE"
-					item: "kubejs:gold_coin"
-					type: "item"
-				}
-			]
-			subtitle: "精英怪？"
-			tasks: [
-				{
-					entity: "minecraft:zombie"
-					id: "50927330913355AF"
-					type: "kill"
-					value: 1L
-				}
-				{
-					entity: "minecraft:creeper"
-					id: "5A7C98076B390008"
-					type: "kill"
-					value: 1L
-				}
-				{
-					entity: "minecraft:spider"
-					id: "2F39D5E96C9708AC"
-					type: "kill"
-					value: 1L
-				}
-				{
-					entity: "minecraft:skeleton"
-					id: "238D48340196614D"
-					type: "kill"
-					value: 1L
-				}
-			]
-			title: "劲敌"
+			title: "准备出发"
 			x: -12.0d
-			y: 1.5d
+			y: -7.5d
 		}
 		{
-			dependencies: ["4F4D5F25B5FBE134"]
-			dependency_requirement: "one_completed"
-			description: ["在你和警卫驱逐战中，那些“失手”被你杀死村民竟然掉出了绿宝石，而且数量也有两三个……"]
-			hide_details_until_startable: false
-			icon: "minecraft:emerald_block"
-			id: "12EC00708CE79ADC"
+			dependencies: ["0EDE290A45894DAA"]
+			description: ["&f地底有丰富的矿石，但昏暗的环境容易滋生怪物，考验你对学生力量运用的时候到了，展现你和学生之间的羁绊吧。"]
+			id: "36FC45A8943B92D9"
 			min_required_dependencies: 1
 			rewards: [{
-				count: 2
-				id: "40FE9C471F7308B4"
-				item: "minecraft:emerald"
-				random_bonus: 2
+				id: "30FEDC94C5E8CE22"
+				item: {
+					Count: 1
+					id: "minecraft:iron_pickaxe"
+					tag: {
+						Damage: 0
+					}
+				}
 				type: "item"
 			}]
-			subtitle: "我真不是故意的！！！"
 			tasks: [{
-				entity: "minecraft:villager"
-				id: "334FDBAA1DA57A26"
+				count: 3L
+				id: "6A7328E8F4DD10BB"
+				item: { Count: 3, id: "minecraft:raw_iron" }
+				type: "item"
+			}]
+			title: "选择挖矿"
+			x: -10.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["0EDE290A45894DAA"]
+			description: ["&f你选择了在这个危险的世界中冒险，这或许不是最好的选择，但是你依然下注。"]
+			id: "27AD6F0C3D6A23B9"
+			min_required_dependencies: 1
+			progression_mode: "linear"
+			rewards: [{
+				id: "071A533CC52A9CF5"
+				item: "confluence:feral_claws"
+				type: "item"
+			}]
+			tasks: [{
+				entity: "minecraft:zombie"
+				icon: "minecraft:zombie_head"
+				id: "21A8B47EA4ECFA2B"
+				type: "kill"
+				value: 5L
+			}]
+			title: "选择冒险"
+			x: -14.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["27AD6F0C3D6A23B9"]
+			description: ["后期制作弹药，火药是必不可少的物品，击杀苦力怕或许是个不错的来源"]
+			id: "61B387216B080C92"
+			min_required_dependencies: 1
+			progression_mode: "linear"
+			rewards: [{
+				count: 60
+				id: "484D2788605BD044"
+				item: "minecraft:gunpowder"
+				type: "item"
+			}]
+			tasks: [{
+				entity: "minecraft:creeper"
+				icon: "minecraft:creeper_head"
+				id: "0B452A9A615301CD"
+				title: "火药可是重要的东西"
 				type: "kill"
 				value: 10L
 			}]
-			title: "竭泽而渔"
-			x: -17.0d
-			y: 1.5d
+			x: -18.5d
+			y: -2.0d
 		}
 		{
-			dependencies: ["0AF406BDE165BB37"]
-			description: ["来硬的"]
-			icon: "minecraft:iron_ingot"
-			id: "6B96AB2856C49FF9"
-			rewards: [
-				{
-					auto: "enabled"
-					count: 8
-					id: "3D608611E68E2B95"
-					item: "minecraft:iron_ingot"
-					type: "item"
-				}
-				{
-					auto: "enabled"
-					count: 4
-					id: "451AA5477FA9ED69"
-					item: "minecraft:coal"
-					type: "item"
-				}
-			]
-			subtitle: "铁矿！"
-			tasks: [{
-				count: 8L
-				id: "2B18622D302CE3FF"
-				item: "minecraft:iron_ingot"
+			dependencies: ["61B387216B080C92"]
+			description: ["更大更强的苦力怕，也意味着更多的火药？还是说更大的风险？"]
+			id: "11E57D2EA121C3A5"
+			min_required_dependencies: 1
+			rewards: [{
+				count: 60
+				id: "5E6670C48283A11A"
+				item: "minecraft:gunpowder"
 				type: "item"
 			}]
-			title: "获取铁锭"
-			x: -8.5d
-			y: 1.5d
+			tasks: [{
+				entity: "mutantmonsters:mutant_creeper"
+				icon: "mutantmonsters:mutant_creeper_spawn_egg"
+				id: "1BAB117BBDC6A9C3"
+				title: "突变生物"
+				type: "kill"
+				value: 1L
+			}]
+			x: -18.5d
+			y: 2.5d
 		}
 		{
-			dependencies: ["6B96AB2856C49FF9"]
-			description: ["现在，可以制作一把钻石镐了！"]
-			id: "1A892124B7C0C85D"
+			dependencies: ["36FC45A8943B92D9"]
+			description: ["制作枪械用的枪械工作台，需要大量的铁锭，有枪之后才能发挥出学生力量最大的上限。"]
+			id: "4F92EAAE0273FF3B"
+			min_required_dependencies: 1
 			rewards: [
 				{
-					auto: "enabled"
-					count: 2
-					id: "168FBD02C122A1EB"
+					count: 4
+					id: "79D19B7CB8969700"
+					item: "minecraft:oak_log"
+					type: "item"
+				}
+				{
+					count: 3
+					id: "35BB53B2A7DC0D08"
 					item: "minecraft:diamond"
 					type: "item"
 				}
 				{
-					id: "07F461129D246A4C"
-					type: "xp"
-					xp: 30
-				}
-			]
-			subtitle: "长得好像...青辉石？"
-			tasks: [{
-				id: "75D3C0DA0133D2E2"
-				item: "minecraft:diamond"
-				type: "item"
-			}]
-			title: "钻石"
-			x: -8.5d
-			y: 3.0d
-		}
-		{
-			dependencies: ["65C8B0D68C47F76B"]
-			dependency_requirement: "one_started"
-			description: [
-				"&c（仅限未开启死亡不掉落）&f每当你死亡的时候，它会在你死亡的地方生成容器保管你的物品，在你取回物品之前不会消失。"
-				""
-				""
-				""
-			]
-			icon: "enigmaticlegacy:unwitnessed_amulet"
-			id: "0F03FA32CF99F263"
-			rewards: [{
-				count: 4
-				id: "61E56FB9F4DC7DB0"
-				item: "minecraft:apple"
-				type: "item"
-			}]
-			subtitle: "按住shift查看详细信息"
-			tasks: [{
-				id: "347D089DEC406FB0"
-				title: "确认"
-				type: "checkmark"
-			}]
-			title: "超维容器"
-			x: -14.0d
-			y: -1.5d
-		}
-		{
-			dependencies: ["65C8B0D68C47F76B"]
-			description: [
-				"你看了看手中的卡片，思考了一会，“既然我无法再见到她们，那我为什么不试着成为她们呢？”"
-				"你使用卡片，脑海中学生们的身影浮现了出来，伴随着九蓝一金的小曲，你变成了……"
-				"身体看上去没有任何变化，但是有一种非常亲切的力量涌入自己的体内，你获得了学生的能力，同时你的卡片的力量也因此暂时失效了"
-			]
-			id: "561A0CDEA6D8AED9"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "40056832C73B2727"
-				table_id: 7362344811821590953L
-				type: "random"
-			}]
-			subtitle: "大人的力量！"
-			tasks: [{
-				consume_items: true
-				id: "03F26114763A10A8"
-				item: "blue_archivescraft:card"
-				type: "item"
-			}]
-			title: "卡片的力量"
-			x: -12.0d
-			y: -1.5d
-		}
-		{
-			dependencies: ["65C8B0D68C47F76B"]
-			description: [
-				"佩戴七咒之戒，你将要承受戒指的考验并只能通过&c&l特定方法摘除"
-				"关于和其模组在一起的神秘遗物，请移步神秘遗物进度"
-				"  "
-				"&l随着游戏步入中后期，会出现只有&6佩戴此戒指&f才允许使用的&6强力饰品&f；且需要您在&6游戏开局就佩戴了此戒指&f，否则将会&c无法使用。"
-				""
-				"&a&l佩戴戒指将承受的考验："
-				"1.自身受到的&c&l伤害增加"
-				"2.对怪物造成的&c&l伤害降低"
-				"3.盔甲&c&l防护能力削弱"
-				"4.中立生物会&c&l主动攻击你"
-				"5.火焰将会&c&l永远灼烧你"
-				"6.死亡会使自身&c&l生命上限降低"
-				"7.你将无法再&c&l睡梦中度过黑夜"
-			]
-			icon: "enigmaticlegacy:cursed_ring"
-			id: "0F1821EDCACB07DA"
-			rewards: [
-				{
-					count: 4
-					id: "3BB75EBF577D735A"
-					item: "minecraft:apple"
+					id: "4DD33B3293EAF109"
+					item: "artifacts:digging_claws"
 					type: "item"
 				}
-				{
-					id: "2FF1492652D95921"
-					type: "xp"
-					xp: 10
-				}
 			]
-			subtitle: "更多详细信息请在戒指身上摁住shift查看"
 			tasks: [{
-				id: "4616C1C68635C930"
-				title: "确定"
-				type: "checkmark"
-			}]
-			title: "关于七咒之戒"
-			x: -14.0d
-			y: 0.0d
-		}
-		{
-			dependencies: ["6B96AB2856C49FF9"]
-			description: ["随着你不断地探索，身上的东西也越来越多。这时候你就需要一个背包来装更多的东西了！"]
-			id: "359B8E9E448DE889"
-			rewards: [{
-				count: 2
-				id: "331FE82485A7E51D"
-				item: "sophisticatedbackpacks:upgrade_base"
+				count: 3L
+				id: "3970162E592ACDAD"
+				item: { Count: 3, id: "minecraft:iron_block" }
 				type: "item"
 			}]
-			subtitle: "实用背包！"
-			tasks: [{
-				id: "16E1CEFAD3920572"
-				item: "sophisticatedbackpacks:backpack"
-				type: "item"
-			}]
-			x: -7.0d
-			y: 0.0d
-		}
-		{
-			dependencies: ["1A892124B7C0C85D"]
-			description: ["着手准备去新的维度探索了！"]
-			hide_dependency_lines: false
-			id: "53EBBDDD6E1A55B3"
-			rewards: [{
-				auto: "enabled"
-				id: "09AC0BFB05671D78"
-				item: "minecraft:diamond"
-				random_bonus: 5
-				type: "item"
-			}]
-			subtitle: "坚硬无比"
-			tasks: [{
-				count: 10L
-				id: "319AB89BBD489D99"
-				item: "minecraft:obsidian"
-				type: "item"
-			}]
-			title: "冰桶挑战"
-			x: -8.5d
-			y: 4.5d
-		}
-		{
-			description: [
-				"你在地下探索发现了一个看似有人来过的地方。"
-				"&6“似乎这里有其他人留下的东西？”"
-				" "
-				"正当你上前走时，旁边的宝箱突然张开大嘴向你冲了过来......"
-			]
-			id: "4893DCA839739ECA"
-			rewards: [
-				{
-					count: 4
-					id: "7628BE5196C868EB"
-					item: "minecraft:gold_ingot"
-					type: "item"
-				}
-				{
-					count: 4
-					id: "27BE487DFE9949F9"
-					item: "minecraft:iron_ingot"
-					type: "item"
-				}
-				{
-					id: "71392543432D0A2A"
-					type: "xp"
-					xp: 100
-				}
-			]
-			subtitle: "宝箱吃人事件"
-			tasks: [{
-				entity: "artifacts:mimic"
-				icon: "artifacts:mimic_spawn_egg"
-				id: "50C3970A6AF7C4BA"
-				type: "kill"
-				value: 1L
-			}]
-			title: "宝箱...会动！？"
+			title: "枪械工作台"
 			x: -5.5d
-			y: 0.0d
-		}
-		{
-			dependencies: ["359B8E9E448DE889"]
-			description: [
-				"初始背包容量非常小，如需拓展背包容量，请依次按&6铁→金→钻石→下界合金&f的顺序升级背包"
-				"随着背包等级提升，左上方可以装备的升级也会变多。"
-				""
-				"PS:如果不知道如何合成对应升级请善用JEI查询"
-				" "
-				"&9&o地牢的箱子可以开出背包，自然生成的怪物也有几率携带背包，击杀即可获得它们身上的背包"
-			]
-			id: "4A579F1C35233233"
-			rewards: [
-				{
-					id: "415578702AAB6E18"
-					type: "xp"
-					xp: 10
-				}
-				{
-					id: "613FD0B732EEE8F2"
-					item: "sophisticatedbackpacks:crafting_upgrade"
-					type: "item"
-				}
-			]
-			subtitle: "小小背包，有大妙用"
-			tasks: [{
-				id: "648D7BD56AFC1F42"
-				title: "关于背包"
-				type: "checkmark"
-			}]
-			x: -7.0d
-			y: -1.5d
-		}
-		{
-			dependencies: ["359B8E9E448DE889"]
-			description: ["它可以让你背包容纳更多同种物品，且一个背包最多装备三个堆叠升级。这里推荐升级到T2是最具有性价比的"]
-			hide_dependency_lines: true
-			id: "333B21AFA7C61288"
-			rewards: [{
-				id: "6B52F888E30DE503"
-				type: "xp"
-				xp: 100
-			}]
-			subtitle: "堆叠升级"
-			tasks: [{
-				id: "097D5E2CF95E690A"
-				item: "sophisticatedbackpacks:stack_upgrade_tier_2"
-				type: "item"
-			}]
-			title: "实用升级推荐I"
-			x: -8.0d
-			y: -4.0d
-		}
-		{
-			dependencies: ["359B8E9E448DE889"]
-			description: ["不想回家慢慢烧矿？就由它来帮你吧，可以在你挖矿时候烧哦"]
-			hide_dependency_lines: true
-			id: "45B7F4ECDE800A73"
-			rewards: [{
-				id: "41F2F21EC0ED2B41"
-				type: "xp"
-				xp: 100
-			}]
-			subtitle: "高炉升级"
-			tasks: [{
-				id: "629064569AEE5069"
-				item: "sophisticatedbackpacks:auto_blasting_upgrade"
-				type: "item"
-			}]
-			title: "实用升级推荐III"
-			x: -6.0d
-			y: -4.0d
-		}
-		{
-			dependencies: ["359B8E9E448DE889"]
-			description: ["该升级可以自动吸取范围内掉落物，也可由自己指定是否吸取该掉落物。通常与虚空升级搭配"]
-			hide_dependency_lines: true
-			id: "5E403801A8D4D4D3"
-			rewards: [{
-				id: "1B49F8F96E699640"
-				type: "xp"
-				xp: 100
-			}]
-			subtitle: "自动拾取"
-			tasks: [{
-				id: "0A206535089B539B"
-				item: "sophisticatedbackpacks:advanced_magnet_upgrade"
-				type: "item"
-			}]
-			title: "实用升级推荐II"
-			x: -7.0d
-			y: -4.0d
-		}
-		{
-			dependencies: ["359B8E9E448DE889"]
-			description: ["该升级由液泵升级进一步合成而来，搭配储罐升级可以储存多余的经验，在使用铁砧和附魔台等物品时调到对应等级性价比最高"]
-			hide_dependency_lines: true
-			id: "1651762CD37516C2"
-			rewards: [{
-				id: "59260F6B452492E6"
-				type: "xp"
-				xp: 100
-			}]
-			subtitle: "移动的经验储存库"
-			tasks: [
-				{
-					id: "484610522C624FF8"
-					item: "sophisticatedbackpacks:xp_pump_upgrade"
-					type: "item"
-				}
-				{
-					id: "5364AA3D5CA401A7"
-					item: "sophisticatedbackpacks:tank_upgrade"
-					type: "item"
-				}
-			]
-			title: "实用升级推荐IV"
-			x: -7.0d
-			y: -3.0d
-		}
-		{
-			dependencies: ["53EBBDDD6E1A55B3"]
-			description: ["做好了十足的准备，新的旅程即将开始"]
-			icon: "minecraft:netherrack"
-			id: "46FC02A561266B97"
-			rewards: [{
-				auto: "enabled"
-				id: "620C1B3BDED2A1AF"
-				item: {
-					Count: 1
-					id: "minecraft:potion"
-					tag: {
-						Potion: "minecraft:long_fire_resistance"
-					}
-				}
-				type: "item"
-			}]
-			subtitle: "我们需要在深入些"
-			tasks: [{
-				dimension: "minecraft:the_nether"
-				id: "5916758A3A5767A8"
-				title: "前往地狱"
-				type: "dimension"
-			}]
-			title: "异世界传送门"
-			x: -7.0d
-			y: 4.5d
-		}
-		{
-			dependencies: ["1A892124B7C0C85D"]
-			dependency_requirement: "one_completed"
-			description: ["探索了足够多的地牢/收集到足够多的钻石后，是时候抛弃身上的老古董铁套了。"]
-			icon: {
-				Count: 1
-				id: "minecraft:diamond_chestplate"
-				tag: {
-					Damage: 0
-				}
-			}
-			id: "563E9BFD5FA83232"
-			rewards: [{
-				id: "4414841EB31869C4"
-				item: "minecraft:totem_of_undying"
-				type: "item"
-			}]
-			subtitle: "钻石护体"
-			tasks: [
-				{
-					id: "013B7EDFAF0BA273"
-					item: {
-						Count: 1
-						id: "minecraft:diamond_helmet"
-						tag: {
-							Damage: 0
-						}
-					}
-					type: "item"
-					weak_nbt_match: true
-				}
-				{
-					id: "6EF16939364A4188"
-					item: {
-						Count: 1
-						id: "minecraft:diamond_chestplate"
-						tag: {
-							Damage: 0
-						}
-					}
-					type: "item"
-					weak_nbt_match: true
-				}
-				{
-					id: "1258E49300109AAB"
-					item: {
-						Count: 1
-						id: "minecraft:diamond_leggings"
-						tag: {
-							Damage: 0
-						}
-					}
-					type: "item"
-					weak_nbt_match: true
-				}
-				{
-					id: "12E9EB8A83AF41A4"
-					item: {
-						Count: 1
-						id: "minecraft:diamond_boots"
-						tag: {
-							Damage: 0
-						}
-					}
-					type: "item"
-					weak_nbt_match: true
-				}
-			]
-			title: "青辉石盔甲"
-			x: -7.0d
-			y: 1.5d
-		}
-		{
-			dependencies: ["675417F29FEBB367"]
-			id: "283D8C65E0DBE08E"
-			rewards: [{
-				id: "543E49299D7033F1"
-				item: "minecraft:diamond"
-				type: "item"
-			}]
-			tasks: [{
-				id: "6307263B10415E8C"
-				item: "artifacts:obsidian_skull"
-				type: "item"
-			}]
-			x: -2.0d
-			y: -5.0d
-		}
-		{
-			dependencies: ["675417F29FEBB367"]
-			id: "7FC65F93F9E7785D"
-			rewards: [{
-				id: "690C24A8BDDBAC9D"
-				item: "minecraft:emerald"
-				type: "item"
-			}]
-			tasks: [{
-				id: "18DFCC71DCE1A75C"
-				item: "artifacts:steadfast_spikes"
-				type: "item"
-			}]
-			x: -4.0d
-			y: -3.0d
-		}
-		{
-			dependencies: ["675417F29FEBB367"]
-			dependency_requirement: "one_completed"
-			id: "2F964B697CBD8DC5"
-			rewards: [{
-				count: 2
-				id: "767D41585977C8F5"
-				item: "minecraft:gold_ingot"
-				random_bonus: 2
-				type: "item"
-			}]
-			tasks: [{
-				id: "1FED1F66C167AC73"
-				item: "artifacts:superstitious_hat"
-				type: "item"
-			}]
-			x: -4.0d
-			y: -1.0d
-		}
-		{
-			dependencies: ["675417F29FEBB367"]
-			id: "4D59260B2462C331"
-			rewards: [{
-				id: "5A2D1667B4FFF034"
-				item: "minecraft:emerald"
-				type: "item"
-			}]
-			tasks: [{
-				id: "44EE2B9370C6D4DB"
-				item: "artifacts:thorn_pendant"
-				type: "item"
-			}]
-			x: -3.0d
 			y: -2.0d
 		}
 		{
-			dependencies: ["675417F29FEBB367"]
-			hide_dependency_lines: true
-			id: "68E360A7CAE7D9E4"
+			dependencies: ["4F92EAAE0273FF3B"]
+			description: ["弹药盒与背包，解决你的爆仓问题。"]
+			id: "1F9A3E4CA8E336FA"
+			min_required_dependencies: 1
+			progression_mode: "linear"
 			rewards: [{
-				id: "0105CE0F85855A1D"
-				item: "minecraft:diamond"
+				id: "52C0FCA38A24F7A4"
+				item: "sophisticatedbackpacks:gold_backpack"
 				type: "item"
 			}]
 			tasks: [{
-				id: "627CE8352A4E9105"
-				item: "artifacts:crystal_heart"
-				type: "item"
-			}]
-			x: -4.0d
-			y: -5.0d
-		}
-		{
-			dependencies: ["675417F29FEBB367"]
-			id: "519AEE08DF5DB8C4"
-			rewards: [{
-				id: "1EC154399B4F4699"
-				item: "minecraft:emerald"
-				type: "item"
-			}]
-			tasks: [{
-				id: "5DC088E19C8A867B"
-				item: "artifacts:aqua_dashers"
-				type: "item"
-			}]
-			x: -3.0d
-			y: -3.0d
-		}
-		{
-			dependencies: ["675417F29FEBB367"]
-			dependency_requirement: "one_completed"
-			id: "0442D28EFA405DC8"
-			rewards: [{
-				count: 2
-				id: "762386C2140F8EF2"
-				item: "minecraft:gold_ingot"
-				random_bonus: 2
-				type: "item"
-			}]
-			tasks: [{
-				id: "0B187C99547CC68B"
-				item: "artifacts:lucky_scarf"
-				type: "item"
-			}]
-			x: -3.0d
-			y: 0.0d
-		}
-		{
-			dependencies: ["675417F29FEBB367"]
-			id: "01EB88E8D205A3FA"
-			rewards: [{
-				id: "103858F03C4CE2E2"
-				item: "minecraft:diamond"
-				type: "item"
-			}]
-			tasks: [{
-				id: "62C8A4797D558388"
-				item: "artifacts:vampiric_glove"
-				type: "item"
-			}]
-			x: -4.0d
-			y: -4.0d
-		}
-		{
-			dependencies: ["675417F29FEBB367"]
-			hide_dependency_lines: true
-			id: "4351D7D3FEFEB3DF"
-			rewards: [{
-				id: "6670F1F4BEFDC494"
-				item: "minecraft:diamond"
-				type: "item"
-			}]
-			tasks: [{
-				id: "7596362AEF879E4E"
-				item: "artifacts:antidote_vessel"
-				type: "item"
-			}]
-			x: -3.0d
-			y: -5.0d
-		}
-		{
-			dependencies: ["675417F29FEBB367"]
-			id: "525AB46F78ED50E8"
-			rewards: [{
-				id: "408551DA58DB0313"
-				item: "minecraft:emerald"
-				type: "item"
-			}]
-			tasks: [{
-				id: "69CBB0F98FBEDD0C"
-				item: "artifacts:bunny_hoppers"
-				type: "item"
-			}]
-			x: -2.0d
-			y: -3.0d
-		}
-		{
-			dependencies: ["0F1821EDCACB07DA"]
-			description: ["我...还能驯服它吗？"]
-			id: "26865FBA5E5F8BB5"
-			rewards: [{
-				id: "22F3F502D306D7FF"
-				type: "xp"
-				xp: 30
-			}]
-			subtitle: "这并不永恒......"
-			tasks: [{
-				entity: "minecraft:wolf"
-				id: "1D1EE9D99F109191"
-				type: "kill"
-				value: 1L
-			}]
-			title: "永恒的伙伴？"
-			x: -15.5d
-			y: 0.0d
-		}
-		{
-			dependencies: ["7D46801DB95372E8"]
-			id: "75134A35054D0558"
-			rewards: [{
-				count: 40
-				id: "38A117082945B92F"
-				item: "kubejs:gold_coin"
-				type: "item"
-			}]
-			subtitle: "它会复活？"
-			tasks: [{
-				entity: "mutantmonsters:mutant_zombie"
-				icon: "mutantmonsters:mutant_zombie_spawn_egg"
-				id: "6F77E1DFAE4F9E18"
-				type: "kill"
-				value: 1L
-			}]
-			title: "绿色铁傀儡"
-			x: -10.0d
-			y: 3.0d
-		}
-		{
-			dependencies: ["7D46801DB95372E8"]
-			id: "3DD4FF17D834769B"
-			rewards: [{
-				count: 40
-				id: "072BDAB82D9BA0ED"
-				item: "kubejs:gold_coin"
-				type: "item"
-			}]
-			subtitle: "百发百中"
-			tasks: [{
-				entity: "mutantmonsters:mutant_skeleton"
-				icon: "mutantmonsters:mutant_skeleton_spawn_egg"
-				id: "3885A37D3DC730AB"
-				type: "kill"
-				value: 1L
-			}]
-			title: "前期之友"
-			x: -11.0d
-			y: 3.0d
-		}
-		{
-			dependencies: ["7D46801DB95372E8"]
-			id: "4C0AE1E218FC5D45"
-			rewards: [{
-				count: 40
-				id: "51ED576EE7A08138"
-				item: "kubejs:gold_coin"
-				type: "item"
-			}]
-			subtitle: "BOOM"
-			tasks: [{
-				entity: "mutantmonsters:mutant_creeper"
-				icon: "mutantmonsters:creeper_minion_spawn_egg"
-				id: "11A68EB208CE68E4"
-				type: "kill"
-				value: 1L
-			}]
-			title: "苦力怕坐飞机"
-			x: -12.0d
-			y: 3.0d
-		}
-		{
-			dependencies: ["7D46801DB95372E8"]
-			hide_text_until_complete: false
-			id: "4F1F51A6B59852F6"
-			rewards: [{
-				count: 40
-				id: "4717FFB4FFD6905A"
-				item: "kubejs:gold_coin"
-				type: "item"
-			}]
-			subtitle: "快跑"
-			tasks: [{
-				entity: "mutantmonsters:mutant_enderman"
-				icon: "mutantmonsters:mutant_enderman_spawn_egg"
-				id: "2CB448EE05BE4160"
-				type: "kill"
-				value: 1L
-			}]
-			title: "黑手"
-			x: -13.0d
-			y: 3.0d
-		}
-		{
-			dependencies: ["7D46801DB95372E8"]
-			dependency_requirement: "one_completed"
-			description: ["使用突变怪物的专属掉落物作为材料对浓稠的药水进行酿造即可获得"]
-			id: "5833652DC1C8A7EC"
-			min_required_dependencies: 2
-			subtitle: "突变药水"
-			tasks: [{
-				id: "599DAB4D2EB6CE8F"
+				id: "056BDA472D1C4F0A"
 				item: {
 					Count: 1
-					id: "minecraft:splash_potion"
+					id: "tacz:ammo_box"
 					tag: {
-						Potion: "mutantmonsters:chemical_x"
+						Level: 2
 					}
 				}
 				type: "item"
 			}]
-			title: "“耗子药”"
-			x: -14.0d
-			y: 3.0d
-		}
-		{
-			dependencies: ["5833652DC1C8A7EC"]
-			description: ["真有人会把药水交给……？"]
-			id: "3BF8E03198FBD8E5"
-			rewards: [{
-				id: "58D1ABE0E06CFB97"
-				type: "xp"
-				xp: 100
-			}]
-			subtitle: "这也行？"
-			tasks: [{
-				icon: "mutantmonsters:mutant_snow_golem_spawn_egg"
-				id: "606EB78355E43F5F"
-				observe_type: 0
-				timer: 0L
-				title: "看看突变雪傀儡"
-				to_observe: "mutantmonsters:mutant_snow_golem"
-				type: "observation"
-			}]
-			title: "永恒的......伙伴？"
-			x: -14.0d
-			y: 4.5d
-		}
-		{
-			dependencies: ["7D46801DB95372E8"]
-			description: [
-				"在佩戴&c七咒之戒&f的情况下，如果没有强力的&6附魔、枪械或强力学生BUFF&f时，想要击杀突变骷髅和突变末影人是非常困难的。"
-				" "
-				"&a突变僵尸&f可以&a搭四格&f按铁傀儡的方法击杀"
-				"&a突变苦力怕&f可以选择使用&a远程武器打击"
-			]
-			id: "137B4C9037E511A6"
-			rewards: [
-				{
-					id: "20BD25FE224C247C"
-					item: {
-						Count: 1
-						id: "minecraft:enchanted_book"
-						tag: {
-							StoredEnchantments: [{
-								id: "minecraft:protection"
-								lvl: 4s
-							}]
-						}
-					}
-					type: "item"
-				}
-				{
-					id: "5B3DC9BFDF717EF4"
-					type: "xp"
-					xp: 25
-				}
-			]
-			subtitle: "温馨提示"
-			tasks: [{
-				id: "67569050288B68C9"
-				title: "我知道了"
-				type: "checkmark"
-			}]
-			title: "注意事项"
-			x: -15.5d
-			y: 3.0d
-		}
-		{
-			dependencies: ["4893DCA839739ECA"]
-			description: ["该模组提供了大量饰品供玩家搭配，其主要获得方法为&c击杀宝箱怪&f，地牢或者世界的&6宝藏箱&f里也可以开到这些饰品哦"]
-			id: "3FB4ACCFE5041EB4"
-			rewards: [{
-				id: "5BFDC423BAA69DC8"
-				type: "xp"
-				xp: 100
-			}]
-			subtitle: "更多饰品搭配！"
-			tasks: [{
-				id: "675417F29FEBB367"
-				title: "了解了"
-				type: "checkmark"
-			}]
-			title: "提示"
+			title: "身上不够装？"
 			x: -5.5d
-			y: -1.5d
+			y: 2.5d
 		}
 		{
-			dependencies: ["675417F29FEBB367"]
-			id: "4B67BF3B75A8C153"
+			dependencies: ["5378C251FC1C1D6F"]
+			description: ["看着不像是善茬，或许王小桃会对它说一个N开头的单词？"]
+			id: "267E32C5F250D817"
+			min_required_dependencies: 1
 			rewards: [{
-				count: 2
-				id: "4667FCD9F56DDBA1"
-				item: "minecraft:gold_ingot"
-				random_bonus: 2
-				type: "item"
-			}]
-			tasks: [{
-				id: "764556EE4EB90E5D"
-				item: "artifacts:umbrella"
-				type: "item"
-			}]
-			x: -1.0d
-			y: 0.0d
-		}
-		{
-			dependencies: ["675417F29FEBB367"]
-			id: "26FD9E29EC50CF45"
-			rewards: [{
-				id: "71F423B359F56FAC"
-				item: "minecraft:emerald"
-				type: "item"
-			}]
-			tasks: [{
-				id: "65477F0EFF066BD8"
-				item: "artifacts:cross_necklace"
-				type: "item"
-			}]
-			x: -2.0d
-			y: -2.0d
-		}
-		{
-			dependencies: ["675417F29FEBB367"]
-			id: "402D6EA9DEBCE5AA"
-			rewards: [{
-				id: "27BC5EC3D6CB7704"
-				item: "minecraft:diamond"
-				type: "item"
-			}]
-			tasks: [{
-				id: "7532E21D4BC9DC90"
-				item: "artifacts:digging_claws"
-				type: "item"
-			}]
-			x: -1.0d
-			y: -4.0d
-		}
-		{
-			dependencies: ["675417F29FEBB367"]
-			id: "262107A024E53459"
-			rewards: [{
-				id: "376A6A643FDD3F41"
-				item: "minecraft:diamond"
-				type: "item"
-			}]
-			tasks: [{
-				id: "1CDA5A7D41B3851A"
-				item: "artifacts:feral_claws"
-				type: "item"
-			}]
-			x: 0.0d
-			y: -4.0d
-		}
-		{
-			dependencies: ["675417F29FEBB367"]
-			id: "4065282D3FF0866F"
-			rewards: [{
-				id: "226FCC250A1968F8"
-				item: "minecraft:diamond"
-				type: "item"
-			}]
-			tasks: [{
-				id: "1AA32AAE9F29BA4A"
-				item: "artifacts:fire_gauntlet"
-				type: "item"
-			}]
-			x: -3.0d
-			y: -4.0d
-		}
-		{
-			dependencies: ["675417F29FEBB367"]
-			id: "0CFB796276BE6C1B"
-			rewards: [{
-				id: "5E10511C0BBACAC5"
-				item: "minecraft:diamond"
-				type: "item"
-			}]
-			tasks: [{
-				id: "58153FAC68C4FF0D"
-				item: "artifacts:power_glove"
-				type: "item"
-			}]
-			x: -2.0d
-			y: -4.0d
-		}
-		{
-			dependencies: ["675417F29FEBB367"]
-			id: "6719254DB20DDD0D"
-			rewards: [{
-				id: "4660F5E9AF72F6D7"
-				item: "minecraft:emerald"
-				type: "item"
-			}]
-			tasks: [{
-				id: "118A381B17DA09DB"
-				item: "artifacts:running_shoes"
-				type: "item"
-			}]
-			x: -1.0d
-			y: -3.0d
-		}
-		{
-			dependencies: ["675417F29FEBB367"]
-			id: "51FF2B825B432E90"
-			rewards: [{
-				id: "3F76B46C9451D7C9"
-				item: "minecraft:emerald"
-				type: "item"
-			}]
-			tasks: [{
-				id: "62AD4F1597DDFF26"
-				item: "artifacts:kitty_slippers"
-				type: "item"
-			}]
-			x: 0.0d
-			y: -3.0d
-		}
-		{
-			dependencies: ["675417F29FEBB367"]
-			id: "45DCA172F5495EE5"
-			rewards: [{
-				id: "681171BC9678FE63"
-				item: "minecraft:emerald"
-				type: "item"
-			}]
-			tasks: [{
-				id: "6FFBDDF7E68682CD"
-				item: "artifacts:panic_necklace"
-				type: "item"
-			}]
-			x: -4.0d
-			y: -2.0d
-		}
-		{
-			dependencies: ["675417F29FEBB367"]
-			id: "327148908DCA9F9D"
-			rewards: [{
-				id: "66C040589F5CA1B7"
-				item: "minecraft:emerald"
-				type: "item"
-			}]
-			tasks: [{
-				id: "3F2AB0CF08F9FF0D"
-				item: "artifacts:shock_pendant"
-				type: "item"
-			}]
-			x: -1.0d
-			y: -2.0d
-		}
-		{
-			dependencies: ["675417F29FEBB367"]
-			id: "7E787E8C67A34E31"
-			rewards: [{
-				id: "429EE33C418F7E2A"
-				item: "minecraft:emerald"
-				type: "item"
-			}]
-			tasks: [{
-				id: "17AF7E0B550AB9BF"
-				item: "artifacts:flame_pendant"
-				type: "item"
-			}]
-			x: 0.0d
-			y: -2.0d
-		}
-		{
-			dependencies: ["675417F29FEBB367"]
-			id: "049B0EDD726E6422"
-			rewards: [{
-				id: "3B85865EA1498570"
-				item: "minecraft:emerald"
-				type: "item"
-			}]
-			tasks: [{
-				id: "0C0F847F17C91C94"
-				item: "artifacts:charm_of_sinking"
-				type: "item"
-			}]
-			x: 1.0d
-			y: -2.0d
-		}
-		{
-			dependencies: ["675417F29FEBB367"]
-			id: "40CE570773AD8695"
-			rewards: [{
-				count: 2
-				id: "5912BF834E3DE3DC"
-				item: "minecraft:gold_ingot"
-				random_bonus: 2
-				type: "item"
-			}]
-			tasks: [{
-				id: "2D3898EFCE30812C"
-				item: "artifacts:scarf_of_invisibility"
-				type: "item"
-			}]
-			x: -2.0d
-			y: 0.0d
-		}
-		{
-			dependencies: ["675417F29FEBB367"]
-			id: "63CAD35A6CC2379D"
-			rewards: [{
-				id: "6D0E8A39B933D81B"
-				item: "minecraft:diamond"
-				type: "item"
-			}]
-			tasks: [{
-				id: "0175AFC73F7120C1"
-				item: "artifacts:universal_attractor"
-				type: "item"
-			}]
-			x: -1.0d
-			y: -5.0d
-		}
-		{
-			dependencies: ["675417F29FEBB367"]
-			id: "25530CB711573505"
-			rewards: [{
-				id: "63A9A54D20C67B5A"
-				item: "minecraft:emerald"
-				type: "item"
-			}]
-			tasks: [{
-				id: "5743C7E1D6F2E3B6"
-				item: "artifacts:flippers"
-				type: "item"
-			}]
-			x: 1.0d
-			y: -3.0d
-		}
-		{
-			dependencies: ["675417F29FEBB367"]
-			id: "5E014C7395DCDE0D"
-			rewards: [{
-				id: "798F7F2F16799D08"
-				item: "minecraft:diamond"
-				type: "item"
-			}]
-			tasks: [{
-				id: "1260C03BA973A82B"
-				item: "artifacts:golden_hook"
-				type: "item"
-			}]
-			x: 1.0d
-			y: -4.0d
-		}
-		{
-			dependencies: ["675417F29FEBB367"]
-			id: "645969A4CD29EF1E"
-			rewards: [{
-				count: 2
-				id: "7D746517ED35F09E"
-				item: "minecraft:gold_ingot"
-				random_bonus: 2
-				type: "item"
-			}]
-			tasks: [{
-				id: "2BE74B84C774F09A"
-				item: "artifacts:villager_hat"
-				type: "item"
-			}]
-			x: -3.0d
-			y: -1.0d
-		}
-		{
-			dependencies: ["675417F29FEBB367"]
-			id: "07B6958BB54E4F57"
-			rewards: [{
-				count: 2
-				id: "4F8B194A2AA93EF7"
-				item: "minecraft:gold_ingot"
-				random_bonus: 2
-				type: "item"
-			}]
-			tasks: [{
-				id: "0C404B057FF6E2FE"
-				item: "artifacts:plastic_drinking_hat"
-				type: "item"
-			}]
-			x: -2.0d
-			y: -1.0d
-		}
-		{
-			dependencies: ["675417F29FEBB367"]
-			id: "70B58D4E5B8E54F8"
-			rewards: [{
-				count: 2
-				id: "4BD6A579395FBCA1"
-				item: "minecraft:gold_ingot"
-				random_bonus: 2
-				type: "item"
-			}]
-			tasks: [{
-				id: "15A9E37CBDECF421"
-				item: "artifacts:novelty_drinking_hat"
-				type: "item"
-			}]
-			x: -1.0d
-			y: -1.0d
-		}
-		{
-			dependencies: ["675417F29FEBB367"]
-			id: "6A41A6888C8B303E"
-			rewards: [{
-				count: 2
-				id: "3A6CED51E49C2CFB"
-				item: "minecraft:gold_ingot"
-				random_bonus: 2
-				type: "item"
-			}]
-			tasks: [{
-				id: "25D92E8EB450AC70"
-				item: "artifacts:night_vision_goggles"
-				type: "item"
-			}]
-			x: 0.0d
-			y: -1.0d
-		}
-		{
-			dependencies: ["675417F29FEBB367"]
-			id: "219D61393308D022"
-			rewards: [{
-				count: 2
-				id: "519BC89BA35F0677"
-				item: "minecraft:gold_ingot"
-				random_bonus: 2
-				type: "item"
-			}]
-			tasks: [{
-				id: "1F5C2844B2940521"
-				item: "artifacts:snorkel"
-				type: "item"
-			}]
-			x: 1.0d
-			y: -1.0d
-		}
-		{
-			dependencies: ["675417F29FEBB367"]
-			id: "0E96CCFCBB2C987B"
-			rewards: [{
-				id: "246521BA8F658BBF"
-				item: "minecraft:diamond"
-				type: "item"
-			}]
-			tasks: [{
-				id: "351DB06EE0AF2A1D"
-				item: "artifacts:helium_flamingo"
-				type: "item"
-			}]
-			x: 0.0d
-			y: -5.0d
-		}
-		{
-			dependencies: ["675417F29FEBB367"]
-			id: "348D295D1917D403"
-			rewards: [{
-				count: 2
-				id: "4D69D9AC954C023D"
-				item: "minecraft:gold_ingot"
-				random_bonus: 2
-				type: "item"
-			}]
-			tasks: [{
-				id: "0840B9AF25139ED6"
-				item: "artifacts:pocket_piston"
-				type: "item"
-			}]
-			x: -4.0d
-			y: 0.0d
-		}
-		{
-			dependencies: ["675417F29FEBB367"]
-			id: "185386A4BA63EFEE"
-			rewards: [{
-				count: 2
-				id: "08646880ABF760CD"
-				item: "minecraft:gold_ingot"
-				random_bonus: 2
-				type: "item"
-			}]
-			tasks: [{
-				id: "5C8F6D8338291C54"
-				item: "artifacts:cloud_in_a_bottle"
-				type: "item"
-			}]
-			x: 0.0d
-			y: 0.0d
-		}
-		{
-			dependencies: ["675417F29FEBB367"]
-			id: "44B8EF574B518A0B"
-			rewards: [{
-				count: 2
-				id: "255A6C08766E9A79"
-				item: "minecraft:gold_ingot"
-				random_bonus: 2
-				type: "item"
-			}]
-			tasks: [{
-				id: "00411EFCF457070A"
-				item: "artifacts:whoopee_cushion"
-				type: "item"
-			}]
-			x: 1.0d
-			y: 0.0d
-		}
-		{
-			dependencies: ["675417F29FEBB367"]
-			dependency_requirement: "all_started"
-			id: "2A5CD6C2211E92FB"
-			rewards: [{
-				id: "3180534728821D22"
-				item: "minecraft:diamond"
-				type: "item"
-			}]
-			subtitle: "小心别被海鸥偷走了！"
-			tasks: [{
-				id: "4FF25D7A5D599BC5"
-				item: "artifacts:everlasting_beef"
-				type: "item"
-			}]
-			x: 1.0d
-			y: -5.0d
-		}
-		{
-			dependencies: ["75134A35054D0558"]
-			dependency_requirement: "one_completed"
-			hide_text_until_complete: false
-			id: "702296C6CCF42DD9"
-			tasks: [{
-				id: "2D1C2B9FC4B4F591"
-				item: {
-					Count: 1
-					id: "mutantmonsters:hulk_hammer"
-					tag: {
-						Damage: 0
-					}
-				}
-				type: "item"
-			}]
-			x: -10.0d
-			y: 4.5d
-		}
-		{
-			dependencies: ["3DD4FF17D834769B"]
-			dependency_requirement: "one_completed"
-			id: "22B9DCB17F171DA4"
-			tasks: [{
-				id: "2F9E0EBCA750A5ED"
-				item: {
-					Count: 1
-					id: "mutantmonsters:mutant_skeleton_skull"
-					tag: {
-						Damage: 0
-					}
-				}
-				type: "item"
-			}]
-			x: -11.0d
-			y: 4.5d
-		}
-		{
-			dependencies: ["4C0AE1E218FC5D45"]
-			dependency_requirement: "one_completed"
-			description: ["打碎苦力怕的蛋有概率获得"]
-			id: "32631BDEC71B1D90"
-			tasks: [{
-				id: "31CFA8261FABC4DA"
-				item: {
-					Count: 1
-					id: "mutantmonsters:creeper_shard"
-					tag: {
-						Damage: 0
-					}
-				}
-				type: "item"
-			}]
-			x: -12.0d
-			y: 4.5d
-		}
-		{
-			dependencies: ["4F1F51A6B59852F6"]
-			dependency_requirement: "one_completed"
-			description: [
-				"收集（右键）突变末影人死亡时周围的紫色实体，收集数量为四个以上时对他们丢一个末影之眼即可获得，若不满四个则每个可以为组合出来的末影之手提供1/4的耐久（即3个时，末影之手的耐久只有最大耐久的3/4）"
-				"建议尽早获取，这个物品具有超远距离传送（128格）的能力，无作弊之友"
-			]
-			id: "23FA528EC7B424CB"
-			tasks: [{
-				id: "6CA126200F699340"
+				id: "4EE2C1F0F1556B18"
 				item: {
 					Count: 1
 					id: "mutantmonsters:endersoul_hand"
@@ -1593,253 +255,354 @@
 				}
 				type: "item"
 			}]
-			x: -13.0d
-			y: 4.5d
-		}
-		{
-			dependencies: ["1A892124B7C0C85D"]
-			description: ["在地上挖一个&62X2的坑&b并倒入水&f，在坑的周边&c围上一圈&f虞美人（树叶也行），最后将一颗钻石投入其中......"]
-			id: "591E83BE8D918EA5"
-			rewards: [
-				{
-					id: "76B4678CA50D8A3A"
-					item: "minecraft:diamond"
-					type: "item"
-				}
-				{
-					id: "1160589601BF27FD"
-					type: "xp"
-					xp: 100
-				}
-			]
-			subtitle: "通往暮色森林的大门"
 			tasks: [{
-				advancement: "twilightforest:root"
-				criterion: ""
-				id: "332194B835A12B2E"
-				type: "advancement"
+				entity: "mutantmonsters:mutant_enderman"
+				icon: "mutantmonsters:mutant_enderman_spawn_egg"
+				id: "5B8044BC90F19B73"
+				title: "突变末影人"
+				type: "kill"
+				value: 1L
 			}]
-			title: "晴天霹雳"
-			x: -7.0d
+			x: -16.5d
 			y: 3.0d
 		}
 		{
-			dependencies: ["6B96AB2856C49FF9"]
-			description: ["制作枪械合成台来进一步制作厉害的枪械"]
-			id: "5978CF0D416A161C"
+			dependencies: ["5378C251FC1C1D6F"]
+			description: ["嘟嘟哒嘟嘟哒~"]
+			id: "74D9615867D30141"
+			min_required_dependencies: 1
 			rewards: [
 				{
-					count: 32
-					id: "0D1DFE015B1EB656"
-					item: "minecraft:gunpowder"
-					random_bonus: 16
-					type: "item"
-				}
-				{
-					count: 16
-					id: "3183B277D11174D2"
-					item: "minecraft:copper_ingot"
-					type: "item"
-				}
-			]
-			subtitle: "时代变了"
-			tasks: [{
-				id: "263DEEA17D6AC20E"
-				item: "tacz:gun_smith_table"
-				only_from_crafting: true
-				type: "item"
-			}]
-			x: -10.0d
-			y: 1.5d
-		}
-		{
-			dependencies: ["03F26114763A10A8"]
-			id: "69586F72F127E94D"
-			invisible_until_tasks: 1
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "09191C3509F9C004"
-				table_id: 1895124935609340293L
-				type: "loot"
-			}]
-			tasks: [
-				{
-					id: "350F8128B73859DE"
-					item: "blue_archivescraft:watch"
-					type: "item"
-				}
-				{
-					id: "5CA5F45ED412AD7F"
-					item: "blue_archivescraft:glove"
-					type: "item"
-				}
-				{
-					id: "0F3C9A7D17C597CC"
-					item: "blue_archivescraft:bracelet"
-					type: "item"
-				}
-				{
-					id: "14600AA214CB7D2C"
-					item: "blue_archivescraft:amulet"
-					type: "item"
-				}
-				{
-					id: "7846495AEDDE4B90"
-					item: "blue_archivescraft:boots"
-					type: "item"
-				}
-				{
-					id: "186C79D5CA67042A"
-					item: "blue_archivescraft:cap"
-					type: "item"
-				}
-			]
-			title: "熟悉的物品"
-			x: -12.0d
-			y: -2.5d
-		}
-		{
-			dependencies: ["69586F72F127E94D"]
-			dependency_requirement: "one_started"
-			description: [
-				"当你获得了两个相同的装备时，可以将他们在铁砧上合并来强化它们。"
-				""
-				"这些物品当前最多&c强化2次"
-			]
-			id: "619BECCDE4F79378"
-			rewards: [{
-				id: "66282A5852541A88"
-				type: "xp"
-				xp: 300
-			}]
-			tasks: [{
-				id: "75E6DBF3B17826A2"
-				item: "minecraft:anvil"
-				type: "item"
-			}]
-			title: "铁砧"
-			x: -12.0d
-			y: -3.5d
-		}
-		{
-			dependencies: ["46FC02A561266B97"]
-			dependency_requirement: "one_completed"
-			description: [
-				"遗物模组额外添加了&6多个可供成长的饰品&f，这些遗物可以再&6废弃矿井、沙漠神殿、村庄&f或&6其他遗迹&f中找到。右键把他们放在研究台上，&ashfit+鼠标右键&f即可打开遗物属性界面"
-				" "
-				"当然，想进一步提升这些饰品，就先做出一个研究台吧！"
-			]
-			id: "6273A976CC8041EF"
-			rewards: [
-				{
-					id: "58906AB4DEEE8DFF"
+					id: "24D77DE103D38007"
 					item: {
 						Count: 1
-						id: "relics:rage_glove"
+						id: "mutantmonsters:mutant_skeleton_skull"
 						tag: {
-							abilities: {
-								phlebotomy: {
-									points: 0
-									stats: {
-										attack_speed: 0.00675d
-										heal: 2.3E-4d
-										movement_speed: 0.02294d
-									}
-								}
-								rage: {
-									points: 0
-									stats: {
-										dealt_damage: 0.04653d
-										duration: 2.22606d
-										incoming_damage: 0.03743d
-									}
-								}
-								spurt: {
-									points: 0
-									stats: {
-										cooldown: 15.22739d
-										damage: 0.20846d
-										distance: 4.04501d
-									}
-								}
-							}
+							Damage: 0
 						}
 					}
 					type: "item"
 				}
 				{
-					id: "57E3C956F6D22BD9"
-					type: "xp"
-					xp: 100
+					id: "61DB6BC08293CCD4"
+					item: {
+						Count: 1
+						id: "mutantmonsters:mutant_skeleton_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
 				}
 				{
-					count: 10
-					id: "403CBE9CA8EBD02D"
-					item: "relics:relic_experience_bottle"
+					id: "460C509AD6B66683"
+					item: {
+						Count: 1
+						id: "mutantmonsters:mutant_skeleton_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "6E254EFF38948129"
+					item: {
+						Count: 1
+						id: "mutantmonsters:mutant_skeleton_boots"
+						tag: {
+							Damage: 0
+						}
+					}
 					type: "item"
 				}
 			]
-			subtitle: "还有更多饰品？"
 			tasks: [{
-				id: "27FF1D3EB87427EA"
-				item: "relics:researching_table"
-				only_from_crafting: true
+				entity: "mutantmonsters:mutant_skeleton"
+				icon: "mutantmonsters:mutant_skeleton_spawn_egg"
+				id: "42623867581292B2"
+				title: "突变骷髅"
+				type: "kill"
+				value: 1L
+			}]
+			x: -18.5d
+			y: 9.0d
+		}
+		{
+			dependencies: ["5378C251FC1C1D6F"]
+			description: ["这个家伙灵感应该来自于浩克，毕竟裤子质量太好了。"]
+			icon: "mutantmonsters:mutant_zombie_spawn_egg"
+			id: "63703C96459450A8"
+			min_required_dependencies: 1
+			progression_mode: "linear"
+			rewards: [{
+				count: 3
+				id: "77AB69F32CF46D28"
+				item: "minecraft:enchanted_golden_apple"
+				type: "item"
+			}]
+			tasks: [{
+				entity: "mutantmonsters:mutant_zombie"
+				id: "592D1263D8C29AA7"
+				title: "突变僵尸"
+				type: "kill"
+				value: 1L
+			}]
+			x: -16.0d
+			y: 6.5d
+		}
+		{
+			dependencies: ["11E57D2EA121C3A5"]
+			description: ["除了苦力怕，似乎还有其他的突变生物？"]
+			id: "5378C251FC1C1D6F"
+			min_required_dependencies: 1
+			progression_mode: "linear"
+			rewards: [{
+				id: "651FAEA8A8CFA0D9"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "546F9BDB0B99E033"
+				title: "更多突变生物？"
+				type: "checkmark"
+			}]
+			x: -18.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["1F9A3E4CA8E336FA"]
+			description: ["  有了足够的矿物，试试做个饰品提高存活率吧"]
+			id: "6D41ECAC4297DC6F"
+			min_required_dependencies: 1
+			progression_mode: "linear"
+			rewards: [{
+				id: "27B0ACBA47947CFE"
+				item: "blue_archivescraft:super_book"
+				type: "item"
+			}]
+			tasks: [{
+				id: "0000150AE97CCB16"
+				item: "potionring:ring_of_resistance"
 				type: "item"
 			}]
 			x: -5.5d
 			y: 4.5d
 		}
 		{
-			dependencies: [
-				"68E360A7CAE7D9E4"
-				"4351D7D3FEFEB3DF"
-				"283D8C65E0DBE08E"
-				"40CE570773AD8695"
-				"0442D28EFA405DC8"
-				"0CFB796276BE6C1B"
-				"4065282D3FF0866F"
-				"63CAD35A6CC2379D"
-				"525AB46F78ED50E8"
-				"51FF2B825B432E90"
-				"6719254DB20DDD0D"
-				"07B6958BB54E4F57"
-				"70B58D4E5B8E54F8"
-				"25530CB711573505"
-				"519AEE08DF5DB8C4"
-				"327148908DCA9F9D"
-				"4D59260B2462C331"
-				"26FD9E29EC50CF45"
-				"4B67BF3B75A8C153"
-				"2A5CD6C2211E92FB"
-				"0E96CCFCBB2C987B"
-				"5E014C7395DCDE0D"
-				"262107A024E53459"
-				"402D6EA9DEBCE5AA"
-				"7FC65F93F9E7785D"
-				"45DCA172F5495EE5"
-				"049B0EDD726E6422"
-				"7E787E8C67A34E31"
-				"2F964B697CBD8DC5"
-				"645969A4CD29EF1E"
-				"6A41A6888C8B303E"
-				"219D61393308D022"
-				"44B8EF574B518A0B"
-				"185386A4BA63EFEE"
-				"348D295D1917D403"
-				"01EB88E8D205A3FA"
-			]
-			description: ["挑战奖励请移步到&bExtra难度&f领取"]
-			hide_dependency_lines: true
-			id: "77972B4F5F47317C"
-			subtitle: "收集本模组所有饰品！"
-			tasks: [{
-				id: "50682F046D1DEF91"
-				title: "挑战：收集狂魔"
-				type: "checkmark"
+			dependencies: ["6D41ECAC4297DC6F"]
+			description: ["你已经是一名出色的矿工了，去试试挖掘其他的矿物吧。"]
+			id: "77C4DA4C4C21F9F0"
+			min_required_dependencies: 1
+			progression_mode: "linear"
+			rewards: [{
+				id: "5B69CD5E9C771D30"
+				item: {
+					Count: 1
+					id: "enigmaticlegacy:mining_charm"
+					tag: { }
+				}
+				type: "item"
 			}]
-			title: "挑战：考古大师"
+			tasks: [{
+				id: "3C76ADA15A7BFE29"
+				item: "minecraft:diamond_block"
+				type: "item"
+			}]
+			title: "卓越之镐"
 			x: -5.5d
-			y: -2.5d
+			y: 9.0d
+		}
+		{
+			dependencies: ["6D41ECAC4297DC6F"]
+			description: ["对于大部分都是物理伤害的前期怪物来说，这个术石的力量正好是你需要的。"]
+			id: "5204DBE487478359"
+			min_required_dependencies: 1
+			progression_mode: "linear"
+			rewards: [{
+				id: "21E7B57D50EA28B8"
+				item: {
+					Count: 1
+					id: "enigmaticlegacy:earth_heart"
+					tag: { }
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "30FFCE28D0CF82E5"
+				item: "enigmaticlegacy:golem_heart"
+				type: "item"
+			}]
+			x: -8.0d
+			y: 6.5d
+		}
+		{
+			dependencies: ["6D41ECAC4297DC6F"]
+			description: ["前期加血量上限最主要的手段，用它可以加强你变强的速度。"]
+			id: "31657689344C9CA6"
+			min_required_dependencies: 1
+			progression_mode: "linear"
+			rewards: [
+				{
+					count: 4
+					id: "02725C25D52F05BE"
+					item: "paraglider:spirit_orb"
+					type: "item"
+				}
+				{
+					id: "3B52009B93FA93BD"
+					item: "paraglider:goddess_statue"
+					type: "item"
+				}
+			]
+			tasks: [{
+				count: 16L
+				id: "24A28D1A3B2A3810"
+				item: { Count: 16, id: "paraglider:spirit_orb" }
+				type: "item"
+			}]
+			title: "血量上限提高了，学生们的力量正在逐渐强大，真是high到不行啊！！！"
+			x: -7.5d
+			y: 3.0d
+		}
+		{
+			dependencies: [
+				"65C8B0D68C47F76B"
+				"63703C96459450A8"
+				"267E32C5F250D817"
+				"74D9615867D30141"
+				"31657689344C9CA6"
+				"5204DBE487478359"
+				"77C4DA4C4C21F9F0"
+			]
+			dependency_requirement: "one_completed"
+			description: [
+				"是时候寻找在这个世界中的学生们了,决定了，就去阿拜多斯吧。"
+				"&9（PS：阿拜多斯不同于小空便利店和什停之匣，玩家可以在阿拜多斯放置和破坏方块）"
+			]
+			icon: "minecraft:sand"
+			id: "64A04EF7D8849365"
+			min_required_dependencies: 1
+			progression_mode: "linear"
+			rewards: [{
+				id: "6A08B3E5D5E6BABC"
+				item: "artifacts:panic_necklace"
+				type: "item"
+			}]
+			tasks: [{
+				biome: "minecraft:desert"
+				icon: "minecraft:sand"
+				id: "3DFE8EE19F3AE62B"
+				type: "biome"
+			}]
+			title: "寻找阿拜多斯"
+			x: -12.0d
+			y: 9.0d
+		}
+		{
+			dependencies: ["64A04EF7D8849365"]
+			description: ["在阿拜多斯定居之后就可以出去寻找一些地牢进行挑战了。"]
+			id: "51D407F890340D47"
+			min_required_dependencies: 1
+			progression_mode: "linear"
+			tasks: [{
+				count: 110L
+				id: "0493DA77997B653E"
+				item: { Count: 110, id: "blue_archivescraft:adult_card" }
+				type: "item"
+			}]
+			title: "有家了"
+			x: -12.0d
+			y: 12.0d
+		}
+		{
+			dependencies: ["51D407F890340D47"]
+			description: ["当你足够强大之后就可以去探索更多的东西了，在此之前先做好准备吧，比如先去上个厕所什么的。"]
+			id: "03046EA1CEFBAE32"
+			min_required_dependencies: 1
+			progression_mode: "linear"
+			rewards: [{
+				id: "2E62A41A61AFE9AC"
+				item: "bountifulbaubles:mossy_belt"
+				type: "item"
+			}]
+			tasks: [{
+				count: 32L
+				id: "1D58601C06A1EC7D"
+				item: { Count: 32, id: "minecraft:diamond" }
+				type: "item"
+			}]
+			title: "冒险继续"
+			x: -19.5d
+			y: 13.0d
+		}
+		{
+			dependencies: ["51D407F890340D47"]
+			description: ["地狱危机四伏，或许这个东西能帮上你。"]
+			id: "07938C2B7C5C2D9A"
+			min_required_dependencies: 1
+			rewards: [{
+				id: "5206205D21428110"
+				item: "confluence:obsidian_skull"
+				type: "item"
+			}]
+			tasks: [{
+				count: 32L
+				id: "18AE23449A3886C7"
+				item: { Count: 32, id: "minecraft:obsidian" }
+				type: "item"
+			}]
+			title: "新的世界"
+			x: -5.5d
+			y: 13.0d
+		}
+		{
+			dependencies: [
+				"03046EA1CEFBAE32"
+				"07938C2B7C5C2D9A"
+			]
+			description: ["海面上有不同的船只，或许海底也有丰厚的宝藏？"]
+			id: "659E3AE6CA0F7BAE"
+			min_required_dependencies: 1
+			tasks: [{
+				id: "341ED823E68CFA60"
+				item: "minecraft:oak_boat"
+				type: "item"
+			}]
+			title: "扬帆起航，当上海贼王！"
+			x: -12.0d
+			y: 15.0d
+		}
+		{
+			description: ["&6ゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴ"]
+			id: "6DD1C0DB1187EE0B"
+			rewards: [{
+				id: "2C11F820AA6A634B"
+				item: "terramity:ancient_stone_mask"
+				type: "item"
+			}]
+			tasks: [
+				{
+					count: 6L
+					id: "56397F4CADB8B031"
+					item: { Count: 6, id: "minecraft:cobblestone" }
+					type: "item"
+				}
+				{
+					id: "1FCF66F177CE41B8"
+					item: {
+						Count: 1
+						id: "aquaculture:iron_fillet_knife"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "我不当人了！！wryyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyy！！！！"
+			x: -12.0d
+			y: 18.5d
 		}
 	]
 	title: "&a1.1:新世界之旅"

@@ -253,6 +253,69 @@
 			x: 7.0d
 			y: -4.0d
 		}
+		{
+			description: ["&9整合包有概率从任何箱子里摸出创造弹药箱，所以看到箱子一定记得摸一下"]
+			id: "1730024E109DE34A"
+			rewards: [{
+				count: 30
+				id: "46F046E81C3C870B"
+				item: "blue_archivescraft:adult_card"
+				type: "item"
+			}]
+			tasks: [{
+				id: "597B142A18FFD8A7"
+				title: "什亭之匣相关提示"
+				type: "checkmark"
+			}]
+			title: "有关于战利品"
+			x: 7.0d
+			y: -2.5d
+		}
+		{
+			description: ["整合包引进了暴击机制，所有生物攻击时都有概率触发暴击，暴击后伤害倍率x2。玩家的初始暴击率为&415%&f而怪物则是&450%"]
+			id: "39887FE9C6E9F5BD"
+			rewards: [{
+				id: "57B9C436684B5715"
+				item: "terramity:xp_remedy_ring"
+				type: "item"
+			}]
+			tasks: [{
+				id: "28BF2D154256DEB4"
+				title: "暴击机制"
+				type: "checkmark"
+			}]
+			x: 7.0d
+			y: -1.0d
+		}
+		{
+			description: ["整合包提升自身最核心的地方在于&4生命值上限&f。玩家可以通过&9饰品，女神雕像，吃东西（玩家每吃5种不同的食物就能提升2点生命值上限）&f，等各个方面提高生命值上限，大部分学生的力量和生命值上限均挂钩，所以提升生命值上限是很重要的路线。"]
+			id: "317AF130217A7285"
+			size: 3.0d
+			tasks: [{
+				id: "23D0C181773B9D6E"
+				title: "核心路线"
+				type: "checkmark"
+			}]
+			x: -1.5d
+			y: -3.0d
+		}
+		{
+			description: ["任务书更多的是教玩家在各个维度和世界该如何更好的生存，对于探索和养老并无过多指引。"]
+			id: "4357ED56F7ADF968"
+			rewards: [{
+				id: "03F7F58E116B80B9"
+				item: "terramity:excavation_ring"
+				type: "item"
+			}]
+			size: 3.0d
+			tasks: [{
+				id: "23AED37ED66D2CBE"
+				title: "任务书声明"
+				type: "checkmark"
+			}]
+			x: 10.5d
+			y: -3.0d
+		}
 	]
 	title: "1.0:游玩前请看"
 }

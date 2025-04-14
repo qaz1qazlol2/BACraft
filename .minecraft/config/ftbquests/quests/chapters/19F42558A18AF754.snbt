@@ -42,7 +42,7 @@
 				type: "item"
 			}]
 			title: "装备类防护附魔"
-			x: 4.5d
+			x: 2.5d
 			y: -5.0d
 		}
 		{
@@ -325,26 +325,6 @@
 			title: "钓鱼佬专用"
 			x: 4.5d
 			y: -3.0d
-		}
-		{
-			can_repeat: true
-			icon: "blue_archivescraft:super_book"
-			id: "73065E01D4EE52EC"
-			rewards: [{
-				id: "01FB705D7A11533B"
-				item: "blue_archivescraft:super_book"
-				type: "item"
-			}]
-			tasks: [{
-				consume_items: true
-				count: 6L
-				id: "38C844D85E85F43F"
-				item: "kubejs:diamond_coin"
-				type: "item"
-			}]
-			title: "奥秘之书残片"
-			x: 2.5d
-			y: -5.0d
 		}
 		{
 			can_repeat: true

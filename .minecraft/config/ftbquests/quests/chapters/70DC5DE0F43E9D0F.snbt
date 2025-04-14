@@ -9,7 +9,6 @@
 	quest_links: [ ]
 	quests: [
 		{
-			dependencies: ["0F1821EDCACB07DA"]
 			description: ["当你佩戴上此戒指，将无法移除，七之古则带来了七大诅咒以及七大祝福"]
 			icon: "enigmaticlegacy:cursed_ring"
 			id: "79FD1303D1F7D053"
@@ -97,11 +96,7 @@
 			y: 1.5d
 		}
 		{
-			dependencies: [
-				"79B2BFF9FD1441E2"
-				"32C6FD82A6BD2F25"
-				"2A1987068933C9C2"
-			]
+			dependencies: ["79B2BFF9FD1441E2"]
 			description: ["地狱的产物使其显现出扭曲的力量"]
 			id: "2AF5C069463F5652"
 			rewards: [
@@ -485,7 +480,6 @@
 			y: -7.0d
 		}
 		{
-			dependencies: ["624817C22CD9AE9F"]
 			id: "50DD425A28DEBC63"
 			rewards: [{
 				id: "421490E3E3D1D767"
