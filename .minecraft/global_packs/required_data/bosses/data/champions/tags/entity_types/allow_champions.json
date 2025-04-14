@@ -82,9 +82,6 @@
     "threateningly_mobs:ferox_death_worm",
     "threateningly_mobs:ferox_ice_worm",
     "threateningly_mobs:saint",
-    "stalwart_dungeons:awful_ghast",
-    "stalwart_dungeons:nether_keeper",
-    "stalwart_dungeons:shelterer",
     "minecraft:warden",
     "terramity:gob",
     "terramity:super_sniffer",
@@ -103,6 +100,7 @@
     "born_in_chaos_v1:lord_pumpkinhead_head",
     "born_in_chaos_v1:felsteed",
     "born_in_chaos_v1:pumpkinhead",
-    "born_in_chaos_v1:sir_the_headless"
+    "born_in_chaos_v1:sir_the_headless",
+    "legendary_monsters:shulker_mimic"
   ]
 }

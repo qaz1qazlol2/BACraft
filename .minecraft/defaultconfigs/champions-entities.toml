@@ -895,3 +895,11 @@
     presetAffixes = []
     affixList = ["Shielding","Adaptable","Dampening"]
     affixPermission = "BLACKLIST"
+
+[[entities]]
+    entity = "legendary_monsters:shulker_mimic"
+    minTier = 3
+    maxTier = 3
+    presetAffixes = []
+    affixList = ["Shielding","Adaptable","Dampening"]
+    affixPermission = "BLACKLIST"
