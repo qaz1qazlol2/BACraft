@@ -5,6 +5,14 @@
 	group: "4DA08CD6EB0E472F"
 	icon: "twilightforest:twilight_portal_miniature_structure"
 	id: "581EF08A0E2F438F"
+	images: [{
+		height: 8.0d
+		image: "blue_archivescraft:textures/mob_effect/aris.png"
+		rotation: 0.0d
+		width: 8.0d
+		x: 19.0d
+		y: 3.0d
+	}]
 	order_index: 1
 	quest_links: [ ]
 	quests: [

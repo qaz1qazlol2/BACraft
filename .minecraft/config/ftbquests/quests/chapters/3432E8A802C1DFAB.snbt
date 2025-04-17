@@ -5,6 +5,14 @@
 	group: "3A341F8C3B4A5B73"
 	icon: "blue_archivescraft:adult_card"
 	id: "3432E8A802C1DFAB"
+	images: [{
+		height: 8.0d
+		image: "blue_archivescraft:textures/mob_effect/kayoko.png"
+		rotation: 0.0d
+		width: 8.0d
+		x: 6.5d
+		y: 0.0d
+	}]
 	order_index: 2
 	quest_links: [ ]
 	quests: [

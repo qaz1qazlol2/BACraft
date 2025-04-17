@@ -5,6 +5,24 @@
 	group: "349B3345B63646FF"
 	icon: "minecraft:grass_block"
 	id: "52A8087AF5020FF2"
+	images: [
+		{
+			height: 8.0d
+			image: "blue_archivescraft:textures/mob_effect/momoi.png"
+			rotation: 0.0d
+			width: 8.0d
+			x: 0.0d
+			y: 5.5d
+		}
+		{
+			height: 8.0d
+			image: "blue_archivescraft:textures/mob_effect/midori.png"
+			rotation: 0.0d
+			width: 8.0d
+			x: -24.5d
+			y: 5.5d
+		}
+	]
 	order_index: 1
 	quest_links: [ ]
 	quests: [
@@ -105,7 +123,7 @@
 			tasks: [{
 				count: 3L
 				id: "6A7328E8F4DD10BB"
-				item: { Count: 3, id: "minecraft:raw_iron" }
+				item: "minecraft:raw_iron"
 				type: "item"
 			}]
 			title: "选择挖矿"
@@ -206,7 +224,7 @@
 			tasks: [{
 				count: 3L
 				id: "3970162E592ACDAD"
-				item: { Count: 3, id: "minecraft:iron_block" }
+				item: "minecraft:iron_block"
 				type: "item"
 			}]
 			title: "枪械工作台"
@@ -458,7 +476,7 @@
 			tasks: [{
 				count: 16L
 				id: "24A28D1A3B2A3810"
-				item: { Count: 16, id: "paraglider:spirit_orb" }
+				item: "paraglider:spirit_orb"
 				type: "item"
 			}]
 			title: "血量上限提高了，学生们的力量正在逐渐强大，真是high到不行啊！！！"
@@ -508,7 +526,7 @@
 			tasks: [{
 				count: 110L
 				id: "0493DA77997B653E"
-				item: { Count: 110, id: "blue_archivescraft:adult_card" }
+				item: "blue_archivescraft:adult_card"
 				type: "item"
 			}]
 			title: "有家了"
@@ -529,7 +547,7 @@
 			tasks: [{
 				count: 32L
 				id: "1D58601C06A1EC7D"
-				item: { Count: 32, id: "minecraft:diamond" }
+				item: "minecraft:diamond"
 				type: "item"
 			}]
 			title: "冒险继续"
@@ -549,7 +567,7 @@
 			tasks: [{
 				count: 32L
 				id: "18AE23449A3886C7"
-				item: { Count: 32, id: "minecraft:obsidian" }
+				item: "minecraft:obsidian"
 				type: "item"
 			}]
 			title: "新的世界"
@@ -585,7 +603,7 @@
 				{
 					count: 6L
 					id: "56397F4CADB8B031"
-					item: { Count: 6, id: "minecraft:cobblestone" }
+					item: "minecraft:cobblestone"
 					type: "item"
 				}
 				{

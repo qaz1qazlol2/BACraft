@@ -11,9 +11,8 @@
 		icon: "kubejs:kapian"
 		id: "56F33B416B4E189D"
 		rewards: [{
-			auto: "enabled"
-			id: "012F6092D62FC1C1"
-			item: "kubejs:kapian"
+			id: "40FBB955A1972C57"
+			item: "blue_archivescraft:prena_pats_card"
 			type: "item"
 		}]
 		tasks: [{

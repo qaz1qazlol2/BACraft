@@ -5,6 +5,14 @@
 	group: "4DA08CD6EB0E472F"
 	icon: "minecraft:netherrack"
 	id: "119C3FB47E2FA3F0"
+	images: [{
+		height: 8.0d
+		image: "blue_archivescraft:textures/mob_effect/yuzu.png"
+		rotation: 0.0d
+		width: 8.0d
+		x: 7.0d
+		y: 2.0d
+	}]
 	order_index: 0
 	quest_links: [ ]
 	quests: [
@@ -110,7 +118,7 @@
 			tasks: [{
 				count: 8L
 				id: "2FFD8F5CB1495576"
-				item: { Count: 8, id: "minecraft:blaze_rod" }
+				item: "minecraft:blaze_rod"
 				type: "item"
 			}]
 			title: "高级子弹材料"
@@ -137,7 +145,7 @@
 			tasks: [{
 				count: 5L
 				id: "6E4A6A51CC8554F3"
-				item: { Count: 5, id: "minecraft:piglin_brute_spawn_egg" }
+				item: "minecraft:piglin_brute_spawn_egg"
 				type: "item"
 			}]
 			title: "攻占猪灵堡垒"
@@ -246,7 +254,7 @@
 			tasks: [{
 				count: 16L
 				id: "7EF498B1D57DC2C1"
-				item: { Count: 16, id: "paraglider:spirit_orb" }
+				item: "paraglider:spirit_orb"
 				type: "item"
 			}]
 			title: "更多的生命值！"

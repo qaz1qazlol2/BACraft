@@ -5,6 +5,14 @@
 	group: "644FCC46DEE59C59"
 	icon: "minecraft:end_stone"
 	id: "077DB0A8E5906FDC"
+	images: [{
+		height: 8.0d
+		image: "blue_archivescraft:textures/mob_effect/serika.png"
+		rotation: 0.0d
+		width: 8.0d
+		x: 13.0d
+		y: 1.0d
+	}]
 	order_index: 2
 	quest_links: [ ]
 	quests: [

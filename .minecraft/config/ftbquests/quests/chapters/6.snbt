@@ -5,6 +5,14 @@
 	group: "3A341F8C3B4A5B73"
 	icon: "minecraft:rotten_flesh"
 	id: "6C39F75372C5F4FB"
+	images: [{
+		height: 8.0d
+		image: "blue_archivescraft:textures/mob_effect/koharu.png"
+		rotation: 0.0d
+		width: 8.0d
+		x: 9.5d
+		y: -2.5d
+	}]
 	order_index: 1
 	quest_links: [ ]
 	quests: [

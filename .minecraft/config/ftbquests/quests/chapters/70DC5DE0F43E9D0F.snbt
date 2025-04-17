@@ -5,6 +5,14 @@
 	group: "16DF22B2843D94EE"
 	icon: "enigmaticlegacy:cursed_ring"
 	id: "70DC5DE0F43E9D0F"
+	images: [{
+		height: 8.0d
+		image: "blue_archivescraft:textures/mob_effect/seia.png"
+		rotation: 0.0d
+		width: 8.0d
+		x: 12.0d
+		y: 4.5d
+	}]
 	order_index: 0
 	quest_links: [ ]
 	quests: [

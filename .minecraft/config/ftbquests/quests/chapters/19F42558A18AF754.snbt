@@ -5,6 +5,14 @@
 	group: "3A341F8C3B4A5B73"
 	icon: "kubejs:gold_coin"
 	id: "19F42558A18AF754"
+	images: [{
+		height: 8.0d
+		image: "blue_archivescraft:item/arona"
+		rotation: 0.0d
+		width: 8.0d
+		x: 9.5d
+		y: -3.0d
+	}]
 	order_index: 0
 	quest_links: [ ]
 	quests: [
@@ -600,6 +608,181 @@
 			title: "ba饰品兑换"
 			x: -4.5d
 			y: -7.0d
+		}
+		{
+			can_repeat: true
+			icon: "eeeabsmobs:immortal_boss_egg"
+			id: "58AB49EC1AEA789F"
+			rewards: [{
+				id: "1A573904E79040B8"
+				item: "eeeabsmobs:immortal_boss_egg"
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				id: "331B1A3D14BEF098"
+				item: "minecraft:nether_star"
+				type: "item"
+			}]
+			title: "不朽者boss召唤物兑换"
+			x: 0.5d
+			y: -7.0d
+		}
+		{
+			can_repeat: true
+			icon: "threateningly_mobs:saint_spawn_egg"
+			id: "19F753AA29AC4AD1"
+			rewards: [{
+				id: "42BE024B74349D0B"
+				item: "threateningly_mobs:saint_spawn_egg"
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				id: "5F66C7A185C8E020"
+				item: "enigmaticlegacy:enchantment_transposer"
+				type: "item"
+			}]
+			title: "伪善圣徒boss召唤物兑换"
+			x: 1.5d
+			y: -7.0d
+		}
+		{
+			can_repeat: true
+			icon: "corundumguardian:corundum_guardian_spawn_egg"
+			id: "7FCD2D926ABD4B92"
+			rewards: [{
+				id: "2C149A70DCABD423"
+				item: "corundumguardian:corundum_guardian_spawn_egg"
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				id: "7DD4E49CD7B0F073"
+				item: "deeperdarker:warden_carapace"
+				type: "item"
+			}]
+			title: "战争机器boss召唤物兑换"
+			x: 2.5d
+			y: -7.0d
+		}
+		{
+			can_repeat: true
+			icon: "animatedmobsmod:ender_king_spawn_egg"
+			id: "694542796A87D525"
+			rewards: [{
+				id: "0B2A515C4A919AE2"
+				item: "animatedmobsmod:ender_king_spawn_egg"
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 5L
+				id: "2CC9547DF04A6F7C"
+				item: { Count: 5, id: "minecraft:dragon_breath" }
+				type: "item"
+			}]
+			title: "末影之王boss召唤物兑换"
+			x: 3.5d
+			y: -7.0d
+		}
+		{
+			can_repeat: true
+			icon: "illageandspillage:spiritcaller_spawn_egg"
+			id: "56BBCFAE13FF0F12"
+			rewards: [{
+				id: "23D28599C03B2384"
+				item: "illageandspillage:spiritcaller_spawn_egg"
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				id: "6022E7051CC225BD"
+				item: "minecraft:writable_book"
+				type: "item"
+			}]
+			title: "灵魂感应师boss召唤物兑换"
+			x: 4.5d
+			y: -7.0d
+		}
+		{
+			can_repeat: true
+			icon: "illageandspillage:absorber_spawn_egg"
+			id: "6A700B24EFBCA644"
+			rewards: [{
+				id: "5F3769221A18566F"
+				item: "illageandspillage:absorber_spawn_egg"
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				id: "6DF40ABF10D131A2"
+				item: "minecraft:golden_apple"
+				type: "item"
+			}]
+			title: "伤害吸收者boss召唤物兑换"
+			x: 5.5d
+			y: -7.0d
+		}
+		{
+			can_repeat: true
+			icon: "illageandspillage:freakager_spawn_egg"
+			id: "170D972F7A0FC589"
+			rewards: [{
+				id: "47E83B817AD4E4BE"
+				item: "illageandspillage:freakager_spawn_egg"
+				type: "item"
+			}]
+			tasks: [
+				{
+					consume_items: true
+					id: "4A554764178EEAF8"
+					item: "minecraft:spider_eye"
+					type: "item"
+				}
+				{
+					consume_items: true
+					id: "3B03FE44050BDD02"
+					item: {
+						Count: 1
+						id: "minecraft:iron_axe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "怪人boss召唤物兑换"
+			x: 6.5d
+			y: -7.0d
+		}
+		{
+			can_repeat: true
+			icon: "illageandspillage:magispeller_spawn_egg"
+			id: "6977788A52442F5F"
+			rewards: [{
+				id: "0263B6CA97357732"
+				item: "illageandspillage:magispeller_spawn_egg"
+				type: "item"
+			}]
+			tasks: [
+				{
+					consume_items: true
+					id: "69FE3F1DF9DE342D"
+					item: "minecraft:ender_eye"
+					type: "item"
+				}
+				{
+					consume_items: true
+					id: "6AAC866C992D7D76"
+					item: "enigmaticlegacy:enchantment_transposer"
+					type: "item"
+				}
+			]
+			title: "魔法师boss召唤物兑换"
+			x: 0.5d
+			y: -8.5d
 		}
 	]
 	title: "奇怪小玩意兑换"

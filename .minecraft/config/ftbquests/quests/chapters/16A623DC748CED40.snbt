@@ -5,6 +5,14 @@
 	group: "349B3345B63646FF"
 	icon: "minecraft:command_block"
 	id: "16A623DC748CED40"
+	images: [{
+		height: 8.0d
+		image: "blue_archivescraft:textures/mob_effect/hoshino.png"
+		rotation: 0.0d
+		width: 8.0d
+		x: 15.5d
+		y: 0.0d
+	}]
 	order_index: 0
 	quest_links: [ ]
 	quests: [
@@ -201,7 +209,6 @@
 			description: [
 				"1:拆解台:无法合成，可以破坏和放置，但无法使用"
 				"2.信标:无法合成，无法放置，无法拆除，无法使用"
-				"3.附魔:禁用了异常治疗,混乱原体,求生捷径,求生诡计,必要之恶"
 			]
 			id: "1A8062052B44884F"
 			rewards: [{

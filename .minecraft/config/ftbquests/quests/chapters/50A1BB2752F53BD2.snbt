@@ -12,6 +12,14 @@
 		}
 	}
 	id: "50A1BB2752F53BD2"
+	images: [{
+		height: 8.0d
+		image: "blue_archivescraft:textures/mob_effect/shiroko.png"
+		rotation: 0.0d
+		width: 8.0d
+		x: 13.5d
+		y: 1.0d
+	}]
 	order_index: 1
 	quest_links: [ ]
 	quests: [
