@@ -154,8 +154,8 @@
 
 [[entities]]
     entity = "animatedmobsmod:ender_king"
-    minTier = 3
-    maxTier = 4
+    minTier = 5
+    maxTier = 5
     presetAffixes = []
     affixList = ["Shielding","Adaptable","Dampening"]
     affixPermission = "BLACKLIST"
@@ -241,62 +241,6 @@
     affixPermission = "BLACKLIST"
 
 [[entities]]
-    entity = "dungeonsmod:lordskeleton"
-    minTier = 3
-    maxTier = 3
-    presetAffixes = []
-    affixList = ["Shielding","Adaptable","Dampening"]
-    affixPermission = "BLACKLIST"
-
-[[entities]]
-    entity = "dungeonsmod:winterhunter"
-    minTier = 3
-    maxTier = 3
-    presetAffixes = []
-    affixList = ["Shielding","Adaptable","Dampening"]
-    affixPermission = "BLACKLIST"
-
-[[entities]]
-    entity = "dungeonsmod:crawler"
-    minTier = 4
-    maxTier = 4
-    presetAffixes = []
-    affixList = ["Shielding","Adaptable","Dampening"]
-    affixPermission = "BLACKLIST"
-
-[[entities]]
-    entity = "dungeonsmod:deserted"
-    minTier = 3
-    maxTier = 4
-    presetAffixes = []
-    affixList = ["Shielding","Adaptable","Dampening"]
-    affixPermission = "BLACKLIST"
-
-[[entities]]
-    entity = "dungeonsmod:ironslime"
-    minTier = 3
-    maxTier = 3
-    presetAffixes = []
-    affixList = ["Shielding","Adaptable","Dampening"]
-    affixPermission = "BLACKLIST"
-
-[[entities]]
-    entity = "dungeonsmod:king"
-    minTier = 3
-    maxTier = 3
-    presetAffixes = []
-    affixList = ["Shielding","Adaptable","Dampening"]
-    affixPermission = "BLACKLIST"
-
-[[entities]]
-    entity = "dungeonsmod:sun"
-    minTier = 5
-    maxTier = 5
-    presetAffixes = []
-    affixList = ["Shielding","Adaptable","Dampening"]
-    affixPermission = "BLACKLIST"
-
-[[entities]]
     entity = "eeeabsmobs:guling_sentinel_heavy"
     minTier = 4
     maxTier = 4
@@ -322,8 +266,8 @@
 
 [[entities]]
     entity = "eeeabsmobs:immortal"
-    minTier = 5
-    maxTier = 5
+    minTier = 10
+    maxTier = 10
     presetAffixes = []
     affixList = ["Shielding","Adaptable","Dampening"]
     affixPermission = "BLACKLIST"
@@ -338,46 +282,6 @@
 
 [[entities]]
     entity = "graveyard:lich"
-    minTier = 3
-    maxTier = 3
-    presetAffixes = []
-    affixList = ["Shielding","Adaptable","Dampening"]
-    affixPermission = "BLACKLIST"
-
-[[entities]]
-    entity = "illagerinvasion:invoker"
-    minTier = 3
-    maxTier = 3
-    presetAffixes = []
-    affixList = ["Shielding","Adaptable","Dampening"]
-    affixPermission = "BLACKLIST"
-
-[[entities]]
-    entity = "illageandspillage:freakager"
-    minTier = 3
-    maxTier = 3
-    presetAffixes = []
-    affixList = ["Shielding","Adaptable","Dampening"]
-    affixPermission = "BLACKLIST"
-
-[[entities]]
-    entity = "illageandspillage:ragno"
-    minTier = 3
-    maxTier = 3
-    presetAffixes = []
-    affixList = ["Shielding","Adaptable","Dampening"]
-    affixPermission = "BLACKLIST"
-
-[[entities]]
-    entity = "illageandspillage:magispeller"
-    minTier = 3
-    maxTier = 3
-    presetAffixes = []
-    affixList = ["Shielding","Adaptable","Dampening"]
-    affixPermission = "BLACKLIST"
-
-[[entities]]
-    entity = "illageandspillage:spiritcaller"
     minTier = 4
     maxTier = 4
     presetAffixes = []
@@ -385,25 +289,65 @@
     affixPermission = "BLACKLIST"
 
 [[entities]]
+    entity = "illagerinvasion:invoker"
+    minTier = 5
+    maxTier = 5
+    presetAffixes = []
+    affixList = ["Shielding","Adaptable","Dampening"]
+    affixPermission = "BLACKLIST"
+
+[[entities]]
+    entity = "illageandspillage:freakager"
+    minTier = 5
+    maxTier = 5
+    presetAffixes = []
+    affixList = ["Shielding","Adaptable","Dampening"]
+    affixPermission = "BLACKLIST"
+
+[[entities]]
+    entity = "illageandspillage:ragno"
+    minTier = 5
+    maxTier = 5
+    presetAffixes = []
+    affixList = ["Shielding","Adaptable","Dampening"]
+    affixPermission = "BLACKLIST"
+
+[[entities]]
+    entity = "illageandspillage:magispeller"
+    minTier = 5
+    maxTier = 5
+    presetAffixes = []
+    affixList = ["Shielding","Adaptable","Dampening"]
+    affixPermission = "BLACKLIST"
+
+[[entities]]
+    entity = "illageandspillage:spiritcaller"
+    minTier = 5
+    maxTier = 5
+    presetAffixes = []
+    affixList = ["Shielding","Adaptable","Dampening"]
+    affixPermission = "BLACKLIST"
+
+[[entities]]
     entity = "illageandspillage:absorber"
-    minTier = 3
-    maxTier = 3
+    minTier = 5
+    maxTier = 5
     presetAffixes = []
     affixList = ["Shielding","Adaptable","Dampening"]
   affixPermission = "BLACKLIST"
 
 [[entities]]
     entity = "twilightforest:naga"
-    minTier = 2
-    maxTier = 2
+    minTier = 3
+    maxTier = 3
     presetAffixes = []
     affixList = ["Shielding","Adaptable","Dampening"]
     affixPermission = "BLACKLIST"
 
 [[entities]]
     entity = "twilightforest:lich"
-    minTier = 3
-    maxTier = 3
+    minTier = 4
+    maxTier = 4
     presetAffixes = []
     affixList = ["Shielding","Adaptable","Dampening"]
     affixPermission = "BLACKLIST"
@@ -418,8 +362,8 @@
 
 [[entities]]
     entity = "twilightforest:hydra"
-    minTier = 4
-    maxTier = 4
+    minTier = 5
+    maxTier = 5
     presetAffixes = []
     affixList = ["Shielding","Adaptable","Dampening"]
     affixPermission = "BLACKLIST"
@@ -434,8 +378,8 @@
 
 [[entities]]
     entity = "twilightforest:ur_ghast"
-    minTier = 4
-    maxTier = 4
+    minTier = 5
+    maxTier = 5
     presetAffixes = []
     affixList = ["Shielding","Adaptable","Dampening"]
     affixPermission = "BLACKLIST"
@@ -466,8 +410,8 @@
 
 [[entities]]
     entity = "legendary_monsters:skeletosaurus"
-    minTier = 2
-    maxTier = 2
+    minTier = 3
+    maxTier = 3
     presetAffixes = []
     affixList = ["Shielding","Adaptable","Dampening"]
     affixPermission = "BLACKLIST"
@@ -514,8 +458,8 @@
 
 [[entities]]
     entity = "legendary_monsters:cloud_golem"
-    minTier = 5
-    maxTier = 5
+    minTier = 6
+    maxTier = 6
     presetAffixes = []
     affixList = ["Shielding","Adaptable","Dampening"]
     affixPermission = "BLACKLIST"
@@ -530,24 +474,24 @@
 
 [[entities]]
     entity = "mokels_bossfight_saphyra:nameless"
-    minTier = 4
-    maxTier = 4
+    minTier = 6
+    maxTier = 6
     presetAffixes = []
     affixList = ["Shielding","Adaptable","Dampening"]
     affixPermission = "BLACKLIST"
 
 [[entities]]
     entity = "mokels_bossfight_saphyra:witchboss"
-    minTier = 3
-    maxTier = 3
+    minTier = 5
+    maxTier = 5
     presetAffixes = []
     affixList = ["Shielding","Adaptable","Dampening"]
     affixPermission = "BLACKLIST"
 
 [[entities]]
     entity = "mokels_bossfight_saphyra:mothboss"
-    minTier = 4
-    maxTier = 4
+    minTier = 7
+    maxTier = 7
     presetAffixes = []
     affixList = ["Shielding","Adaptable","Dampening"]
     affixPermission = "BLACKLIST"
@@ -697,30 +641,6 @@
     affixPermission = "BLACKLIST"
 
 [[entities]]
-    entity = "stalwart_dungeons:awful_ghast"
-    minTier = 3
-    maxTier = 3
-    presetAffixes = []
-    affixList = ["Shielding","Adaptable","Dampening"]
-    affixPermission = "BLACKLIST"
-
-[[entities]]
-    entity = "stalwart_dungeons:nether_keeper"
-    minTier = 3
-    maxTier = 3
-    presetAffixes = []
-    affixList = ["Shielding","Adaptable","Dampening"]
-    affixPermission = "BLACKLIST"
-
-[[entities]]
-    entity = "stalwart_dungeons:shelterer"
-    minTier = 3
-    maxTier = 3
-    presetAffixes = []
-    affixList = ["Shielding","Adaptable","Dampening"]
-    affixPermission = "BLACKLIST"
-
-[[entities]]
     entity = "minecraft:warden"
     minTier = 3
     maxTier = 3
@@ -738,8 +658,8 @@
 
 [[entities]]
     entity = "terramity:super_sniffer"
-    minTier = 3
-    maxTier = 3
+    minTier = 5
+    maxTier = 5
     presetAffixes = []
     affixList = ["Shielding","Adaptable","Dampening"]
     affixPermission = "BLACKLIST"
@@ -778,8 +698,8 @@
     
 [[entities]]
     entity = "terramity:ultra_sniffer"
-    minTier = 5
-    maxTier = 5
+    minTier = 7
+    maxTier = 7
     presetAffixes = []
     affixList = ["Shielding","Adaptable","Dampening"]
     affixPermission = "BLACKLIST"
@@ -898,6 +818,14 @@
 
 [[entities]]
     entity = "legendary_monsters:shulker_mimic"
+    minTier = 3
+    maxTier = 3
+    presetAffixes = []
+    affixList = ["Shielding","Adaptable","Dampening"]
+    affixPermission = "BLACKLIST"
+
+[[entities]]
+    entity = "terramity:hellrok"
     minTier = 3
     maxTier = 3
     presetAffixes = []
