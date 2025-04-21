@@ -1,0 +1,167 @@
+type = customizablemenus
+
+net.minecraft.client.gui.screens.TitleScreen {
+}
+
+net.minecraft.client.gui.screens.worldselection.SelectWorldScreen {
+}
+
+net.minecraft.client.gui.screens.multiplayer.JoinMultiplayerScreen {
+}
+
+net.minecraftforge.client.gui.ModListScreen {
+}
+
+net.minecraft.client.gui.screens.OnlineOptionsScreen {
+}
+
+net.minecraft.client.gui.screens.worldselection.CreateWorldScreen {
+}
+
+net.minecraft.client.gui.screens.CreateFlatWorldScreen {
+}
+
+net.minecraft.client.gui.screens.PresetFlatWorldScreen {
+}
+
+net.minecraft.client.gui.screens.CreateBuffetWorldScreen {
+}
+
+net.minecraft.client.gui.screens.packs.PackSelectionScreen {
+}
+
+net.minecraft.client.gui.screens.GenericDirtMessageScreen {
+}
+
+net.minecraft.client.gui.screens.worldselection.EditGameRulesScreen {
+}
+
+net.minecraft.client.gui.screens.OptionsScreen {
+}
+
+me.jellysquid.mods.sodium.client.gui.SodiumOptionsGUI {
+}
+
+net.minecraft.client.gui.screens.SkinCustomizationScreen {
+}
+
+net.minecraft.client.gui.screens.AccessibilityOptionsScreen {
+}
+
+net.minecraft.client.gui.screens.ChatOptionsScreen {
+}
+
+net.minecraft.client.gui.screens.controls.ControlsScreen {
+}
+
+net.minecraft.client.gui.screens.MouseSettingsScreen {
+}
+
+net.minecraft.client.gui.screens.LanguageSelectScreen {
+}
+
+net.minecraft.client.gui.screens.EditServerScreen {
+}
+
+net.minecraft.client.gui.screens.DirectJoinServerScreen {
+}
+
+net.minecraft.client.gui.screens.ConfirmScreen {
+}
+
+net.minecraft.client.gui.screens.WinScreen {
+}
+
+ru.vidtu.ias.screen.AccountScreen {
+}
+
+ru.vidtu.ias.screen.AddPopupScreen {
+}
+
+com.mrcrayfish.configured.client.screen.WorldSelectionScreen {
+}
+
+com.mrcrayfish.configured.client.screen.ConfigScreen {
+}
+
+me.shedaniel.clothconfig2.gui.ClothConfigScreen {
+}
+
+me.shedaniel.clothconfig2.gui.GlobalizedClothConfigScreen {
+}
+
+ru.vidtu.ias.screen.ConfigScreen {
+}
+
+com.jtorleonstudios.libraryferret.conf.ConfigurationScreen {
+}
+
+fudge.notenoughcrashes.gui.CrashScreen {
+}
+
+com.natamus.collective_common_forge.config.DuskConfig$DuskConfigScreen {
+}
+
+me.cominixo.betterf3.config.gui.ModConfigScreen {
+}
+
+me.cominixo.betterf3.config.gui.modules.ModulesScreen {
+}
+
+com.mrcrayfish.configured.client.screen.ModConfigSelectionScreen {
+}
+
+net.minecraft.client.gui.screens.ConfirmLinkScreen {
+}
+
+net.minecraft.client.gui.screens.AlertScreen {
+}
+
+ru.vidtu.ias.screen.LoginPopupScreen {
+}
+
+net.minecraft.client.gui.screens.worldselection.EditWorldScreen {
+}
+
+com.mrcrayfish.configured.client.screen.EditStringScreen {
+}
+
+net.minecraft.client.gui.screens.VideoSettingsScreen {
+}
+
+net.minecraft.client.gui.screens.controls.KeyBindsScreen {
+}
+
+com.blamejared.controlling.client.NewKeyBindsScreen {
+}
+
+xaero.common.gui.GuiWidgetUpdateAll {
+}
+
+net.minecraft.client.gui.screens.PauseScreen {
+}
+
+de.keksuccino.drippyloadingscreen.customization.DrippyOverlayScreen {
+}
+
+net.minecraft.client.gui.screens.ReceivingLevelScreen {
+}
+
+org.embeddedt.embeddium.gui.EmbeddiumVideoOptionsScreen {
+}
+
+net.irisshaders.iris.gui.screen.ShaderPackScreen {
+}
+
+net.minecraft.client.gui.screens.telemetry.TelemetryInfoScreen {
+}
+
+net.minecraft.client.gui.screens.SoundOptionsScreen {
+}
+
+net.minecraft.client.gui.screens.CreditsAndAttributionScreen {
+}
+
+com.jab125.mpuc.client.gui.screen.changelog.NewChangelogScreen {
+}
+
