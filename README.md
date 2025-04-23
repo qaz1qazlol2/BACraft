@@ -17,7 +17,7 @@ wzz（我之战）：（ba mod，学生技能特性制作者）
 
 sfhuewui（任务系统作者，kubejs魔改作者，测试员，整合包更新）
 
-qaz1qazlol（测试，1.5至1.6版本更新，Kubejs魔改参与成员，Github仓库所有者，Gitee仓库所有者）
+qaz1qazlol（整合包更新，Kubejs魔改参与成员，Github仓库所有者，Gitee仓库所有者）
 
 没人要的yego（鄂图曼弯刀23/100★）：整合包群现群主，提供3000人群交流测试平台
 
