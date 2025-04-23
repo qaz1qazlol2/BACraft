@@ -658,8 +658,8 @@
 
 [[entities]]
     entity = "terramity:super_sniffer"
-    minTier = 5
-    maxTier = 5
+    minTier = 3
+    maxTier = 3
     presetAffixes = []
     affixList = ["Shielding","Adaptable","Dampening"]
     affixPermission = "BLACKLIST"
@@ -698,8 +698,8 @@
     
 [[entities]]
     entity = "terramity:ultra_sniffer"
-    minTier = 7
-    maxTier = 7
+    minTier = 5
+    maxTier = 5
     presetAffixes = []
     affixList = ["Shielding","Adaptable","Dampening"]
     affixPermission = "BLACKLIST"
@@ -828,6 +828,14 @@
     entity = "terramity:hellrok"
     minTier = 3
     maxTier = 3
+    presetAffixes = []
+    affixList = ["Shielding","Adaptable","Dampening"]
+    affixPermission = "BLACKLIST"
+
+[[entities]]
+    entity = "terramity:virtue"
+    minTier = 5
+    maxTier = 5
     presetAffixes = []
     affixList = ["Shielding","Adaptable","Dampening"]
     affixPermission = "BLACKLIST"
