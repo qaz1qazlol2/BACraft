@@ -1,0 +1,3 @@
+[submodule ".minecraft/mods"]
+	path = .minecraft/mods
+	url = https://huggingface.co/datasets/qaz1qazlol/mods
