@@ -42,4 +42,7 @@ ServerEvents.recipes(event => {
         B: "pamhc2foodextended:meringueitem",
         C: "#forge:dough"
     })
+    event.shapeless(Item.of("minecraft:crafting_table"), [
+        "#biomeswevegone:crafting_tables"
+    ])
 })
