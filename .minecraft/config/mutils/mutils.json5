@@ -6,7 +6,7 @@
 	modpackName: "BlueArchivesCraftModpackRemake",
 	modpackId: "114514",
 	modpackHome: "https://allforhina.com/2024/12/11/%e4%b8%bb%e5%85%ac%e5%91%8a/",
-	localVersion: "Beta 1.6",
+	localVersion: "1.0",
 	checkMcVersion: false,
 	loader: "forge",
 	versionAPI: "https://versions.allforhina.com/pack.txt",
