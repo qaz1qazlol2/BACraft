@@ -5,7 +5,8 @@ const banned_outputs = [
     "minecraft:beacon",                       //移除信标制作
     "enigmaticlegacy:the_cube",               //移除非欧立方
     "cataclysm:the_incinerator",
-    "cataclysm:the_immolator"
+    "cataclysm:the_immolator",
+    "binah:desert_jade"
 ]
 //移除输入合成表
 const banned_inputs = [
