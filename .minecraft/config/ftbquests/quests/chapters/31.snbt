@@ -349,19 +349,27 @@
 		}
 		{
 			dependencies: ["455C46092F09B9F0"]
+			description: ["开启福利阶段的证明"]
 			id: "13C10990C9267F2F"
+			rewards: [{
+				count: 40
+				id: "7C45E6253C78D391"
+				item: "paraglider:spirit_orb"
+				type: "item"
+			}]
 			tasks: [{
-				advancement: "twilightforest:progress_thorns"
-				criterion: ""
-				id: "4E66976047BE93DD"
-				type: "advancement"
+				id: "34B5A7BF26FF705C"
+				item: "lootr:trophy"
+				type: "item"
 			}]
 			x: 13.0d
 			y: 2.0d
 		}
 		{
 			dependencies: ["13C10990C9267F2F"]
+			description: ["似乎开启了某个新的章节"]
 			id: "44F93B6DF62B8340"
+			min_required_dependencies: 1
 			rewards: [{
 				icon: "aquaculture:treasure_chest"
 				id: "5F491EE607DF381E"
@@ -415,6 +423,7 @@
 			y: -4.0d
 		}
 		{
+			dependencies: ["153480C48C561C45"]
 			id: "7789C0AFE63977F3"
 			rewards: [{
 				id: "7C6E37F7545EDD3D"
@@ -475,29 +484,11 @@
 				xp: 150
 			}]
 			subtitle: "开始探索"
-			tasks: [
-				{
-					id: "09C7538C6F31B018"
-					item: "twilightforest:magic_map"
-					only_from_crafting: true
-					type: "item"
-				}
-				{
-					id: "7A1EE7CE4C65D1B2"
-					item: "twilightforest:torchberries"
-					type: "item"
-				}
-				{
-					id: "4629D4F4030845CF"
-					item: "twilightforest:raven_feather"
-					type: "item"
-				}
-				{
-					id: "4D5962B96463E219"
-					item: "minecraft:glowstone_dust"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "7FC270E065B29BCB"
+				item: "twilightforest:magic_map"
+				type: "item"
+			}]
 			x: 0.0d
 			y: 0.0d
 		}

@@ -408,18 +408,11 @@
 				"&c将绯红孑孓丢入衣壳体等待一会"
 			]
 			id: "642C8218CA452114"
-			rewards: [
-				{
-					id: "487EFD37AABC55AE"
-					item: "alexsmobs:mosquito_larva"
-					type: "item"
-				}
-				{
-					id: "27622EAD3513A848"
-					item: "endersdelight:crispy_skewer"
-					type: "item"
-				}
-			]
+			rewards: [{
+				id: "487EFD37AABC55AE"
+				item: "alexsmobs:mosquito_larva"
+				type: "item"
+			}]
 			subtitle: "获取它们的外壳"
 			tasks: [
 				{

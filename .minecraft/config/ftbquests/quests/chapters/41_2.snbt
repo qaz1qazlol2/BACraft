@@ -94,7 +94,7 @@
 			}]
 			title: "这是潜影贝吗？"
 			x: 6.5d
-			y: -2.5d
+			y: -1.5d
 		}
 		{
 			dependencies: ["0ECF6556C0700D77"]
@@ -113,16 +113,22 @@
 			}]
 			title: "紫色铁傀儡"
 			x: 6.5d
-			y: -1.0d
+			y: 0.0d
 		}
 		{
 			dependencies: ["0ECF6556C0700D77"]
 			icon: "alexsmobs:spawn_egg_void_worm"
 			id: "1AE3811F0A9DA145"
 			rewards: [{
-				id: "7291BB2435EEE958"
-				type: "xp_levels"
-				xp_levels: 50
+				id: "5DE0652F7061AB51"
+				item: {
+					Count: 1
+					id: "tacz:ammo_box"
+					tag: {
+						Creative: 1b
+					}
+				}
+				type: "item"
 			}]
 			tasks: [{
 				entity: "alexsmobs:void_worm"
@@ -140,7 +146,6 @@
 				"5CF2D99938D732FD"
 				"1AE3811F0A9DA145"
 				"609041CC65279D46"
-				"07977F316DD1C73E"
 			]
 			icon: "quark:purpur_chest"
 			id: "30D8FA1C677BC3A8"
@@ -513,25 +518,6 @@
 			}]
 			x: -9.5d
 			y: 0.0d
-		}
-		{
-			dependencies: ["0ECF6556C0700D77"]
-			id: "07977F316DD1C73E"
-			rewards: [{
-				id: "01F1866B8AE31F1E"
-				type: "xp_levels"
-				xp_levels: 50
-			}]
-			tasks: [{
-				entity: "stalwart_dungeons:shelterer_without_armor"
-				icon: "stalwart_dungeons:shelterer_spawn_egg"
-				id: "16A8A6604F1E0149"
-				type: "kill"
-				value: 5L
-			}]
-			title: "紫色屏障"
-			x: 6.5d
-			y: 0.5d
 		}
 	]
 	title: "4.1：征战四方"

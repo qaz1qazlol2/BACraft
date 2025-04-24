@@ -13,21 +13,22 @@
 			id: "6000C4A6AC06009B"
 			rewards: [
 				{
-					auto: "enabled"
+					auto: "invisible"
 					command: "/effect give @s minecraft:blindness 204"
 					id: "0025FF57D289B79E"
 					silent: true
+					team_reward: true
 					type: "command"
 				}
 				{
-					auto: "enabled"
+					auto: "invisible"
 					command: "/effect give @s minecraft:slowness 204 255"
 					id: "53C540230C32813D"
 					silent: true
 					type: "command"
 				}
 				{
-					auto: "enabled"
+					auto: "invisible"
 					command: "/playsound blue_archivescraft:god_apple block @s ~ ~ ~"
 					id: "62C00078A215B1E6"
 					silent: true
@@ -194,6 +195,144 @@
 			}]
 			x: 3.5d
 			y: 0.0d
+		}
+		{
+			can_repeat: true
+			disable_toast: true
+			id: "59B8C20C7897E513"
+			invisible: true
+			rewards: [{
+				auto: "invisible"
+				command: "/clear @p born_in_chaos_v1:soul_cutlass"
+				id: "3E8FC4CFBABFCBC0"
+				type: "command"
+			}]
+			tasks: [{
+				id: "107F45A28FAC8545"
+				item: {
+					Count: 1
+					id: "born_in_chaos_v1:soul_cutlass"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -1.0d
+			y: -1.5d
+		}
+		{
+			can_repeat: true
+			disable_toast: true
+			id: "040B28BB9DE98730"
+			invisible: true
+			rewards: [{
+				auto: "no_toast"
+				command: "/clear @p born_in_chaos_v1:soulbane"
+				id: "676974FC0AB2EC22"
+				type: "command"
+			}]
+			tasks: [{
+				id: "180F8F98B87CEEBA"
+				item: {
+					Count: 1
+					id: "born_in_chaos_v1:soulbane"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 0.5d
+			y: -1.5d
+		}
+		{
+			can_repeat: true
+			disable_toast: true
+			id: "1371A4FD68A3CED3"
+			invisible: true
+			rewards: [{
+				auto: "invisible"
+				command: "/clear @p enigmaticaddons:forger_gem"
+				id: "697CDE8A79AB946E"
+				type: "command"
+			}]
+			tasks: [{
+				id: "71008301B2561813"
+				item: "enigmaticaddons:forger_gem"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -1.5d
+		}
+		{
+			can_repeat: true
+			disable_toast: true
+			id: "24A915FA528595F7"
+			invisible: true
+			rewards: [{
+				auto: "invisible"
+				command: "/clear @p cataclysm:the_annihilator"
+				id: "0830EA08AA3D23CE"
+				type: "command"
+			}]
+			tasks: [{
+				id: "111387595293070C"
+				item: "cataclysm:the_incinerator"
+				type: "item"
+			}]
+			x: 3.5d
+			y: -1.5d
+		}
+		{
+			can_repeat: true
+			disable_toast: true
+			id: "16261857236ECF5D"
+			invisible: true
+			rewards: [{
+				auto: "invisible"
+				command: "/clear @p aquamirae:divider"
+				id: "39698959296E346B"
+				type: "command"
+			}]
+			tasks: [{
+				id: "72FA96C455E08EF6"
+				item: {
+					Count: 1
+					id: "aquamirae:divider"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -1.0d
+			y: -3.0d
+		}
+		{
+			can_repeat: true
+			disable_toast: true
+			id: "4765825857DA02DD"
+			invisible: true
+			rewards: [{
+				auto: "invisible"
+				command: "/clear @p aquamirae:whisper_of_the_abyss"
+				id: "24C8DF8ED8570564"
+				type: "command"
+			}]
+			tasks: [{
+				id: "267559C1EB5F21D6"
+				item: {
+					Count: 1
+					id: "aquamirae:whisper_of_the_abyss"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 0.5d
+			y: -3.0d
 		}
 	]
 	title: "开发者的小彩蛋"

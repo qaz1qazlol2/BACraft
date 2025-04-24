@@ -5,14 +5,24 @@
 	group: "349B3345B63646FF"
 	icon: "minecraft:command_block"
 	id: "16A623DC748CED40"
-	images: [{
-		height: 8.0d
-		image: "blue_archivescraft:textures/mob_effect/hoshino.png"
-		rotation: 0.0d
-		width: 8.0d
-		x: 15.5d
-		y: 0.0d
-	}]
+	images: [
+		{
+			height: 8.0d
+			image: "blue_archivescraft:textures/mob_effect/hoshino.png"
+			rotation: 0.0d
+			width: 8.0d
+			x: 15.5d
+			y: 0.0d
+		}
+		{
+			height: 8.0d
+			image: "blue_archivescraft:textures/mob_effect/kokona.png"
+			rotation: 0.0d
+			width: 8.0d
+			x: -6.5d
+			y: -0.5d
+		}
+	]
 	order_index: 0
 	quest_links: [ ]
 	quests: [
@@ -22,6 +32,11 @@
 				"现在，把刚才获得的随机饰品和COST装备到饰品栏指定位置吧！"
 			]
 			id: "50432D78A7FFE83A"
+			rewards: [{
+				id: "28F95E0BBBACC65C"
+				item: "blue_archivescraft:fht_adult_card"
+				type: "item"
+			}]
 			subtitle: "现在，你的旅程正式开始"
 			tasks: [{
 				id: "4806EA35B2F7501D"
@@ -252,6 +267,11 @@
 				"&4tips2：请不要在什亭之匣内丢出任意物品，会导致物品消失"
 			]
 			id: "700CCAD1BB5B34AD"
+			rewards: [{
+				id: "576C5FAEE8B950C6"
+				item: "artifacts:bunny_hoppers"
+				type: "item"
+			}]
 			tasks: [{
 				id: "702939390CCB73CD"
 				title: "什亭之匣相关提示"
