@@ -1,3 +1,6 @@
 [submodule ".minecraft/mods"]
 	path = .minecraft/mods
 	url = https://huggingface.co/datasets/qaz1qazlol/mods
+[submodule "PCL"]
+	path = PCL
+	url = https://github.com/qaz1qazlol2/PCL.git
