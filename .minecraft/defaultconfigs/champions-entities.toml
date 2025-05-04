@@ -839,3 +839,91 @@
     presetAffixes = []
     affixList = ["Shielding","Adaptable","Dampening"]
     affixPermission = "BLACKLIST"
+
+[[entities]]
+    entity = "goety:crone"
+    minTier = 3
+    maxTier = 3
+    presetAffixes = []
+    affixList = ["Shielding","Adaptable","Dampening"]
+    affixPermission = "BLACKLIST"
+
+[[entities]]
+    entity = "goety:minister"
+    minTier = 3
+    maxTier = 3
+    presetAffixes = []
+    affixList = ["Shielding","Adaptable","Dampening"]
+    affixPermission = "BLACKLIST"
+
+[[entities]]
+    entity = "goety:skull_lord"
+    minTier = 3
+    maxTier = 3
+    presetAffixes = []
+    affixList = ["Shielding","Adaptable","Dampening"]
+    affixPermission = "BLACKLIST"
+
+[[entities]]
+    entity = "goety:bone_lord"
+    minTier = 3
+    maxTier = 3
+    presetAffixes = []
+    affixList = ["Shielding","Adaptable","Dampening"]
+    affixPermission = "BLACKLIST"
+
+[[entities]]
+    entity = "goety:hostile_redstone_golem"
+    minTier = 4
+    maxTier = 4
+    presetAffixes = []
+    affixList = ["Shielding","Adaptable","Dampening"]
+    affixPermission = "BLACKLIST"
+
+[[entities]]
+    entity = "goety:wither_necromancer"
+    minTier = 4
+    maxTier = 4
+    presetAffixes = []
+    affixList = ["Shielding","Adaptable","Dampening"]
+    affixPermission = "BLACKLIST"
+
+[[entities]]
+    entity = "goety:wight"
+    minTier = 4
+    maxTier = 4
+    presetAffixes = []
+    affixList = ["Shielding","Adaptable","Dampening"]
+    affixPermission = "BLACKLIST"
+
+[[entities]]
+    entity = "goety:brood_mother"
+    minTier = 4
+    maxTier = 4
+    presetAffixes = []
+    affixList = ["Shielding","Adaptable","Dampening"]
+    affixPermission = "BLACKLIST"
+
+[[entities]]
+    entity = "goety:apostle"
+    minTier = 4
+    maxTier = 4
+    presetAffixes = []
+    affixList = ["Shielding","Adaptable","Dampening"]
+    affixPermission = "BLACKLIST"
+
+[[entities]]
+    entity = "goety:vizier"
+    minTier = 5
+    maxTier = 5
+    presetAffixes = []
+    affixList = ["Shielding","Adaptable","Dampening"]
+    affixPermission = "BLACKLIST"
+
+[[entities]]
+    entity = "goety:hostile_redstone_monstrosity"
+    minTier = 5
+    maxTier = 5
+    presetAffixes = []
+    affixList = ["Shielding","Adaptable","Dampening"]
+    affixPermission = "BLACKLIST"

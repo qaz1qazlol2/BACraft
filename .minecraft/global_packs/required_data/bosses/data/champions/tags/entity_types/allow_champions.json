@@ -103,7 +103,18 @@
     "born_in_chaos_v1:sir_the_headless",
     "legendary_monsters:shulker_mimic",
     "terramity:hellrok",
-    "terramity:virtue"
+    "terramity:virtue",
+    "goety:crone",
+    "goety:minister",
+    "goety:skull_lord",
+    "goety:bone_lord",
+    "goety:hostile_redstone_golem",
+    "goety:wither_necromancer",
+    "goety:wight",
+    "goety:brood_mother",
+    "goety:apostle",
+    "goety:vizier",
+    "goety:hostile_redstone_monstrosity"
 
   ]
 }
