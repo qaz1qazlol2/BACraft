@@ -268,8 +268,8 @@
 			]
 			id: "700CCAD1BB5B34AD"
 			rewards: [{
-				id: "576C5FAEE8B950C6"
-				item: "artifacts:bunny_hoppers"
+				id: "6C69E8FFE90F2467"
+				item: "terramity:diamond_ring"
 				type: "item"
 			}]
 			tasks: [{
@@ -317,6 +317,11 @@
 		{
 			description: ["整合包提升自身最核心的地方在于&4生命值上限&f。玩家可以通过&9饰品，女神雕像，吃东西（玩家每吃5种不同的食物就能提升2点生命值上限）&f，等各个方面提高生命值上限，大部分学生的力量和生命值上限均挂钩，所以提升生命值上限是很重要的路线。"]
 			id: "317AF130217A7285"
+			rewards: [{
+				id: "32D38C9E69EE7C34"
+				item: "terramity:band_of_power"
+				type: "item"
+			}]
 			size: 3.0d
 			tasks: [{
 				id: "23D0C181773B9D6E"

@@ -459,12 +459,8 @@
 			icon: "born_in_chaos_v1:nightmare_stalker_spawn_egg"
 			id: "34A4C73B5969F6C5"
 			rewards: [{
-				id: "25C9802D46D63847"
-				item: {
-					Count: 1
-					id: "confluence:panic_necklace"
-					tag: { }
-				}
+				id: "334AB6D63C112FD0"
+				item: "bountifulbaubles:ring_free_action"
 				type: "item"
 			}]
 			tasks: [{
@@ -631,8 +627,8 @@
 			dependencies: ["283D887B16D86BD3"]
 			id: "34D652FA1AA6DC0F"
 			rewards: [{
-				id: "3390B39717E56A0E"
-				item: "confluence:celestial_stone"
+				id: "0F6F9FD0BC2434A2"
+				item: "enigmaticaddons:scorched_charm"
 				type: "item"
 			}]
 			tasks: [{
@@ -749,6 +745,17 @@
 		{
 			dependencies: ["5932A43323D0D8BE"]
 			id: "251098CEC1A4C82A"
+			rewards: [{
+				id: "2BE54F79A9A8FACE"
+				item: {
+					Count: 1
+					id: "enigmaticaddons:chaos_elytra"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
 			tasks: [{
 				entity: "cataclysm:the_leviathan"
 				icon: "cataclysm:the_leviathan_spawn_egg"
@@ -829,8 +836,8 @@
 			dependencies: ["1CFCD0932E2B2ECA"]
 			id: "7B11A994EA278BDB"
 			rewards: [{
-				id: "3E06F826C87D3E18"
-				item: "terramity:exodium_shield_amulet"
+				id: "01885C81721531A1"
+				item: "terramity:focus_scarf"
 				type: "item"
 			}]
 			tasks: [{
@@ -863,6 +870,17 @@
 		{
 			dependencies: ["0A5113AF26D600C4"]
 			id: "7CF526F363AB20C2"
+			rewards: [{
+				id: "3DB7914E3B40F275"
+				item: {
+					Count: 1
+					id: "enigmaticlegacy:deception_amulet"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
 			tasks: [{
 				entity: "eeeabsmobs:immortal"
 				icon: "eeeabsmobs:immortal_boss_egg"
@@ -924,6 +942,11 @@
 		{
 			dependencies: ["699D0F4F5895859D"]
 			id: "401B3796654F4214"
+			rewards: [{
+				id: "1B0F1F6E40062FBE"
+				item: "terramity:forbidden_chalice"
+				type: "item"
+			}]
 			tasks: [{
 				entity: "graveyard:lich"
 				icon: "graveyard:lich_spawn_egg"
@@ -1094,8 +1117,8 @@
 			dependencies: ["0E60F4A2D051CF49"]
 			id: "37D8053F23F561B0"
 			rewards: [{
-				id: "42389EDD4BD8F6B4"
-				item: "terramity:stygian_safety_talisman"
+				id: "4F9879D2343D46EF"
+				item: "terramity:solar_safeguard_pendant"
 				type: "item"
 			}]
 			tasks: [{
@@ -1220,11 +1243,24 @@
 			hide_dependent_lines: true
 			id: "0E60F4A2D051CF49"
 			min_required_dependencies: 1
-			rewards: [{
-				id: "67A8E15B079F869A"
-				item: "confluence:demon_heart"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "030E9716FA7AB1F6"
+					item: "terramity:stygian_safety_talisman"
+					type: "item"
+				}
+				{
+					id: "049F86B5174845E5"
+					item: {
+						Count: 1
+						id: "bountifulbaubles:ankh_shield"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
 			size: 5.0d
 			tasks: [{
 				id: "33955EB8D453C1AE"
