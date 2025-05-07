@@ -1449,7 +1449,7 @@
 					type: "item"
 				}
 				{
-					count: 16
+					count: 32
 					id: "3183B277D11174D2"
 					item: "minecraft:copper_ingot"
 					type: "item"
@@ -1462,7 +1462,7 @@
 				only_from_crafting: true
 				type: "item"
 			}]
-			x: -10.0d
+			x: -7.0d
 			y: 1.5d
 		}
 		{
@@ -1766,6 +1766,56 @@
 			title: "奇异的珍珠"
 			x: -3.5d
 			y: 4.0d
+		}
+		{
+			dependencies: ["5978CF0D416A161C"]
+			description: ["This is power !"]
+			id: "4C08993FC8C590F3"
+			rewards: [{
+				count: 4
+				id: "69CED66D5F29B636"
+				item: "minecraft:iron_block"
+				type: "item"
+			}]
+			subtitle: "时代又变了"
+			tasks: [
+				{
+					id: "72118A972C16194C"
+					item: {
+						Count: 1
+						id: "tacz:workbench_a"
+						tag: {
+							BlockId: "emxarms:sky_workbench"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "525214B27911E954"
+					item: {
+						Count: 1
+						id: "tacz:workbench_b"
+						tag: {
+							BlockId: "emxarms:emx_workbench"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "77FA5A11C56EA879"
+					item: {
+						Count: 1
+						id: "tacz:workbench_b"
+						tag: {
+							BlockId: "emxcust:emxcust"
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "emx枪械工作台"
+			x: -5.5d
+			y: 1.5d
 		}
 	]
 	title: "&a1.1:新世界之旅"

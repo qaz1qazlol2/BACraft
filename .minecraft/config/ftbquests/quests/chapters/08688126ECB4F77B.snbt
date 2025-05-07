@@ -1,0 +1,1234 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "08688126ECB4F77B"
+	group: "50204E0DD499969B"
+	icon: {
+		Count: 1
+		id: "patchouli:guide_book"
+		tag: {
+			"patchouli:book": "goety:black_book"
+		}
+	}
+	id: "08688126ECB4F77B"
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			icon: {
+				Count: 1
+				id: "patchouli:guide_book"
+				tag: {
+					"patchouli:book": "goety:black_book"
+				}
+			}
+			id: "5877A4DD63EAA136"
+			rewards: [{
+				id: "2770CA244F9EB35D"
+				item: {
+					Count: 1
+					id: "patchouli:guide_book"
+					tag: {
+						"patchouli:book": "goety:black_book"
+					}
+				}
+				type: "item"
+			}]
+			shape: "diamond"
+			size: 1.5d
+			subtitle: "成为大黑魔法师的开端"
+			tasks: [{
+				id: "3AC07C9E574C276E"
+				type: "checkmark"
+			}]
+			title: "黑暗秘典"
+			x: -6.5d
+			y: -5.5d
+		}
+		{
+			dependencies: ["5877A4DD63EAA136"]
+			description: ["击杀幽灵，获取灵质"]
+			id: "644E29A087A0C647"
+			rewards: [{
+				count: 16
+				id: "2F474D7563C10430"
+				item: "kubejs:gold_coin"
+				type: "item"
+			}]
+			subtitle: "。"
+			tasks: [{
+				id: "1834F11650F6F1B7"
+				item: "goety:ectoplasm"
+				type: "item"
+			}]
+			title: "获取灵质"
+			x: -3.5d
+			y: -5.5d
+		}
+		{
+			dependencies: ["644E29A087A0C647"]
+			description: [
+				"很好，你以及成功做出了一个灵魂容器了，就是有点简陋。"
+				""
+				"但现在，它很有用。"
+				""
+				"&4将你眼前的生物杀死&f，获取&b灵魂能量&f！"
+			]
+			id: "67E3E099A319AE1A"
+			rewards: [{
+				count: 16
+				id: "4495787D02066816"
+				item: "kubejs:gold_coin"
+				type: "item"
+			}]
+			subtitle: "粗制滥造"
+			tasks: [{
+				id: "1B172E54F7A9A2C7"
+				item: {
+					Count: 1
+					id: "goety:totem_of_roots"
+					tag: {
+						"Max Souls": 100
+						Souls: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -1.0d
+			y: -5.5d
+		}
+		{
+			dependencies: ["67E3E099A319AE1A"]
+			description: ["嫌工作台合成材料太贵了？没关系！使用&8诅咒注入器&f，在下方放置一个刷怪笼，在转化过程中不会损耗任何东西"]
+			id: "48D2AFCD7765FC41"
+			rewards: [{
+				count: 16
+				id: "41645B3590CDD60F"
+				item: "kubejs:gold_coin"
+				type: "item"
+			}]
+			subtitle: "省钱小妙招"
+			tasks: [{
+				id: "3BE103B1949BADFC"
+				item: "goety:cursed_infuser"
+				type: "item"
+			}]
+			x: -1.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["48D2AFCD7765FC41"]
+			description: ["用&0捕捉笼&f将刷怪笼带走，再对&0诅咒之笼&f使用，这样它就变成新的刷怪笼了"]
+			id: "31523239204A5AC4"
+			tasks: [
+				{
+					id: "40E23A46AE130938"
+					item: "goety:flame_capture"
+					type: "item"
+				}
+				{
+					id: "4D159ECC57C0BB1C"
+					item: "goety:cursed_cage"
+					type: "item"
+				}
+			]
+			x: -1.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["67E3E099A319AE1A"]
+			description: [
+				"这里是诡厄巫法的基本材料，如果想使用该模组法术的话，现在就去收集吧"
+				""
+				"（PS:记得多去收集&d紫水晶&f，有用）"
+			]
+			id: "21BAC9E4C04A241E"
+			subtitle: "·"
+			tasks: [
+				{
+					id: "43EA9F52D2203356"
+					item: "goety:haunted_log"
+					type: "item"
+				}
+				{
+					id: "00EC480C7EED422A"
+					item: "goety:haunted_sapling"
+					type: "item"
+				}
+				{
+					id: "217FCF1D206044C8"
+					item: "goety:empty_focus"
+					type: "item"
+				}
+			]
+			x: -1.0d
+			y: -8.0d
+		}
+		{
+			dependencies: ["21BAC9E4C04A241E"]
+			id: "0B3BD85A4035D35B"
+			rewards: [{
+				count: 16
+				id: "4D8C1D776FAA2D3A"
+				item: "kubejs:gold_coin"
+				type: "item"
+			}]
+			subtitle: "最初的魔杖"
+			tasks: [{
+				id: "491D69FE2065EAD7"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						Parent: {
+							Items: [ ]
+							Size: 1
+							slot: 0
+						}
+					}
+					id: "goety:dark_wand"
+				}
+				type: "item"
+			}]
+			x: -1.0d
+			y: -10.5d
+		}
+		{
+			dependencies: [
+				"67E3E099A319AE1A"
+				"21BAC9E4C04A241E"
+			]
+			id: "6D08DF4069D1FB02"
+			subtitle: "浓缩的才是精华"
+			tasks: [
+				{
+					id: "4562960B553E3D08"
+					item: "goety:soul_emerald"
+					type: "item"
+				}
+				{
+					id: "1AD526E508D6D584"
+					item: "goety:cursed_ingot"
+					type: "item"
+				}
+			]
+			title: "仪式基础"
+			x: 2.0d
+			y: -5.5d
+		}
+		{
+			dependencies: ["6D08DF4069D1FB02"]
+			description: [
+				"好吧，&e根之图腾&f的&b灵魂能量&f已经满足不了你的要求了。不过经过一段时间的发展，材料足够你做一个升级版了"
+				""
+				"（PS：灵魂能量到达1w点的时候相当于不死图腾的效果）"
+			]
+			id: "26844D6026C66745"
+			subtitle: "另类不死图腾"
+			tasks: [{
+				id: "76C544BFCF2AEAE9"
+				item: {
+					Count: 1
+					id: "goety:totem_of_souls"
+					tag: {
+						"Max Souls": 10000
+						Souls: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 5.0d
+			y: -5.5d
+		}
+		{
+			dependencies: ["26844D6026C66745"]
+			description: [
+				"将灵魂图腾放入&0诅咒之笼&f内，在上面放上&0黑暗祭坛&f，在周围摆上一圈祭坛基座，一个简单的仪式框架就完成了【虽然不能用（大嘘）】。"
+				""
+				"仪式所需物品只需要摆放在基座旁边就好（怎么摆都可以，只要摆放在基座旁边即可）"
+				""
+				"具体使用哪些仪式请参考一开始给的《&5黑暗秘典&f》"
+			]
+			id: "527053064AB219CD"
+			subtitle: "也是整上祭坛了"
+			tasks: [
+				{
+					id: "27344C7600AF78F3"
+					item: "goety:dark_altar"
+					type: "item"
+				}
+				{
+					id: "61E9E09EE6C5FD2B"
+					item: "goety:pedestal"
+					type: "item"
+				}
+				{
+					id: "67040B9200996220"
+					item: "goety:cursed_cage"
+					type: "item"
+				}
+			]
+			title: "仪式基础"
+			x: 7.5d
+			y: -5.5d
+		}
+		{
+			dependencies: ["527053064AB219CD"]
+			description: [
+				"诡厄巫法里最大的灵魂容器———&9灵魂方舟"
+				""
+				"在你放下&9灵魂方舟&f并用连接宝石绑定后，你的&e灵魂图腾和根之图腾&f将无法储存能量。"
+				""
+				"因为灵魂方舟绑定的是玩家，所以玩家如果想要使用&b灵魂能量&f的话，需要将绑定了&9灵魂方舟&f的连接宝石放置在&0诅咒之笼&f中，这样才可以传输能量。"
+				""
+				"要想破坏它，只需要在远处shift+右键就好。"
+				""
+				"(PS:&e灵魂图腾&f的效果&9灵魂方舟&f也有，不过每次玩家死亡都会重生到&9灵魂方舟&f附近。&9灵魂方舟&f满能量的情况下相当于有10次不死图腾的效果）"
+			]
+			id: "56FA30587F0662EC"
+			rewards: [{
+				id: "746703564511562A"
+				item: "kubejs:diamond_coin"
+				type: "item"
+			}]
+			subtitle: "另类不死图腾升级版"
+			tasks: [
+				{
+					id: "5E12893FD9896568"
+					item: "goety:arca"
+					type: "item"
+				}
+				{
+					id: "4DCF5B354C6E6110"
+					item: "goety:soul_transfer"
+					type: "item"
+				}
+			]
+			x: 10.0d
+			y: -5.5d
+		}
+		{
+			dependencies: ["17365CA62C2278E3"]
+			description: [
+				"酿造系统是诡厄巫法里最强大的系统了（可以做出抗性提升4）"
+				""
+				"具体内容请查阅本书"
+			]
+			icon: {
+				Count: 1
+				id: "patchouli:guide_book"
+				tag: {
+					"patchouli:book": "goety:witches_brew"
+				}
+			}
+			id: "15FCE2DD46B843E4"
+			rewards: [{
+				id: "52EA93C1C7B64EC6"
+				item: {
+					Count: 1
+					id: "patchouli:guide_book"
+					tag: {
+						"patchouli:book": "goety:witches_brew"
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "《一本好书》"
+			tasks: [{
+				id: "56FEC7B68B92845A"
+				type: "checkmark"
+			}]
+			title: "女巫酿造学"
+			x: -7.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["5BCD20EC1CF6190C"]
+			description: [
+				"想要进行酿造，首先需要在&5女巫坩埚&f下面放置一个&c热源（篝火，灵魂篝火和岩浆块都行，这里推荐岩浆块），&f向锅中加入水，酿造的前置工作就做完了。"
+				""
+				"身为一名专——业的炼金术士（大嘘），要在酿造前规划好自己的配方，投入的每一份&2催化剂或者增强剂&f都有&41点&f基础容量占用。"
+				""
+				"想要查看容量，可以在锅中投入一个容量剂之后（比如说下届疣），将视角对准坩埚后按shift来查看当前容量以及容量上限，随后对着坩埚投放容量剂，直到满足配方要求为止。&4注意：&f容量剂必须严格按照顺序投放，即不能在&4绯红菌&f之后放入&a觉醒绿宝石&f。"
+			]
+			id: "17365CA62C2278E3"
+			rewards: [{
+				count: 16
+				id: "357E0C9EC42B937E"
+				item: "kubejs:gold_coin"
+				type: "item"
+			}]
+			subtitle: "想要成为炼金术士吗"
+			tasks: [
+				{
+					id: "643E757061DF4DBE"
+					item: "goety:witch_cauldron"
+					type: "item"
+				}
+				{
+					id: "0C315D48A22FB5D7"
+					item: "goety:cauldron_ladle"
+					type: "item"
+				}
+				{
+					id: "68C1D1757BFD1CE5"
+					item: "minecraft:magma_block"
+					type: "item"
+				}
+			]
+			x: -7.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["6C7A30E6189CD1B6"]
+			id: "740E6C3E1B362BFD"
+			subtitle: "铁锭黑化了"
+			tasks: [{
+				id: "3FEB44C03EFEDE6C"
+				item: "goety:dark_ingot"
+				type: "item"
+			}]
+			x: -3.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["7FD524D1EA665C26"]
+			description: [
+				"该物品只能在&8深暗之域&f工作，用于制作黑暗金属锭"
+				""
+				"请不要把无关物品放在上面，这可能导致物品被销毁。"
+			]
+			id: "6C7A30E6189CD1B6"
+			rewards: [{
+				count: 16
+				id: "01A76969EA33A74E"
+				item: "kubejs:gold_coin"
+				type: "item"
+			}]
+			subtitle: "。。。"
+			tasks: [{
+				id: "0E4734A64665A58E"
+				item: "goety:necro_brazier"
+				type: "item"
+			}]
+			x: -3.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["15FCE2DD46B843E4"]
+			description: ["当你做出了灵魂方舟，就可以进行更强的合成还有酿造了（诅咒之笼放在女巫坩埚旁边，并且里面放入连接宝石，上面放上灵魂蜡烛即可,不过因为灵魂蜡烛抽取能量的速度很慢。建议多做几个）"]
+			id: "7FD524D1EA665C26"
+			rewards: [{
+				count: 16
+				id: "4192543830DD4AD0"
+				item: "kubejs:gold_coin"
+				type: "item"
+			}]
+			subtitle: "进阶合成"
+			tasks: [
+				{
+					id: "1B3CCFF99C4E7DE9"
+					item: "goety:soul_candlestick"
+					type: "item"
+				}
+				{
+					id: "2D01B285D05A99E9"
+					item: "goety:cursed_cage"
+					type: "item"
+				}
+				{
+					id: "199523B251AF471A"
+					item: "goety:soul_transfer"
+					type: "item"
+				}
+			]
+			x: -5.5d
+			y: -3.0d
+		}
+		{
+			description: [
+				"当你穿戴了女巫长袍和女巫帽，在装瓶的时候可以使最大装瓶量+1，如果是巫婆帽还会额外+1。"
+				""
+				"如果女巫坩埚附近还有一只玩家的黑猫，则最大最小装配量+1。"
+				""
+				"玩家每具有一个装瓶等级，则最大最小装瓶量+1。"
+				""
+				"想要大量刷灵魂能量，可以去刷监守者（这玩意一次2w)。"
+			]
+			id: "5BCD20EC1CF6190C"
+			rewards: [{
+				count: 16
+				id: "7F23A6B425532286"
+				item: "kubejs:gold_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "046F07423EB1D761"
+				type: "checkmark"
+			}]
+			title: "注意事项"
+			x: -5.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["342EC769EBCFA7D1"]
+			description: [
+				"想不受&4灾厄村民&f的打扰吗？"
+				""
+				"就像摆放信标一样，在方尖碑下方提供灵魂能量用来激活它，底座必须是高头骨（摆放外圈部分就好，用来扩大生成范围），在方尖碑范围内的玩家无法触发袭击和灾厄猎杀。"
+			]
+			icon: "goety:shriek_obelisk"
+			id: "2ED8D5F8C1E863D9"
+			rewards: [{
+				count: 5
+				id: "0502D9FFC58B92E5"
+				item: "kubejs:diamond_coin"
+				type: "item"
+			}]
+			subtitle: "注：玩家和方尖碑过近会失去作用"
+			tasks: [
+				{
+					id: "7E1E23A254EC9DAC"
+					item: "goety:shriek_obelisk"
+					type: "item"
+				}
+				{
+					id: "2D035D8F941D0108"
+					item: "goety:tall_skull"
+					type: "item"
+				}
+			]
+			x: -5.0d
+			y: -7.5d
+		}
+		{
+			description: [
+				"当你所持有的灵魂能量超过2500点时，你就可能会遇到专门针对你的&4灾厄猎杀&f，装备比一般的掠夺者强了不止一星半点。"
+				""
+				"每当你的灵魂能量超过一定的阈值，&4灾厄猎杀&f就会愈加强大，当你击败他们后，还会获得&0“不详征兆”。"
+			]
+			id: "342EC769EBCFA7D1"
+			rewards: [{
+				id: "4E4E1848AE1D3E37"
+				item: "goety:alarming_charm"
+				type: "item"
+			}]
+			subtitle: "灾厄村民静静地看着你，不再言语"
+			tasks: [{
+				id: "1661D7140F529A71"
+				type: "checkmark"
+			}]
+			x: -5.0d
+			y: -9.5d
+		}
+		{
+			dependencies: ["342EC769EBCFA7D1"]
+			description: [
+				"&4灾厄教父&f，身为灾厄猎杀的领袖，如果你的灵魂能量非常高，他可能会亲自出马。"
+				""
+				"他的不详之杖可以抵挡任何伤害，只有在他施法/攻击的时候才会失效，要想获取&7不详核心&f，就必须在格挡次数用尽前击败他，"
+			]
+			id: "36984EDDBFACE6BE"
+			rewards: [{
+				count: 5
+				id: "18C25656624F892E"
+				item: "kubejs:diamond_coin"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "1253855BF22D3511"
+					item: "goety:ominous_orb"
+					type: "item"
+				}
+				{
+					id: "2166B28A82043A1B"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							Parent: {
+								Items: [ ]
+								Size: 1
+								slot: 0
+							}
+						}
+						id: "goety:ominous_staff"
+					}
+					type: "item"
+				}
+			]
+			x: -3.0d
+			y: -9.5d
+		}
+		{
+			dependencies: ["36984EDDBFACE6BE"]
+			description: ["通过&4灾厄猎杀&f所产生的“不详征兆”最多达到3级，除非你去惹怒一位&4灾厄高级官员&f（可以达到5级）。在&4灾厄猎杀&f开始的时候，如果携带了10w&b灵魂能量&f，那&4灾厄村民&f将会倾巢而出！"]
+			icon: "goety:haunted_mirror"
+			id: "1D123C5DBBDDF16B"
+			rewards: [{
+				id: "43E28637A4477696"
+				item: "kubejs:diamond_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "2EB6A00B7A2861E0"
+				type: "checkmark"
+			}]
+			x: -3.0d
+			y: -7.5d
+		}
+		{
+			dependencies: [
+				"4C6F0C4D525FED08"
+				"0B15B26CA45B30AF"
+			]
+			id: "6EDEE8368C2B45E5"
+			rewards: [{
+				id: "03F85655EB70713C"
+				item: "kubejs:diamond_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "3C85D479577023E0"
+				item: "minecraft:respawn_anchor"
+				type: "item"
+			}]
+			x: 2.5d
+			y: -11.0d
+		}
+		{
+			id: "6C8CD11DD20BBC5C"
+			rewards: [{
+				count: 4
+				id: "14DCADA68FC14A53"
+				item: "kubejs:diamond_coin"
+				type: "item"
+			}]
+			size: 1.0d
+			subtitle: "好马配好鞍，好魔法师配好魔杖"
+			tasks: [
+				{
+					id: "4B2682F9E49CE52D"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							Parent: {
+								Items: [ ]
+								Size: 1
+								slot: 0
+							}
+						}
+						id: "goety:dark_wand"
+						tag: {
+							"Cast Time": 0
+							Cooldown: 0
+							Duration: 0
+							Shots: 0
+							"Soul Cost": 0
+							"Soul Use": 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "72DB82ED7E736308"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							Parent: {
+								Items: [ ]
+								Size: 1
+								slot: 0
+							}
+						}
+						id: "goety:ominous_staff"
+						tag: {
+							"Cast Time": 0
+							Cooldown: 0
+							Duration: 0
+							Shots: 0
+							"Soul Cost": 0
+							"Soul Use": 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "0803A13ACFA48DE1"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							Parent: {
+								Items: [ ]
+								Size: 1
+								slot: 0
+							}
+						}
+						id: "goety:necro_staff"
+						tag: {
+							"Cast Time": 0
+							Cooldown: 0
+							Duration: 0
+							Shots: 0
+							"Soul Cost": 0
+							"Soul Use": 0
+							cap: {
+								Items: [ ]
+								Size: 1
+								slot: 0
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "6B0993BDAF0C0218"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							Parent: {
+								Items: [ ]
+								Size: 1
+								slot: 0
+							}
+						}
+						id: "goety:wind_staff"
+						tag: {
+							"Cast Time": 0
+							Cooldown: 0
+							Duration: 0
+							Shots: 0
+							"Soul Cost": 0
+							"Soul Use": 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "304E085D9A00C269"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							Parent: {
+								Items: [ ]
+								Size: 1
+								slot: 0
+							}
+						}
+						id: "goety:storm_staff"
+						tag: {
+							"Cast Time": 0
+							Cooldown: 0
+							Duration: 0
+							Shots: 0
+							"Soul Cost": 0
+							"Soul Use": 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4E217F7A55BE807E"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							Parent: {
+								Items: [ ]
+								Size: 1
+								slot: 0
+							}
+						}
+						id: "goety:frost_staff"
+						tag: {
+							"Cast Time": 0
+							Cooldown: 0
+							Duration: 0
+							Shots: 0
+							"Soul Cost": 0
+							"Soul Use": 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "53CFF90037569069"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							Parent: {
+								Items: [ ]
+								Size: 1
+								slot: 0
+							}
+						}
+						id: "goety:wild_staff"
+						tag: {
+							"Cast Time": 0
+							Cooldown: 0
+							Duration: 0
+							Shots: 0
+							"Soul Cost": 0
+							"Soul Use": 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "51AE9589EF98C111"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							Parent: {
+								Items: [ ]
+								Size: 1
+								slot: 0
+							}
+						}
+						id: "goety:nameless_staff"
+						tag: {
+							"Cast Time": 0
+							Cooldown: 0
+							Duration: 0
+							Shots: 0
+							"Soul Cost": 0
+							"Soul Use": 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "0D67F7FE958F966A"
+					item: {
+						Count: 1
+						id: "goety:philosophers_mace"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "魔杖收藏家"
+			x: 2.0d
+			y: -4.0d
+		}
+		{
+			id: "7073BE6BBBE7F6B4"
+			rewards: [{
+				count: 6
+				id: "50FB08A33A8AA2A5"
+				item: "kubejs:diamond_coin"
+				type: "item"
+			}]
+			subtitle: "你是要变成奇异博士吗"
+			tasks: [
+				{
+					id: "55DC7AFFD6FAD0B6"
+					item: {
+						Count: 1
+						id: "goety:witch_robe_hedge"
+						tag: {
+							WITCH_ROBE_BREW: 6
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4D038192D17700E2"
+					item: "goety:warlock_robe"
+					type: "item"
+				}
+				{
+					id: "78CBB766EF378908"
+					item: "goety:warlock_robe_dark"
+					type: "item"
+				}
+				{
+					id: "31B5326F113E7E00"
+					item: "goety:nether_robe"
+					type: "item"
+				}
+				{
+					id: "1CD731A2718F6DA8"
+					item: "goety:nether_robe_warped"
+					type: "item"
+				}
+				{
+					id: "04AC4AF9611F0937"
+					item: "goety:dark_robe"
+					type: "item"
+				}
+				{
+					id: "44FA1E9616E3C7DD"
+					item: "goety:grand_robe"
+					type: "item"
+				}
+				{
+					id: "252A46FFD883FF4C"
+					item: "goety:necro_cape"
+					type: "item"
+				}
+				{
+					id: "63C20048A207A49F"
+					item: "goety:nameless_cape"
+					type: "item"
+				}
+				{
+					id: "556B60E8D322B6D1"
+					item: "goety:illusion_robe"
+					type: "item"
+				}
+				{
+					id: "6A8DE7A57A861020"
+					item: "goety:illusion_robe_mirror"
+					type: "item"
+				}
+				{
+					id: "617BAD60D226C98B"
+					item: "goety:frost_robe"
+					type: "item"
+				}
+				{
+					id: "416011583D5BF9FD"
+					item: "goety:frost_robe_cryo"
+					type: "item"
+				}
+				{
+					id: "39E3C1F2E55FD4F9"
+					item: "goety:wind_robe"
+					type: "item"
+				}
+				{
+					id: "0A6A762EBDF39FAA"
+					item: "goety:storm_robe"
+					type: "item"
+				}
+				{
+					id: "67A91076AE29AC2A"
+					item: "goety:wild_robe"
+					type: "item"
+				}
+				{
+					id: "5D4E00B8D9F7C2C5"
+					item: "goety:abyss_robe"
+					type: "item"
+				}
+				{
+					id: "180419FD8D93B66C"
+					item: {
+						Count: 1
+						id: "goety:witch_robe"
+						tag: {
+							WITCH_ROBE_BREW: 3
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "5B5C6CD95AAC57ED"
+					item: "goety:unholy_robe"
+					type: "item"
+				}
+			]
+			title: "魔！术！技！巧！"
+			x: 5.0d
+			y: -4.0d
+		}
+		{
+			description: [
+				"里面有大量亡灵，其中有一间最大的墓室，而骷髅领主的坟墓就在中心。"
+				""
+				"注意：最好穿戴上减少魔法伤害的饰品再来挑战。"
+				""
+				"&7这里也是获取禁书片段的高效捷径"
+			]
+			id: "0B15B26CA45B30AF"
+			subtitle: "可以通过村民获取墓穴位置"
+			tasks: [
+				{
+					id: "4D0607521F20DE9F"
+					structure: "goety:crypt"
+					type: "structure"
+				}
+				{
+					entity: "goety:skull_lord"
+					id: "39D46C03DCD0007A"
+					type: "kill"
+					value: 1L
+				}
+			]
+			title: "盗墓笔记"
+			x: 4.0d
+			y: -9.5d
+		}
+		{
+			description: ["一楼大厅有个水晶球，右键一下有惊喜（才怪）"]
+			id: "4C6F0C4D525FED08"
+			subtitle: "如果你想要，你要自己来拿"
+			tasks: [
+				{
+					id: "2C3E8CE66F8AD808"
+					structure: "goety:blighted_shack"
+					type: "structure"
+				}
+				{
+					entity: "goety:crone"
+					id: "51F59FB4D2ED1F45"
+					type: "kill"
+					value: 1L
+				}
+			]
+			title: "把我的帽子还给我！"
+			x: 1.0d
+			y: -9.5d
+		}
+		{
+			description: ["&0凋零骷髅&f是怎么诞生的，为什么他们只存在于下界要塞？使用&6炽烈号角&f，答案就会揭晓。"]
+			id: "2873202FAF6FA1D6"
+			tasks: [
+				{
+					id: "1EF98D030FEA3798"
+					structure: "minecraft:fortress"
+					type: "structure"
+				}
+				{
+					entity: "goety:wither_necromancer"
+					id: "6BA8F4C507DDC4C9"
+					type: "kill"
+					value: 1L
+				}
+			]
+			title: "凋零骷髅的起源"
+			x: 6.5d
+			y: -9.5d
+		}
+		{
+			description: ["&e烈风神祠，&f大量灾厄村民在这里借助雷霆的力量，也许在雷雨天前往有意外收获？"]
+			id: "011259DF9CD4B911"
+			rewards: [{
+				id: "65AFDDC475759415"
+				item: "kubejs:diamond_coin"
+				type: "item"
+			}]
+			subtitle: "疾风   王牌"
+			tasks: [
+				{
+					id: "12B70313B8187AF8"
+					structure: "goety:wind_shrine"
+					type: "structure"
+				}
+				{
+					id: "261105CCE5458A85"
+					item: {
+						Count: 1
+						id: "goety:stormlander"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "以雷霆，击碎黑暗！"
+			x: 9.0d
+			y: -9.5d
+		}
+		{
+			description: ["在林地府邸使用黑暗卷轴召唤，掉落觉醒红宝石"]
+			id: "7072AD23A638A6D6"
+			rewards: [{
+				id: "0B45CCAB71C0A4F9"
+				item: "kubejs:diamond_coin"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "1C1AE66036BE5BD2"
+					structure: "minecraft:mansion"
+					type: "structure"
+				}
+				{
+					entity: "goety:vizier"
+					id: "44BB27F45908AAE0"
+					type: "kill"
+					value: 1L
+				}
+				{
+					id: "0D20E118ED8ECDE3"
+					item: "goety:dark_scroll"
+					type: "item"
+				}
+			]
+			title: "灾厄高官"
+			x: 11.5d
+			y: -9.5d
+		}
+		{
+			id: "6C36B153E3BA707A"
+			rewards: [{
+				count: 10
+				id: "581CA05AB3C53E4E"
+				item: "kubejs:diamond_coin"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "7DDD8B8387B852DE"
+					item: "goety:ravaging_scroll"
+					type: "item"
+				}
+				{
+					id: "68678D4D49809819"
+					item: "goety:warred_scroll"
+					type: "item"
+				}
+				{
+					id: "5A472869103D3B6C"
+					item: "goety:buried_scroll"
+					type: "item"
+				}
+				{
+					id: "26CC46058908790A"
+					item: "goety:haunting_scroll"
+					type: "item"
+				}
+				{
+					id: "6070B671778C457F"
+					item: "goety:front_scroll"
+					type: "item"
+				}
+				{
+					id: "1B71C23A45D22874"
+					item: "goety:mistral_scroll"
+					type: "item"
+				}
+				{
+					id: "603B6F8C1A41564F"
+					item: "goety:floral_scroll"
+					type: "item"
+				}
+				{
+					id: "1008ABF04BF6DCF5"
+					item: "goety:bygone_scroll"
+					type: "item"
+				}
+				{
+					id: "66654D3907D8E34A"
+					item: "goety:terminus_scroll"
+					type: "item"
+				}
+				{
+					id: "1F382884D10A6C5C"
+					item: "goety:forbidden_scroll"
+					type: "item"
+				}
+				{
+					id: "53450D03BE7C7648"
+					item: "goety:dark_scroll"
+					type: "item"
+				}
+			]
+			title: "卷轴带师"
+			x: 7.5d
+			y: -4.0d
+		}
+		{
+			id: "3A5C86AF92693EFD"
+			rewards: [{
+				count: 5
+				id: "587DABE92CDB5FBE"
+				item: "kubejs:diamond_coin"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "1F3E3FA8652A16B6"
+					item: "goety:crone_hat"
+					type: "item"
+				}
+				{
+					id: "0D2605AA672F0C3A"
+					item: "goety:witch_hat_hedge"
+					type: "item"
+				}
+				{
+					id: "34F0A5F53C0CAAFC"
+					item: "goety:witch_hat"
+					type: "item"
+				}
+				{
+					id: "215AB36C81024B63"
+					item: "goety:frost_crown"
+					type: "item"
+				}
+				{
+					id: "14204E015B0B0A84"
+					item: "goety:abyss_crown"
+					type: "item"
+				}
+				{
+					id: "0DB94F752C49F597"
+					item: "goety:necro_crown"
+					type: "item"
+				}
+				{
+					id: "33F650C718CA527B"
+					item: "goety:nameless_crown"
+					type: "item"
+				}
+				{
+					id: "2DFAE80B0B7B5196"
+					item: "goety:grand_turban"
+					type: "item"
+				}
+				{
+					id: "26ED4D47F80AC03C"
+					item: "goety:dark_hat"
+					type: "item"
+				}
+				{
+					id: "16C514AF96758B8A"
+					item: "goety:nether_crown"
+					type: "item"
+				}
+			]
+			title: "帽子收藏家"
+			x: 10.0d
+			y: -4.0d
+		}
+		{
+			description: ["本模组最强的boss,不过也许是在主世界用安息召唤的缘故，似乎....还不是完全体"]
+			id: "6CC08B296ADB3698"
+			rewards: [{
+				id: "36E49211C16EDE22"
+				item: "kubejs:diamond_coin"
+				type: "item"
+			}]
+			subtitle: "使徒，但不是完全体"
+			tasks: [{
+				id: "03D47455D97D60B3"
+				item: "goety:unholy_blood"
+				type: "item"
+			}]
+			x: 4.0d
+			y: -7.5d
+		}
+		{
+			description: ["在下界使用安息仪式召唤，你将面对使徒的完全体，不过会掉落暗夜信标"]
+			id: "500102699AF4D6C5"
+			rewards: [{
+				id: "30D4248007956E5C"
+				item: "kubejs:netherite_coin"
+				type: "item"
+			}]
+			subtitle: "完全的使徒，完全的——我！"
+			tasks: [{
+				id: "1B0E7F765DB31692"
+				item: "goety:night_beacon"
+				type: "item"
+			}]
+			x: 7.5d
+			y: -7.5d
+		}
+	]
+	title: "支线：诡厄巫法"
+}
