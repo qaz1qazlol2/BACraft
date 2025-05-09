@@ -1,1 +1,2 @@
 # 模组文件夹请访问 [https://huggingface.co/datasets/qaz1qazlol/mods](https://huggingface.co/datasets/qaz1qazlol/mods "https://huggingface.co/datasets/qaz1qazlol/mods") 获取(请使用科学上网方式访问该网站或者使用huggingface镜像站访问)
+# 镜像站网站为 [https://hf-mirror.com/datasets/qaz1qazlol/mods](https://hf-mirror.com/datasets/qaz1qazlol/mods "https://hf-mirror.com/datasets/qaz1qazlol/mods")
