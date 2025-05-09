@@ -1,4 +1,5 @@
 # BlueArchivesCraftModpack
+# 想体验最新版本请安装git后输入 git clone --recursive https://bgithub.xyz/qaz1qazlol2/BlueArchivesCraftModpackRemake.git
 整合包主体部分
 
 2024年8月1日：
