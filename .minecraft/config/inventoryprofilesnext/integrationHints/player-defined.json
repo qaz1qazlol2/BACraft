@@ -1,0 +1,29 @@
+{
+    "net.wzz.bluearchivescraft.gui.InfinityChestScreen": {
+        "buttonHints": {
+            "SETTINGS": {
+                "top": -2
+            },
+            "MOVE_TO_CONTAINER": {
+                "horizontalOffset": 2,
+                "bottom": -38
+            },
+            "MOVE_TO_PLAYER": {
+                "horizontalOffset": -162,
+                "top": -72
+            },
+            "SORT": {
+                "horizontalOffset": -158,
+                "top": -72
+            },
+            "SORT_COLUMNS": {
+                "horizontalOffset": -159,
+                "top": -72
+            },
+            "SORT_ROWS": {
+                "horizontalOffset": -160,
+                "top": -72
+            }
+        }
+    }
+}

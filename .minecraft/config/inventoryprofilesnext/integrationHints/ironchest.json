@@ -1,0 +1,18 @@
+{
+    "com.progwml6.ironchest.client.screen.IronChestScreen": {
+        "buttonHints": {
+            "MOVE_TO_PLAYER": {
+                "horizontalOffset": 26
+            },
+            "SORT": {
+                "horizontalOffset": 29
+            },
+            "SORT_COLUMNS": {
+                "horizontalOffset": 28
+            },
+            "SORT_ROWS": {
+                "horizontalOffset": 27
+            }
+        }
+    }
+}
