@@ -185,11 +185,18 @@
 		{
 			dependencies: ["50DD2FF103FEE47C"]
 			id: "644F48A00155BEAA"
-			rewards: [{
-				id: "306D7CA69DB077FD"
-				type: "xp_levels"
-				xp_levels: 50
-			}]
+			rewards: [
+				{
+					id: "306D7CA69DB077FD"
+					type: "xp_levels"
+					xp_levels: 50
+				}
+				{
+					id: "03F98F7DD56D5750"
+					item: "terramity:steel_shell"
+					type: "item"
+				}
+			]
 			subtitle: "在洞穴层有几率生成"
 			tasks: [{
 				entity: "mowziesmobs:ferrous_wroughtnaut"
@@ -213,10 +220,10 @@
 			subtitle: "主世界寒冰迷宫水边使用特殊物品召唤"
 			tasks: [{
 				entity: "aquamirae:captain_cornelia"
-				icon: "aquamirae:captain_cornelia_spawn_egg"
-				id: "3D78B500BA13C5D4"
+				id: "1A2700605001BB88"
+				title: "击杀幽灵船长"
 				type: "kill"
-				value: 8L
+				value: 1L
 			}]
 			title: "寒冰回响"
 			x: -6.5d
@@ -225,11 +232,24 @@
 		{
 			dependencies: ["50DD2FF103FEE47C"]
 			id: "3034576625D5C2BE"
-			rewards: [{
-				id: "412A781C01535A78"
-				type: "xp_levels"
-				xp_levels: 50
-			}]
+			rewards: [
+				{
+					id: "412A781C01535A78"
+					type: "xp_levels"
+					xp_levels: 50
+				}
+				{
+					id: "203C0920CC091945"
+					item: {
+						Count: 1
+						id: "deeperdarker:soul_elytra"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
 			subtitle: "在冷水海洋群系上空生成的空岛祭坛处摆放特定祭品召唤"
 			tasks: [{
 				entity: "graveyard:lich"
@@ -254,13 +274,6 @@
 			shape: "rsquare"
 			subtitle: "获取骨杖残片"
 			tasks: [
-				{
-					entity: "graveyard:lich"
-					icon: "graveyard:lich_spawn_egg"
-					id: "3DC6F2201B21F773"
-					type: "kill"
-					value: 1L
-				}
 				{
 					consume_items: true
 					count: 24L
@@ -463,11 +476,18 @@
 		{
 			dependencies: ["50DD2FF103FEE47C"]
 			id: "6F4A932CD37BA665"
-			rewards: [{
-				id: "317630C485DB28D2"
-				type: "xp_levels"
-				xp_levels: 50
-			}]
+			rewards: [
+				{
+					id: "317630C485DB28D2"
+					type: "xp_levels"
+					xp_levels: 50
+				}
+				{
+					id: "393E16514EE50D7B"
+					item: "mowziesmobs:grant_suns_blessing"
+					type: "item"
+				}
+			]
 			tasks: [{
 				entity: "mowziesmobs:umvuthi"
 				icon: "mowziesmobs:umvuthi_spawn_egg"

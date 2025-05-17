@@ -67,70 +67,6 @@
 		}
 		{
 			dependencies: ["0E60F4A2D051CF49"]
-			id: "64F3441D2234376F"
-			rewards: [
-				{
-					id: "54526F197BED08AA"
-					item: {
-						Count: 1
-						id: "galosphere:sterling_helmet"
-						tag: {
-							Damage: 0
-						}
-					}
-					type: "item"
-				}
-				{
-					id: "076F057A1B652823"
-					item: {
-						Count: 1
-						id: "galosphere:sterling_chestplate"
-						tag: {
-							Damage: 0
-						}
-					}
-					type: "item"
-				}
-				{
-					id: "4ABEFF1B87F969B8"
-					item: {
-						Count: 1
-						id: "galosphere:sterling_leggings"
-						tag: {
-							Damage: 0
-						}
-					}
-					type: "item"
-				}
-				{
-					id: "384E47ED04C244BB"
-					item: {
-						Count: 1
-						id: "galosphere:sterling_boots"
-						tag: {
-							Damage: 0
-						}
-					}
-					type: "item"
-				}
-				{
-					id: "2C75F1B1AA78C271"
-					item: "bountifulbaubles:curious_ring"
-					type: "item"
-				}
-			]
-			tasks: [{
-				entity: "galosphere:berserker"
-				icon: "galosphere:berserker_spawn_egg"
-				id: "5F81A7338D6EBEBF"
-				type: "kill"
-				value: 1L
-			}]
-			x: 3.0d
-			y: -1.5d
-		}
-		{
-			dependencies: ["0E60F4A2D051CF49"]
 			icon: "mokels_boss_mantyd:boss_mantyd_spawn_egg"
 			id: "7AEE48B9B5BF9F90"
 			rewards: [{
@@ -1234,8 +1170,8 @@
 				type: "kill"
 				value: 1L
 			}]
-			x: 12.0d
-			y: 0.0d
+			x: 3.0d
+			y: -1.5d
 		}
 		{
 			dependencies: ["44F93B6DF62B8340"]

@@ -1,0 +1,198 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "393CD788047B498E"
+	group: "4DA08CD6EB0E472F"
+	icon: "deeperdarker:heart_of_the_deep"
+	id: "393CD788047B498E"
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				"远古城市结构生成会稍有变化，中心雕像处会生成一条通向强化深板岩框架的楼梯。"
+				""
+				"用&4深渊之心开启传送门&f后可进入。"
+			]
+			id: "7B51684223937FB1"
+			rewards: [{
+				id: "1D422881CFD4BF57"
+				item: {
+					Count: 1
+					id: "eeeabsmobs:netherworld_katana"
+					tag: {
+						CodeAddFlag: 1b
+						Damage: 0
+						Unbreakable: 1b
+					}
+				}
+				type: "item"
+			}]
+			tasks: [
+				{
+					dimension: "deeperdarker:otherside"
+					icon: "minecraft:sculk_shrieker"
+					id: "0F06CAED953083B2"
+					title: "访问幽冥维度"
+					type: "dimension"
+				}
+				{
+					id: "64FD39E23F054FCB"
+					item: {
+						Count: 1
+						id: "deeperdarker:warden_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4F8658B05800B11B"
+					item: {
+						Count: 1
+						id: "deeperdarker:warden_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "737E6EC533A97F4D"
+					item: {
+						Count: 1
+						id: "deeperdarker:warden_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "68CDC4554940B950"
+					item: {
+						Count: 1
+						id: "deeperdarker:warden_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			x: -1.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["7B51684223937FB1"]
+			description: [
+				"少量生成于回响森林群系，和监守者一样没有视力，通过振动感知玩家位置。"
+				""
+				"死亡后会掉落灵魂粉尘，可用于将隐身药水酿造成隐匿药水"
+			]
+			id: "5967012F7D0C813A"
+			rewards: [{
+				id: "7AE37B369A266A4B"
+				item: {
+					Count: 1
+					id: "eeeabsmobs:ghost_warrior_helmet"
+					tag: {
+						CodeAddFlag: 1b
+						Damage: 0
+						Unbreakable: 1b
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				entity: "deeperdarker:shattered"
+				id: "54CE45F60112C28C"
+				title: "击杀碎裂者"
+				type: "kill"
+				value: 1L
+			}]
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["7B51684223937FB1"]
+			id: "0DF6BE4BB3BBD30B"
+			rewards: [{
+				id: "0B357E16B2CD1780"
+				item: {
+					Count: 1
+					id: "eeeabsmobs:ghost_warrior_chestplate"
+					tag: {
+						CodeAddFlag: 1b
+						Damage: 0
+						Unbreakable: 1b
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				entity: "deeperdarker:shriek_worm"
+				id: "7C939719D36351BD"
+				title: "击杀尖啸匿蠕"
+				type: "kill"
+				value: 1L
+			}]
+			x: -1.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["7B51684223937FB1"]
+			id: "4989CB76122C880B"
+			rewards: [{
+				id: "712132D78E7C1648"
+				item: {
+					Count: 1
+					id: "eeeabsmobs:ghost_warrior_leggings"
+					tag: {
+						CodeAddFlag: 1b
+						Damage: 0
+						Unbreakable: 1b
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				entity: "deeperdarker:sculk_leech"
+				id: "78A52031043C929C"
+				title: "击杀幽匿水蛭"
+				type: "kill"
+				value: 1L
+			}]
+			x: -4.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["7B51684223937FB1"]
+			id: "12EECB25E89F91EC"
+			rewards: [{
+				id: "2B1C5C8E000F3839"
+				item: {
+					Count: 1
+					id: "eeeabsmobs:ghost_warrior_boots"
+					tag: {
+						CodeAddFlag: 1b
+						Damage: 0
+						Unbreakable: 1b
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				entity: "deeperdarker:sculk_snapper"
+				id: "6725081AA6482569"
+				title: "击杀幽匿啃齿兽兽"
+				type: "kill"
+				value: 1L
+			}]
+			x: -1.0d
+			y: -3.0d
+		}
+	]
+	title: "2.3： 幽冥之境"
+}

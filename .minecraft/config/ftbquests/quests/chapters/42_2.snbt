@@ -1,0 +1,83 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "42_2"
+	group: "3F6E92AE7F64E4AB"
+	icon: "mokels_bossfight_saphyra:saphyra_remembrance"
+	id: "570D839C7FD6534F"
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			description: ["前往破碎钟楼的最顶端，找到第一奇物,用&4绯阳魔印&f右击，对话完毕根据提示就能根据对话知道该干什么了。注意对话完会给两样东西，这里的地形不好可能会漏拿。"]
+			icon: "mokels_bossfight_saphyra:sigil_of_the_red_sun"
+			id: "0D713687531CA339"
+			tasks: [{
+				id: "1AC702C145AAF955"
+				structure: "mokels_bossfight_saphyra:fractured_clock_tower"
+				title: "破碎的钟楼"
+				type: "structure"
+			}]
+			x: -1.0d
+			y: -2.5d
+		}
+		{
+			description: ["  剧情地点"]
+			id: "63435D26104E11F8"
+			tasks: [{
+				icon: "mokels_bossfight_saphyra:saphyra_remembrance"
+				id: "7D2C3B6FD8118A68"
+				structure: "mokels_bossfight_saphyra:the_three_hallowed_towers"
+				type: "structure"
+			}]
+			title: "三尊圣塔"
+			x: -1.0d
+			y: -1.5d
+		}
+		{
+			description: ["剧情地点"]
+			id: "06A108173C0BB47F"
+			tasks: [{
+				icon: {
+					Count: 1
+					id: "mokels_bossfight_saphyra:saphyras_hat_helmet"
+					tag: {
+						Damage: 0
+					}
+				}
+				id: "7FFB99E16F356362"
+				structure: "mokels_bossfight_saphyra:observatory"
+				title: "天文台"
+				type: "structure"
+			}]
+			x: -1.0d
+			y: 0.5d
+		}
+		{
+			description: ["剧情地点"]
+			id: "704F9285535CCE53"
+			tasks: [{
+				icon: "mokels_bossfight_saphyra:nameless_gatekeeper_remembrance"
+				id: "087599F931DDE7A9"
+				structure: "mokels_bossfight_saphyra:church_of_the_oath_pus"
+				title: "脓败誓约教堂"
+				type: "structure"
+			}]
+			x: -1.0d
+			y: -0.5d
+		}
+		{
+			description: ["找到所有剧情地点后即可开始这个模组的剧情了"]
+			id: "722A86A3A0D2E1C5"
+			size: 4.0d
+			tasks: [{
+				id: "39F305E90604D46B"
+				title: "找到剧情地点"
+				type: "checkmark"
+			}]
+			x: -1.0d
+			y: -5.0d
+		}
+	]
+	title: "4.2:破碎的女神"
+}

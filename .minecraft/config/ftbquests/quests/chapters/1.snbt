@@ -1817,6 +1817,113 @@
 			x: -5.5d
 			y: 1.5d
 		}
+		{
+			dependencies: ["563E9BFD5FA83232"]
+			id: "05EA1A67C99A9305"
+			rewards: [
+				{
+					id: "0AC6C3425814F5DB"
+					item: "bountifulbaubles:curious_ring"
+					type: "item"
+				}
+				{
+					id: "37FA8C82C73D0CF7"
+					item: {
+						Count: 1
+						id: "galosphere:sterling_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "139F617B9DCB4ACE"
+					item: {
+						Count: 1
+						id: "galosphere:sterling_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "66CEB6063F48C9D7"
+					item: {
+						Count: 1
+						id: "galosphere:sterling_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "6BB68B33A135EE35"
+					item: {
+						Count: 1
+						id: "galosphere:sterling_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "511190C62559EDA7"
+					item: "potionring:ring_of_haste"
+					type: "item"
+				}
+			]
+			tasks: [{
+				entity: "galosphere:berserker"
+				icon: "galosphere:berserker_spawn_egg"
+				id: "505DAFA1AE7E1BB8"
+				title: "击杀狂暴盐尸"
+				type: "kill"
+				value: 1L
+			}]
+			x: -7.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["05EA1A67C99A9305"]
+			description: ["与基诺拉交好后即可获得的物品"]
+			id: "146E0FB48AF54FF6"
+			rewards: [{
+				id: "242AFD0F593283E6"
+				item: "bountifulbaubles:curious_amulet"
+				type: "item"
+			}]
+			tasks: [{
+				id: "2E8483554ED863C1"
+				item: "mokels_boss_mantyd:plantation_rune"
+				type: "item"
+			}]
+			x: -5.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["6B96AB2856C49FF9"]
+			description: [
+				"右键地面生成歌莉娅装甲（凯撒同款）"
+				"(注：放下后不可回收，右键可以发射炮弹)"
+			]
+			id: "556A81F77850A62E"
+			rewards: [{
+				id: "0FBBEF4DF0DED504"
+				item: "binah:goliath_vehicle_kit"
+				type: "item"
+			}]
+			tasks: [{
+				id: "125D843021001701"
+				type: "checkmark"
+			}]
+			title: "歌莉娅套装"
+			x: -10.0d
+			y: 1.5d
+		}
 	]
 	title: "&a1.1:新世界之旅"
 }
