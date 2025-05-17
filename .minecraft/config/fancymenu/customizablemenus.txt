@@ -165,3 +165,9 @@ net.minecraft.client.gui.screens.CreditsAndAttributionScreen {
 com.jab125.mpuc.client.gui.screen.changelog.NewChangelogScreen {
 }
 
+net.wzz.bluearchivescraft.gui.InfinityChestScreen {
+}
+
+net.minecraft.client.gui.screens.multiplayer.SafetyScreen {
+}
+
