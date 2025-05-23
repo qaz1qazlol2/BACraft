@@ -1924,6 +1924,55 @@
 			x: -10.0d
 			y: 1.5d
 		}
+		{
+			dependencies: ["4C08993FC8C590F3"]
+			id: "0EB960E602817150"
+			rewards: [{
+				count: 4
+				id: "78353402B55A9863"
+				item: "minecraft:amethyst_block"
+				type: "item"
+			}]
+			subtitle: "滋你3点甲"
+			tasks: [{
+				id: "57A3741C6F4EB4D9"
+				item: {
+					Count: 1
+					id: "tacz:workbench_b"
+					tag: {
+						BlockId: "trisdyna:tris_workbench"
+					}
+				}
+				type: "item"
+			}]
+			x: -4.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["5978CF0D416A161C"]
+			id: "1D96B1BE568BB8E4"
+			rewards: [{
+				count: 4
+				id: "185DCBD90CFD108A"
+				item: "minecraft:iron_block"
+				type: "item"
+			}]
+			subtitle: "Join The Helldivers"
+			tasks: [{
+				id: "2AC98A6505300E9F"
+				item: {
+					Count: 1
+					id: "tacz:workbench_b"
+					tag: {
+						BlockId: "zeta:terminal"
+					}
+				}
+				type: "item"
+			}]
+			title: "To be free"
+			x: -6.0d
+			y: 2.5d
+		}
 	]
 	title: "&a1.1:新世界之旅"
 }
