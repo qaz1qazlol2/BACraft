@@ -288,7 +288,11 @@
 			tasks: [{
 				consume_items: true
 				id: "03F26114763A10A8"
-				item: "blue_archivescraft:card"
+				item: {
+					Count: 1
+					id: "blue_archivescraft:adult_card"
+					tag: { }
+				}
 				type: "item"
 			}]
 			title: "卡片的力量"
