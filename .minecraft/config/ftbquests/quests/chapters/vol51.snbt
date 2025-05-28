@@ -1283,11 +1283,6 @@
 				"针对学生：双刀王小桃"
 			]
 			id: "5E0A05443373E70E"
-			rewards: [{
-				id: "5883DF2B41BDA1F3"
-				item: "bygonenether:warped_ender_pearl"
-				type: "item"
-			}]
 			tasks: [{
 				entity: "legendary_monsters:endersent"
 				icon: "legendary_monsters:endersent_spawn_egg"
@@ -1457,11 +1452,6 @@
 				"针对学生：小雪，莉音"
 			]
 			id: "5D17FA2B22180AA8"
-			rewards: [{
-				id: "5A6F550AB56EF285"
-				item: "confluence:paladins_shield"
-				type: "item"
-			}]
 			tasks: [{
 				entity: "legendary_monsters:posessed_paladin"
 				icon: "legendary_monsters:posessed_paladin_spawn_egg"

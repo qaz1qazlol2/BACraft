@@ -120,15 +120,9 @@
 			icon: "alexsmobs:spawn_egg_void_worm"
 			id: "1AE3811F0A9DA145"
 			rewards: [{
-				id: "5DE0652F7061AB51"
-				item: {
-					Count: 1
-					id: "tacz:ammo_box"
-					tag: {
-						Creative: 1b
-					}
-				}
-				type: "item"
+				id: "5FAD8AC4FED0D5D3"
+				type: "xp_levels"
+				xp_levels: 50
 			}]
 			tasks: [{
 				entity: "alexsmobs:void_worm"

@@ -730,7 +730,7 @@
 			id: "7E73BB2940C1AD18"
 			rewards: [{
 				id: "7A48294BD88DACF5"
-				item: "blue_archivescraft:big_book"
+				item: "blue_archivescraft:mysterious_book"
 				type: "item"
 			}]
 			tasks: [{
@@ -1088,11 +1088,6 @@
 		{
 			dependencies: ["0E60F4A2D051CF49"]
 			id: "02E72A61FBF797C5"
-			rewards: [{
-				id: "5ADD830FF8D4CFA4"
-				item: "confluence:ankh_charm"
-				type: "item"
-			}]
 			tasks: [{
 				entity: "terramity:gob"
 				icon: "terramity:gob_spawn_egg"
