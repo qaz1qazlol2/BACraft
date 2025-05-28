@@ -123,7 +123,11 @@
 			id: "3042BE11616FA4B1"
 			rewards: [{
 				id: "14371039B935AB75"
-				item: "blue_archivescraft:card"
+				item: {
+					Count: 1
+					id: "blue_archivescraft:adult_card"
+					tag: { }
+				}
 				type: "item"
 			}]
 			subtitle: "我的卡片...在这里也能用？"
@@ -286,7 +290,7 @@
 			rewards: [{
 				count: 30
 				id: "46F046E81C3C870B"
-				item: "blue_archivescraft:adult_card"
+				item: "blue_archivescraft:credit_point"
 				type: "item"
 			}]
 			tasks: [{
