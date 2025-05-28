@@ -4,7 +4,10 @@ const banned_items = [
     "born_in_chaos_v1:soul_cutlass",
     "cataclysm:the_incinerator",
     "cataclysm:the_immolator",
-    "enigmaticaddons:forger_gem"
+    "enigmaticaddons:forger_gem",
+    "born_in_chaos_v1:soulbane",
+    "aquamirae:divider",
+    "aquamirae:whisper_of_the_abyss"
 ]
 
 
