@@ -27,7 +27,7 @@ B:game_intro_fade_out = 'true';
 B:show_custom_window_icon = 'true';
 S:custom_window_icon_macos = '/config/fancymenu/assets/arona.icns';
 S:custom_window_icon_32 = '/config/fancymenu/assets/arona.png';
-S:custom_window_title = 'Minecraft* Forge 1.20.1 | Blue Archives Craft Remake 1.1.1 | 与你的日常，便是奇迹！';
+S:custom_window_title = 'Minecraft* Forge 1.20.1 | Blue Archives Craft Remake 1.2 | 与你的日常，便是奇迹！';
 S:custom_window_icon_16 = '/config/fancymenu/assets/arona16x16.png';
 
 
