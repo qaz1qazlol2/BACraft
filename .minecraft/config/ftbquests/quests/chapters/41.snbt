@@ -393,46 +393,6 @@
 			x: 0.0d
 			y: 2.0d
 		}
-		{
-			description: [
-				"通过制作空白传送钥匙并在末地传送门上雕刻可以获得随机的主题钥匙"
-				" "
-				"&c具体搭建方法查看指南书"
-			]
-			id: "45A495ADDD2A058C"
-			rewards: [
-				{
-					id: "4B6A84B26B28FD0C"
-					item: "dimdungeons:item_portal_key"
-					type: "item"
-				}
-				{
-					id: "08D26C0790B74510"
-					type: "xp"
-					xp: 250
-				}
-				{
-					id: "23E50F716F3C0E50"
-					item: {
-						Count: 1
-						id: "patchouli:guide_book"
-						tag: {
-							"patchouli:book": "dimdungeons:guide_book"
-						}
-					}
-					type: "item"
-				}
-			]
-			subtitle: "解密地牢"
-			tasks: [{
-				id: "5FE41594F0CFA5E7"
-				item: "dimdungeons:item_portal_key"
-				only_from_crafting: true
-				type: "item"
-			}]
-			x: -3.5d
-			y: -3.0d
-		}
 	]
 	title: "3.1：初见端倪"
 }

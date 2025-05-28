@@ -366,7 +366,7 @@
 			}]
 			tasks: [{
 				consume_items: true
-				count: 110L
+				count: 100L
 				id: "0BA958DB13505798"
 				item: "kubejs:gold_coin"
 				type: "item"

@@ -53,59 +53,7 @@
 					}]
 				}
 			}
-			title: "无限"
-		}
-		{
-			item: {
-				Count: 1
-				id: "minecraft:enchanted_book"
-				tag: {
-					StoredEnchantments: [{
-						id: "flowingagony:covert_knife"
-						lvl: 3s
-					}]
-				}
-			}
-			title: "暗箭难防III"
-		}
-		{
-			item: {
-				Count: 1
-				id: "minecraft:enchanted_book"
-				tag: {
-					StoredEnchantments: [{
-						id: "flowingagony:agony_screamer"
-						lvl: 3s
-					}]
-				}
-			}
-			title: "苦痛尖嚎III"
-		}
-		{
-			item: {
-				Count: 1
-				id: "minecraft:enchanted_book"
-				tag: {
-					StoredEnchantments: [{
-						id: "flowingagony:back_and_fill"
-						lvl: 3s
-					}]
-				}
-			}
-			title: "风使船舵III"
-		}
-		{
-			item: {
-				Count: 1
-				id: "minecraft:enchanted_book"
-				tag: {
-					StoredEnchantments: [{
-						id: "flowingagony:insane_poet"
-						lvl: 3s
-					}]
-				}
-			}
-			title: "疯诗人III"
+			title: "无限(只有弓可用)"
 		}
 	]
 	title: "弓类武器附魔选择"

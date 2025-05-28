@@ -22,7 +22,7 @@
 			id: "758C5D1C4EA5DA43"
 			rewards: [{
 				id: "07243FF6CB96F5F9"
-				item: "blue_archivescraft:adult_card"
+				item: "blue_archivescraft:credit_point"
 				type: "item"
 			}]
 			tasks: [{
@@ -43,7 +43,7 @@
 			rewards: [{
 				count: 32
 				id: "12F28D914C350BFF"
-				item: "blue_archivescraft:adult_card"
+				item: "blue_archivescraft:credit_point"
 				type: "item"
 			}]
 			tasks: [{
@@ -64,7 +64,7 @@
 			rewards: [{
 				count: 64
 				id: "216866C49FA1D773"
-				item: "blue_archivescraft:adult_card"
+				item: "blue_archivescraft:credit_point"
 				type: "item"
 			}]
 			tasks: [{
@@ -85,7 +85,7 @@
 			rewards: [{
 				count: 100
 				id: "6FD2BF143D1755B4"
-				item: "blue_archivescraft:adult_card"
+				item: "blue_archivescraft:credit_point"
 				type: "item"
 			}]
 			tasks: [{
@@ -99,60 +99,103 @@
 			y: 1.0d
 		}
 		{
+			id: "07AE256A44548A33"
+			tasks: [{
+				advancement: "minecraft:end/dragon_egg"
+				criterion: ""
+				icon: "minecraft:dragon_egg"
+				id: "4125C72437B3107C"
+				type: "advancement"
+			}]
+			title: "开启兑换的前提"
+			x: 0.5d
+			y: -0.5d
+		}
+		{
 			can_repeat: true
 			dependencies: ["07AE256A44548A33"]
-			id: "3A56567F2CC488CD"
+			icon: "kubejs:gold_coin"
+			id: "1D17BEC51F26CE45"
 			rewards: [{
-				count: 3200
-				id: "41FEFEC1F63DE423"
-				item: "blue_archivescraft:adult_card"
+				count: 3
+				id: "673408A1C50E4830"
+				item: "kubejs:gold_coin"
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				id: "36EC3E69686BD830"
+				item: "blue_archivescraft:credit_point"
+				type: "item"
+			}]
+			title: "信用点x1>> 金币x3  兑换"
+			x: -1.0d
+			y: -3.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["07AE256A44548A33"]
+			icon: "kubejs:gold_coin"
+			id: "26022A6144A73CB7"
+			rewards: [{
+				count: 96
+				id: "387F0F20151899D1"
+				item: "kubejs:gold_coin"
 				type: "item"
 			}]
 			tasks: [{
 				consume_items: true
 				count: 32L
-				id: "1E5921F7A6FE3F53"
-				item: "kubejs:diamond_coin"
+				id: "6C445C98CE6AFF22"
+				item: "blue_archivescraft:credit_point"
 				type: "item"
 			}]
-			title: "钻石币x32 >> 信用点x3200"
+			title: "信用点x32>>金币x96  兑换"
 			x: 0.5d
-			y: 1.0d
+			y: -3.0d
 		}
 		{
 			can_repeat: true
 			dependencies: ["07AE256A44548A33"]
-			id: "2C5FDDB93BDABA95"
+			icon: "kubejs:gold_coin"
+			id: "1EE30109714A099E"
 			rewards: [{
-				count: 6400
-				id: "75344C2A22C0D370"
-				item: "blue_archivescraft:adult_card"
+				count: 196
+				id: "0962C8C924A8AA12"
+				item: "kubejs:gold_coin"
 				type: "item"
 			}]
 			tasks: [{
 				consume_items: true
 				count: 64L
-				id: "0877415E1D20C6DF"
+				id: "4985BD38AD2C0074"
+				item: "blue_archivescraft:credit_point"
+				type: "item"
+			}]
+			title: "信用点x64>>金币x196  兑换"
+			x: 2.0d
+			y: -3.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["07AE256A44548A33"]
+			icon: "kubejs:diamond_coin"
+			id: "38249E08250EAD9C"
+			rewards: [{
+				id: "743970C7E7DC79C6"
 				item: "kubejs:diamond_coin"
 				type: "item"
 			}]
-			title: "钻石币x64 >> 信用点x6400"
+			tasks: [{
+				consume_items: true
+				count: 100L
+				id: "350F0E829711D652"
+				item: "blue_archivescraft:credit_point"
+				type: "item"
+			}]
+			title: "信用点x100>>钻石币x1 "
 			x: 2.0d
 			y: 1.0d
-		}
-		{
-			id: "07AE256A44548A33"
-			tasks: [{
-				entity: "minecraft:ender_dragon"
-				icon: "minecraft:dragon_egg"
-				id: "3364ECB93ECF2C8F"
-				title: "末影龙"
-				type: "kill"
-				value: 1L
-			}]
-			title: "开启兑换的前提"
-			x: 0.5d
-			y: -0.5d
 		}
 	]
 	title: "信用点兑换商店"
