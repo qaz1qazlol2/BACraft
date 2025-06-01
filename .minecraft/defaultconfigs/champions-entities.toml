@@ -114,8 +114,8 @@
 
 [[entities]]
 	entity = "cataclysm:the_leviathan"
-	minTier = 10
-	maxTier = 10
+	minTier = 7
+	maxTier = 7
 	presetAffixes = []
 	affixList = ["Shielding", "Adaptable", "Dampening"]
 	affixPermission = "BLACKLIST"
@@ -920,3 +920,10 @@
 	affixList = ["Shielding", "Adaptable", "Dampening"]
 	affixPermission = "BLACKLIST"
 
+[[entities]]
+	entity = "threateningly_mobs:abyss_fang"
+	minTier = 5
+	maxTier = 5
+	presetAffixes = []
+	affixList = ["Shielding", "Adaptable", "Dampening"]
+	affixPermission = "BLACKLIST"
