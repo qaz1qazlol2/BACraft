@@ -229,7 +229,7 @@
 			rewards: [{
 				count: 2
 				id: "3E67945E34E93A8C"
-				item: "blue_archivescraft:super_book"
+				item: "blue_archivescraft:mysterious_book"
 				type: "item"
 			}]
 			tasks: [{

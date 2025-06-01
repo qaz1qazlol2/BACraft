@@ -1,0 +1,78 @@
+{
+	icon: {
+		Count: 1
+		id: "lrtactical:melee"
+		tag: {
+			MeleeWeaponId: "cs2_wt:butterfly"
+		}
+	}
+	id: "2AECD5299E37EC06"
+	loot_size: 1
+	order_index: 31
+	rewards: [
+		{
+			item: {
+				Count: 1
+				id: "lrtactical:melee"
+				tag: {
+					MeleeWeaponId: "cs2_wt:butterfly"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "lrtactical:melee"
+				tag: {
+					MeleeWeaponId: "cs2_wt:m9"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "lrtactical:melee"
+				tag: {
+					MeleeWeaponId: "cs2_wt:skeleton"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "lrtactical:melee"
+				tag: {
+					MeleeWeaponId: "cs2_wt:tactical"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "lrtactical:melee"
+				tag: {
+					MeleeWeaponId: "cs2_wt:bayonet"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "lrtactical:melee"
+				tag: {
+					MeleeWeaponId: "cs2_wt:karambit"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "lrtactical:melee"
+				tag: {
+					MeleeWeaponId: "cs2_wt:css"
+				}
+			}
+		}
+	]
+	title: "cs刀包抽取"
+}

@@ -686,6 +686,36 @@
 			x: 3.5d
 			y: -7.0d
 		}
+		{
+			can_repeat: true
+			description: ["大奖是蝴蝶刀，有了它可以一刀一个小水滴（）"]
+			icon: {
+				Count: 1
+				id: "lrtactical:melee"
+				tag: {
+					MeleeWeaponId: "cs2_wt:butterfly"
+				}
+			}
+			id: "5459474F3D675481"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "72A52294BF7930B1"
+				table_id: 3093081418821528582L
+				type: "random"
+			}]
+			subtitle: "开赌！"
+			tasks: [{
+				consume_items: true
+				id: "7AAA1344032CE8FB"
+				item: "kubejs:diamond_coin"
+				match_nbt: true
+				only_from_crafting: false
+				type: "item"
+			}]
+			title: "cs刀包抽取"
+			x: 4.5d
+			y: -5.0d
+		}
 	]
 	title: "奇怪小玩意兑换"
 }

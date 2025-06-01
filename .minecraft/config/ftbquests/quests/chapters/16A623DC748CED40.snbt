@@ -93,17 +93,36 @@
 				"&c当前版本存在一些BUG，属性克制参考性不大"
 			]
 			id: "5759D90354C17059"
-			rewards: [{
-				id: "276076C6D8696D8F"
-				item: {
-					Count: 1
-					id: "minecraft:iron_sword"
-					tag: {
-						Damage: 0
+			rewards: [
+				{
+					id: "189314E84B949EB5"
+					item: {
+						Count: 1
+						id: "tacz:modern_kinetic_gun"
+						tag: {
+							GunCurrentAmmoCount: 1
+							GunFireMode: "SEMI"
+							GunId: "dknife:t_knife"
+							HasBulletInBarrel: 1b
+						}
 					}
+					type: "item"
 				}
-				type: "item"
-			}]
+				{
+					id: "78A8E71011A59907"
+					item: {
+						Count: 1
+						id: "tacz:modern_kinetic_gun"
+						tag: {
+							GunCurrentAmmoCount: 1
+							GunFireMode: "SEMI"
+							GunId: "dknife:ct_knife"
+							HasBulletInBarrel: 1b
+						}
+					}
+					type: "item"
+				}
+			]
 			subtitle: "知己知彼"
 			tasks: [{
 				id: "66D0BDD2C8D38B07"

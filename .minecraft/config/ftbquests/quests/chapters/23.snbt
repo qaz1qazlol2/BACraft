@@ -75,10 +75,9 @@
 				type: "item"
 			}]
 			tasks: [{
-				entity: "mokels_boss_mantyd:boss_mantyd"
-				id: "2030FD1BBF5C0341"
-				type: "kill"
-				value: 1L
+				id: "03D4CD44981265A2"
+				item: "mokels_boss_mantyd:plantation_rune"
+				type: "item"
 			}]
 			x: 4.5d
 			y: -1.5d
@@ -1003,11 +1002,9 @@
 				type: "item"
 			}]
 			tasks: [{
-				entity: "mokels_bossfight_saphyra:nameless"
-				icon: "mokels_bossfight_saphyra:nameless_spawn_egg"
-				id: "445C37A9773E5FF8"
-				type: "kill"
-				value: 1L
+				id: "37C7DF0669C0EA2C"
+				item: "mokels_bossfight_saphyra:nameless_gatekeeper_remembrance"
+				type: "item"
 			}]
 			x: 3.0d
 			y: -3.0d
@@ -1088,6 +1085,15 @@
 		{
 			dependencies: ["0E60F4A2D051CF49"]
 			id: "02E72A61FBF797C5"
+			rewards: [{
+				id: "4C92F9980D7848F7"
+				item: {
+					Count: 1
+					id: "enigmaticlegacy:mining_charm"
+					tag: { }
+				}
+				type: "item"
+			}]
 			tasks: [{
 				entity: "terramity:gob"
 				icon: "terramity:gob_spawn_egg"
@@ -1107,11 +1113,15 @@
 				type: "item"
 			}]
 			tasks: [{
-				entity: "terramity:trial_guardian"
-				icon: "terramity:trial_guardian_spawn_egg"
-				id: "12938D06CBCA5136"
-				type: "kill"
-				value: 1L
+				id: "6C8262FB284EBF54"
+				item: {
+					Count: 1
+					id: "terramity:perish_staff"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
 			}]
 			x: 12.0d
 			y: -3.0d
