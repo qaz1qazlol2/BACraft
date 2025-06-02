@@ -5,17 +5,16 @@
 	numAffixes = 0
 	defaultColor = "#FFFFFF"
 	weight = 10000000
-	growthFactor = 5
+	growthFactor = 0
 	effects = []
 	presetAffixes = []
-
 
 [[ranks]]
 	tier = 2
 	numAffixes = 2
 	defaultColor = "#FFFFFF"
-	weight = 0
-	growthFactor = 10
+	weight = 1
+	growthFactor = 4
 	effects = []
 	presetAffixes = []
 
@@ -24,7 +23,7 @@
 	numAffixes = 3
 	defaultColor = "#00FF00"
 	weight = 1
-	growthFactor = 20
+	growthFactor = 6
 	effects = []
 	presetAffixes = []
 
@@ -33,7 +32,7 @@
 	numAffixes = 4
 	defaultColor = "#00FFFF"
 	weight = 1
-	growthFactor = 60
+	growthFactor = 8
 	effects = []
 	presetAffixes = []
 
@@ -42,7 +41,7 @@
 	numAffixes = 5
 	defaultColor = "#0000FF"
 	weight = 1
-	growthFactor = 100
+	growthFactor = 10
 	effects = []
 	presetAffixes = []
 
@@ -51,7 +50,7 @@
 	numAffixes = 6
 	defaultColor = "#FF00FF"
 	weight = 1
-	growthFactor = 140
+	growthFactor = 12
 	effects = []
 	presetAffixes = []
 
@@ -60,7 +59,7 @@
 	numAffixes = 7
 	defaultColor = "#FF9B00"
 	weight = 1
-	growthFactor = 200
+	growthFactor = 14
 	effects = []
 	presetAffixes = []
 
@@ -69,7 +68,7 @@
 	numAffixes = 10
 	defaultColor = "#FF0000"
 	weight = 1
-	growthFactor = 350
+	growthFactor = 20
 	effects = []
 	presetAffixes = []
 
