@@ -1,0 +1,17 @@
+{
+  "attributeType": "minecraft:generic.max_health",
+  "conditions": {
+    "affixes": {
+      "values": []
+    },
+    "entity": [
+      "minecraft:creeper"
+    ],
+    "permission": "blacklist"
+  },
+  "enable": false,
+  "modifier": {
+    "operation": "MULTIPLY_TOTAL",
+    "value": 0.35
+  }
+}
