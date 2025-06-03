@@ -5,13 +5,12 @@
       "values": []
     },
     "entity": [
-      "minecraft:creeper"
     ],
     "permission": "blacklist"
   },
-  "enable": false,
+  "enable": true,
   "modifier": {
     "operation": "MULTIPLY_TOTAL",
-    "value": 0.35
+    "value": 0.5
   }
 }
