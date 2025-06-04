@@ -46,7 +46,7 @@
 				consume_items: true
 				count: 6L
 				id: "60B72015688630FF"
-				item: "kubejs:diamond_coin"
+				item: "dotcoinmod:diamond_coin"
 				type: "item"
 			}]
 			title: "装备类防护附魔"
@@ -83,7 +83,7 @@
 				consume_items: true
 				count: 3L
 				id: "234908270DB10A80"
-				item: "kubejs:diamond_coin"
+				item: "dotcoinmod:diamond_coin"
 				type: "item"
 			}]
 			title: "镐类工具附魔"
@@ -120,7 +120,7 @@
 				consume_items: true
 				count: 3L
 				id: "7156B68FCCAD3726"
-				item: "kubejs:diamond_coin"
+				item: "dotcoinmod:diamond_coin"
 				type: "item"
 			}]
 			title: "剑类武器附魔"
@@ -156,7 +156,7 @@
 			tasks: [{
 				consume_items: true
 				id: "61BAEAEB95354C57"
-				item: "kubejs:diamond_coin"
+				item: "dotcoinmod:diamond_coin"
 				type: "item"
 			}]
 			title: "弓类武器附魔"
@@ -182,7 +182,7 @@
 			tasks: [{
 				consume_items: true
 				id: "78B42942654BE2ED"
-				item: "kubejs:diamond_coin"
+				item: "dotcoinmod:diamond_coin"
 				type: "item"
 			}]
 			title: "弩类武器附魔选择"
@@ -220,7 +220,7 @@
 				consume_items: true
 				count: 3L
 				id: "654B9A4454129952"
-				item: "kubejs:diamond_coin"
+				item: "dotcoinmod:diamond_coin"
 				type: "item"
 			}]
 			title: "耐久10"
@@ -258,7 +258,7 @@
 				consume_items: true
 				count: 3L
 				id: "055991436767DA95"
-				item: "kubejs:diamond_coin"
+				item: "dotcoinmod:diamond_coin"
 				type: "item"
 			}]
 			title: "经验修补"
@@ -278,7 +278,7 @@
 			tasks: [{
 				consume_items: true
 				id: "2A7CC0016F675FBD"
-				item: "kubejs:diamond_coin"
+				item: "dotcoinmod:diamond_coin"
 				type: "item"
 			}]
 			title: "饰品抽奖"
@@ -299,7 +299,7 @@
 				consume_items: true
 				count: 3L
 				id: "2891B82C1AC8802F"
-				item: "kubejs:diamond_coin"
+				item: "dotcoinmod:diamond_coin"
 				type: "item"
 			}]
 			title: "遗物饰品抽奖"
@@ -327,7 +327,7 @@
 				consume_items: true
 				count: 60L
 				id: "121B02AD83E184FA"
-				item: "kubejs:gold_coin"
+				item: "dotcoinmod:gold_coin"
 				type: "item"
 			}]
 			title: "钓鱼佬专用"
@@ -348,32 +348,12 @@
 				consume_items: true
 				count: 40L
 				id: "7438CCAD7D7D4BD5"
-				item: "kubejs:gold_coin"
+				item: "dotcoinmod:gold_coin"
 				type: "item"
 			}]
 			title: "灵魂水晶兑换"
 			x: 3.5d
 			y: -5.0d
-		}
-		{
-			can_repeat: true
-			icon: "kubejs:diamond_coin"
-			id: "2ECF2B4AED6C9867"
-			rewards: [{
-				id: "40D7A7D49B3D84A7"
-				item: "kubejs:diamond_coin"
-				type: "item"
-			}]
-			tasks: [{
-				consume_items: true
-				count: 100L
-				id: "0BA958DB13505798"
-				item: "kubejs:gold_coin"
-				type: "item"
-			}]
-			title: "金币 -> 钻石币"
-			x: -3.0d
-			y: -3.0d
 		}
 		{
 			can_repeat: true
@@ -389,7 +369,7 @@
 				consume_items: true
 				count: 5L
 				id: "0BDBE430B3EE929D"
-				item: "kubejs:diamond_coin"
+				item: "dotcoinmod:diamond_coin"
 				type: "item"
 			}]
 			title: "饰品自选"
@@ -401,7 +381,7 @@
 			id: "2063A205D2C5ADC2"
 			rewards: [{
 				id: "3AFB7C981F6DDD51"
-				item: "kubejs:diamond_coin"
+				item: "dotcoinmod:diamond_coin"
 				type: "item"
 			}]
 			tasks: [{
@@ -428,7 +408,7 @@
 				consume_items: true
 				count: 5L
 				id: "1A957AD2B823E95D"
-				item: "kubejs:diamond_coin"
+				item: "dotcoinmod:diamond_coin"
 				type: "item"
 			}]
 			title: "遗物饰品自选"
@@ -463,7 +443,7 @@
 				consume_items: true
 				count: 3L
 				id: "2E87F4F4503E5EFC"
-				item: "kubejs:diamond_coin"
+				item: "dotcoinmod:diamond_coin"
 				type: "item"
 			}]
 			title: "邪恶精髓兑换"
@@ -502,7 +482,7 @@
 			rewards: [{
 				count: 100
 				id: "467DC04243976631"
-				item: "kubejs:gold_coin"
+				item: "dotcoinmod:gold_coin"
 				type: "item"
 			}]
 			tasks: [{
@@ -514,25 +494,6 @@
 			}]
 			title: "boss币 -> 金币x100"
 			x: -6.0d
-			y: -3.0d
-		}
-		{
-			can_repeat: true
-			id: "54DEBBAF39893966"
-			rewards: [{
-				count: 100
-				id: "403A0DF562EE665A"
-				item: "kubejs:gold_coin"
-				type: "item"
-			}]
-			tasks: [{
-				consume_items: true
-				id: "6DB858D217FACEE1"
-				item: "kubejs:diamond_coin"
-				type: "item"
-			}]
-			title: "钻石币 -> 金币x100"
-			x: -1.5d
 			y: -3.0d
 		}
 		{
@@ -579,9 +540,10 @@
 					type: "item"
 				}
 				{
+					consume_items: true
 					count: 10L
 					id: "5154851353BAF882"
-					item: "kubejs:diamond_coin"
+					item: "dotcoinmod:diamond_coin"
 					type: "item"
 				}
 			]
@@ -707,7 +669,7 @@
 			tasks: [{
 				consume_items: true
 				id: "7AAA1344032CE8FB"
-				item: "kubejs:diamond_coin"
+				item: "dotcoinmod:diamond_coin"
 				match_nbt: true
 				only_from_crafting: false
 				type: "item"

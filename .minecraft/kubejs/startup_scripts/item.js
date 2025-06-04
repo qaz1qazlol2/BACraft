@@ -1,6 +1,6 @@
 StartupEvents.registry("item",event => {
-    event.create('gold_coin').displayName('金币').tooltip('用于商店抽奖以及兑换').rarity('uncommon')
-    event.create('diamond_coin').displayName('钻石币').tooltip('用于商店抽奖以及兑换').rarity('epic').glow(true)//发光
+    event.create('gold_coin').displayName('金币').tooltip('请到任务列表兑换新的货币').rarity('uncommon')
+    event.create('diamond_coin').displayName('钻石币').tooltip('请到任务列表兑换新的货币').rarity('epic').glow(true)//发光
     event.create('netherite_coin').displayName('boss币').tooltip('boss掉落用于商店兑换').rarity('epic').glow(true)//发光
     event.create('monster_coin').displayName('彩蛋币').tooltip('用于兑换彩蛋武器').rarity('Epic').glow(true)//发光
     event.create('luguan').displayName('你知我说').tooltip('到点了，该做正事了').rarity('common')

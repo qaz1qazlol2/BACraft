@@ -29,7 +29,7 @@
 				consume_items: true
 				count: 3L
 				id: "05DB65CE21889631"
-				item: "kubejs:gold_coin"
+				item: "dotcoinmod:gold_coin"
 				type: "item"
 			}]
 			title: "金币x3 >> 信用点x1 兑换"
@@ -50,7 +50,7 @@
 				consume_items: true
 				count: 96L
 				id: "68F2EBECB29DC7D4"
-				item: "kubejs:gold_coin"
+				item: "dotcoinmod:gold_coin"
 				type: "item"
 			}]
 			title: "金币x96 >> 信用点x32 兑换"
@@ -71,7 +71,7 @@
 				consume_items: true
 				count: 196L
 				id: "6DBA77305CC0A8C1"
-				item: "kubejs:gold_coin"
+				item: "dotcoinmod:gold_coin"
 				type: "item"
 			}]
 			title: "金币x196 >> 信用点x64 兑换"
@@ -91,7 +91,7 @@
 			tasks: [{
 				consume_items: true
 				id: "7267ED655D966057"
-				item: "kubejs:diamond_coin"
+				item: "dotcoinmod:diamond_coin"
 				type: "item"
 			}]
 			title: "钻石币x1 >> 信用点x100"
@@ -114,12 +114,12 @@
 		{
 			can_repeat: true
 			dependencies: ["07AE256A44548A33"]
-			icon: "kubejs:gold_coin"
+			icon: "dotcoinmod:gold_coin"
 			id: "1D17BEC51F26CE45"
 			rewards: [{
 				count: 3
 				id: "673408A1C50E4830"
-				item: "kubejs:gold_coin"
+				item: "dotcoinmod:gold_coin"
 				type: "item"
 			}]
 			tasks: [{
@@ -135,12 +135,12 @@
 		{
 			can_repeat: true
 			dependencies: ["07AE256A44548A33"]
-			icon: "kubejs:gold_coin"
+			icon: "dotcoinmod:gold_coin"
 			id: "26022A6144A73CB7"
 			rewards: [{
 				count: 96
 				id: "387F0F20151899D1"
-				item: "kubejs:gold_coin"
+				item: "dotcoinmod:gold_coin"
 				type: "item"
 			}]
 			tasks: [{
@@ -157,12 +157,12 @@
 		{
 			can_repeat: true
 			dependencies: ["07AE256A44548A33"]
-			icon: "kubejs:gold_coin"
+			icon: "dotcoinmod:gold_coin"
 			id: "1EE30109714A099E"
 			rewards: [{
 				count: 196
 				id: "0962C8C924A8AA12"
-				item: "kubejs:gold_coin"
+				item: "dotcoinmod:gold_coin"
 				type: "item"
 			}]
 			tasks: [{
@@ -179,11 +179,11 @@
 		{
 			can_repeat: true
 			dependencies: ["07AE256A44548A33"]
-			icon: "kubejs:diamond_coin"
+			icon: "dotcoinmod:diamond_coin"
 			id: "38249E08250EAD9C"
 			rewards: [{
 				id: "743970C7E7DC79C6"
-				item: "kubejs:diamond_coin"
+				item: "dotcoinmod:diamond_coin"
 				type: "item"
 			}]
 			tasks: [{

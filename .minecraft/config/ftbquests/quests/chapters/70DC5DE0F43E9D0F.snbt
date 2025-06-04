@@ -507,7 +507,7 @@
 			id: "3290DC7A75EFC469"
 			rewards: [{
 				id: "1CA7E5EBD5ED157A"
-				item: "blue_archivescraft:super_book"
+				item: "blue_archivescraft:mysterious_book"
 				type: "item"
 			}]
 			tasks: [{
