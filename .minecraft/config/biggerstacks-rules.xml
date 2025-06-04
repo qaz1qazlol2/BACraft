@@ -1,0 +1,9 @@
+
+<ruleset>
+	<rule stacksize="100">
+		<or>
+			<condition>id = dotcoinmod:gold_coin</condition>
+			<condition>id = dotcoinmod:diamond_coin</condition>
+		</or>
+	</rule>
+</ruleset>
