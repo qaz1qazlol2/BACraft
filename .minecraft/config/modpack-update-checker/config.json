@@ -6,7 +6,7 @@
   "modpackReleaseType": "stable",
   "updateCheckerId": "https://versions.allforhina.com/",
   "advanced": {
-    "bccEnabled": true,
+    "bccEnabled": false,
     "expandButton": false,
     "updateCheckerType": 2,
     "retroWarning": false,
