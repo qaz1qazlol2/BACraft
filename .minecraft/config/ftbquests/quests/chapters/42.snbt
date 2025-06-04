@@ -362,7 +362,7 @@
 		}
 		{
 			dependencies: ["70AA01130373CB47"]
-			description: ["穿上鞘翅不会导致游戏崩溃了，请随意飞"]
+			description: ["现在穿上鞘翅不会导致游戏崩溃，请随意飞"]
 			id: "052A98AFA64DCFD5"
 			rewards: [
 				{

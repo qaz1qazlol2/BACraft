@@ -1806,7 +1806,7 @@
 				}
 				{
 					count: 4
-					id: "59934054C0E19D47"
+					id: "134BC19A39949802"
 					item: "minecraft:amethyst_block"
 					type: "item"
 				}
@@ -1847,7 +1847,7 @@
 					type: "item"
 				}
 				{
-					id: "53F0D801713C628C"
+					id: "2B13813CCF0C299C"
 					item: {
 						Count: 1
 						id: "tacz:workbench_b"
@@ -1993,6 +1993,23 @@
 			title: "To be free"
 			x: -6.0d
 			y: 2.5d
+		}
+		{
+			dependencies: ["563E9BFD5FA83232"]
+			description: ["在野外的箱子里能够找到游戏机，似乎游玩游戏后会有丰厚的奖励"]
+			id: "569FA2187FB5BF09"
+			rewards: [{
+				id: "287AEEAA6A96FF2D"
+				item: "terramity:scuba_gear"
+				type: "item"
+			}]
+			tasks: [{
+				id: "30960CB76FD9D47F"
+				item: "blue_archivescraft:momoi_game_console"
+				type: "item"
+			}]
+			x: -8.5d
+			y: 5.0d
 		}
 	]
 	title: "&a1.1:新世界之旅"

@@ -394,8 +394,8 @@
 			icon: "born_in_chaos_v1:nightmare_stalker_spawn_egg"
 			id: "34A4C73B5969F6C5"
 			rewards: [{
-				id: "334AB6D63C112FD0"
-				item: "bountifulbaubles:ring_free_action"
+				id: "60307F55A83C9B9C"
+				item: "terramity:purity_pendant"
 				type: "item"
 			}]
 			tasks: [{
@@ -447,6 +447,11 @@
 		{
 			dependencies: ["1B1A10B4C0BCA426"]
 			id: "0D9804C66EE48C94"
+			rewards: [{
+				id: "6F837141B8B2C61E"
+				item: "bountifulbaubles:ring_free_action"
+				type: "item"
+			}]
 			tasks: [{
 				entity: "cataclysm:ancient_remnant"
 				icon: "cataclysm:ancient_remnant_spawn_egg"
@@ -483,6 +488,11 @@
 		{
 			dependencies: ["1F23406C3CAA14B9"]
 			id: "1FACE6CFCFD3BBBE"
+			rewards: [{
+				id: "1D2F38194A1BC352"
+				item: "terramity:blastguard_pendant"
+				type: "item"
+			}]
 			tasks: [{
 				entity: "cataclysm:netherite_monstrosity"
 				icon: "cataclysm:netherite_monstrosity_spawn_egg"
@@ -496,52 +506,11 @@
 		{
 			dependencies: ["0E60F4A2D051CF49"]
 			id: "283D887B16D86BD3"
-			rewards: [
-				{
-					id: "19E292BA2DA2E1BD"
-					item: {
-						Count: 1
-						id: "cataclysm:ignitium_helmet"
-						tag: {
-							Damage: 0
-						}
-					}
-					type: "item"
-				}
-				{
-					id: "769944A69EF3F13A"
-					item: {
-						Count: 1
-						id: "cataclysm:ignitium_chestplate"
-						tag: {
-							Damage: 0
-						}
-					}
-					type: "item"
-				}
-				{
-					id: "399ACC4E1FF32DEF"
-					item: {
-						Count: 1
-						id: "cataclysm:ignitium_leggings"
-						tag: {
-							Damage: 0
-						}
-					}
-					type: "item"
-				}
-				{
-					id: "3D5C62E6CB4F6F62"
-					item: {
-						Count: 1
-						id: "cataclysm:ignitium_boots"
-						tag: {
-							Damage: 0
-						}
-					}
-					type: "item"
-				}
-			]
+			rewards: [{
+				id: "51667104E2DB2F74"
+				item: "enigmaticaddons:scorched_charm"
+				type: "item"
+			}]
 			tasks: [
 				{
 					count: 10L
@@ -561,11 +530,52 @@
 		{
 			dependencies: ["283D887B16D86BD3"]
 			id: "34D652FA1AA6DC0F"
-			rewards: [{
-				id: "0F6F9FD0BC2434A2"
-				item: "enigmaticaddons:scorched_charm"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "286834BA7FCA8B5F"
+					item: {
+						Count: 1
+						id: "cataclysm:ignitium_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "7731602C9A8AC6A8"
+					item: {
+						Count: 1
+						id: "cataclysm:ignitium_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "0B84B3565524049D"
+					item: {
+						Count: 1
+						id: "cataclysm:ignitium_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "1D673DC8021296E7"
+					item: {
+						Count: 1
+						id: "cataclysm:ignitium_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
 			tasks: [{
 				entity: "cataclysm:ignis"
 				icon: "cataclysm:ignis_spawn_egg"
@@ -728,6 +738,7 @@
 			dependencies: ["5FDF9A4332019461"]
 			id: "7E73BB2940C1AD18"
 			rewards: [{
+				count: 4
 				id: "7A48294BD88DACF5"
 				item: "blue_archivescraft:mysterious_book"
 				type: "item"
@@ -862,6 +873,11 @@
 				{
 					id: "1F6593DFC9D62308"
 					item: "graveyard:lower_bone_staff"
+					type: "item"
+				}
+				{
+					id: "2866EDE1225D7495"
+					item: "enigmaticlegacy:monster_charm"
 					type: "item"
 				}
 			]
@@ -1019,11 +1035,9 @@
 				type: "item"
 			}]
 			tasks: [{
-				entity: "mokels_bossfight_saphyra:mothboss"
-				icon: "mokels_bossfight_saphyra:mothboss_spawn_egg"
-				id: "70A6C96095907D23"
-				type: "kill"
-				value: 1L
+				id: "516DE555FF34235E"
+				item: "mokels_bossfight_saphyra:saphyra_remembrance"
+				type: "item"
 			}]
 			x: 4.5d
 			y: -3.0d
@@ -1032,8 +1046,8 @@
 			dependencies: ["0E60F4A2D051CF49"]
 			id: "14A8ACA06E7255B3"
 			rewards: [{
-				id: "3B0BF4B34E625D71"
-				item: "enigmaticlegacy:fabulous_scroll"
+				id: "58E36783E3BA21B3"
+				item: "enigmaticaddons:the_bless"
 				type: "item"
 			}]
 			tasks: [{
@@ -1050,8 +1064,15 @@
 			dependencies: ["0E60F4A2D051CF49"]
 			id: "37D8053F23F561B0"
 			rewards: [{
-				id: "4F9879D2343D46EF"
-				item: "terramity:solar_safeguard_pendant"
+				id: "2559D9DA7B4D1575"
+				item: {
+					Count: 1
+					id: "blue_archivescraft:necklace"
+					tag: {
+						CriticalStrike: 0.15f
+						EnhancementLevel: 0
+					}
+				}
 				type: "item"
 			}]
 			tasks: [{
@@ -1129,11 +1150,18 @@
 		{
 			dependencies: ["0E60F4A2D051CF49"]
 			id: "73050BA3FC59D8AD"
-			rewards: [{
-				id: "1519BC2F3629C064"
-				item: "enigmaticaddons:etherium_core"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "1519BC2F3629C064"
+					item: "enigmaticaddons:etherium_core"
+					type: "item"
+				}
+				{
+					id: "2D300A8F37D88B5F"
+					item: "terramity:nullifying_dice"
+					type: "item"
+				}
+			]
 			tasks: [{
 				entity: "terramity:gundalf"
 				icon: "terramity:gundalf_spawn_egg"
@@ -1162,11 +1190,6 @@
 					}
 					type: "item"
 				}
-				{
-					id: "61E76F33775BD86E"
-					item: "enigmaticlegacy:the_infinitum"
-					type: "item"
-				}
 			]
 			tasks: [{
 				entity: "born_in_chaos_v1:lord_pumpkinhead_head"
@@ -1191,14 +1214,8 @@
 					type: "item"
 				}
 				{
-					id: "049F86B5174845E5"
-					item: {
-						Count: 1
-						id: "bountifulbaubles:ankh_shield"
-						tag: {
-							Damage: 0
-						}
-					}
+					id: "04ECDB5A69F28D5A"
+					item: "bountifulbaubles:bezoar"
 					type: "item"
 				}
 			]
@@ -1211,6 +1228,109 @@
 			title: "解锁篇章"
 			x: 7.5d
 			y: -7.5d
+		}
+		{
+			dependencies: ["0E60F4A2D051CF49"]
+			id: "65AFD2F2400C5A8B"
+			rewards: [{
+				id: "02453B2144D9E08A"
+				item: {
+					Count: 1
+					id: "bountifulbaubles:infinite_totem_of_undying"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				entity: "goety:minister"
+				icon: "goety:minister_spawn_egg"
+				id: "2623EC627E42718B"
+				type: "kill"
+				value: 1L
+			}]
+			x: 12.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0E60F4A2D051CF49"]
+			id: "3CBC6282F0A26FFF"
+			rewards: [{
+				id: "41AE168E339EBCA6"
+				item: "enigmaticlegacy:the_infinitum"
+				type: "item"
+			}]
+			tasks: [{
+				entity: "goety:vizier"
+				icon: "goety:vizier_spawn_egg"
+				id: "28C339D58B82F29F"
+				type: "kill"
+				value: 1L
+			}]
+			x: 12.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["0E60F4A2D051CF49"]
+			id: "35F130D8FEF3CEC2"
+			rewards: [
+				{
+					id: "13C59404ED60588C"
+					item: "terramity:ambrosia"
+					type: "item"
+				}
+				{
+					id: "7F069DAA1853DD20"
+					item: "enigmaticaddons:sanguinary_handbook"
+					type: "item"
+				}
+			]
+			tasks: [{
+				entity: "goety:hostile_redstone_golem"
+				icon: "goety:hostile_redstone_golem_spawn_egg"
+				id: "77D4C08DE378BDB1"
+				type: "kill"
+				value: 1L
+			}]
+			x: 12.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["0E60F4A2D051CF49"]
+			id: "00BDA8654108EFF4"
+			rewards: [{
+				id: "6F6F9E8F5807E950"
+				item: "blue_archivescraft:gebura_bankai"
+				type: "item"
+			}]
+			tasks: [{
+				entity: "goety:hostile_redstone_monstrosity"
+				icon: "goety:hostile_redstone_monstrosity_spawn_egg"
+				id: "03B6C7E22BBC4F03"
+				type: "kill"
+				value: 1L
+			}]
+			x: 12.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["0E60F4A2D051CF49"]
+			id: "6CC55D4EC722D84D"
+			rewards: [{
+				id: "232D24A30B3B6B66"
+				item: "bountifulbaubles:black_dragon_scale"
+				type: "item"
+			}]
+			tasks: [{
+				entity: "goety:wither_necromancer"
+				icon: "goety:wither_necromancer_spawn_egg"
+				id: "16C9B48CFBE506A9"
+				type: "kill"
+				value: 1L
+			}]
+			x: 1.5d
+			y: 6.0d
 		}
 	]
 	title: "vol5.2：灾厄异变（送福利）"

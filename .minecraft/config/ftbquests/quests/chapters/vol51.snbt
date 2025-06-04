@@ -2415,10 +2415,33 @@
 					item: "legendary_monsters:lava_eaters_skin"
 					type: "item"
 				}
+				{
+					id: "3D5BA0E2F7B1F3F5"
+					item: "threateningly_mobs:whale_blood"
+					type: "item"
+				}
 			]
 			title: "十字神明——比娜"
 			x: 24.0d
 			y: 5.5d
+		}
+		{
+			description: ["击杀利维坦后自动刷新（未完成）"]
+			id: "52B2CD5EE7B5343C"
+			rewards: [{
+				id: "726021D0115F0BB4"
+				item: "threateningly_mobs:whale_blood"
+				type: "item"
+			}]
+			tasks: [{
+				entity: "threateningly_mobs:abyss_fang"
+				icon: "threateningly_mobs:abyss_fang_spawn_egg"
+				id: "43176EEF1E1EC25F"
+				type: "kill"
+				value: 1L
+			}]
+			x: 8.0d
+			y: -3.0d
 		}
 	]
 	title: "vol5.1：boss图鉴"

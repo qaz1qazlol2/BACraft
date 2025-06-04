@@ -1196,6 +1196,7 @@
 			y: -4.0d
 		}
 		{
+			dependencies: ["3C37D7DD921675E3"]
 			description: ["本模组最强的boss,不过也许是在主世界用安息召唤的缘故，似乎....还不是完全体"]
 			id: "6CC08B296ADB3698"
 			rewards: [{
@@ -1213,6 +1214,7 @@
 			y: -7.5d
 		}
 		{
+			dependencies: ["3C37D7DD921675E3"]
 			description: ["在下界使用安息仪式召唤，你将面对使徒的完全体，不过会掉落暗夜信标"]
 			id: "500102699AF4D6C5"
 			rewards: [{
@@ -1226,8 +1228,19 @@
 				item: "goety:night_beacon"
 				type: "item"
 			}]
-			x: 7.5d
+			x: 8.0d
 			y: -7.5d
+		}
+		{
+			description: ["请不要使用虚空伤害的学生打，boss会直接消失（反作弊发力了），请直接用枪械压死。"]
+			id: "3C37D7DD921675E3"
+			tasks: [{
+				id: "3F47D0512A23A6FB"
+				type: "checkmark"
+			}]
+			title: "注意事项"
+			x: 6.0d
+			y: -6.5d
 		}
 	]
 	title: "支线：诡厄巫法"

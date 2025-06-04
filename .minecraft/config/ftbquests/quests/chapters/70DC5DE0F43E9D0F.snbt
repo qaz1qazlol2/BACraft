@@ -228,7 +228,7 @@
 			id: "39A1968951F82430"
 			rewards: [{
 				count: 2
-				id: "3E67945E34E93A8C"
+				id: "142A903219D7B577"
 				item: "blue_archivescraft:mysterious_book"
 				type: "item"
 			}]
@@ -506,7 +506,7 @@
 			dependencies: ["50DD425A28DEBC63"]
 			id: "3290DC7A75EFC469"
 			rewards: [{
-				id: "1CA7E5EBD5ED157A"
+				id: "7374C7C67239E8DB"
 				item: "blue_archivescraft:mysterious_book"
 				type: "item"
 			}]
@@ -834,6 +834,7 @@
 				"55E698E7FBF8ED4E"
 			]
 			id: "4B2BBB57B9B9B43B"
+			subtitle: "天空不再是极限"
 			tasks: [{
 				id: "64C44B4AE8F3F6A0"
 				item: {
