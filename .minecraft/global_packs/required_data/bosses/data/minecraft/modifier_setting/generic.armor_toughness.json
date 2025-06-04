@@ -1,0 +1,17 @@
+{
+  "attributeType": "minecraft:generic.armor_toughness",
+  "conditions": {
+    "affixes": {
+      "values": []
+    },
+    "entity": [
+      "minecraft:creeper"
+    ],
+    "permission": "blacklist"
+  },
+  "enable": true,
+  "modifier": {
+    "operation": "ADDITION",
+    "value": 2.0
+  }
+}

@@ -1,16 +1,17 @@
 {
-  "attributeType": "minecraft:generic.max_health",
+  "attributeType": "minecraft:generic.armor",
   "conditions": {
     "affixes": {
       "values": []
     },
     "entity": [
+      "minecraft:creeper"
     ],
     "permission": "blacklist"
   },
-  "enable": false,
+  "enable": true,
   "modifier": {
-    "operation": "MULTIPLY_TOTAL",
-    "value": 0.5
+    "operation": "ADDITION",
+    "value": 8.0
   }
 }
