@@ -4,7 +4,7 @@
 	fakeLoot = false
 	#Set the source of champion mob drops
 	#Allowed Values: CONFIG, LOOT_TABLE, CONFIG_AND_LOOT_TABLE
-	lootSource = "LOOT_TABLE"
+	lootSource = "CONFIG"
 	#List of loot drops from champions if sourced from config
 	#Format: [tier];[modid:name];[amount];[enchant(true/false)];[weight]
 	lootDrops = []
@@ -14,10 +14,10 @@
 [growth]
 	#The percent increase in health multiplied by the growth factor
 	#Range: 0.0 ~ 1.7976931348623157E308
-	healthGrowth = 1.0
+	healthGrowth = 0.0
 	#The healthGrowth operation. Effect how health growth calculate (More info you can find here: https://minecraft.fandom.com/wiki/Attribute#Modifiers)
 	#Allowed Values: ADDITION, MULTIPLY_BASE, MULTIPLY_TOTAL
-	maxHealthModifierOperation = "MULTIPLY_TOTAL"
+	maxHealthModifierOperation = "ADDITION"
 	#The percent increase in attack damage multiplied by the growth factor
 	#Range: 0.0 ~ 1.7976931348623157E308
 	attackGrowth = 0.5

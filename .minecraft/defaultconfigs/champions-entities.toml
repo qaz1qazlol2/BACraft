@@ -145,22 +145,6 @@
 	affixPermission = "BLACKLIST"
 
 [[entities]]
-	entity = "alexsmobs:warped_mosco"
-	minTier = 3
-	maxTier = 2
-	presetAffixes = []
-	affixList = ["Shielding", "Adaptable", "Dampening"]
-	affixPermission = "BLACKLIST"
-
-[[entities]]
-	entity = "animatedmobsmod:ender_king"
-	minTier = 5
-	maxTier = 4
-	presetAffixes = []
-	affixList = ["Shielding", "Adaptable", "Dampening"]
-	affixPermission = "BLACKLIST"
-
-[[entities]]
 	entity = "born_in_chaos_v1:nightmare_stalker"
 	minTier = 3
 	maxTier = 2
@@ -521,7 +505,7 @@
 	affixPermission = "BLACKLIST"
 
 [[entities]]
-	entity = "threateningly_mobs:rock_snail"
+	entity = "threateningly_mobs:re_rock_snail"
 	minTier = 5
 	maxTier = 4
 	presetAffixes = []
@@ -537,7 +521,7 @@
 	affixPermission = "BLACKLIST"
 
 [[entities]]
-	entity = "threateningly_mobs:titan_rabbit"
+	entity = "threateningly_mobs:titan_rabbit_re"
 	minTier = 5
 	maxTier = 4
 	presetAffixes = []
@@ -545,7 +529,7 @@
 	affixPermission = "BLACKLIST"
 
 [[entities]]
-	entity = "threateningly_mobs:armor_of_desert"
+	entity = "threateningly_mobs:armor_desert"
 	minTier = 5
 	maxTier = 4
 	presetAffixes = []
@@ -561,7 +545,7 @@
 	affixPermission = "BLACKLIST"
 
 [[entities]]
-	entity = "threateningly_mobs:lich"
+	entity = "threateningly_mobs:lich_re"
 	minTier = 5
 	maxTier = 4
 	presetAffixes = []
@@ -826,94 +810,6 @@
 
 [[entities]]
 	entity = "terramity:virtue"
-	minTier = 5
-	maxTier = 4
-	presetAffixes = []
-	affixList = ["Shielding", "Adaptable", "Dampening"]
-	affixPermission = "BLACKLIST"
-
-[[entities]]
-	entity = "goety:crone"
-	minTier = 3
-	maxTier = 2
-	presetAffixes = []
-	affixList = ["Shielding", "Adaptable", "Dampening"]
-	affixPermission = "BLACKLIST"
-
-[[entities]]
-	entity = "goety:minister"
-	minTier = 3
-	maxTier = 2
-	presetAffixes = []
-	affixList = ["Shielding", "Adaptable", "Dampening"]
-	affixPermission = "BLACKLIST"
-
-[[entities]]
-	entity = "goety:skull_lord"
-	minTier = 3
-	maxTier = 2
-	presetAffixes = []
-	affixList = ["Shielding", "Adaptable", "Dampening"]
-	affixPermission = "BLACKLIST"
-
-[[entities]]
-	entity = "goety:bone_lord"
-	minTier = 3
-	maxTier = 2
-	presetAffixes = []
-	affixList = ["Shielding", "Adaptable", "Dampening"]
-	affixPermission = "BLACKLIST"
-
-[[entities]]
-	entity = "goety:hostile_redstone_golem"
-	minTier = 4
-	maxTier = 3
-	presetAffixes = []
-	affixList = ["Shielding", "Adaptable", "Dampening"]
-	affixPermission = "BLACKLIST"
-
-[[entities]]
-	entity = "goety:wither_necromancer"
-	minTier = 4
-	maxTier = 3
-	presetAffixes = []
-	affixList = ["Shielding", "Adaptable", "Dampening"]
-	affixPermission = "BLACKLIST"
-
-[[entities]]
-	entity = "goety:wight"
-	minTier = 4
-	maxTier = 3
-	presetAffixes = []
-	affixList = ["Shielding", "Adaptable", "Dampening"]
-	affixPermission = "BLACKLIST"
-
-[[entities]]
-	entity = "goety:brood_mother"
-	minTier = 4
-	maxTier = 3
-	presetAffixes = []
-	affixList = ["Shielding", "Adaptable", "Dampening"]
-	affixPermission = "BLACKLIST"
-
-[[entities]]
-	entity = "goety:apostle"
-	minTier = 4
-	maxTier = 3
-	presetAffixes = []
-	affixList = ["Shielding", "Adaptable", "Dampening"]
-	affixPermission = "BLACKLIST"
-
-[[entities]]
-	entity = "goety:vizier"
-	minTier = 5
-	maxTier = 4
-	presetAffixes = []
-	affixList = ["Shielding", "Adaptable", "Dampening"]
-	affixPermission = "BLACKLIST"
-
-[[entities]]
-	entity = "goety:hostile_redstone_monstrosity"
 	minTier = 5
 	maxTier = 4
 	presetAffixes = []
