@@ -1,2 +1,0 @@
-#Sun Sep 29 19:16:23 CST 2024
-AURORA=true
