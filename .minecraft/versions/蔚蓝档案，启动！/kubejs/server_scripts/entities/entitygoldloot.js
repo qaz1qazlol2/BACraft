@@ -34,8 +34,8 @@ LootJS.modifiers((event) => {
         "minecraft:zombie_villager", //僵尸村民
         "minecraft:zombiefied_piglin", //僵尸
     ];
-    const goldCoinId = "kubejs:gold_coin";
-    const diamondcoinID = "kubjs:diamond_coin";
+    const goldCoinId = "dotcoinmod:gold_coin";
+    const diamondcoinID = "dotcoinmod:diamond_coin";
     monsters.forEach(monstersID => {
         event.addEntityLootModifier(monstersID).pool((pool) => {
             pool.rolls([1, 2])

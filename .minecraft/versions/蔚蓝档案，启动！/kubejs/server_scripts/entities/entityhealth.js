@@ -101,7 +101,6 @@ const healths = [
     { id: 'threateningly_mobs:ferox_death_worm', health: 55050 },
     { id: 'threateningly_mobs:ferox_ice_worm', health: 55050 },
     { id: 'threateningly_mobs:abyss_fang', health: 75600 },
-    { id: 'cataclysm:octohost', health: 60 },
     { id: 'cataclysm:cindaria', health: 66 },
     { id: 'cataclysm:hippocamtus', health: 3684 },
     { id: 'cataclysm:clawdian', health: 9527 },

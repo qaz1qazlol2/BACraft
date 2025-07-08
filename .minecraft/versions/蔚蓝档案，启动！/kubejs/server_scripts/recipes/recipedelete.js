@@ -2,11 +2,11 @@
 const banned_outputs = [
     "enigmaticaddons:forger_gem",             //移除锻造者的宝石制作
     "twilightforest:uncrafting_table",        //移除拆解台制作
-    "minecraft:beacon",                       //移除信标制作
     "enigmaticlegacy:the_cube",               //移除非欧立方
     "cataclysm:the_incinerator",
     "cataclysm:the_immolator",
-    "binah:desert_jade"
+    "binah:desert_jade",
+    "blue_archivescraft:gebura_bankai"
 ]
 //移除输入合成表
 const banned_inputs = [
