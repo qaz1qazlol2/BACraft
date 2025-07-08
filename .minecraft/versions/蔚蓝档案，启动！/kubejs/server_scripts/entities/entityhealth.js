@@ -42,7 +42,6 @@ const healths = [
     { id: 'eeeabsmobs:guling_sentinel_heavy', health: 11020 },
     { id: 'eeeabsmobs:nameless_guardian', health: 22400 },
     { id: 'eeeabsmobs:immortal', health: 66600 },
-    { id: 'galosphere:berserker', health: 2800 },
     { id: 'graveyard:lich', health: 8900 },
     { id: 'illageandspillage:absorber', health: 1520 },
     { id: 'illageandspillage:spiritcaller', health: 28650 },
@@ -102,7 +101,15 @@ const healths = [
     { id: 'threateningly_mobs:ferox_death_worm', health: 55050 },
     { id: 'threateningly_mobs:ferox_ice_worm', health: 55050 },
     { id: 'threateningly_mobs:abyss_fang', health: 75600 },
-    { id: 'threateningly_mobs:saint', health: 666666 }
+    { id: 'cataclysm:octohost', health: 60 },
+    { id: 'cataclysm:cindaria', health: 66 },
+    { id: 'cataclysm:hippocamtus', health: 3684 },
+    { id: 'cataclysm:clawdian', health: 9527 },
+    { id: 'cataclysm:scylla', health: 65851 },
+    { id: 'threateningly_mobs:saint', health: 666666 },
+    { id: 'legionary:unbreakable', health: 15851 },
+    { id: 'prehistoricexploration:zombifaurus', health: 42200 },
+    { id: 'aquamirae:maze_mother', health: 12000 }
 ]
 
 

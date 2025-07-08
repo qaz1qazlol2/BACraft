@@ -32,7 +32,6 @@
     "eeeabsmobs:corpse_warlock",
     "eeeabsmobs:nameless_guardian",
     "eeeabsmobs:immortal",
-    "galosphere:berserker",
     "graveyard:lich",
     "illagerinvasion:invoker",
     "illageandspillage:freakager",
@@ -102,7 +101,13 @@
     "legendary_monsters:shulker_mimic",
     "terramity:hellrok",
     "terramity:virtue",
-    "threateningly_mobs:abyss_fang"
+    "threateningly_mobs:abyss_fang",
+    "cataclysm:hippocamtus",
+    "cataclysm:clawdian",
+    "cataclysm:scylla",
+    "legionary:unbreakable",
+    "prehistoricexploration:zombifaurus",
+    "aquamirae:maze_mother"
 
   ]
 }
