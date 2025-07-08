@@ -1,0 +1,56 @@
+{
+  "entity.grenade.bounce": {
+    "subtitle": "subtitle.lrtactical.entity.grenade.bounce",
+    "sounds": [
+      "lrtactical:entity/grenade_bounce_1",
+      "lrtactical:entity/grenade_bounce_2",
+      "lrtactical:entity/grenade_bounce_3",
+      "lrtactical:entity/grenade_bounce_4"
+    ]
+  },
+  "entity.grenade.flash.explode": {
+    "subtitle": "subtitle.lrtactical.entity.grenade.flash.explode",
+    "sounds": [
+      "lrtactical:entity/grenade_exp_flash"
+    ]
+  },
+  "entity.grenade.m67.explode": {
+    "subtitle": "subtitle.lrtactical.entity.grenade.m67.explode",
+    "sounds": [
+      "lrtactical:entity/grenade_exp_m67"
+    ]
+  },
+  "entity.grenade.rgn.explode": {
+    "subtitle": "subtitle.lrtactical.entity.grenade.rgn.explode",
+    "sounds": [
+      "lrtactical:entity/grenade_exp_rgn"
+    ]
+  },
+  "entity.grenade.smoke.start": {
+    "subtitle": "subtitle.lrtactical.entity.grenade.smoke.start",
+    "sounds": [
+      "lrtactical:entity/grenade_exp_smoke_start"
+    ]
+  },
+  "entity.grenade.smoke.loop": {
+    "subtitle": "subtitle.lrtactical.entity.grenade.smoke.loop",
+    "sounds": [
+      "lrtactical:entity/grenade_exp_smoke_loop"
+    ]
+  },
+  "entity.grenade.smoke.end": {
+    "subtitle": "subtitle.lrtactical.entity.grenade.smoke.end",
+    "sounds": [
+      "lrtactical:entity/grenade_exp_smoke_end"
+    ]
+  },
+  "player.ring": {
+    "sounds": [
+      {
+        "name": "lrtactical:player/ring",
+        "stream": true
+      }
+    ],
+    "subtitle": "subtitle.lrtactical.player.ring"
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "name": "dknife.knife.t_knife.name",
+  "display": "dknife:t_knife_display",
+  "data": "dknife:knife_data",
+  "tooltip": "dknife.knife.t_knife.desc",
+  "type": "rpg",
+  "item_type": "modern_kinetic",
+  "sort":10
+}

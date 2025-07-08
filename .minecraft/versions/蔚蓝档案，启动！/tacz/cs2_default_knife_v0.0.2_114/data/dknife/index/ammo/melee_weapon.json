@@ -1,0 +1,7 @@
+{
+  "name": "dknife.ammo.melee_weapon.name",
+  "display": "dknife:melee_weapon_display",
+  "tooltip": "dknife.ammo.melee_weapon.tooltip",
+  "stack_size": 1
+}
+    

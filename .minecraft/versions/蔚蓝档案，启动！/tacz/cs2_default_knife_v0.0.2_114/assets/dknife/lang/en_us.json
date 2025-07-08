@@ -1,0 +1,10 @@
+{
+  "pack.dknife.name": "CS2 Knife-Default Melee Weapon Pack",
+  "pack.dknife.desc": "Experiencing knives from Counter-Strike in Minecraft is undoubtedly a cool and awesome thing.\nBeing able to use knives from CS2 in minecraft is definitely something cool to do.\nproducer-xiaochuangshipeng",
+
+  "dknife.ammo.melee_weapon.name": "Melee Weapon",
+  "dknife.knife.ct_knife.name":"§1Knife",
+  "dknife.knife.ct_knife.desc":"Quiet and always available,\nthe knife has a fast, low-damage primary attack and a slow, high-damage secondary attack.\nA backstab will earn quiet players an instant kill.",
+  "dknife.knife.t_knife.name":"§6Knife",
+  "dknife.knife.t_knife.desc":"Quiet and always available,\nthe knife has a fast, low-damage primary attack and a slow, high-damage secondary attack.\nA backstab will earn quiet players an instant kill."
+}

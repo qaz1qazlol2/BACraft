@@ -1,0 +1,62 @@
+{
+  "name": "item.cs2_wt.m9",
+  "type": "lrtactical:normal",
+  "base_item": "lrtactical:melee",
+  "data": {
+    "attributes": {
+      "generic.attack_damage": 15,
+      "minecraft:generic.movement_speed": {
+        "amount": -0.05,
+        "operation": "percent"
+      }
+    },
+    // tick
+    "draw_time": 19,
+    // tick
+    "put_away_time": 1,
+    "attack": {
+      "attack_left": {
+        // 伤害倍率
+        "factor": 1,
+        // 击退
+        "knockback": 0.25,
+        // 攻击冷却(tick)
+        "cooldown": 8,
+        // 延迟出伤(tick)
+        "delay": 4,
+        // 判定类型
+        "hitbox": {
+          // 圆锥区域
+          "type": "cone",
+          // 最大距离
+          "max_range": 4,
+          // 角度
+          "max_angle": 110,
+          // 排除自己
+          "exclude_self": true
+        }
+      },
+      "attack_right": {
+        // 伤害倍率
+        "factor": 1.5,
+        // 击退
+        "knockback": 0.3,
+        // 攻击冷却(tick)
+        "cooldown": 8,
+        // 延迟出伤(tick)
+        "delay": 4,
+        // 判定类型
+        "hitbox": {
+          // 圆锥区域
+          "type": "cone",
+          // 最大距离
+          "max_range": 4,
+          // 角度
+          "max_angle": 60,
+          // 排除自己
+          "exclude_self": true
+        }
+      }
+    }
+  }
+}

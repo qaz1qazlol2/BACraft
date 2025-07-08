@@ -1,0 +1,34 @@
+{
+  "model": "cs2_wt:melee/butterfly_geo",
+  "animation": "cs2_wt:melee/butterfly",
+  "texture": "cs2_wt:melee/butterfly_uv",
+  "slot_texture": "cs2_wt:melee/slot/butterfly",
+  "state_machine": "cs2_wt:butterfly_melee_state_machine",
+  "transforms": {
+    "thirdperson_righthand": {
+      "translation": [0, 0, 1],
+      "rotation": [90, 0, 0],
+      "scale": [0.7, 0.7, 0.7]
+    },
+    "thirdperson_lefthand": {
+      "translation": [0, 0, 2],
+      "rotation": [90, 0, 0],
+      "scale": [0.7, 0.7, 0.7]
+    },
+    "ground": {
+      "rotation": [45, 0, 0],
+      "translation": [0, 6, 0]
+    },
+    "gui": {
+      "rotation": [0, 0, -45],
+      "translation": [4.5, 4, 0]
+    },
+    "head": {
+      "translation": [0, 4.75, 0]
+    },
+    "fixed": {
+      "translation": [0, 11, 0],
+      "scale": [2, 2, 2]
+    }
+  }
+}

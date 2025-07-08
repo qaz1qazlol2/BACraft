@@ -1,0 +1,10 @@
+{
+  "pack.dknife.name": "CS2 Knife-默认近战武器包",
+  "pack.dknife.desc": "在MC中能够体验到CS的刀，无疑是一件既帅气又酷炫的事情。\n作者-小创世peng",
+
+  "dknife.ammo.melee_weapon.name": "近战武器",
+  "dknife.knife.ct_knife.name":"§1匕首",
+  "dknife.knife.ct_knife.desc":"杀人于悄无声息之中，且永远可用，\n匕首拥有快速、低伤害的主要攻击和较慢、高伤害的次要攻击。\n背刺能使玩家在悄然无声之中对敌人造成“秒杀”。",
+  "dknife.knife.t_knife.name":"§6匕首",
+  "dknife.knife.t_knife.desc":"杀人于悄无声息之中，且永远可用，\n匕首拥有快速、低伤害的主要攻击和较慢、高伤害的次要攻击。\n背刺能使玩家在悄然无声之中对敌人造成“秒杀”。"
+}
