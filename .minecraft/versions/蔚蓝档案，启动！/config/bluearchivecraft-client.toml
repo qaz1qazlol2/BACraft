@@ -1,0 +1,13 @@
+
+["客户端渲染设置"]
+	#控制Cost条是否渲染
+	cost_render = true
+	#是否渲染角色光圈
+	render_halo = true
+	#是否替换鼠标贴图
+	replace_mouse = false
+
+["音频设置"]
+	#是否播放主界面音乐
+	play_main_music = false
+

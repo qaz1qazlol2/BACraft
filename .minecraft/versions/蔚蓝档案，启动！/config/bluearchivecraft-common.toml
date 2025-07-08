@@ -1,0 +1,16 @@
+
+["游戏机制设置"]
+	#是否开启总力战计时
+	total_strength_battle_tick = true
+	#总力战计时时长(毫秒)
+	#Range: 1000 ~ 3600000
+	total_strength_battle_timer = 300000
+	#时停是否影响玩家
+	time_stop_player = true
+	#未花冲刺是否破坏方块
+	mika_destroy_block = false
+
+["系统设置"]
+	#是否启用安全结构加载
+	safeStructureLoading = true
+

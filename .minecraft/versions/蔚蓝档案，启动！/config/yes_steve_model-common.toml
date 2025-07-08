@@ -1,7 +1,7 @@
 
 [general]
 	#Whether to display disclaimer GUI
-	DisclaimerShow = true
+	DisclaimerShow = false
 	#Whether to print animation roulette play message
 	PrintAnimationRouletteMsg = false
 	#Prevents rendering of self player's model
@@ -24,16 +24,16 @@
 
 [extra_player_render]
 	#Whether to display player
-	DisablePlayerRender = false
+	DisablePlayerRender = true
 	#Player position x in screen
 	#Range: > 0
-	PlayerPosX = 107
+	PlayerPosX = 175
 	#Player position y in screen
 	#Range: > 0
-	PlayerPosY = 39
+	PlayerPosY = 263
 	#Player scale in screen
 	#Range: 8.0 ~ 360.0
-	PlayerScale = 40.0
+	PlayerScale = 39.75
 	#Player yaw offset in screen
 	#Range: 4.9E-324 ~ 1.7976931348623157E308
 	PlayerYawOffset = 5.0
