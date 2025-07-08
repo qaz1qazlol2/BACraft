@@ -1,0 +1,29 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "41_3"
+	group: "3F6E92AE7F64E4AB"
+	icon: "mokels_bossfight_saphyra:saphyra_remembrance"
+	id: "6C953FC5805FE71A"
+	order_index: 0
+	quest_links: [ ]
+	quests: [{
+		dependencies: ["45974B994B771101"]
+		description: ["具体攻略请查看minecraft文件夹中的攻略。"]
+		id: "004F2965F0DD3C15"
+		rewards: [{
+			count: 8
+			id: "46786AA14AAF756C"
+			item: "paraglider:spirit_orb"
+			type: "item"
+		}]
+		tasks: [{
+			id: "147D886334E02851"
+			title: "攻略查看"
+			type: "checkmark"
+		}]
+		x: -0.5d
+		y: -1.0d
+	}]
+	title: "4.1：破碎女神"
+}

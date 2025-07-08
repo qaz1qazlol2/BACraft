@@ -1,0 +1,109 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "46eeeabs"
+	group: "3F6E92AE7F64E4AB"
+	icon: {
+		Count: 1
+		id: "eeeabsmobs:guardian_core"
+		tag: {
+			Damage: 0
+		}
+	}
+	id: "58C43DDF5875E246"
+	order_index: 4
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["7D9B5203B4B57D9D"]
+			description: ["玩家需要制作“结构之眼”来寻找模组结构"]
+			id: "78B391565476F87E"
+			rewards: [{
+				count: 2
+				id: "3E32C321AA1AD02A"
+				item: "paraglider:spirit_orb"
+				type: "item"
+			}]
+			tasks: [{
+				id: "48D602FB4D291C16"
+				title: "开启章节"
+				type: "checkmark"
+			}]
+			x: -5.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["78B391565476F87E"]
+			description: [
+				"用于寻找古陵遗迹。"
+				""
+				"古陵（Guling）生成在主世界Y轴固定-30格位置，由深板岩砖、裂纹深板岩砖、深板岩瓦为主构成的地下遗迹。"
+				""
+				"结构外层覆盖了生存模式下无法破坏的方块，要想进入得先找到结构顶部存在发光地衣的位置。"
+				""
+				"古陵分为3层，其结构为线性路线：沿着一条路走便能找到进入下一层的入口。"
+				""
+				"结构名称：eeeabsmobs:guling"
+			]
+			id: "591991D6DF17CCBF"
+			rewards: [{
+				count: 2
+				id: "67D58EDC86CDC901"
+				item: "paraglider:spirit_orb"
+				type: "item"
+			}]
+			tasks: [{
+				id: "73B6E8F9FFB65519"
+				item: "eeeabsmobs:guling_eye"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["591991D6DF17CCBF"]
+			description: ["无名守卫者发现于地下结构中的最深处，传说它是远古时期遗留下来的战争机器。即使过了很长一段时间，它仍在执行着守门人的命令，那就是阻止试图接近传送门的一切生物。&4注意点！它可没有过期！"]
+			id: "7006EF1A0068E84C"
+			rewards: [{
+				count: 4
+				id: "3ECBD7F5ED8CDF45"
+				item: "paraglider:spirit_orb"
+				type: "item"
+			}]
+			tasks: [{
+				entity: "eeeabsmobs:nameless_guardian"
+				icon: "eeeabsmobs:nameless_guardian_egg"
+				id: "47C31A26E986199B"
+				type: "kill"
+				value: 1L
+			}]
+			x: 1.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["7006EF1A0068E84C"]
+			description: [
+				"整合包十星boss之一，推荐低频高伤学生去打。"
+				""
+				"（召唤方式目前为任务书中商店兑换）"
+			]
+			id: "4D689EEDD6E7B185"
+			rewards: [{
+				count: 8
+				id: "26079D245DDD11F9"
+				item: "paraglider:spirit_orb"
+				type: "item"
+			}]
+			tasks: [{
+				entity: "eeeabsmobs:immortal"
+				icon: "eeeabsmobs:immortal_boss_egg"
+				id: "5EC3DCAFFA795FDA"
+				type: "kill"
+				value: 1L
+			}]
+			x: 5.0d
+			y: 0.0d
+		}
+	]
+	title: "4.5：EEEAB's"
+}

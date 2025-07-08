@@ -78,7 +78,7 @@
 				}
 				{
 					id: "7E83B6ADE18C85FE"
-					item: "blue_archivescraft:super_book"
+					item: "blue_archivescraft:mysterious_book"
 					random_bonus: 2
 					type: "item"
 				}
@@ -141,19 +141,11 @@
 		{
 			dependencies: ["239E43981C3A5FF6"]
 			id: "2299EFF603CCA96C"
-			rewards: [
-				{
-					id: "2492F3B0515743D1"
-					type: "xp"
-					xp: 200
-				}
-				{
-					count: 10
-					id: "281E7F7031B27B3A"
-					item: "alexsmobs:cosmic_cod"
-					type: "item"
-				}
-			]
+			rewards: [{
+				id: "2492F3B0515743D1"
+				type: "xp"
+				xp: 200
+			}]
 			subtitle: "远程折跃"
 			tasks: [{
 				advancement: "minecraft:end/enter_end_gateway"
@@ -399,127 +391,6 @@
 			title: "天空不再是极限"
 			x: 8.5d
 			y: 2.0d
-		}
-		{
-			dependencies: ["2299EFF603CCA96C"]
-			description: [
-				"当你在外岛探索时可能会发现长得像病毒一样的生物，获取它们的外壳用于合成召唤本模组BOSS召唤物"
-				""
-				"&c将绯红孑孓丢入衣壳体等待一会"
-			]
-			id: "642C8218CA452114"
-			rewards: [{
-				id: "487EFD37AABC55AE"
-				item: "alexsmobs:mosquito_larva"
-				type: "item"
-			}]
-			subtitle: "获取它们的外壳"
-			tasks: [
-				{
-					entity: "alexsmobs:enderiophage"
-					icon: "alexsmobs:spawn_egg_enderiophage"
-					id: "1CF321526C3AE6E8"
-					type: "kill"
-					value: 5L
-				}
-				{
-					id: "39FE4E1F157CAB73"
-					item: "alexsmobs:capsid"
-					type: "item"
-				}
-			]
-			title: "奇怪的生物"
-			x: 2.5d
-			y: -2.0d
-		}
-		{
-			dependencies: ["642C8218CA452114"]
-			description: ["将&b神秘蠕虫&c投入虚空&f，来召唤&c虚空蠕虫"]
-			id: "319DA1F50F380B07"
-			rewards: [
-				{
-					id: "5CCC9867B60F3071"
-					type: "xp_levels"
-					xp_levels: 30
-				}
-				{
-					id: "19336F14D30F3D24"
-					item: "minecraft:enchanted_golden_apple"
-					type: "item"
-				}
-				{
-					id: "3776CA21CD524486"
-					item: "enigmaticlegacy:etherium_ingot"
-					type: "item"
-				}
-			]
-			subtitle: "一场恶战即将开始"
-			tasks: [
-				{
-					id: "5380C5AA047FC469"
-					item: "alexsmobs:mysterious_worm"
-					type: "item"
-				}
-				{
-					entity: "alexsmobs:void_worm_part"
-					icon: "alexsmobs:spawn_egg_void_worm"
-					id: "34076ADE7C65D6C2"
-					type: "kill"
-					value: 1L
-				}
-			]
-			title: "虚空吞噬者"
-			x: 0.5d
-			y: -2.0d
-		}
-		{
-			dependencies: ["319DA1F50F380B07"]
-			description: ["这把镐子或许可以让你达到世界尽头......"]
-			id: "6C7444A20E2AF704"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "16D79B85BBD46E11"
-				table_id: 7362344811821590953L
-				type: "choice"
-			}]
-			subtitle: "突破..."
-			tasks: [
-				{
-					id: "5E7B9E0BBBA3E808"
-					item: {
-						Count: 1
-						id: "alexsmobs:dimensional_carver"
-						tag: {
-							Damage: 0
-						}
-					}
-					only_from_crafting: true
-					type: "item"
-				}
-				{
-					id: "20D70CC992A506B0"
-					item: "alexsmobs:void_worm_effigy"
-					only_from_crafting: true
-					type: "item"
-				}
-			]
-			x: 0.5d
-			y: -4.0d
-		}
-		{
-			dependencies: ["70AA01130373CB47"]
-			description: ["复制配方已删除，该物品无用途"]
-			id: "2DD5B96088255B58"
-			subtitle: "魔法凝胶"
-			tasks: [{
-				count: 16L
-				id: "6A648C4309D6E192"
-				item: "alexsmobs:mimicream"
-				type: "item"
-			}]
-			title: "紫色粘液球"
-			x: 8.5d
-			y: 4.0d
 		}
 		{
 			dependencies: ["0607D930600F8B92"]

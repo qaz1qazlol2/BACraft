@@ -4,13 +4,42 @@
 	loot_size: 1
 	order_index: 7
 	rewards: [
-		{ count: 2, item: "minecraft:netherite_ingot", weight: 20.0f }
-		{ count: 2, item: "enigmaticlegacy:etherium_ingot", weight: 10.0f }
-		{ item: "minecraft:enchanted_golden_apple", weight: 10.0f }
-		{ count: 20, item: "minecraft:diamond", weight: 30.0f }
-		{ item: "minecraft:nether_star", weight: 3.0f }
-		{ count: 6, item: "minecraft:netherite_scrap", weight: 10.0f }
-		{ item: "minecraft:totem_of_undying", weight: 10.0f }
+		{
+			item: {
+				Count: 1
+				id: "tacz:modern_kinetic_gun"
+				tag: {
+					GunCurrentAmmoCount: 17
+					GunFireMode: "SEMI"
+					GunId: "tacz:glock_17"
+					HasBulletInBarrel: 1b
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "tacz:modern_kinetic_gun"
+				tag: {
+					GunCurrentAmmoCount: 2
+					GunFireMode: "SEMI"
+					GunId: "tacz:db_long"
+					HasBulletInBarrel: 1b
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "tacz:modern_kinetic_gun"
+				tag: {
+					GunCurrentAmmoCount: 10
+					GunFireMode: "SEMI"
+					GunId: "tacz:sks_tactical"
+					HasBulletInBarrel: 1b
+				}
+			}
+		}
 	]
-	title: "高级成就礼盒"
+	title: "枪械自选"
 }

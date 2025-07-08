@@ -1,0 +1,2182 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "1D1E58EAE09B12E3"
+	group: "349B3345B63646FF"
+	icon: "blue_archivescraft:recruit"
+	id: "1D1E58EAE09B12E3"
+	images: [
+		{
+			height: 1.0d
+			image: "blue_archivescraft:textures/mob_effect/azusa.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: -1.0d
+			y: 3.5d
+		}
+		{
+			height: 1.0d
+			image: "blue_archivescraft:textures/mob_effect/ako.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: -13.0d
+			y: 8.5d
+		}
+		{
+			height: 1.0d
+			image: "blue_archivescraft:textures/mob_effect/aris.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: -17.0d
+			y: -8.5d
+		}
+		{
+			height: 1.0d
+			image: "blue_archivescraft:item/arona"
+			rotation: 0.0d
+			width: 1.0d
+			x: -17.0d
+			y: 18.0d
+		}
+		{
+			height: 1.0d
+			image: "blue_archivescraft:textures/mob_effect/aru.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: -15.0d
+			y: 3.5d
+		}
+		{
+			height: 1.0d
+			image: "blue_archivescraft:textures/mob_effect/chihiro.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: -9.0d
+			y: 8.5d
+		}
+		{
+			height: 1.0d
+			image: "blue_archivescraft:textures/mob_effect/chinatsu.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: -13.0d
+			y: 13.5d
+		}
+		{
+			height: 1.0d
+			image: "blue_archivescraft:textures/momotalk/expression/chise/chise_0.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: -15.0d
+			y: -8.5d
+		}
+		{
+			height: 1.0d
+			image: "blue_archivescraft:textures/mob_effect/fuuka.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: -11.0d
+			y: -2.5d
+		}
+		{
+			height: 1.0d
+			image: "blue_archivescraft:textures/mob_effect/hanako.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 1.0d
+			y: 8.5d
+		}
+		{
+			height: 1.0d
+			image: "blue_archivescraft:textures/mob_effect/haruka.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: -11.0d
+			y: 13.5d
+		}
+		{
+			height: 1.0d
+			image: "blue_archivescraft:textures/mob_effect/hifumi.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: -13.0d
+			y: -2.5d
+		}
+		{
+			height: 1.0d
+			image: "blue_archivescraft:textures/mob_effect/hikari.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 3.0d
+			y: 8.5d
+		}
+		{
+			height: 1.0d
+			image: "blue_archivescraft:textures/mob_effect/hina.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: -13.0d
+			y: -8.5d
+		}
+		{
+			height: 1.0d
+			image: "blue_archivescraft:textures/momotalk/expression/himari/himari_0.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: -3.0d
+			y: 8.5d
+		}
+		{
+			height: 1.0d
+			image: "blue_archivescraft:textures/mob_effect/hiyori.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 19.0d
+			y: -2.5d
+		}
+		{
+			height: 1.0d
+			image: "blue_archivescraft:textures/mob_effect/hoshino.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 7.5d
+			y: -8.5d
+		}
+		{
+			height: 1.0d
+			image: "blue_archivescraft:textures/mob_effect/iori.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: -1.0d
+			y: 13.5d
+		}
+		{
+			height: 1.0d
+			image: "blue_archivescraft:textures/mob_effect/izuna.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: -11.0d
+			y: -8.5d
+		}
+		{
+			height: 1.0d
+			image: "blue_archivescraft:textures/mob_effect/kayoko.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: -5.0d
+			y: 8.5d
+		}
+		{
+			height: 1.0d
+			image: "blue_archivescraft:textures/mob_effect/kazusa.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 1.0d
+			y: 3.5d
+		}
+		{
+			height: 1.0d
+			image: "blue_archivescraft:textures/mob_effect/kikyou.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: -17.0d
+			y: -2.5d
+		}
+		{
+			height: 1.0d
+			image: "blue_archivescraft:textures/momotalk/expression/kisaki/kisaki_0.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: -1.0d
+			y: 8.5d
+		}
+		{
+			height: 1.0d
+			image: "blue_archivescraft:textures/mob_effect/koharu.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: -7.0d
+			y: -2.5d
+		}
+		{
+			height: 1.0d
+			image: "blue_archivescraft:textures/mob_effect/kokona.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 3.0d
+			y: -2.5d
+		}
+		{
+			height: 1.0d
+			image: "blue_archivescraft:textures/mob_effect/kotama.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: -9.0d
+			y: 13.5d
+		}
+		{
+			height: 1.0d
+			image: "blue_archivescraft:textures/mob_effect/koyuki.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: -11.0d
+			y: 3.5d
+		}
+		{
+			height: 1.0d
+			image: "blue_archivescraft:textures/momotalk/expression/maki/maki_0.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: -17.0d
+			y: 3.5d
+		}
+		{
+			height: 1.0d
+			image: "blue_archivescraft:textures/momotalk/expression/mari/mari_0.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: -9.0d
+			y: -2.5d
+		}
+		{
+			height: 1.0d
+			image: "blue_archivescraft:textures/mob_effect/midori.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: -5.0d
+			y: 13.5d
+		}
+		{
+			height: 1.0d
+			image: "blue_archivescraft:textures/mob_effect/mika.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: -5.0d
+			y: -8.5d
+		}
+		{
+			height: 1.0d
+			image: "blue_archivescraft:textures/mob_effect/mine.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 13.0d
+			y: -2.5d
+		}
+		{
+			height: 1.0d
+			image: "blue_archivescraft:textures/mob_effect/misaki.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: -3.0d
+			y: 13.5d
+		}
+		{
+			height: 1.0d
+			image: "blue_archivescraft:textures/mob_effect/miyu.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 1.0d
+			y: -2.5d
+		}
+		{
+			height: 1.0d
+			image: "blue_archivescraft:textures/mob_effect/momoi.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: -15.0d
+			y: -2.5d
+		}
+		{
+			height: 1.0d
+			image: "blue_archivescraft:textures/mob_effect/mutsuki.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 9.0d
+			y: -2.5d
+		}
+		{
+			height: 1.0d
+			image: "blue_archivescraft:textures/mob_effect/nagisa.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 7.0d
+			y: -2.5d
+		}
+		{
+			height: 1.0d
+			image: "blue_archivescraft:textures/mob_effect/natsu.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: -1.0d
+			y: -2.5d
+		}
+		{
+			height: 1.0d
+			image: "blue_archivescraft:textures/mob_effect/seia.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: -17.0d
+			y: 13.5d
+		}
+		{
+			height: 1.0d
+			image: "blue_archivescraft:textures/mob_effect/saori.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: -7.0d
+			y: 13.5d
+		}
+		{
+			height: 1.0d
+			image: "blue_archivescraft:textures/mob_effect/rio.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: -15.0d
+			y: 13.5d
+		}
+		{
+			height: 1.0d
+			image: "blue_archivescraft:textures/mob_effect/reisa.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 11.0d
+			y: -2.5d
+		}
+		{
+			height: 1.0d
+			image: "blue_archivescraft:textures/mob_effect/plana.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: -15.0d
+			y: 18.0d
+		}
+		{
+			height: 1.0d
+			image: "blue_archivescraft:textures/mob_effect/noa.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: -11.0d
+			y: 8.5d
+		}
+		{
+			height: 1.0d
+			image: "blue_archivescraft:textures/mob_effect/neru.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: -1.0d
+			y: -8.5d
+		}
+		{
+			height: 1.0d
+			image: "blue_archivescraft:textures/mob_effect/serika.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 15.0d
+			y: -2.5d
+		}
+		{
+			height: 1.0d
+			image: "blue_archivescraft:textures/mob_effect/serina.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: -3.0d
+			y: -2.5d
+		}
+		{
+			height: 1.0d
+			image: "blue_archivescraft:textures/mob_effect/shiroko.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 1.0d
+			y: -8.5d
+		}
+		{
+			height: 1.0d
+			image: "blue_archivescraft:textures/mob_effect/shiroko_terror.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 3.0d
+			y: -8.5d
+		}
+		{
+			height: 1.0d
+			image: "blue_archivescraft:textures/mob_effect/shun.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: -9.0d
+			y: 3.5d
+		}
+		{
+			height: 1.0d
+			image: "blue_archivescraft:textures/mob_effect/ui.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: -17.0d
+			y: 8.5d
+		}
+		{
+			height: 1.0d
+			image: "blue_archivescraft:textures/mob_effect/wakamo.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: -7.0d
+			y: 3.5d
+		}
+		{
+			height: 1.0d
+			image: "blue_archivescraft:textures/mob_effect/yume.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: -11.0d
+			y: 18.0d
+		}
+		{
+			height: 1.0d
+			image: "blue_archivescraft:textures/mob_effect/yuuka.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: -5.0d
+			y: -2.5d
+		}
+		{
+			height: 1.0d
+			image: "blue_archivescraft:textures/mob_effect/yuzu.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: -5.0d
+			y: 3.5d
+		}
+		{
+			height: 1.0d
+			image: "blue_archivescraft:textures/mob_effect/shizuko.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: -7.0d
+			y: 8.5d
+		}
+		{
+			height: 1.0d
+			image: "blue_archivescraft:textures/mob_effect/smug.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: -13.0d
+			y: 18.0d
+		}
+		{
+			height: 1.0d
+			image: "blue_archivescraft:textures/mob_effect/suzumi.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 23.0d
+			y: -2.5d
+		}
+		{
+			height: 1.0d
+			image: "blue_archivescraft:textures/mob_effect/tsurugi.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: -7.0d
+			y: -8.5d
+		}
+		{
+			height: 1.0d
+			image: "blue_archivescraft:textures/mob_effect/sena.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 5.0d
+			y: -2.5d
+		}
+		{
+			height: 1.0d
+			image: "blue_archivescraft:textures/mob_effect/nozomi.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 5.0d
+			y: -8.5d
+		}
+		{
+			height: 1.0d
+			image: "blue_archivescraft:textures/mob_effect/nagusa.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: -3.0d
+			y: -8.5d
+		}
+		{
+			height: 1.0d
+			image: "blue_archivescraft:textures/mob_effect/karin.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: -3.0d
+			y: 3.5d
+		}
+		{
+			height: 1.0d
+			image: "blue_archivescraft:textures/mob_effect/junko.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: -13.0d
+			y: 3.5d
+		}
+		{
+			height: 1.0d
+			image: "blue_archivescraft:textures/mob_effect/hare.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: -9.0d
+			y: -8.5d
+		}
+		{
+			height: 1.0d
+			image: "blue_archivescraft:textures/mob_effect/aoba.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: -15.0d
+			y: 8.5d
+		}
+		{
+			height: 1.0d
+			image: "blue_archivescraft:textures/mob_effect/asuna.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 21.0d
+			y: -2.5d
+		}
+		{
+			height: 1.0d
+			image: "blue_archivescraft:textures/mob_effect/atsuko.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 17.0d
+			y: -2.5d
+		}
+		{
+			height: 1.0d
+			image: "blue_archivescraft:textures/mob_effect/horus.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 6.5d
+			y: -8.5d
+		}
+	]
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				"无特殊被动"
+				""
+				"技能："
+				"消耗3点cost并为周围3x3范围内的一个玩家提高30%暴击率和70%爆伤持续20秒"
+				""
+				"若增伤玩家是继承了日奈的力量，则更改为增加100%双爆持续15秒"
+				""
+				"省流："
+				"日奈专拐"
+			]
+			id: "78A92298418C26C8"
+			tasks: [{
+				id: "3BBC4E110D86C9AC"
+				title: "天雨亚子"
+				type: "checkmark"
+			}]
+			x: -13.0d
+			y: 9.5d
+		}
+		{
+			description: [
+				"被动："
+				"1.生命值上限+25%，护甲值+30。"
+				""
+				"2.每隔40秒获得一个抗性提升4（持续32秒），攻击12次获得加30%伤害减免（持续20秒）"
+				""
+				"技能："
+				"消耗3点cost值，召唤一个矿车20秒，可以右键坐上去，且可以控制移动，驾驶期间内撞击生物（对玩家无效）造成等同于自身护甲值+生命值上限的物理伤害。"
+				" "
+				"撞击改变被撞击生物的护甲和伤害类型，且使该生物只能对克制的伤害型的生物造成伤害（比如被撞击后攻击类型变成了爆发，则只能对轻甲生物造成伤害）"
+				""
+				"省流："
+				"能不能无敌看运气，开着矿车撞就是了"
+			]
+			id: "30F37926FD37F0F0"
+			tasks: [{
+				id: "053274F9E26FE9B6"
+				title: "内海青叶"
+				type: "checkmark"
+			}]
+			x: -15.0d
+			y: 9.5d
+		}
+		{
+			description: [
+				"被动："
+				"1.每20秒给一个充能buff（最高两层），按z键消耗一层充能回复2格Cost和15%得生命值。"
+				""
+				"技能："
+				"按shift+z进行蓄力，蓄力3秒消耗3格Cost造成一条直线（26格）的穿透36点伤害"
+				""
+				"蓄力6秒消耗6点C0st造成一条直线（32格），造成72点伤害/+12%的对方生命值上限，并且破坏面前5x5的方块。"
+				""
+				"蓄力20秒，其间不能被打断，消耗所有cost以及90%的血量，造成极大的杀伤和破坏力（无掉落物），并且秒杀这个范围内的所有生物实体。释放后短暂时间内无法行动。"
+				""
+				"特性：在玩家持有爱丽丝力量时单次收到巨额伤害（爱丽丝新增锁血效果）或者血量低于20%时概率出现kei。"
+				""
+				"拥有此力量时时，爱丽丝的技能不再生效，光之剑技能不再蓄力，按z发一阶段，shift加z瞬发二阶段，并且获得一秒减速的buff，玩家有70%的概率格挡伤害，获得速度3，造成的伤害提高200%，受到的伤害减少50%，且会高亮标记周围所有生物。当玩家血条在10%以下后解除该buff。"
+				""
+				"&4（警告：玩家触发特性后，若5分钟内未清除该力量，则将只剩下该学生力量，爱丽丝力量将会消失，力量名称变成王女。玩家攻击目标不受控制，且每4秒随机使用一二阶段光之&4剑。）"
+				""
+				"省流："
+				"续航，站桩，触发王女就等死"
+			]
+			id: "5643F99D3A04527F"
+			tasks: [{
+				id: "776B9C6ADF49DD43"
+				title: "天童爱丽丝"
+				type: "checkmark"
+			}]
+			x: -17.0d
+			y: -7.5d
+		}
+		{
+			description: [
+				"被动："
+				"每秒回复什亭之匣10点耐久，攻击优先掉什亭之匣耐久，击杀生物必定掉落青辉石，使用青辉石消耗10个击退生物并造成自身生命值伤害。"
+				""
+				"技能："
+				"消耗7cost下次攻击伤害翻8倍并且掉落造成伤害数量的青辉石，上限为32。该buff可与其他buff重叠，但是重叠后什停之匣抵消伤害将不生效。"
+				""
+				"省流："
+				"刷刷青辉石得了"
+			]
+			id: "78810B6C2E1A66AF"
+			tasks: [{
+				id: "63DDA9AE5FE0ADA2"
+				title: "阿罗娜"
+				type: "checkmark"
+			}]
+			x: -17.0d
+			y: 19.0d
+		}
+		{
+			description: [
+				"被动："
+				"该玩家造成的所有伤害提高35%"
+				""
+				"技能："
+				"按z键消耗4格Cost，下一次攻击命中敌人后会造成50点伤害并在2秒后产生6级爆炸并造成自身生命值上限200%的伤害（若该生物没抗住50点伤害则不触发后续爆炸）"
+				""
+				"特性："
+				"继承了该力量的玩家和村民交易时永久提高30%的交易价格。"
+				""
+				"省流："
+				"爆炸狙，傻子容易被骗"
+			]
+			id: "0F6D9274F1AFDE5E"
+			tasks: [{
+				id: "3DADDB378492C9B6"
+				title: "陆八魔爱露"
+				type: "checkmark"
+			}]
+			x: -15.0d
+			y: 4.5d
+		}
+		{
+			description: [
+				"被动："
+				"1.造成伤害提高35%，移动速度提高15%，速度1，抗性提升1，跳跃提升2。"
+				""
+				"2.玩家永远拥有幸运100的效果，击杀凋零骷髅必定掉落凋零骷髅头。"
+				""
+				"技能："
+				"按z消耗3格Cost，往准心的方向快速移动6格并获得1.5秒无敌效果，且提高下一次攻击400%的伤害并附带自身生命值上限5%的虚空伤害（不可叠加），位移时，若玩家处于空中，则滞空1.5秒，期间方向键无法生效，但仍可以使用技能。"
+				""
+				"省流："
+				"欧皇+无敌帧滑铲"
+			]
+			id: "13DF35A50C0D1B67"
+			tasks: [{
+				id: "267088A654C98070"
+				title: "一之濑明日奈"
+				type: "checkmark"
+			}]
+			x: 21.0d
+			y: -1.5d
+		}
+		{
+			description: [
+				"被动："
+				"40%概率闪避伤害，当血量低于65%时额外获得37%闪避加成，每次闪避回复一格Cost。"
+				""
+				"技能："
+				"按z消耗5格Cost使自身周围15x15的玩家每秒回复5%的血量持续30秒。"
+				""
+				"特性："
+				"当周围有关键词带有花的方块时，解除所有负面效果并回复生命值。"
+				""
+				"省流："
+				"闪避+范围回血前排"
+			]
+			id: "5CCA291CB9D49892"
+			tasks: [{
+				id: "410D9E0AF8B3F2C6"
+				title: "秤亚津子"
+				type: "checkmark"
+			}]
+			x: 17.0d
+			y: -1.5d
+		}
+		{
+			description: [
+				"被动："
+				"自身造成的伤害提高25%"
+				""
+				"技能："
+				"按z键消耗5格cost，将第一次造成的伤害再持续造成五次，攻击带有负面buff的敌人，对方每有一层负面buff，等同于白洲梓玩家自身生命值上限5%的虚空伤害。"
+				""
+				"特性："
+				"当该buff玩家处于雷雨天气时，闪电会劈向周围的所有非玩家单位。"
+				""
+				"省流："
+				"给别人挂负面然后开着技能输出就行了"
+			]
+			id: "5CDA7E94F03EA2C4"
+			tasks: [{
+				id: "214095156DCFF349"
+				title: "白洲梓"
+				type: "checkmark"
+			}]
+			x: -1.0d
+			y: 4.5d
+		}
+		{
+			description: [
+				"被动："
+				"1.造成伤害提高30%，每20秒使自身7x7范围内生命值最高的生物造成伤害减少30%，持续15秒。"
+				""
+				"2.当该玩家在场时，同一维度内所有玩家暴击伤害提高25%。"
+				""
+				"技能："
+				"消耗5点cost，对下次攻击命中的生物造成自身生命值上限300%的虚空伤害，使生物5秒内无法移动，也无法攻击。"
+				""
+				"省流："
+				"硬控"
+			]
+			id: "64B89B0CCAF90456"
+			tasks: [{
+				id: "4583974867D723BE"
+				title: "各务千寻"
+				type: "checkmark"
+			}]
+			x: -9.0d
+			y: 9.5d
+		}
+		{
+			description: [
+				"无特殊被动"
+				""
+				"技能："
+				"消耗4格Cost，为一个玩家回复自身玩家生命值上限70%的血量，并提供25秒的抗性提升2且25秒内改玩家有18%的概率闪避伤害。"
+				""
+				"省流："
+				"没爱用品纯牢"
+			]
+			id: "1F462095AFD2F0DA"
+			tasks: [{
+				id: "080751302DCB7337"
+				title: "火宫千夏"
+				type: "checkmark"
+			}]
+			x: -13.0d
+			y: 14.5d
+		}
+		{
+			description: [
+				"被动"
+				"1.造成伤害+120%，自带抗性提升2，攻击时有10%概率附带持续伤害（持续伤害数值等同于自身生命值上限20%的虚空伤害）持续20s。"
+				""
+				"2.使用技能后获得一次攻击强化被动，强化攻击后造成伤害提高50%，且命中后为生物施加眩晕效果持续5秒（对玩家无效）"
+				""
+				"技能"
+				"1.消耗5点cost，使下一次攻击命中后会在该生物脚下形成一个圆形水圈持续15s，在这个圆圈内的生物会持续受到等同于玩家生命值上限180%的伤害，且每个受到伤害的敌对生物会随机受到一种效果："
+				""
+				"1.减少25%生命值上限"
+				"2.移动速度减少99%，造成伤害减少50%"
+				"3.受到的伤害必定暴击，并且自身无法造成暴击伤害，且无法回复生命值"
+				"4.被施加5个原版除了漂浮外的不同的负面buff2级"
+				"5.会攻击其他非玩家单位（只有一个怪物时不生效）"
+				"6.身上的正面buff和护甲值失效"
+				"7.造成的伤害固定为1点"
+				""
+				"省流："
+				"万金油，机制挺全面，适合当个副c"
+			]
+			id: "5721A9A46E3D68EF"
+			tasks: [{
+				id: "04B12A87C3B00272"
+				title: "和乐千世"
+				type: "checkmark"
+			}]
+			x: -15.0d
+			y: -7.5d
+		}
+		{
+			description: [
+				"被动："
+				"1.自身生命值上限提高20%，造成的伤害降低20%。"
+				""
+				"2.如果玩家cost为当前上限则为玩家附加生命回复3。当枫香的Cost为满时使周围15x15范围内玩家受到的伤害"
+				"减少30%，若枫香的经验等级高于35级，则周围的玩家不受负面效果影响（包括自"
+				"己）。"
+				""
+				"3.当受到致命伤害时会扣除所有cost来抵消一次致命伤害。"
+				""
+				"技能："
+				"消耗5格Cost，为8x8范围内玩家回复等同于自身生命值上限65%的血量，若此时玩家生命值上限大于或等于320，则会使周围8x8范围内所有非玩家身上的正面buff失效，且临时扣除最大生命值上限20%（无法叠加）持续15秒。"
+				""
+				"特性：若有其他玩家用栓绳来攻击枫香玩家，则枫香玩家会在5秒内无法移动。"
+				""
+				"省流："
+				"血量越高越好的群奶"
+			]
+			id: "1F75E64BDD0AB582"
+			tasks: [{
+				id: "351D619BECE9DDD7"
+				title: "爱清枫香"
+				type: "checkmark"
+			}]
+			x: -11.0d
+			y: -1.5d
+		}
+		{
+			description: [
+				"被动："
+				"获得生命提升3，生命回复1，造成的伤害提高10%，受到的伤害减少15%。"
+				""
+				"技能："
+				"消耗3格cost，为6x6范围内的玩家每秒恢复该玩家自身生命值上限8%的生命值，受到的伤害减少20%，持续8秒。"
+				""
+				"特性："
+				"当小春玩家在该玩家10格以内时小春玩家会播放特殊语音一次。"
+				""
+				""
+				"省流："
+				"范围持续回血"
+			]
+			id: "291FF10A0875098C"
+			tasks: [{
+				id: "298802CBCC4B7CC4"
+				title: "浦和花子"
+				type: "checkmark"
+			}]
+			x: 1.0d
+			y: 9.5d
+		}
+		{
+			description: [
+				"被动："
+				"1.造成的伤害增加25%，受到的伤害减少60%，受到的治疗效果增强50%，急迫2，速度1。使用普通水瓶喝水时获得饱和和生命回复20秒，该效果玩家喝任何药水的时常和等级翻倍。"
+				""
+				"技能："
+				"1.按z键不消耗Cost，聊天栏显示“技能开启”（再按一次关闭技能），此时玩家免疫负面效果，主手喝水瓶将不会起作用，副手拿水瓶，右键后消耗两格Cost，水瓶进入3秒冷却，自动获得2分钟任意正面buff五级。"
+				""
+				"2.若6x6范围内有玩家，则将此获得的效果同步20s到其他玩家身上，此时，被同步一次buff的玩家受到的伤"
+				"害全部转移到小钩晴效果玩家身上，直到技能关闭。"
+				""
+				"特性："
+				"玩家有的概率喝到特殊药水，4分11秒内无敌，且副手水瓶不再冷却，且获得饱和效果。"
+				"也有的概率喝到虚弱，缓慢以及挖掘疲劳这三个buff六十秒。"
+				""
+				"省流："
+				"我们在一个bug上安装了个角色"
+			]
+			id: "403E4E5025907779"
+			tasks: [{
+				id: "077B6FAC90CF7D26"
+				title: "小钩晴"
+				type: "checkmark"
+			}]
+			x: -9.0d
+			y: -7.5d
+		}
+		{
+			description: [
+				"被动："
+				"自身血量增加25点，护甲值增加10点，受伤时有10%概率获得一个抗性提升3（持续5秒）"
+				""
+				"技能："
+				"消耗4格Cost，使后面6次造成的伤害提高40%。"
+				""
+				"特性："
+				"当玩家站在草地上不动一段时间后会使周围杂草成长。"
+				""
+				"省流："
+				"前期还行，后期移动染料厂"
+			]
+			id: "63A656853269EF43"
+			tasks: [{
+				id: "37ADBC77D89DC042"
+				title: "伊草遥香"
+				type: "checkmark"
+			}]
+			x: -11.0d
+			y: 14.5d
+		}
+		{
+			description: [
+				"被动："
+				"每20秒增加获得一个抗性提升2（持续15秒），自带生命提升5，使用技能后cost回复速度提高20%。"
+				""
+				"技能："
+				"消耗5点cost，获得技能物品，右键扔出后生成一个带有嘲讽的佩洛洛，所有敌对生物会优先攻击这个佩洛洛，该实体无法移动，无法攻击，拥有十万生命值，且自带抗性提升4，免疫负面状态，该实体存在15秒。"
+				""
+				"特性："
+				"该buff玩家处于银行建筑内时，无法受到伤害。"
+				""
+				"省流："
+				"浮士德"
+			]
+			id: "2EEC6A51D8E0F322"
+			tasks: [{
+				id: "2879C36339939040"
+				title: "阿慈谷日富美"
+				type: "checkmark"
+			}]
+			x: -13.0d
+			y: -1.5d
+		}
+		{
+			description: [
+				"被动："
+				"1.造成伤害提高35%，受到的伤害减少20%。生命值上限提高25%。"
+				""
+				"2.每20秒使身边9x9范围内随机一个玩家造成伤害提高35%。"
+				""
+				"技能："
+				"消耗2点cost，获得一张车票，右键使用后，为5x5范围内离自己最近的玩家和自己提高85%的伤害，持续30秒，并且使那名玩家下次使用技能减少2点cost消耗（车票仅对一个玩家生效，不作用于多个玩家）。"
+				""
+				"省流："
+				"超绝增伤后排"
+			]
+			id: "5CA04277F5E208A3"
+			tasks: [{
+				id: "7289D5527006A09B"
+				title: "橘光"
+				type: "checkmark"
+			}]
+			x: 3.0d
+			y: 9.5d
+		}
+		{
+			description: [
+				"被动："
+				"1.玩家每次造成的伤害基于原本提高55%，自带抗性提升1，有15%的几率格挡伤害。"
+				""
+				"2.玩家无法被一击必杀，受到的所有伤害-2，受到致命伤害会强行留下一点生命值并在后五秒内免疫所有伤害。"
+				""
+				"3.玩家受到的爆炸伤害-60%，每损失10%血量则提高6%伤害。当玩家生命值低于60%后可消耗饱食度进行飞行。"
+				""
+				"4.当玩家血量高于100点后，生命值低于玩家的生物会主动远离。"
+				""
+				"技能："
+				"消耗7格Cost，弹开并给予周围5x5范围内生物5秒缓慢效果，并获得一个抗性提升3，6秒内造成的伤害提高95%。每打40点伤害回复1点cost。技能持续时间内对方每有20点护甲值则额外造成1点伤害，且对方每有一个负面buff则该玩家对他造成的伤害提高20%。"
+				""
+				"省流："
+				"射程为A的白金之星"
+			]
+			id: "13F06D98D7B15C4A"
+			tasks: [{
+				id: "2CADC74D5A560EFA"
+				title: "空崎日奈"
+				type: "checkmark"
+			}]
+			x: -13.0d
+			y: -7.5d
+		}
+		{
+			description: [
+				"被动："
+				"1.该玩家自带虚弱1，且受到的伤害+10%。每15秒使自身8x8内随机一名非玩家单位减少20%的伤害，增加该生物受到的15%的伤害（冷却10秒）。"
+				""
+				"2.当周围20x20范围内有玩家时，则提高cost的回复速率。"
+				""
+				"技能："
+				"按z键消耗3格Cost，使2x2范围内最近的玩家造成的伤害提高80%（持续20秒）。"
+				""
+				"特性："
+				"该玩家冲刺时可以击飞路径上的生物"
+				""
+				"省流："
+				"可以增伤的otto"
+			]
+			id: "2556CA962494DB16"
+			tasks: [{
+				id: "118818D887B0CDC2"
+				title: "明星日鞠"
+				type: "checkmark"
+			}]
+			x: -3.0d
+			y: 9.5d
+		}
+		{
+			description: [
+				"无特殊被动"
+				""
+				"技能："
+				"消耗3格cost，发射粒子团，命中穿透生物，对命中的目标造成该自身生命值上限200%+31点伤害。当其余玩家中有戒野美咲，秤亚津子，锭前纱织三个学生时提高技能命中敌人的时候受到的伤害。"
+				""
+				"省流："
+				"清杂兵好用"
+			]
+			id: "4BE85DEFFDCA5A68"
+			tasks: [{
+				id: "430B9B27586388FE"
+				title: "槌永日和"
+				type: "checkmark"
+			}]
+			x: 19.0d
+			y: -1.5d
+		}
+		{
+			description: [
+				"被动："
+				"1.拥有抗性提升1，血量低于30%时获得生命回复2"
+				""
+				"2.当玩家右键床时可以立刻回复所有生命值"
+				""
+				"3.当玩家举盾时免疫所有伤害"
+				""
+				"技能："
+				"消耗4格cost，获得缓慢2，抗性提升3，生命回复7，并且玩家造成的伤害+3，持续10秒，不可叠加。"
+				""
+				"&4（警告：当自身为中心20格内有玩家阵亡时，该玩家会进入反转状态，此状态下攻击不分敌我且伤害和破坏力极强，拥有80%的闪避概率，变回来的方法为将该玩家血量降低到10%以下，&b该状态下碰到岩浆则会停止所有动作）"
+				""
+				"省流："
+				"逆天前排，反转也有办法，很好管"
+			]
+			id: "7978364A46BCA0B3"
+			tasks: [{
+				id: "5277EFD6A61394CF"
+				title: "小鸟游星野"
+				type: "checkmark"
+			}]
+			x: 7.0d
+			y: -7.5d
+		}
+		{
+			description: [
+				"被动："
+				"在自身10x10范围内有其他玩家时使其他玩家的伤害增加10%。自带跳跃提升4和速度2，且免疫摔落伤害。"
+				""
+				"技能："
+				"消耗3Cost强化后三次攻击伤害提高110%，每次攻击向随机方向移动三格。"
+				""
+				"特性："
+				"当别的玩家shift右键该玩家时会获得饱和效果。"
+				""
+				"省流："
+				"薛定谔的瞬移容易给自己不知道干哪儿去了"
+			]
+			id: "3921CFB16A706842"
+			tasks: [{
+				id: "583350E4EDEA5A3C"
+				title: "银镜伊织"
+				type: "checkmark"
+			}]
+			x: -1.0d
+			y: 14.5d
+		}
+		{
+			description: [
+				"被动："
+				"造成的伤害提升25%，速度2，无摔落伤害。"
+				""
+				"技能："
+				"消耗5格Cost，且6秒内获得高额伤害抗性，并且获得100%的伤害增加。若在使用技能后的一瞬间受到伤害，则免疫当次伤害，并且免疫伤害延长12秒，伤害增加到260%，且根据自身生命值上限10%额外造成伤害。"
+				""
+				"特性："
+				"可以在水上行走"
+				""
+				"省流："
+				"火影忍者手游破面带土"
+			]
+			id: "3A269E8608B1295A"
+			tasks: [{
+				id: "6F815484791F5A38"
+				title: "久田泉奈"
+				type: "checkmark"
+			}]
+			x: -11.0d
+			y: -7.5d
+		}
+		{
+			description: [
+				"被动："
+				"1.生命值上限+40，造成伤害+20%，自带生命回复1，抗性提升1。"
+				""
+				"2.自身每损失1%生命值造成伤害额外增加5%（最高300%）当生命值低于20%时，赋予自身30秒无敌（冷却5分钟）。"
+				""
+				"技能："
+				"消耗5点cost，使五秒内攻击伤害提高100%。击杀一个生物回复3点饱食度。"
+				""
+				"省流："
+				"byd锁血，单次伤害受到超过自身生命值就趋势了"
+			]
+			id: "0D03C787D71ED5F2"
+			tasks: [{
+				id: "24998D19B09F2936"
+				title: "赤司纯子"
+				type: "checkmark"
+			}]
+			x: -13.0d
+			y: 4.5d
+		}
+		{
+			description: [
+				"被动："
+				"1.造成伤害提高35%，免疫摔落，抗性提升1。"
+				""
+				"2.每40秒使自己下一次攻击造成的伤害额外提高45%（最多存一次）命中敌人后有50%概率使敌人获得虚弱，挖掘疲劳，缓慢，持续3秒。"
+				""
+				"技能："
+				"消耗7格cost，使下一次造成的伤害提高600%，对于血量高于500的生物额外造成等同于第一段伤害一半的伤害。"
+				""
+				"省流："
+				"niga开图蛮好用的"
+			]
+			id: "41F0F401063F3656"
+			tasks: [{
+				id: "6430A0D905D30558"
+				title: "角楯花凛"
+				type: "checkmark"
+			}]
+			x: -3.0d
+			y: 4.5d
+		}
+		{
+			description: [
+				"被动："
+				"1.自身造成的伤害减少10%，获得速度1和力量2效果，每隔1分钟自动减少一格Cost。"
+				""
+				"2.原地不动超过7秒后，每秒获得3点经验值。"
+				""
+				"技能："
+				"消耗4点Cost和对非玩家单位造成5x5范围内等同于自身生命值上限30%的伤害，并赋予周围5x5单位4秒反胃（包括玩家）提高周围玩家60%的伤害和40%的暴击伤害。若玩家释放技能时经验值高于68级，则降低受到伤害单位85%的输出，受到的伤害单位受到的伤害增加45%，并且使其无法回复生命值，持续10秒。"
+				""
+				"特性："
+				"当附近有猫类生物时，玩家会获得缓慢效果"
+				""
+				"省流："
+				"可以给boss挂一大堆负面的副c"
+			]
+			id: "501F4843552EC60D"
+			tasks: [{
+				id: "4A2B3459C73A1410"
+				title: "鬼方佳代子"
+				type: "checkmark"
+			}]
+			x: -5.0d
+			y: 9.5d
+		}
+		{
+			description: [
+				"被动："
+				"造成的伤害提升40%，自带夜视和抗性提升2速度1，无摔落伤害，苦力怕会"
+				"主动避开玩家。右键食用蛋糕方块时回复所有生命值和Cost，并且清除所有负面状态。"
+				""
+				"技能："
+				"消耗6格Cost，造成伤害时额外附带自身生命值上限8%的伤害。根据周围20x20内玩家的数量提高造成的伤害，每个玩家提高15%，并且使第一个攻击到的单位受到的伤害提高25%，持续15秒。使用技能时若身上检测到有蛋糕，则消耗一个蛋糕延长技能10秒持续时间，在原技能基础上额外为周围20x20的玩家提高造成伤害30%，赋予生命回复2并且立刻回复他们3格cost。"
+				""
+				"特性："
+				"1.当拥有该玩家遇到桐生桔梗的玩家时玩家会触发特殊对话：“你这只偷腥的猫！”双方对对方造成的伤害提高50%。"
+				""
+				"2.当玩家周围有蛋糕时获得缓慢效果"
+				""
+				"省流："
+				"没蛋糕自己增伤，有蛋糕团队增伤"
+			]
+			id: "25A70918DAA38379"
+			tasks: [{
+				id: "4521850ABD9AD914"
+				title: "杏山和纱"
+				type: "checkmark"
+			}]
+			x: 1.0d
+			y: 4.5d
+		}
+		{
+			description: [
+				"被动："
+				"1.造成的伤害提高25%，自带夜视，速度2，无摔落伤害，苦力怕会主动避开玩家。"
+				""
+				"2.白天时获得抗性提升2和力量2效果并且在亮度大于12的地方获得生命回复效果。"
+				""
+				"3.夜晚时会使周围8x8范围内非玩家单位获得发光效果，并且攻击带有发光效果的生物伤害提高15%，且额外附带自身生命值上限5%的虚空伤害，且速度效果提高至3级，使用近战武器时取消攻击间隔，并且近战伤害提高75%。"
+				""
+				"技能："
+				"消耗6格cost，使身前9x9范围内的生物受到的伤害提高30%，并且有火焰粒子特效从9×9范围内8格高空中落下四次造成基于自身生命值上限50%的魔法伤害。"
+				""
+				""
+				"特性："
+				"当玩家遇到杏山和纱效果的玩家时玩家会触发特殊对话“你这只偷腥的猫！”双方对对方造成的伤害提高50%"
+				""
+				"省流："
+				"技能清杂，白天开图，晚上打架"
+			]
+			id: "56939DD6831FB275"
+			tasks: [{
+				id: "7AB84DDBC047A89D"
+				title: "桐生桔梗"
+				type: "checkmark"
+			}]
+			x: -17.0d
+			y: -1.5d
+		}
+		{
+			description: [
+				"被动："
+				"造成的伤害提高20%，15%闪避。"
+				""
+				"技能："
+				"消耗8格cost，对周围7x7范围内的生物造成基于生命值上限25%的虚空伤害，对其他玩家则提升造成的伤害70%，且为周围玩家施加2秒饱和，且使“冠军强敌”的精英怪词条失效，以上效果持续20s"
+				""
+				"特性："
+				"玩家和村民交易只需要一个样品且可以无限交易"
+				""
+				"省流："
+				"拥有高贵的屏蔽精英怪词条效果"
+			]
+			id: "27A9ACB0AA0AB668"
+			tasks: [{
+				id: "674DFD4FD10C57B1"
+				title: "龙华妃咲"
+				type: "checkmark"
+			}]
+			x: -1.0d
+			y: 9.5d
+		}
+		{
+			description: [
+				"无特殊被动"
+				""
+				"技能："
+				"消耗3点cost，16格内对范围内玩家回复14点生命值，对范围内的非玩家单位根据自身生命值上限30%对敌方造成伤害，若按住shift+z则是单体（只消耗1格Cost)"
+				""
+				"省流："
+				"清杂或者暮色巫妖对策"
+			]
+			id: "55B5128E20C723B7"
+			tasks: [{
+				id: "4E745B1A5AD0F108"
+				title: "下江小春"
+				type: "checkmark"
+			}]
+			x: -7.0d
+			y: -1.5d
+		}
+		{
+			description: [
+				"被动："
+				"造成的伤害提高15%，自带抗性提升2，速度2，生命回复2，受到的伤害减少30%，每次受到所有类型的伤害减少4点，20%概率闪避伤害。"
+				""
+				"技能："
+				"消耗3点Cost，在15秒内受到的伤害再被动的基础上免伤增加50%，15秒后若没有死亡，则将血量恢复到使用技能之前的状态，若技能结束时周围5x5范围内有玩家，则为玩家也恢复等同于自身恢复的生命值。"
+				""
+				"省流："
+				"满血开技能后过去抗伤害就行"
+			]
+			id: "23514214F8F6935E"
+			tasks: [{
+				id: "2120A768DF68FC7C"
+				title: "春原心奈"
+				type: "checkmark"
+			}]
+			x: 3.0d
+			y: -1.5d
+		}
+		{
+			description: [
+				"无特殊被动"
+				""
+				"技能："
+				"消耗3格cost，为以自己为中心8x8的玩家施加力量2，并且使他们造成的伤害提高22%，持续10秒"
+				""
+				"省流："
+				"平角裤的增伤"
+			]
+			id: "02F014CA71163586"
+			tasks: [{
+				id: "56A5877A22EE2251"
+				title: "音濑小玉"
+				type: "checkmark"
+			}]
+			x: -9.0d
+			y: 14.5d
+		}
+		{
+			description: [
+				"被动：造成的伤害提高25%，自带抗性提升1，幸运5，力量2，与npc交易时涨价50%。"
+				""
+				"技能："
+				"消耗4格Cost，获得三颗烈焰弹（雷电，火统，爆炎）中任意一颗，右键扔出后造成伤害"
+				""
+				"特性："
+				"抽取时有1000/1的概率抽到彩色名字的火焰弹，该火焰弹抽取到扔出后造成一次爆炸伤害对生物造成秒杀效果。"
+				""
+				"省流："
+				"血量拉高点，免得给自己炸死"
+			]
+			id: "271FA19F3DB3E949"
+			tasks: [{
+				id: "26C0419E12EBA5B2"
+				title: "黑崎小雪"
+				type: "checkmark"
+			}]
+			x: -11.0d
+			y: 4.5d
+		}
+		{
+			description: [
+				"被动："
+				"自身造成的伤害提高20%，根据造成的伤害将其中40%转化为穿甲伤害"
+				""
+				"技能："
+				"按z消耗6格Cost在6秒内将所有造成的伤害转化成穿甲伤害。"
+				""
+				"特性："
+				"手持“染料”的物品获得速度2效果，每隔一段时间有概率将手中的物品扔出去。"
+				""
+				"省流："
+				"超绝破甲伤害，除了不自拐都还好"
+			]
+			id: "2DF5502E7488079A"
+			tasks: [{
+				id: "66FC802306F43C2C"
+				title: "小涂真纪"
+				type: "checkmark"
+			}]
+			x: -17.0d
+			y: 4.5d
+		}
+		{
+			description: [
+				"被动："
+				"不受所有负面buff影响（可以挂上，但不会影响），自身每有一级负面状态造成的所有伤害提高15%，苦力怕看见该buff玩家会主动远离"
+				""
+				"技能："
+				"消耗两格Cost，回复对方生命值上限18%的血量，并将对方的负面buff转移到自己身上"
+				""
+				"特性："
+				"可以使所有玩家七咒的大部分诅咒失效"
+				""
+				"省流："
+				"团队挂件"
+			]
+			id: "73673B2967D85A5D"
+			tasks: [{
+				id: "41EC10753ECC31A8"
+				title: "伊落玛丽"
+				type: "checkmark"
+			}]
+			x: -9.0d
+			y: -1.5d
+		}
+		{
+			description: [
+				"被动："
+				"该buff玩家造成的伤害提高10%，每25秒给周围30格内除自己外的随机玩家回复该buff拥有者生命值上限70%的血量。"
+				""
+				"技能："
+				"消耗3格Cost使之后造成的五次伤害增加320%额外附带自身生命值上限5%的穿甲伤害。"
+				""
+				"特性："
+				"当相同纬度中存在momoi效果的玩家时，五次攻击会额外附带一个中毒2的效果，持续30秒。"
+				""
+				"省流："
+				"五段穿甲伤害皮都刮不破，和千夏坐一桌"
+			]
+			id: "6E57926124BE478E"
+			tasks: [{
+				id: "413658A1CFC3957A"
+				title: "才羽绿"
+				type: "checkmark"
+			}]
+			x: -5.0d
+			y: 14.5d
+		}
+		{
+			description: [
+				"被动："
+				"造成的所有伤害提高3/1，自身获得抗性提升2生命提升3，并且空手的采掘等级为5。"
+				""
+				"技能："
+				"消耗6格cost，4秒内提高1200%的伤害，根据对方生命值上限额外造成伤害。"
+				""
+				"特性："
+				"1.空手攻击生物时附带爆炸和168点物理伤害和对方生命值上限33%的伤害（狂雷金刚拳）。"
+				""
+				"2.冲刺时可以直接破坏身前的方块（需要指令/blue_archivecraft_loots开启）"
+				""
+				"3.无法食用瑞士卷"
+				""
+				"省流："
+				"能解决你99%的boss"
+			]
+			id: "361910AEF8798E66"
+			tasks: [{
+				id: "46E3109EB98AE2B4"
+				title: "圣园未花"
+				type: "checkmark"
+			}]
+			x: -5.0d
+			y: -7.5d
+		}
+		{
+			description: [
+				"被动："
+				"受到的伤害降低30%，拥有护盾时获得速度二。"
+				""
+				"技能："
+				"消耗5点cost，获得生命值100%的护盾。在20s内获得力量4效果，使所有近战攻击可以连锁到以受击目标为中心7*7范围内的非玩家目标上。"
+				""
+				"shift+z：仅在Cost满的情况下可释放，释放后清空Cost与饱和度，跳起5格高度并朝准星指的方向冲刺，在碰撞箱撞击实体或方块后造成范围6x6的爆炸和100点爆炸伤害，并吸引周围6x6所有敌对生物仇恨。状态结束后获得7秒抗性提升五。"
+				""
+				""
+				"特性：释放shift+z后在文字频道发送“灭绝协议已激活”"
+				""
+				"省流："
+				"拉仇恨抗伤害容易给自己整暴毙了"
+			]
+			id: "655A30C71F0859EA"
+			tasks: [{
+				id: "252A459D7061683D"
+				title: "苍森美弥"
+				type: "checkmark"
+			}]
+			x: 13.0d
+			y: -1.5d
+		}
+		{
+			description: [
+				"被动：无法和任何实体进行互动"
+				""
+				"技能："
+				"消耗5格Cost（若无指定生物则不扣除），在4x4的范围内空中落下五道火焰粒子，碰到地面或者生物后造成等级为1伤害22点的爆炸"
+				""
+				"特性："
+				"该玩家在聊天栏打出的所有非指令信息都会变成“...”"
+				""
+				"省流："
+				"牢九门贵宾一位"
+			]
+			id: "569399FFE7FADBC3"
+			tasks: [{
+				id: "0DA9669E21CFA4D1"
+				title: "戒野美咲"
+				type: "checkmark"
+			}]
+			x: -3.0d
+			y: 14.5d
+		}
+		{
+			description: [
+				"无特殊被动"
+				""
+				"技能："
+				"消耗3Cost使下次造成的伤害提高300%"
+				""
+				"特性：自身不会主动受到附近的生物攻击（包括敌对生物），无法无媒介触发红石物品，无法与实体互动。"
+				""
+				"省流："
+				"摸金流首选"
+			]
+			id: "5732F21E6F37C722"
+			tasks: [{
+				id: "62FE3D2BEE7BBFB7"
+				title: "霞沢美游"
+				type: "checkmark"
+			}]
+			x: 1.0d
+			y: -1.5d
+		}
+		{
+			description: [
+				"被动："
+				"自身造成的所有伤害25%"
+				""
+				"技能："
+				"消耗3格cost，在之后4秒内，所造成的伤害额外提高10%，并且同步命中生物周围6x6格内的所有非玩家生物造成相同的伤害，如果当前纬度存在Midori的玩家时，攻击额外附带火焰附加伤害。"
+				""
+				"特性："
+				"死亡后播放特殊语音，手持双刀攻击伤害和攻速提高300%，并播放特殊音频（比较吵）"
+				""
+				"省流："
+				"推图性能很好"
+			]
+			id: "0CE82275771023C3"
+			tasks: [{
+				id: "4D598C202AB9A100"
+				title: "才羽桃井"
+				type: "checkmark"
+			}]
+			x: -15.0d
+			y: -1.5d
+		}
+		{
+			description: [
+				"被动："
+				"玩家造成的伤害提高15%。"
+				""
+				"技能："
+				"消耗3格Cost，给予一个名为“炸弹包”的物品右键扔出去之后生成三个tnt，命中生物或者方块后落地3秒爆炸，若未命中，6秒后爆炸，每个tnt爆炸造成基于自身生命值上限100%的穿甲伤害和100点爆炸伤害对自己和玩家都有效果，且不会破坏方块。"
+				""
+				"特性："
+				"击杀苦力怕双倍掉落火药"
+				""
+				"省流："
+				"清杂还行，打不了boss"
+			]
+			id: "04372ABBECF1BF4A"
+			tasks: [{
+				id: "2663B83F173235F4"
+				title: "浅黄睦月"
+				type: "checkmark"
+			}]
+			x: 9.0d
+			y: -1.5d
+		}
+		{
+			description: [
+				"被动："
+				"每20s为周围随机一名玩家回复该buff自身生命值上限70%的血量（若回复对象为茶话会角色效果则改为100%）。"
+				""
+				"技能："
+				"消耗6Cost，对前方12x12范围内造成范围打击，击中非玩家生物后造成自身生命值上限十分之一的伤害持续5秒，若敌方为轻甲，则轻甲生物提高受到的伤害20%。"
+				""
+				"特性："
+				"可以强制喂未花玩家食用瑞士卷"
+				""
+				"省流："
+				"打袭击的时候让他们知道什么是精准定位"
+			]
+			id: "48573CCD5BC5D071"
+			tasks: [{
+				id: "2E7844F077994DAE"
+				title: "桐藤渚"
+				type: "checkmark"
+			}]
+			x: 7.0d
+			y: -1.5d
+		}
+		{
+			description: [
+				"被动："
+				"1.造成伤害提高45%，受到伤害提高10%，免疫魔法和时缓状态下的实体的伤害。"
+				""
+				"2.站在原地不动15s的时候全存档都会进入时缓状态，自身不受影响，移动后后失效。"
+				""
+				"技能："
+				"消耗4Cost在开启后获得缓慢效果（最高等级），持续三秒，期间玩家无敌，时间结束后会自带释放出一个彩色的粒子束。对路径单位造成等同于自身生命值上限和敌方当前生命值20%的伤害。"
+				""
+				"特性："
+				"shift加z以名草为中心生成一个16x16的封闭式半圆领域，被关进领域内的生物除了名草自己以外，会被记录当前位置，如果有任何实体攻击名草则名草不会受到伤害，同时把所有实体拉到记录时的那个位置，领域内伴有樱花花瓣落下的特效"
+				""
+				"省流："
+				"存在感很低的轮椅，性能和技能都很强，但是没啥人用"
+			]
+			id: "509D6EF9FE9F28A6"
+			tasks: [{
+				id: "6B3A2E6154C8AC5F"
+				title: "御棱名草"
+				type: "checkmark"
+			}]
+			x: -3.0d
+			y: -7.5d
+		}
+		{
+			description: [
+				"被动："
+				"1.血量上限提高100%，造成的伤害提高25%，受到的伤害减少30%，自带抗性提升1。"
+				""
+				"2.右键举盾时，周围5x5范围内的玩家造成的伤害提高25%"
+				""
+				"技能："
+				"消耗3格Cost恢复自身生命值上限60%的血量，解除自身所有负面一次，并且20秒内不受影响，并为周围玩家（不包括自己）施加一个生命提升5的效果，持续30s。"
+				""
+				"特性："
+				"当玩家喝牛奶或者食用蛋糕时会瞬间恢复所有血量和Cost。"
+				""
+				"省流："
+				"前排大奶！"
+			]
+			id: "1E4FD0AD50314FAE"
+			tasks: [{
+				id: "60491CD3779B68E2"
+				title: "柚鸟夏"
+				type: "checkmark"
+			}]
+			x: -1.0d
+			y: -1.5d
+		}
+		{
+			description: [
+				"被动："
+				"造成的伤害提高100%，自带抗性提升1，生命回复1，速度3，跳跃提升4，力量4，无摔落伤害，受到的伤害减少20%。"
+				""
+				"技能："
+				"扣6点Cost进入技能状态（再按z退出），每次造成伤害将额外造成两次伤害，每损失1%的生命值就获得相1%减伤（最多50%）和3%的伤害加成（无限制）。当血量低于一半时，进入狂怒状态，造成的伤害额外提高70%，移动速度提高40%，减伤提高10%，免疫任何负面效果，造成的伤害额外附带当前生命值上限5%的虚空伤害，闪避伤害概率提高20%，死亡或者退出技能状态后解除。"
+				""
+				"特性："
+				"当“天童爱丽丝”玩家在该玩家面前反复潜行5次，则可以直接进入半血强化状态"
+				""
+				"省流："
+				"血量越低越强"
+			]
+			id: "40D390AF9FFE7C32"
+			tasks: [{
+				id: "34D179258951DF5A"
+				title: "美甘尼禄"
+				type: "checkmark"
+			}]
+			x: -1.0d
+			y: -7.5d
+		}
+		{
+			description: [
+				"被动："
+				"造成伤害提高25%，受到的伤害减少30%，命中目标后额外造成一次伤害，暴击率提高20%，造成伤害时随机为命中目标施加一个五秒的五级debuff。"
+				""
+				"技能："
+				"消耗3点Cost，下次攻击的生物将得到60秒减防效果，此外对方身上每有一种debuff（不受等级影响）则受到伤害再增加15%。当玩家造成伤害时如果暴击则回复5%生命值。"
+				""
+				"省流："
+				"售后大王"
+			]
+			id: "6EE887E149CB947F"
+			tasks: [{
+				id: "6BC2108BD2A89581"
+				title: "生盐诺亚"
+				type: "checkmark"
+			}]
+			x: -11.0d
+			y: 9.5d
+		}
+		{
+			description: [
+				"被动："
+				"造成伤害提高25%，暴击伤害提高50%，每攻击12次获得55%增伤（持续20s)且该玩家造成的所有攻击必定暴击。"
+				""
+				"shift+z技能："
+				"消耗4点cost并播放语音，对直线范围内的敌人持续造成自身生命值上限1050%的伤害。累计使用技能5次获得一个可以乘坐的火车（很坑不建议坐）"
+				""
+				"省流："
+				"和我的火车说去吧"
+			]
+			id: "7C064829A6128A4F"
+			tasks: [{
+				id: "7BD7424144BF6455"
+				title: "橘望"
+				type: "checkmark"
+			}]
+			x: 5.0d
+			y: -7.5d
+		}
+		{
+			description: [
+				"被动："
+				"每秒回复什亭之匣20点耐久，被攻击优先掉什亭之匣耐久，击杀生物必定掉落2个青辉石，在即将死亡时候强行进入什亭之匣，冷却5分钟。"
+				""
+				"技能："
+				"消耗6cost下次攻击伤害翻10倍。该buff可与其他buff重叠，但是重叠后部分效果将不生效"
+				""
+				"省流："
+				"刷一刷青辉石得了"
+			]
+			id: "32178D11C65A80C5"
+			tasks: [{
+				id: "609C22145F272FD9"
+				title: "普拉娜"
+				type: "checkmark"
+			}]
+			x: -15.0d
+			y: 19.0d
+		}
+		{
+			description: [
+				"被动："
+				"1.获得生命提升5，受到的伤害减少20%，造成伤害时额外附带1点穿甲伤害，每50秒获得一个30秒的生命回复5。"
+				""
+				"2.疾跑时会随着疾跑时间每2秒提高一级速度buff，最高5级。"
+				""
+				"3.该效果玩家会额外获得基于生命值50%的护甲值。该玩家可以在白天睡觉。该玩家对于“杏山和纱”效果的玩家造成的伤害增加20%。"
+				""
+				"技能："
+				"消耗4格Cost，解除自身所有负面状态一次，吸引周围敌对生物仇恨一次，三秒内造成的伤害提高300%，并且在此期间被攻击的生物受到的伤害提高30%。"
+				""
+				"省流："
+				"机制不错，能扛能打，跑图也行"
+			]
+			id: "701BF156E8977CC0"
+			tasks: [{
+				id: "2F483DEB1E6C5681"
+				title: "宇泽玲纱"
+				type: "checkmark"
+			}]
+			x: 11.0d
+			y: -1.5d
+		}
+		{
+			description: [
+				"被动："
+				"造成的伤害提高45%。"
+				""
+				"技能："
+				"消耗6格Cost，复制一个玩家的学生力量10秒，若身上有其他学生buff，则优先使用其他学生buff得技能，并且提高被复制学生的玩家70%伤害，持续10s。"
+				""
+				"特性："
+				"由buff该玩家制造出的生物攻击对该玩家无效（列如雪傀儡，铁傀儡和凋零），且周围16x16范围内有该玩家造物时，对该玩家造成伤害会转移到该玩家的造物身上。该玩家在面对爱丽丝玩家时造成的伤害减少40%，在面对凯伊玩家时，无视他的闪避，并且造成的伤害提高70%。"
+				""
+				"省流："
+				"看来是和我同类型的替身呢"
+			]
+			id: "183F86DD55C49316"
+			tasks: [{
+				id: "0C203000120216B6"
+				title: "调月莉音"
+				type: "checkmark"
+			}]
+			x: -15.0d
+			y: 14.5d
+		}
+		{
+			description: [
+				"被动："
+				"当其余玩家中有戒野美咲，秤亚津子，槌永日和三个学生时提升造成的伤害"
+				""
+				"技能："
+				"消耗4格Cost使之后4次攻击提高220%的伤害，且必定暴击。"
+				""
+				"省流："
+				"牢九门"
+			]
+			id: "390F371E39197052"
+			tasks: [{
+				id: "4E8C29FF59A1B1ED"
+				title: "锭前纱织"
+				type: "checkmark"
+			}]
+			x: -7.0d
+			y: 14.5d
+		}
+		{
+			description: [
+				"被动："
+				"受到伤害增加50%，造成伤害-50%，并且饱食度低于10得时候获得缓慢2，且圣娅挖掘速度减少25%，奔跑时消耗饱食度加快消耗。"
+				""
+				"技能："
+				"消耗3格Cost为周围5x5范围内的玩家回复2点cost，累计使用四次为周围玩家生成一个基于自身生命值上限150%的黄心护盾，持续18s。对于，未花，渚，则是生成"
+				"180%护盾，持续20s，并且额外给予一个生命回复2和抗性提升2。"
+				""
+				"特性："
+				"该玩家在聊天栏打出来的所有字都会变成：孩子们，我真的实装了。"
+				""
+				"省流："
+				"牢九门之首"
+			]
+			id: "3982AE21764E0B68"
+			tasks: [{
+				id: "0FEA02615C611A39"
+				title: "百合园圣娅"
+				type: "checkmark"
+			}]
+			x: -17.0d
+			y: 14.5d
+		}
+		{
+			description: [
+				"被动："
+				"受到的治疗效果提高100%，生命值上限增加30点，速度2，抗性提升1，造成伤害提高15%。"
+				""
+				"技能："
+				"消耗5格Cost，回复一个玩家自身生命值上限60%的血量，并使该玩家和自己不受暴击伤害影响，持续20s。当周围有玩家死亡则消耗4格Cost取消玩家死亡并回复所有生命值保留学生力量包括自己，该被动无冷却，当Cost不足4点无法触发。"
+				""
+				"省流："
+				"兄弟兄弟，起来重新死一遍"
+			]
+			id: "1B4BBE82DC5B06DB"
+			tasks: [{
+				id: "1B043B6BF1F82619"
+				title: "冰室濑名"
+				type: "checkmark"
+			}]
+			x: 5.0d
+			y: -1.5d
+		}
+		{
+			description: [
+				"被动："
+				"1.该玩家和npc交易时永远是最低价，免疫摔落伤害，自带夜视，苦力怕会主动远离。"
+				""
+				"2.自身造成的伤害提高25%，自身每20秒提高下一次攻击造成的伤害35%。"
+				""
+				"技能："
+				"消耗4Cost，使20秒内自身速度提升20%，造成的所有伤害提高20%。"
+				""
+				"省流："
+				"阿拜多斯跑图最速传说"
+			]
+			id: "1E4C7A499D19878F"
+			tasks: [{
+				id: "228788667B402B2D"
+				title: "黑见芹香"
+				type: "checkmark"
+			}]
+			x: 15.0d
+			y: -1.5d
+		}
+		{
+			description: [
+				"无特殊被动"
+				""
+				"技能："
+				"消耗2格Cost为玩家回复基于buff拥有者生命值上限80%的血量。"
+				""
+				"特性："
+				"当游戏内有玩家血量低于20%则会被传送至残血玩家所在的地方，并且4秒内免疫伤害。"
+				""
+				"省流："
+				"奶量很大的赛博女鬼"
+			]
+			id: "7A4D73973E93E295"
+			tasks: [{
+				id: "72B98B2745A19451"
+				title: "鹭见芹娜"
+				type: "checkmark"
+			}]
+			x: -3.0d
+			y: -1.5d
+		}
+		{
+			description: [
+				"被动："
+				"夜视，无摔落伤害，速度2，跳跃提升5，每40秒获得2秒饱和，在水里游泳时自动获得海豚的恩惠，可以飞行，自身造成的伤害提高30%，击杀任何生物掉落物翻倍，自身受到的害-20%，自带25%的闪避概率。"
+				""
+				"技能："
+				"消耗2格Cost召唤无人机并且根据自身生命值上限造成伤害。"
+				""
+				"省流："
+				"开图的王"
+			]
+			id: "4D131F128D1819B6"
+			tasks: [{
+				id: "24F9451E0B302679"
+				title: "砂狼白子"
+				type: "checkmark"
+			}]
+			x: 1.0d
+			y: -7.5d
+		}
+		{
+			description: [
+				"该学生为砂狼白子特有附加学生"
+				""
+				"免疫火焰，虚空，荆棘，挤压伤害每次攻击附带1%的百分比伤害，造成的伤害提高70%，受到的伤害减少50%，闪避概率提高75%，按r键可以向前瞬移15格，生命值低于50%时获得饱和效果。"
+				""
+				"触发条件：身边死亡玩家后自已再击杀任何一个生物"
+				""
+				"省流："
+				"神，有爱用品直接成圣"
+			]
+			id: "219E4A004068F7E9"
+			tasks: [{
+				id: "429C953B578C6478"
+				title: "砂狼白子--色彩化"
+				type: "checkmark"
+			}]
+			x: 3.0d
+			y: -7.5d
+		}
+		{
+			description: [
+				"被动："
+				"造成的伤害增加20%，自带村庄英雄3，速度2，跳跃提升2和夜视，无摔落伤害，苦力怕会主动远离玩家。拾取金锭，绿宝石和钻石的时候获得10秒生命回复2。"
+				""
+				"技能："
+				"消耗6格Cost，为周围玩家和自己获得一个基于自身生命值上限270%的伤害吸收效果持续25s。若背包里同时拥有冰块和碗，则消耗一个冰块和碗额外为玩家和自己提供一个抗性提升3，并且期间不受负面效果影响。"
+				""
+				"省流："
+				"群体套盾，0.01超薄质感"
+			]
+			id: "06C9AE02733ABCED"
+			tasks: [{
+				id: "59E8EA6A9BF3DF5E"
+				title: "河和静子"
+				type: "checkmark"
+			}]
+			x: -7.0d
+			y: 9.5d
+		}
+		{
+			description: [
+				"被动："
+				"造成的伤害提高30%，自带抗性提升1，15%的概率闪避攻击，手持物品时降低15%的移动速度。"
+				""
+				"技能："
+				"消耗6格Cost使下一次攻击伤害提高880%并且额外附加自身生命值上限200%的穿甲伤害。当技能攻击使用后无论有没有对生物造成伤害，都获得5秒反胃和三秒缓慢5。"
+				""
+				"省流："
+				"有爱用品勉强能看"
+			]
+			id: "60580FE3492F9B8D"
+			tasks: [{
+				id: "35C8305BDB53AAB4"
+				title: "春原瞬（幼）"
+				type: "checkmark"
+			}]
+			x: -9.0d
+			y: 4.5d
+		}
+		{
+			description: [
+				"被动："
+				"速度1，减伤95%，免疫负面buff，闪避率30%。"
+				""
+				"技能："
+				"消耗7Cost触发7秒子弹时间"
+				""
+				"省流："
+				"多人联机用技能=族谱保卫战"
+			]
+			id: "4DF0E549570A9B76"
+			tasks: [{
+				id: "2AC663AB97CF8DBF"
+				title: "笑面教授"
+				type: "checkmark"
+			}]
+			x: -13.0d
+			y: 19.0d
+		}
+		{
+			description: [
+				"被动："
+				"造成的伤害提高25%，每20秒使自己下一次伤害提高50%（最多一层）"
+				""
+				"技能："
+				"消耗4格Cost获得闪光弹，扔出后在闪光弹5x5范围内的敌人受到闪光效果，并造成等同于自身生命值上限100%伤害，如果对面是非玩家单位则给予缓慢，虚弱，失明持续4秒"
+				""
+				"省流："
+				"好闪兄弟，好闪"
+			]
+			id: "4ABE0A5A583E50E5"
+			tasks: [{
+				id: "05843DD03DF5D2F1"
+				title: "守月铃美"
+				type: "checkmark"
+			}]
+			x: 23.0d
+			y: -1.5d
+		}
+		{
+			description: [
+				"被动："
+				"1.自带生命回复1，速度2，急迫2，抗性提升1，免疫摔落伤害，造成伤害提高25%，自身受到的单次伤害不会超过自身生命值上限10%，自身穿戴护甲后会将护甲值（+盔甲韧性）1:1转化成生命值。"
+				""
+				"2.每次攻击有5%的概率为命中单位施加一层裂伤的负面效果，持续5秒，每攻击20次必定施加一层裂伤，普通攻击的方式最多叠加3层，每次施加裂伤都会重置裂伤持续时间，最多20层后会持续8秒，并在15秒之后移除裂伤效果，期间时间不会重置。"
+				""
+				"&4（裂伤：拥有该buff生物身上会有类似流血的红色粒子特效，每级裂伤会让生物每秒受到5点虚空伤害并为鹤城回复1%的生命值，若两级则每秒掉10点虚空伤害但仍然只回复1%的生命值，以此类推最高20层，此伤害不会暴击）&f"
+				""
+				"技能："
+				"消耗3点cost，并进入技能状态，身上散发小型红色粒子特效，该状态下移动速度提升100%，并且冲刺会破坏方块，并且若撞到生物则会击退和击飞目标8格，并造成50点物理伤害，持续15秒。若玩家在技能持续时间内左键攻击目标，则会造成等同于自身生命值上限的物理伤害，提前解除技能状态，且会直接为目标以及目标8x8范围内的敌对生物直接施加两层裂伤。若对方身上携带20层裂伤之后玩家用技能的强化普攻攻击生物，则会让20层裂伤在剩余持续时间内每tick都对生物造成伤害。"
+				""
+				"省流："
+				"前排抗伤挂dot负面"
+			]
+			id: "18A0BAF426F66885"
+			tasks: [{
+				id: "3272CA4BCA50D072"
+				title: "剑仙鹤城"
+				type: "checkmark"
+			}]
+			x: -7.0d
+			y: -7.5d
+		}
+		{
+			description: [
+				"被动："
+				"造成的伤害提高15%，身边有书架时获得生命回复1造成的伤害提高15%，当其他玩家靠近该玩家时按shift获得生命回复效果。"
+				""
+				"技能："
+				"消耗五格Cost使3x3范围内的随机一名玩家下次使用技能消耗减半，并使该玩家造成的伤害提高50%"
+				""
+				"省流："
+				"有更多的上位替代，不是厨子基本不用"
+			]
+			id: "46C8A54CC5B3368D"
+			tasks: [{
+				id: "380FE1F2B24C6951"
+				title: "古关忧"
+				type: "checkmark"
+			}]
+			x: -17.0d
+			y: 9.5d
+		}
+		{
+			description: [
+				"被动："
+				"造成的伤害提升30%，速度2和跳跃提升4，免疫摔落伤害。攻击根据自身生命值上限12%额外造成伤害。"
+				""
+				"技能："
+				"消耗5格Cost使后面五次伤害提高，前四段伤害提升185%，第五段伤害提高560%。"
+				""
+				"特性："
+				"冲刺时可以破坏铁栏杆。"
+				""
+				"省流："
+				"五段伤害强化，然后发现没拐打不动"
+			]
+			id: "57C5D3D63ADCE77B"
+			tasks: [{
+				id: "549E1F4A5F14AABD"
+				title: "狐坂若藻"
+				type: "checkmark"
+			}]
+			x: -7.0d
+			y: 4.5d
+		}
+		{
+			description: [
+				"被动："
+				"免疫火焰，爆炸伤害，反转星野遇到该玩家就会消失，使星野攻玩家击+50%。常驻生命回复2。因为来自不同的时空，每20秒进入无敌，持续5秒。"
+				""
+				"技能："
+				"消耗8Cost恢复25%最大生命值，触发时间回溯，记录当前时间，10秒后恢复到此刻，期间无敌，影响方块半径：25，影响实体半径：全图"
+				""
+				"省流："
+				"&d『Killer queen第三に、爆弾の敗者はほこりを食べる』"
+			]
+			id: "4FDE9C721D65AD01"
+			tasks: [{
+				id: "76F81BC75123B554"
+				title: "栀子梦"
+				type: "checkmark"
+			}]
+			x: -11.0d
+			y: 19.0d
+		}
+		{
+			description: [
+				"被动："
+				"当玩家拥有此buff时，生命值+4点（两颗心），无法受到漂浮效果影响，免疫摔落伤害，无法被击退或者击飞，从高空坠落时若高度>=50，则会造成爆炸。"
+				""
+				"技能："
+				"消耗3格Cost获得基于自身血量3倍的护盾，并且获得一个速度2（持续15s）"
+				""
+				"特性："
+				"当玩家站在箱子和潜影盒上的时候无法被打开。"
+				""
+				"省流："
+				"盾够厚，梗够多，人够重"
+			]
+			id: "0C3A54F70929FC5D"
+			tasks: [{
+				id: "69B165796A4D36F9"
+				title: "早濑优香"
+				type: "checkmark"
+			}]
+			x: -5.0d
+			y: -1.5d
+		}
+		{
+			description: [
+				"被动："
+				"造成的伤害提高130%，无法与村民进行交易，拥有15%的闪避概率，自身每有一级正面buff就获得3%的伤害减免。"
+				""
+				"技能："
+				"消耗5格Cost发射柚子炮，命中生物后造成100点爆炸伤害和爆炸以及其生命值上限自身生命值上限200%的伤害，并移除对方随机一个正面buff。"
+				""
+				"省流："
+				"我要把你崩飞！"
+			]
+			id: "64AAA8CACEC23615"
+			tasks: [{
+				id: "3FF0805B9C48759F"
+				title: "花冈柚子"
+				type: "checkmark"
+			}]
+			x: -5.0d
+			y: 4.5d
+		}
+		{
+			description: ["这一类学生强度较高，且有极强机制或者数值。推荐单人游玩。"]
+			id: "0E8758D08C96AF84"
+			size: 4.0d
+			tasks: [{
+				id: "4B8715978DAAA666"
+				title: "高强度学生"
+				type: "checkmark"
+			}]
+			x: -20.0d
+			y: -8.0d
+		}
+		{
+			description: ["这一类学生会给予自身极高的容错和拥有提高存活率的技能，适合跑图和开荒。后期也可以配合其他学生进行输出"]
+			id: "70A5221390A056E9"
+			size: 4.0d
+			tasks: [{
+				id: "2C387571F61C50C8"
+				title: "适合开荒的学生"
+				type: "checkmark"
+			}]
+			x: -20.0d
+			y: -2.0d
+		}
+		{
+			description: ["配合辅助学生可以打出爆炸伤害的学生，不推荐单人游玩。"]
+			id: "59E12338D9B78CC1"
+			size: 4.0d
+			tasks: [{
+				id: "156800C79E122396"
+				title: "适合联机打输出位置的学生"
+				type: "checkmark"
+			}]
+			x: -20.0d
+			y: 3.5d
+		}
+		{
+			description: ["可以为输出学生提供超绝的辅助效果。且大部分有不错的性能。"]
+			id: "0BF2949C2A75CBD9"
+			size: 4.0d
+			tasks: [{
+				id: "33827000A4945F4D"
+				title: "辅助位学生"
+				type: "checkmark"
+			}]
+			x: -20.0d
+			y: 9.0d
+		}
+		{
+			description: ["部分联机可能有用.......吧（）"]
+			id: "589280AC3770996A"
+			size: 4.0d
+			tasks: [{
+				id: "5DC8B9B9278478F1"
+				title: "牢九门"
+				type: "checkmark"
+			}]
+			x: -20.0d
+			y: 14.0d
+		}
+		{
+			description: ["这类学生用于测试技术使用，bug较多。"]
+			id: "48E813554BF90772"
+			size: 4.0d
+			tasks: [{
+				id: "5A0BA2BFC7EB6FC8"
+				title: "开发者学生"
+				type: "checkmark"
+			}]
+			x: -20.0d
+			y: 18.5d
+		}
+	]
+	title: "所有学生的能力列表"
+}

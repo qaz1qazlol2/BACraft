@@ -319,7 +319,7 @@
 				"2AF5C069463F5652"
 				"51AB435F7C900773"
 			]
-			description: [""]
+			description: ["现在你可以摆脱七咒之戒了，不过...似乎还有更好的选择&e（神圣之石的前置）"]
 			id: "451F0B85AA6CD38F"
 			tasks: [{
 				id: "362EF93235C1193F"
@@ -713,6 +713,7 @@
 			y: -1.5d
 		}
 		{
+			description: ["能将装备上的附魔全部薅下来（包括诅咒）"]
 			id: "4AE1E897581D0CBF"
 			rewards: [{
 				id: "4652430BAACC95D2"
@@ -900,6 +901,18 @@
 			title: "“无限骨粉”"
 			x: -3.5d
 			y: 1.0d
+		}
+		{
+			dependencies: ["451F0B85AA6CD38F"]
+			description: ["愿你在远离诅咒的日子里，尽情享受生活"]
+			id: "427461A18303FF2A"
+			tasks: [{
+				id: "5322EACE9091F4D2"
+				item: "enigmaticaddons:bless_stone"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 5.5d
 		}
 	]
 	title: "&c七之古则 &9七之祝福"

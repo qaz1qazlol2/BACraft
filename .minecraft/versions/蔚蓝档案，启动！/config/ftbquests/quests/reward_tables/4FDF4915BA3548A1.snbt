@@ -4,11 +4,36 @@
 	loot_size: 1
 	order_index: 5
 	rewards: [
-		{ count: 2, item: "minecraft:golden_apple", weight: 30.0f }
-		{ count: 4, item: "minecraft:diamond", weight: 20.0f }
-		{ count: 2, item: "minecraft:netherite_scrap", weight: 20.0f }
-		{ item: "minecraft:totem_of_undying", weight: 10.0f }
-		{ count: 5, item: "relics:relic_experience_bottle", weight: 20.0f }
+		{
+			count: 60
+			item: {
+				Count: 1
+				id: "tacz:ammo"
+				tag: {
+					AmmoId: "tacz:9mm"
+				}
+			}
+		}
+		{
+			count: 32
+			item: {
+				Count: 1
+				id: "tacz:ammo"
+				tag: {
+					AmmoId: "tacz:12g"
+				}
+			}
+		}
+		{
+			count: 48
+			item: {
+				Count: 1
+				id: "tacz:ammo"
+				tag: {
+					AmmoId: "tacz:762x39"
+				}
+			}
+		}
 	]
-	title: "初级成就礼盒"
+	title: "子弹盒"
 }

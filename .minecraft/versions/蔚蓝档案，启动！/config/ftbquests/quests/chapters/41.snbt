@@ -377,6 +377,7 @@
 				"188153D5D1DF9CB6"
 				"4D2051D026BF4ED0"
 			]
+			description: ["注：从末地的末影龙传送门回来会导致学生力量消失，建议使用模组送的魔镜进行传送"]
 			icon: "minecraft:end_portal_frame"
 			id: "5B17411B819324A6"
 			min_required_dependencies: 12
@@ -390,6 +391,7 @@
 				id: "563D57175D5B354D"
 				type: "checkmark"
 			}]
+			title: "隔墙有眼"
 			x: 0.0d
 			y: 2.0d
 		}

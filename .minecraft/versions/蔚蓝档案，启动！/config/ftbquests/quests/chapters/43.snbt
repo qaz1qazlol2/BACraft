@@ -1,0 +1,364 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "43"
+	group: "3F6E92AE7F64E4AB"
+	icon: "terramity:gold_medal"
+	id: "081BFAC418158E15"
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["45974B994B771101"]
+			description: ["注：本模组的所有生物均有会随着玩家人数而增加生命值的设定。"]
+			id: "110415B35E83AFC7"
+			rewards: [
+				{
+					id: "4F01C9EABD6FC57B"
+					item: "terramity:diamond_earrings"
+					type: "item"
+				}
+				{
+					id: "29A86EC4CC07CAC8"
+					item: "paraglider:spirit_orb"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "6EB4AAE29C994F46"
+				title: "历险启程"
+				type: "checkmark"
+			}]
+			x: -10.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["110415B35E83AFC7"]
+			description: [
+				"红色地精帽子可通过与地精用&b钻石&f以物易物得到。与蓝色染料合成得到蓝色地精帽子。击杀地精之王·戈布有33.3%的几率获得戈布的镀金帽子。"
+				""
+				"地形名称：地精王宫"
+			]
+			id: "729B24ACAD933CB5"
+			rewards: [
+				{
+					id: "01F504FB085DEC93"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "697E4C60AB111293"
+					item: "paraglider:spirit_orb"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "51CA54EBAA9875AE"
+				item: {
+					Count: 1
+					id: "terramity:red_gnome_hat_helmet"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -6.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["729B24ACAD933CB5"]
+			description: [
+				"地精之王·戈布是你的terramity之旅中将遇到的第一个Boss，它可以在生成于黑森林和沼泽群系的地精王宫中召唤。"
+				""
+				"手持&4红色地精帽子&f右击地精王宫中的&e金质地精雕像&f召唤。"
+			]
+			id: "4C8525D6FA450DF4"
+			rewards: [{
+				count: 2
+				id: "6C692401126EE635"
+				item: "paraglider:spirit_orb"
+				type: "item"
+			}]
+			tasks: [{
+				entity: "terramity:gob"
+				icon: "terramity:gob_spawn_egg"
+				id: "70C5ADF0D1641A67"
+				type: "kill"
+				value: 1L
+			}]
+			x: -2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["4C8525D6FA450DF4"]
+			description: ["嗅探兽蛋可以在Terramity生成的很多结构中找到。"]
+			id: "43A780A1E4D4AB3B"
+			rewards: [{
+				id: "4CBA2971DEA7E377"
+				item: "paraglider:spirit_orb"
+				type: "item"
+			}]
+			tasks: [{
+				id: "4501D8DE7D54762F"
+				item: "minecraft:sniffer_egg"
+				type: "item"
+			}]
+			x: 1.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["43A780A1E4D4AB3B"]
+			description: [
+				"超级嗅探兽是嗅探兽被雷击时他将被召唤出来。最简单的方式是合成一个&e召雷法杖&f然后对嗅探兽使用。在boss残血时会回复部分生命值并进化到二阶段。"
+				""
+				"（该boss有很强的地形破坏力，所以在离住所较远的地方释放）"
+			]
+			id: "7C9F701A299BC68B"
+			rewards: [{
+				count: 3
+				id: "0C29C65BEDEEB6B8"
+				item: "paraglider:spirit_orb"
+				type: "item"
+			}]
+			tasks: [{
+				entity: "terramity:super_sniffer"
+				icon: "terramity:super_sniffer_spawn_egg"
+				id: "1D2CCBB0DF873C2C"
+				type: "kill"
+				value: 1L
+			}]
+			x: 6.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["7C9F701A299BC68B"]
+			description: ["当超级嗅探兽二阶段后再次雷击即可进化成究极嗅探兽，他比超级嗅探兽更强，且更具破坏力。"]
+			id: "0F1F6BFB52F15677"
+			rewards: [{
+				count: 4
+				id: "171142D0545CE038"
+				item: "paraglider:spirit_orb"
+				type: "item"
+			}]
+			tasks: [{
+				entity: "terramity:ultra_sniffer"
+				icon: "terramity:ultra_sniffer_spawn_egg"
+				id: "2A6F1FAB5365D42A"
+				type: "kill"
+				value: 1L
+			}]
+			x: 10.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["4C8525D6FA450DF4"]
+			description: [
+				"一座矗立在海上的高塔，吞噬了无数前来挑战的勇士。高塔共有地上七层和地下一层。地上七层作为地牢，提供了挑战和丰厚的奖励。地下一层作为Boss召唤层，可召唤Boss：试炼守护者"
+				""
+				"地形名称：试炼尖塔"
+			]
+			id: "3A38213FB329BDF8"
+			rewards: [{
+				id: "511879C6B6E8CF62"
+				item: "paraglider:spirit_orb"
+				type: "item"
+			}]
+			tasks: [{
+				id: "16E64BCE8E60DA79"
+				structure: "terramity:trial_spire"
+				title: "试炼尖塔"
+				type: "structure"
+			}]
+			x: 1.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["3A38213FB329BDF8"]
+			description: ["玩家需要通过试炼之塔的不同试炼，最终在顶端获得尖塔钥匙以及在塔内的宝藏。"]
+			id: "1245BE858549421B"
+			rewards: [{
+				id: "2FAA241100C75EE6"
+				item: "paraglider:spirit_orb"
+				type: "item"
+			}]
+			tasks: [{
+				id: "65D4FD14F75E7849"
+				item: "terramity:spire_key"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["1245BE858549421B"]
+			description: ["尖塔通往第一层的楼梯中间还有一处下水道口，使用尖塔钥匙打开尖塔钥匙孔，你将会来到Boss房间。Boss房间有一个木桶和一个试炼守护者的挂锁，使用尖塔钥匙右击挂锁，你将召唤出Boss：试炼守护者。如果没有多余的钥匙也别担心，木桶中存放了一把尖塔钥匙。"]
+			id: "37CB9A521F79C6B3"
+			rewards: [{
+				count: 2
+				id: "7542A00AF3A71F7F"
+				item: "paraglider:spirit_orb"
+				type: "item"
+			}]
+			tasks: [{
+				entity: "terramity:trial_guardian"
+				icon: "terramity:trial_guardian_spawn_egg"
+				id: "3D5569723827CBB6"
+				type: "kill"
+				value: 1L
+			}]
+			x: 10.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["4C8525D6FA450DF4"]
+			description: ["使用黑物质、铱锭和幽冥水晶合成获得。可在锻造台中使用锻造模板将铱装备升级为地狱合金装备。同时可以锻造&4渎圣长矛&f用于召唤boss：德天使。"]
+			id: "7E49428F98767551"
+			rewards: [{
+				id: "55C11CBA325C44D9"
+				item: "paraglider:spirit_orb"
+				type: "item"
+			}]
+			tasks: [{
+				id: "1CC27B59FAF906F1"
+				item: "terramity:hellspec_alloy"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["7E49428F98767551"]
+			description: [
+				"向主世界的天空投掷即可召唤德天使。"
+				""
+				"&4该物品致敬了《新世纪福音战士》中的武器：朗基奴斯枪。"
+			]
+			id: "56788C1DE1E41798"
+			rewards: [
+				{
+					id: "05C32E4C5040A611"
+					item: {
+						Count: 1
+						id: "terramity:hellspec_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "72EB36B355599B26"
+					item: {
+						Count: 1
+						id: "terramity:hellspec_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "69F20CF75CFCB2AE"
+					item: {
+						Count: 1
+						id: "terramity:hellspec_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "676A1AFBA65246C9"
+					item: {
+						Count: 1
+						id: "terramity:hellspec_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "28764E7A7A683141"
+				item: {
+					Count: 1
+					id: "terramity:unholy_lance"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 6.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["56788C1DE1E41798"]
+			description: ["具有3*3*3的碰撞箱，免疫摔落，会在贴近地面的地方缓慢地四处低空飞行直至发现目标。可使用&4渎圣长矛&f向天投掷召唤。当德天使发现目标后会每隔7s持续不断朝目标发射3个神圣抛射物子弹造成伤害"]
+			id: "3EB7F3C7CA2AD6D5"
+			rewards: [{
+				count: 3
+				id: "00AEE8D965767670"
+				item: "paraglider:spirit_orb"
+				type: "item"
+			}]
+			tasks: [{
+				entity: "terramity:virtue"
+				icon: "terramity:virtue_spawn_egg"
+				id: "4F2B4908853373D9"
+				type: "kill"
+				value: 1L
+			}]
+			x: 10.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"0F1F6BFB52F15677"
+				"3EB7F3C7CA2AD6D5"
+				"37CB9A521F79C6B3"
+			]
+			description: ["用于在铁砧中修复装备以及召唤Boss：大法师·甘道夫。击杀&4幽冥地牢中的敌对生物&f获得。"]
+			id: "1DE5F7396FB2A567"
+			tasks: [{
+				id: "5B79B83C5392F485"
+				item: "terramity:occult_fabric"
+				type: "item"
+			}]
+			x: 13.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["1DE5F7396FB2A567"]
+			description: [
+				"当玩家击败用神秘面纱召唤的魔法师·梅林与女巫·喀耳刻时，它们的身体将保留直至触发召唤仪式。"
+				""
+				"此时将产生一道中咒粒子连接它们的身体和供奉祭坛，等待8s后它们身体消失，供奉祭坛生成大法师·甘道夫并生成一圈横扫之刃粒子。"
+				""
+				"附近玩家会因甘道夫出现而获得震颤2s，屏幕剧烈抖动。甘道夫刚生成时会获得缓降1s和进攻2s。"
+				""
+				"&4（本整合包的十星boss之一，拥有变态的伤害和机动性，且有大范围杀伤，切记不要硬吃他的伤害）"
+			]
+			id: "20F3B2EBD11ED227"
+			rewards: [{
+				count: 8
+				id: "50E9000F875EF656"
+				item: "paraglider:spirit_orb"
+				type: "item"
+			}]
+			tasks: [{
+				entity: "terramity:gundalf"
+				icon: "terramity:gundalf_spawn_egg"
+				id: "7DF87D7191DECC42"
+				type: "kill"
+				value: 1L
+			}]
+			x: 17.5d
+			y: 0.0d
+		}
+	]
+	title: "4.2：Terramity的生物们"
+}

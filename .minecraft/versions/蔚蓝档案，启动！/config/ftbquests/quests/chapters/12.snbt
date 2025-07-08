@@ -1,0 +1,177 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "12"
+	group: "349B3345B63646FF"
+	icon: "aquamirae:rune_of_the_storm"
+	id: "45974B994B771101"
+	order_index: 3
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["76CF3B4DF1B68DEF"]
+			description: ["在海上探索时意外遇到了一个天然形成的冰雪之地，这里充斥着一些奇怪的图案。"]
+			id: "58AD3630B0619C05"
+			tasks: [{
+				id: "51F4D79F9205FA95"
+				title: "深海的呼唤"
+				type: "checkmark"
+			}]
+			x: -5.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["58AD3630B0619C05"]
+			description: [
+				"&b&n被无尽严冰所困的船只，其船长早已不知所踪。&r"
+				""
+				"此处遗迹有大量卫道士和掠夺者把守其中的财宝，玩家可以冒险潜入其中来掠夺海盗们遗留下的宝藏。"
+			]
+			id: "70CCA1216758DBDF"
+			rewards: [{
+				count: 2
+				id: "3BE5EA6E1E32320A"
+				item: "paraglider:spirit_orb"
+				type: "item"
+			}]
+			tasks: [{
+				icon: "minecraft:spruce_wood"
+				id: "0441C75E8771A2F3"
+				structure: "aquamirae:ship"
+				title: "搁浅的沉船"
+				type: "structure"
+			}]
+			x: -2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["70CCA1216758DBDF"]
+			description: ["击杀搁浅舰船遗迹中待在船长室的掠夺者可获得。用于在冰冻深海群系中的水边召唤船长科妮莉亚亡灵。"]
+			id: "19207BC863F63D9F"
+			rewards: [{
+				count: 2
+				id: "00CD21CA2EE2E11F"
+				item: "paraglider:spirit_orb"
+				type: "item"
+			}]
+			tasks: [{
+				id: "1F41562FE4E682AE"
+				item: "aquamirae:shell_horn"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["19207BC863F63D9F"]
+			description: ["曾经的她也拥有过无数的宝藏，而执念却让她变成了一个亡灵。"]
+			id: "6F83B9DAC45A2AE9"
+			rewards: [{
+				count: 4
+				id: "4312ABD9AF9627CC"
+				item: "paraglider:spirit_orb"
+				type: "item"
+			}]
+			tasks: [{
+				entity: "aquamirae:captain_cornelia"
+				icon: "aquamirae:captain_cornelia_spawn_egg"
+				id: "57BB72510CE199F1"
+				type: "kill"
+				value: 1L
+			}]
+			x: 4.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["19207BC863F63D9F"]
+			description: [
+				"迷宫之母是巨大的背上长着紫水晶的类似鳐鱼的生物，会大范围破坏冰方块和雪方块为玩家的战斗造成不便。"
+				""
+				"玩家逗留在冰雪迷阵群系中时，迷宫之母会有0.5%的概率在生成鮟鱇鱼时一并生成。"
+			]
+			id: "4914B72290D149E2"
+			rewards: [{
+				count: 6
+				id: "681B00059EBF8E3D"
+				item: "paraglider:spirit_orb"
+				type: "item"
+			}]
+			tasks: [{
+				entity: "aquamirae:maze_mother"
+				icon: "aquamirae:maze_mother_spawn_egg"
+				id: "39DD4F33C9E61A93"
+				type: "kill"
+				value: 1L
+			}]
+			x: 4.5d
+			y: -1.5d
+		}
+		{
+			dependencies: [
+				"4914B72290D149E2"
+				"6F83B9DAC45A2AE9"
+			]
+			id: "67A7D346033D0B66"
+			rewards: [
+				{
+					id: "41F7AD559D3C3D9A"
+					item: {
+						Count: 1
+						id: "aquamirae:abyssal_heaume"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "0938E69E5BF741F3"
+					item: {
+						Count: 1
+						id: "aquamirae:abyssal_brigantine"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "141EE0C8C16A46FD"
+					item: {
+						Count: 1
+						id: "aquamirae:abyssal_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "0A47453E97C0BD7D"
+					item: {
+						Count: 1
+						id: "aquamirae:abyssal_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					count: 2
+					id: "77AE458586249077"
+					item: "paraglider:spirit_orb"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "754257E7E03676AF"
+				title: "章节结算奖励"
+				type: "checkmark"
+			}]
+			x: 6.5d
+			y: 0.0d
+		}
+	]
+	title: "1.2：海灵物语"
+}

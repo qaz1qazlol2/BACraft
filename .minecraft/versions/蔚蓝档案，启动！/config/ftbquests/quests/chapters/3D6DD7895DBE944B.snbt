@@ -1,0 +1,240 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "3D6DD7895DBE944B"
+	group: "349B3345B63646FF"
+	icon: "minecraft:map"
+	id: "3D6DD7895DBE944B"
+	order_index: 5
+	quest_links: [ ]
+	quests: [
+		{
+			description: ["开局手中就会给予玩家的生成券，请按说明使用。"]
+			icon: "blue_archivescraft:credit_point"
+			id: "7F1A8C03AA67A40F"
+			rewards: [{
+				id: "598D2BEA4E110A85"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [{
+				id: "703EB1962483EDF8"
+				title: "小空便利店"
+				type: "checkmark"
+			}]
+			x: -4.0d
+			y: 0.0d
+		}
+		{
+			description: ["开局就会给予玩家的生成物品，请按照说明使用"]
+			icon: "minecraft:iron_block"
+			id: "3E65EDD128A4B892"
+			rewards: [{
+				id: "5CB50999F2AE8A42"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
+			tasks: [{
+				id: "69984F67641FFDCE"
+				title: "基沃托斯街道"
+				type: "checkmark"
+			}]
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			description: ["阿拜多斯需要玩家遇到沙漠地形后会给予生成券。"]
+			icon: "minecraft:sand"
+			id: "4CD693A0755ADBB5"
+			rewards: [{
+				id: "7C4B62241A050458"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [{
+				id: "1C5716E409508888"
+				title: "阿拜多斯"
+				type: "checkmark"
+			}]
+			x: 8.0d
+			y: 0.0d
+		}
+		{
+			description: [" 玩家到达恶地（红土山）地形后即可获得生成券。"]
+			icon: "minecraft:emerald"
+			id: "6DA504365DA6BF5F"
+			tasks: [{
+				id: "7AB13158FD5445D9"
+				title: "山海经"
+				type: "checkmark"
+			}]
+			x: 13.5d
+			y: 0.0d
+		}
+		{
+			description: ["玩家到达雨林地形后即可获得建筑生成券。"]
+			icon: "minecraft:jungle_leaves"
+			id: "7261A76E411AF772"
+			tasks: [{
+				id: "45AB7DF4542568FD"
+				title: "百鬼夜行"
+				type: "checkmark"
+			}]
+			x: 19.0d
+			y: 0.0d
+		}
+		{
+			description: ["玩家在平原地形会获得格黑娜的建筑生成券"]
+			icon: "threateningly_mobs:demon_eyes"
+			id: "503CAEE00B0F958D"
+			tasks: [{
+				id: "0BEE32659F0085DA"
+				title: "格黑娜"
+				type: "checkmark"
+			}]
+			x: 23.0d
+			y: 0.0d
+		}
+		{
+			description: ["玩家到达蘑菇岛后即可获得千禧年学院的生成券。"]
+			icon: "minecraft:redstone"
+			id: "019B6D716C421944"
+			tasks: [{
+				id: "56FFF64086F78795"
+				title: "千禧年"
+				type: "checkmark"
+			}]
+			x: 28.0d
+			y: 0.0d
+		}
+		{
+			description: ["在末地玩家可以获得方舟的生成券。"]
+			icon: "blue_archivescraft:prena_pats_card"
+			id: "6BF08769934E19DB"
+			tasks: [{
+				id: "38EFF8587D1DCB47"
+				title: "方舟"
+				type: "checkmark"
+			}]
+			x: 33.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["7F1A8C03AA67A40F"]
+			description: [
+				"天使便利店店员，不能插，可以找她用信用点买一些东西。"
+				"(ps:便利店的员工休息间有许多箱子可以开，走的时候记得在小空那里shift+右键玩盘井字棋再走)"
+			]
+			id: "355D3CB5A5956418"
+			rewards: [{
+				count: 30
+				id: "05DFBE3239D57929"
+				item: "blue_archivescraft:credit_point"
+				type: "item"
+			}]
+			tasks: [{
+				id: "22FA872F38973AFA"
+				title: "小空"
+				type: "checkmark"
+			}]
+			x: -4.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["3E65EDD128A4B892"]
+			description: [
+				"街道会刷小混混，战斗力比较强，街道两侧各有一家&4银行&f（你知道该干什么对吧）"
+				""
+				"还可以遇到便利屋68，可以在阿露那里接取任务"
+			]
+			id: "42A3493AB85E87FF"
+			tasks: [{
+				id: "412CB5073CC2AF0D"
+				type: "checkmark"
+			}]
+			x: 2.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["4CD693A0755ADBB5"]
+			description: ["可以找凌音接取每日任务，也可以在野宫那领取每日信用点。"]
+			id: "349B56AFC7A4E832"
+			tasks: [{
+				id: "7FFBD616B7C85135"
+				type: "checkmark"
+			}]
+			x: 8.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["6DA504365DA6BF5F"]
+			description: ["可以在妃咲那里领取任务，完成后有对应的奖励。"]
+			id: "248DE1FA6587D746"
+			tasks: [{
+				id: "334B63EC626FB6AD"
+				type: "checkmark"
+			}]
+			x: 13.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["7261A76E411AF772"]
+			description: ["可以找静子买东西"]
+			id: "7E6CDC9B96F6913A"
+			tasks: [{
+				id: "0B4982CEB69DD8E8"
+				type: "checkmark"
+			}]
+			x: 19.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["503CAEE00B0F958D"]
+			description: [
+				"可以在日奈或者真琴那里接取任务。"
+				""
+				"可以在濑名那里回复生命值。"
+				""
+				"可以让枫香测评你手中的食物（用食物右键枫香之后再用对话工具右键枫香）"
+			]
+			id: "40C82AF684A351B0"
+			tasks: [{
+				id: "4C70E1E16A284C88"
+				type: "checkmark"
+			}]
+			x: 23.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["6BF08769934E19DB"]
+			description: ["想你了，牢雷"]
+			id: "5BCFF78F5D9EE545"
+			tasks: [{
+				id: "269113B04136BB79"
+				type: "checkmark"
+			}]
+			x: 33.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["019B6D716C421944"]
+			description: [
+				"可以在莉音，柚子，小桃，小绿，歌原，茜等npc那里接任务"
+				""
+				"小桃小绿需要玩家陪她们玩游戏，柚子需要玩家陪她聊天，歌原需要玩家提供160个铁锭"
+				""
+				"优香可以帮玩家存钱，玩家可以手持信用点右键把信用点存在这里，然后空手右键时可以取出来，在游戏内的每天都会增长10%，但是每天玩家只能拿出最多300点信用点"
+				""
+				"任何有耐久度的物品都可以shift右键歌原进行修复"
+			]
+			id: "2EB36C9E074CA05E"
+			tasks: [{
+				id: "519983BD85486E9D"
+				type: "checkmark"
+			}]
+			x: 28.0d
+			y: 2.5d
+		}
+	]
+	title: "番外篇：寻找学院"
+}

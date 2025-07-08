@@ -1,0 +1,157 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "13"
+	group: "349B3345B63646FF"
+	icon: "illagerinvasion:horn_of_sight"
+	id: "7D9B5203B4B57D9D"
+	order_index: 4
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["76CF3B4DF1B68DEF"]
+			description: ["找到一个村庄。"]
+			id: "332225AA4DD0C652"
+			rewards: [{
+				count: 2
+				id: "7BCF012F98AFEF2A"
+				item: "paraglider:spirit_orb"
+				type: "item"
+			}]
+			tasks: [{
+				advancement: "morevillagers:first_village"
+				criterion: ""
+				id: "0E1CD06FC6C22CA0"
+				type: "advancement"
+			}]
+			x: -9.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["332225AA4DD0C652"]
+			description: ["玩家需要击杀带有灾厄旗帜的掠夺者获得不祥之兆buff后进入村庄触发袭击。"]
+			id: "3FA96F51DEC08D42"
+			rewards: [{
+				count: 2
+				id: "7CD9BD151FD8E49A"
+				item: "paraglider:spirit_orb"
+				type: "item"
+			}]
+			tasks: [{
+				entity: "minecraft:pillager"
+				icon: "minecraft:pillager_spawn_egg"
+				id: "6928D98BD99EA79E"
+				type: "kill"
+				value: 12L
+			}]
+			x: -5.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["3FA96F51DEC08D42"]
+			description: ["该生物拥有一定的限伤能力。"]
+			id: "2D5684784C010D0A"
+			rewards: [{
+				count: 3
+				id: "1B887135931D2868"
+				item: "paraglider:spirit_orb"
+				type: "item"
+			}]
+			tasks: [{
+				entity: "illageandspillage:absorber"
+				icon: "illageandspillage:absorber_spawn_egg"
+				id: "5873A2FD78DA6BEF"
+				type: "kill"
+				value: 1L
+			}]
+			x: -0.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["3FA96F51DEC08D42"]
+			description: ["在袭击的3-4波中生成，需要玩家清理完其他掠夺者后才可攻击。"]
+			id: "40A6B356A860D1F1"
+			rewards: [{
+				count: 3
+				id: "5D64DA0DD9D947BA"
+				item: "paraglider:spirit_orb"
+				type: "item"
+			}]
+			tasks: [{
+				entity: "illageandspillage:spiritcaller"
+				icon: "illageandspillage:spiritcaller_spawn_egg"
+				id: "4CA24833812A9B5B"
+				type: "kill"
+				value: 1L
+			}]
+			x: -0.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["3FA96F51DEC08D42"]
+			description: ["在袭击的3-4波中生成，需要玩家清理完其他掠夺者后才可攻击。"]
+			id: "628860616276A2D5"
+			rewards: [{
+				count: 3
+				id: "2E50CE6F6C25E6A7"
+				item: "paraglider:spirit_orb"
+				type: "item"
+			}]
+			tasks: [{
+				entity: "illageandspillage:magispeller"
+				icon: "illageandspillage:magispeller_spawn_egg"
+				id: "4A5FC5ABE06D567D"
+				type: "kill"
+				value: 1L
+			}]
+			x: -0.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["3FA96F51DEC08D42"]
+			description: ["在袭击的3-4波中生成，需要玩家清理完其他掠夺者后才可攻击。"]
+			id: "69BAB4F974FAF30D"
+			rewards: [{
+				count: 3
+				id: "609585757AC53F2C"
+				item: "paraglider:spirit_orb"
+				type: "item"
+			}]
+			tasks: [{
+				entity: "illageandspillage:freakager"
+				icon: "illageandspillage:freakager_spawn_egg"
+				id: "601ACF61FB87DBAD"
+				type: "kill"
+				value: 1L
+			}]
+			x: -0.5d
+			y: 2.5d
+		}
+		{
+			dependencies: [
+				"2D5684784C010D0A"
+				"628860616276A2D5"
+				"69BAB4F974FAF30D"
+				"40A6B356A860D1F1"
+			]
+			description: ["一个极其麻烦的boss，在林地府邸中生成。"]
+			id: "51DB4F31302BF611"
+			rewards: [{
+				count: 4
+				id: "17D7E7285F6216E9"
+				item: "paraglider:spirit_orb"
+				type: "item"
+			}]
+			tasks: [{
+				entity: "illagerinvasion:invoker"
+				icon: "illagerinvasion:invoker_spawn_egg"
+				id: "452C2DD024BC5A5B"
+				type: "kill"
+				value: 1L
+			}]
+			x: 2.0d
+			y: 0.0d
+		}
+	]
+	title: "1.3：灾厄的号角"
+}

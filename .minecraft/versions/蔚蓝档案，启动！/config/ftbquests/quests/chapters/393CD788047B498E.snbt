@@ -5,10 +5,11 @@
 	group: "4DA08CD6EB0E472F"
 	icon: "deeperdarker:heart_of_the_deep"
 	id: "393CD788047B498E"
-	order_index: 2
+	order_index: 1
 	quest_links: [ ]
 	quests: [
 		{
+			dependencies: ["153480C48C561C45"]
 			description: [
 				"远古城市结构生成会稍有变化，中心雕像处会生成一条通向强化深板岩框架的楼梯。"
 				""
@@ -117,6 +118,7 @@
 		}
 		{
 			dependencies: ["7B51684223937FB1"]
+			description: ["当玩家踩踏被虫蚀的幽匿块时生成"]
 			id: "0DF6BE4BB3BBD30B"
 			rewards: [{
 				id: "0B357E16B2CD1780"
@@ -143,6 +145,7 @@
 		}
 		{
 			dependencies: ["7B51684223937FB1"]
+			description: ["远古花瓶被破坏时有小概率生成，攻击玩家时会扣除玩家的经验值。"]
 			id: "4989CB76122C880B"
 			rewards: [{
 				id: "712132D78E7C1648"
@@ -169,6 +172,13 @@
 		}
 		{
 			dependencies: ["7B51684223937FB1"]
+			description: [
+				"生成在幽匿微光体团簇附近。"
+				""
+				"通过嗅闻确定玩家的位置后会潜入地下，接近玩家后从地下冒出并发起攻击。"
+				""
+				"使用附魔下界合金胸甲进行驯服，驯服后会在一定时间内吐出附魔书。"
+			]
 			id: "12EECB25E89F91EC"
 			rewards: [{
 				id: "2B1C5C8E000F3839"
@@ -194,5 +204,5 @@
 			y: -3.0d
 		}
 	]
-	title: "2.3： 幽冥之境"
+	title: "2.2： 幽冥之境"
 }

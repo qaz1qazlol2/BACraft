@@ -20,53 +20,6 @@
 	quests: [
 		{
 			dependencies: ["0E60F4A2D051CF49"]
-			id: "1D69863A19368E25"
-			rewards: [{
-				id: "4A832A03A98EEAC4"
-				item: {
-					Count: 1
-					id: "alexsmobs:ghostly_pickaxe"
-					tag: {
-						Damage: 0
-					}
-				}
-				type: "item"
-			}]
-			tasks: [{
-				consume_items: true
-				id: "18E48C5B092660F7"
-				item: "alexsmobs:mosquito_proboscis"
-				type: "item"
-			}]
-			x: 6.0d
-			y: 0.0d
-		}
-		{
-			dependencies: ["1D69863A19368E25"]
-			id: "47DD6200BD289BE4"
-			rewards: [{
-				id: "66612C25E39037D9"
-				item: {
-					Count: 1
-					id: "enigmaticlegacy:enigmatic_elytra"
-					tag: {
-						Damage: 0
-					}
-				}
-				type: "item"
-			}]
-			tasks: [{
-				entity: "alexsmobs:warped_mosco"
-				icon: "alexsmobs:spawn_egg_warped_mosco"
-				id: "54D699E2B67065B7"
-				type: "kill"
-				value: 1L
-			}]
-			x: 7.5d
-			y: 0.0d
-		}
-		{
-			dependencies: ["0E60F4A2D051CF49"]
 			icon: "mokels_boss_mantyd:boss_mantyd_spawn_egg"
 			id: "7AEE48B9B5BF9F90"
 			rewards: [{
@@ -332,65 +285,7 @@
 			y: 1.5d
 		}
 		{
-			dependencies: ["1F988838EDB0FFF3"]
-			hide_dependency_lines: true
-			id: "15A36D600775610F"
-			rewards: [
-				{
-					id: "74091254955FAD63"
-					item: {
-						Count: 1
-						id: "born_in_chaos_v1:nightmare_mantleofthe_night_helmet"
-						tag: {
-							Damage: 0
-						}
-					}
-					type: "item"
-				}
-				{
-					id: "5CEF23ED7890D8CC"
-					item: {
-						Count: 1
-						id: "born_in_chaos_v1:nightmare_mantleofthe_night_chestplate"
-						tag: {
-							Damage: 0
-						}
-					}
-					type: "item"
-				}
-				{
-					id: "04BEF79C29F0079E"
-					item: {
-						Count: 1
-						id: "born_in_chaos_v1:nightmare_mantleofthe_night_leggings"
-						tag: {
-							Damage: 0
-						}
-					}
-					type: "item"
-				}
-				{
-					id: "5E77192BF8EE8AEB"
-					item: {
-						Count: 1
-						id: "born_in_chaos_v1:nightmare_mantleofthe_night_boots"
-						tag: {
-							Damage: 0
-						}
-					}
-					type: "item"
-				}
-			]
-			tasks: [{
-				id: "117686504F3D0781"
-				title: "梦魇套装"
-				type: "checkmark"
-			}]
-			x: 3.0d
-			y: 3.0d
-		}
-		{
-			dependencies: ["15A36D600775610F"]
+			dependencies: ["0E60F4A2D051CF49"]
 			icon: "born_in_chaos_v1:nightmare_stalker_spawn_egg"
 			id: "34A4C73B5969F6C5"
 			rewards: [{
@@ -405,7 +300,7 @@
 				type: "kill"
 				value: 1L
 			}]
-			x: 4.5d
+			x: 3.0d
 			y: 3.0d
 		}
 		{
@@ -434,6 +329,11 @@
 					}
 					type: "item"
 				}
+				{
+					id: "186D0E3087494BD7"
+					item: "cataclysm:necklace_of_the_desert"
+					type: "item"
+				}
 			]
 			tasks: [{
 				count: 64L
@@ -442,7 +342,7 @@
 				type: "item"
 			}]
 			x: 6.0d
-			y: 1.5d
+			y: 0.0d
 		}
 		{
 			dependencies: ["1B1A10B4C0BCA426"]
@@ -459,7 +359,7 @@
 				type: "kill"
 				value: 1L
 			}]
-			x: 7.5d
+			x: 6.0d
 			y: 1.5d
 		}
 		{
@@ -524,7 +424,7 @@
 					type: "item"
 				}
 			]
-			x: 9.0d
+			x: 12.0d
 			y: 0.0d
 		}
 		{
@@ -644,13 +544,13 @@
 				}
 				{
 					count: 9L
-					id: "2076BB792B4B7806"
-					item: { Count: 9, id: "galosphere:cured_membrane" }
+					id: "03B59A4B6195929D"
+					item: { Count: 9, id: "minecraft:phantom_membrane" }
 					type: "item"
 				}
 			]
-			x: 9.0d
-			y: 1.5d
+			x: 7.5d
+			y: 0.0d
 		}
 		{
 			dependencies: ["0CEDC74706FB070E"]
@@ -667,8 +567,8 @@
 				type: "kill"
 				value: 1L
 			}]
-			x: 10.5d
-			y: 1.5d
+			x: 9.0d
+			y: 0.0d
 		}
 		{
 			dependencies: ["0E60F4A2D051CF49"]
@@ -684,8 +584,8 @@
 				item: { Count: 10, id: "minecraft:salmon" }
 				type: "item"
 			}]
-			x: 9.0d
-			y: 3.0d
+			x: 7.5d
+			y: 1.5d
 		}
 		{
 			dependencies: ["5932A43323D0D8BE"]
@@ -708,8 +608,8 @@
 				type: "kill"
 				value: 1L
 			}]
-			x: 10.5d
-			y: 3.0d
+			x: 9.0d
+			y: 1.5d
 		}
 		{
 			dependencies: ["0E60F4A2D051CF49"]
@@ -775,7 +675,7 @@
 				item: { Count: 10, id: "minecraft:diamond" }
 				type: "item"
 			}]
-			x: 3.0d
+			x: 1.5d
 			y: 4.5d
 		}
 		{
@@ -793,15 +693,15 @@
 				type: "kill"
 				value: 1L
 			}]
-			x: 4.5d
+			x: 3.0d
 			y: 4.5d
 		}
 		{
 			dependencies: ["0E60F4A2D051CF49"]
 			id: "0A5113AF26D600C4"
 			rewards: [{
-				id: "526FBC58EB30CFDC"
-				item: "enigmaticaddons:false_justice"
+				id: "73E2028DBBD17998"
+				item: "enigmaticaddons:illusion_lantern"
 				type: "item"
 			}]
 			tasks: [{
@@ -810,8 +710,8 @@
 				item: { Count: 3, id: "eeeabsmobs:immortal_ingot" }
 				type: "item"
 			}]
-			x: 6.0d
-			y: 4.5d
+			x: 10.5d
+			y: 1.5d
 		}
 		{
 			dependencies: ["0A5113AF26D600C4"]
@@ -834,8 +734,8 @@
 				type: "kill"
 				value: 1L
 			}]
-			x: 7.5d
-			y: 4.5d
+			x: 12.0d
+			y: 1.5d
 		}
 		{
 			dependencies: ["0E60F4A2D051CF49"]
@@ -880,6 +780,22 @@
 					item: "enigmaticlegacy:monster_charm"
 					type: "item"
 				}
+				{
+					id: "1500CE9D28C59E8B"
+					item: {
+						Count: 1
+						id: "graveyard:bone_dagger"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "0579097075B54725"
+					item: "graveyard:vial_of_blood"
+					type: "item"
+				}
 			]
 			tasks: [{
 				count: 10L
@@ -888,7 +804,7 @@
 				type: "item"
 			}]
 			x: 9.0d
-			y: 4.5d
+			y: 3.0d
 		}
 		{
 			dependencies: ["699D0F4F5895859D"]
@@ -906,7 +822,7 @@
 				value: 1L
 			}]
 			x: 10.5d
-			y: 4.5d
+			y: 3.0d
 		}
 		{
 			dependencies: ["0E60F4A2D051CF49"]
@@ -988,8 +904,8 @@
 				type: "kill"
 				value: 1L
 			}]
-			x: 1.5d
-			y: 4.5d
+			x: 4.5d
+			y: 3.0d
 		}
 		{
 			dependencies: ["0E60F4A2D051CF49"]
@@ -1045,11 +961,18 @@
 		{
 			dependencies: ["0E60F4A2D051CF49"]
 			id: "14A8ACA06E7255B3"
-			rewards: [{
-				id: "58E36783E3BA21B3"
-				item: "enigmaticaddons:the_bless"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "58E36783E3BA21B3"
+					item: "enigmaticaddons:the_bless"
+					type: "item"
+				}
+				{
+					id: "11BDDAD09233790C"
+					item: "enigmaticlegacy:the_infinitum"
+					type: "item"
+				}
+			]
 			tasks: [{
 				entity: "threateningly_mobs:saint"
 				icon: "threateningly_mobs:saint_spawn_egg"
@@ -1231,106 +1154,21 @@
 		}
 		{
 			dependencies: ["0E60F4A2D051CF49"]
-			id: "65AFD2F2400C5A8B"
+			icon: "cataclysm:scylla_spawn_egg"
+			id: "3740EDDE1BCACCB0"
 			rewards: [{
-				id: "02453B2144D9E08A"
-				item: {
-					Count: 1
-					id: "bountifulbaubles:infinite_totem_of_undying"
-					tag: {
-						Damage: 0
-					}
-				}
+				id: "01A261DCE82291BF"
+				item: "bountifulbaubles:starfish"
 				type: "item"
 			}]
 			tasks: [{
-				entity: "goety:minister"
-				icon: "goety:minister_spawn_egg"
-				id: "2623EC627E42718B"
-				type: "kill"
-				value: 1L
-			}]
-			x: 12.0d
-			y: 0.0d
-		}
-		{
-			dependencies: ["0E60F4A2D051CF49"]
-			id: "3CBC6282F0A26FFF"
-			rewards: [{
-				id: "41AE168E339EBCA6"
-				item: "enigmaticlegacy:the_infinitum"
-				type: "item"
-			}]
-			tasks: [{
-				entity: "goety:vizier"
-				icon: "goety:vizier_spawn_egg"
-				id: "28C339D58B82F29F"
-				type: "kill"
-				value: 1L
-			}]
-			x: 12.0d
-			y: 1.5d
-		}
-		{
-			dependencies: ["0E60F4A2D051CF49"]
-			id: "35F130D8FEF3CEC2"
-			rewards: [
-				{
-					id: "13C59404ED60588C"
-					item: "terramity:ambrosia"
-					type: "item"
-				}
-				{
-					id: "7F069DAA1853DD20"
-					item: "enigmaticaddons:sanguinary_handbook"
-					type: "item"
-				}
-			]
-			tasks: [{
-				entity: "goety:hostile_redstone_golem"
-				icon: "goety:hostile_redstone_golem_spawn_egg"
-				id: "77D4C08DE378BDB1"
+				entity: "cataclysm:scylla"
+				id: "64F9E625C580107F"
 				type: "kill"
 				value: 1L
 			}]
 			x: 12.0d
 			y: 3.0d
-		}
-		{
-			dependencies: ["0E60F4A2D051CF49"]
-			id: "00BDA8654108EFF4"
-			rewards: [{
-				id: "6F6F9E8F5807E950"
-				item: "blue_archivescraft:gebura_bankai"
-				type: "item"
-			}]
-			tasks: [{
-				entity: "goety:hostile_redstone_monstrosity"
-				icon: "goety:hostile_redstone_monstrosity_spawn_egg"
-				id: "03B6C7E22BBC4F03"
-				type: "kill"
-				value: 1L
-			}]
-			x: 12.0d
-			y: 4.5d
-		}
-		{
-			dependencies: ["0E60F4A2D051CF49"]
-			id: "6CC55D4EC722D84D"
-			rewards: [{
-				id: "232D24A30B3B6B66"
-				item: "bountifulbaubles:black_dragon_scale"
-				type: "item"
-			}]
-			tasks: [{
-				entity: "goety:wither_necromancer"
-				icon: "goety:wither_necromancer_spawn_egg"
-				id: "16C9B48CFBE506A9"
-				type: "kill"
-				value: 1L
-			}]
-			x: 1.5d
-			y: 6.0d
 		}
 	]
 	title: "vol5.2：灾厄异变（送福利）"

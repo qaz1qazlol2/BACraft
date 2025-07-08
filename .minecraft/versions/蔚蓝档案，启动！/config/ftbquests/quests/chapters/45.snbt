@@ -1,0 +1,258 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "45"
+	group: "3F6E92AE7F64E4AB"
+	icon: "born_in_chaos_v1:infernal_evil_pumpkin_s"
+	id: "33A410892E6586ED"
+	order_index: 3
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["45974B994B771101"]
+			description: ["这个世界的危险，无处不在。"]
+			id: "62D5C70F9A12839E"
+			tasks: [{
+				id: "53DF24D00D222EAA"
+				title: "章节开启"
+				type: "checkmark"
+			}]
+			title: "混沌"
+			x: -5.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["62D5C70F9A12839E"]
+			description: [
+				"被历史遗弃的骑士，如今混沌的堕落之力凝聚其遗骸中，伺机而动。"
+				""
+				"曾经用于斩杀邪祟的重剑已被腐化，非人的双角已破坏了头盔。"
+				""
+				"在正面厮杀中遗失的躯干虽未重塑，但正适合让诅咒的种子恣意播撒。"
+				""
+				"（能够免疫并反弹箭矢，攻击会对玩家造成咒印II效果。）"
+			]
+			id: "6832DC4E6ADF7CF5"
+			rewards: [{
+				count: 2
+				id: "049FAC9F141B6996"
+				item: "paraglider:spirit_orb"
+				type: "item"
+			}]
+			tasks: [{
+				entity: "born_in_chaos_v1:fallen_chaos_knight"
+				icon: "born_in_chaos_v1:fallen_chaos_knight_spawn_egg"
+				id: "00F46CADBC977515"
+				type: "kill"
+				value: 1L
+			}]
+			x: -0.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["62D5C70F9A12839E"]
+			description: [
+				"由堕落混沌转化而成的邪异生物，祂是与灵智同行的恶念。"
+				""
+				"当失落的世界迎来新的创造者时，潜伏于历史中的混沌必将随之苏醒。"
+				""
+				"这不是第一个被混沌染指的世界，也不会是最后一个。"
+				""
+				"（会在游戏的第三日夜中随着聊天栏警告开始刷新在光照等或低于8的环境下。有着较高的移动速度免疫远程攻击，在生命值>=69时会处于隐身状态，隐身时只有眼睛的光效会保留。在阳光直射下会化为烟尘消失，不会产生任何掉落物。）"
+			]
+			id: "265681900433CF7F"
+			rewards: [{
+				count: 2
+				id: "3867F0B5C42E1063"
+				item: "paraglider:spirit_orb"
+				type: "item"
+			}]
+			tasks: [{
+				entity: "born_in_chaos_v1:nightmare_stalker"
+				icon: "born_in_chaos_v1:nightmare_stalker_spawn_egg"
+				id: "69F4FC148EB6F3CE"
+				type: "kill"
+				value: 1L
+			}]
+			x: -0.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["62D5C70F9A12839E"]
+			description: ["会在夜晚时或在骇狼巢穴生成，是骇狼群中强壮的领袖。敌对生物，生成或受到一定伤害会同时生成1-3只骇狼，并为自身施加抗性提升Ⅰ效果6秒，可以喂食1根骨头使其获得看在骨头的份上效果持续210秒（被玩家攻击后立刻解除此效果）。"]
+			id: "1FA7BFCE35762A90"
+			rewards: [{
+				count: 2
+				id: "7E43815609E160D8"
+				item: "paraglider:spirit_orb"
+				type: "item"
+			}]
+			tasks: [{
+				entity: "born_in_chaos_v1:dire_hound_leader"
+				icon: "born_in_chaos_v1:dire_hound_leader_spawn_egg"
+				id: "2196C029E7D6C4F7"
+				type: "kill"
+				value: 1L
+			}]
+			x: -0.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["62D5C70F9A12839E"]
+			description: [
+				"在海洋类群系生成。"
+				""
+				"当它在水里时可以快速行动。"
+				""
+				"玩家可以通过观察其眼部发光纹理的方式判断巨食人鱼的位置。"
+				""
+				"巨食人鱼在离开水40秒后会脱水直至死亡。当巨食人鱼发起攻击时可以举盾使其获得眩晕效果。"
+			]
+			id: "0A51E81FFD78699E"
+			rewards: [{
+				count: 2
+				id: "0C3033ADB3C3DAE0"
+				item: "paraglider:spirit_orb"
+				type: "item"
+			}]
+			tasks: [{
+				entity: "born_in_chaos_v1:glutton_fish"
+				icon: "born_in_chaos_v1:glutton_fish_spawn_egg"
+				id: "283BF159071ED657"
+				type: "kill"
+				value: 1L
+			}]
+			x: -0.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["62D5C70F9A12839E"]
+			description: [
+				"在某次冒险者工会针对灾厄王庭的袭击中，远遁幸存的唤魔者们。"
+				""
+				"无法拯救自己的灾厄贵族身份已被舍弃于腐朽的过去，如今祂们奉行混沌的堕落之道。"
+				""
+				"而混沌对于这些忠实的追随者亦有赏赐：如今亡灵听从祂们的召唤而起。"
+				""
+				"（传教士可能在夜晚时在野外生成，传教士属于灾厄村民，传教士可以加入袭击。）"
+			]
+			id: "7174D10A16636DAA"
+			rewards: [{
+				count: 2
+				id: "02C59984B63DF0A2"
+				item: "paraglider:spirit_orb"
+				type: "item"
+			}]
+			tasks: [{
+				entity: "born_in_chaos_v1:missioner"
+				icon: "born_in_chaos_v1:missioner_spawn_egg"
+				id: "12699F8619CE76CD"
+				type: "kill"
+				value: 1L
+			}]
+			x: -0.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["62D5C70F9A12839E"]
+			description: [
+				"隐藏在枯萎长袍之下的邪异孽物，祂不是生命，祂渴望生命。"
+				""
+				"祂的生机早在背叛祂的同胞之时就已熄灭，然而祂没有选择赎罪，而是继续苟活。"
+				""
+				"斩灭祂的罪，或者成为祂犯下的又一桩罪孽。"
+				""
+				"（窃命者会在游戏的第六日夜中随着聊天栏警告开始刷新在光照等或低于8的环境下。）"
+			]
+			id: "7DFF3AFCBF27E7D3"
+			rewards: [{
+				count: 2
+				id: "159CB772ADB3D5DA"
+				item: "paraglider:spirit_orb"
+				type: "item"
+			}]
+			tasks: [{
+				entity: "born_in_chaos_v1:lifestealer_true_form"
+				icon: "born_in_chaos_v1:lifestealer_spawn_egg"
+				id: "6CC06CB66E09EFF5"
+				type: "kill"
+				value: 1L
+			}]
+			x: -0.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["62D5C70F9A12839E"]
+			description: [
+				"Krampus会在圣诞节期间的雪地中生成，在玩家的“顽皮值”达到100点时，它也会强制生成。"
+				""
+				"也有小概率会在游戏的第10个晚上于亮度≤8的寒冷生物群系生成。"
+			]
+			id: "27136759197A4C06"
+			rewards: [{
+				count: 4
+				id: "10D885B1654582C1"
+				item: "paraglider:spirit_orb"
+				type: "item"
+			}]
+			tasks: [{
+				entity: "born_in_chaos_v1:krampus"
+				icon: "born_in_chaos_v1:krampus_spawn_egg"
+				id: "3C99C3653E741E21"
+				type: "kill"
+				value: 1L
+			}]
+			x: -0.5d
+			y: 0.5d
+		}
+		{
+			dependencies: [
+				"6832DC4E6ADF7CF5"
+				"265681900433CF7F"
+				"1FA7BFCE35762A90"
+				"27136759197A4C06"
+				"0A51E81FFD78699E"
+				"7174D10A16636DAA"
+				"7DFF3AFCBF27E7D3"
+			]
+			description: ["南瓜领主的小弟。野外随机遇见恶魔南瓜破坏后生成"]
+			id: "4926E739AB0E3225"
+			rewards: [{
+				count: 6
+				id: "741A058A03D604FA"
+				item: "paraglider:spirit_orb"
+				type: "item"
+			}]
+			tasks: [{
+				entity: "born_in_chaos_v1:pumpkinhead"
+				icon: "born_in_chaos_v1:sir_pumpkinhead_spawn_egg"
+				id: "1F9BE996C3DEFE54"
+				type: "kill"
+				value: 1L
+			}]
+			x: 3.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["4926E739AB0E3225"]
+			description: ["十星boss之一，难度较高，且非常难缠。对恶魔南瓜使用转化药剂生成。"]
+			id: "7908328658267E50"
+			rewards: [{
+				count: 10
+				id: "093FC91FBB993A7E"
+				item: "paraglider:spirit_orb"
+				type: "item"
+			}]
+			tasks: [{
+				entity: "born_in_chaos_v1:lord_pumpkinhead"
+				icon: "born_in_chaos_v1:infernal_evil_pumpkin"
+				id: "67BFA1F54C76D284"
+				type: "kill"
+				value: 1L
+			}]
+			x: 6.0d
+			y: 0.5d
+		}
+	]
+	title: "4.4：生于混沌的生物"
+}

@@ -13,7 +13,7 @@
 		x: 19.0d
 		y: 3.0d
 	}]
-	order_index: 1
+	order_index: 2
 	quest_links: [ ]
 	quests: [
 		{
@@ -32,6 +32,29 @@
 					table_id: 1987487354723405431L
 					title: "宝藏袋—巫妖"
 					type: "random"
+				}
+				{
+					id: "5C059D6FA89087ED"
+					item: {
+						Count: 1
+						id: "endrem:evil_eye"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					count: 2
+					id: "7B11DA638F41ECA2"
+					item: {
+						Count: 1
+						id: "tacz:ammo"
+						tag: {
+							AmmoId: "emxcust:emx_cus_tool"
+						}
+					}
+					type: "item"
 				}
 			]
 			subtitle: "击杀巫妖"
@@ -65,6 +88,17 @@
 					type: "xp"
 					xp: 200
 				}
+				{
+					id: "79E4DC008C89B764"
+					item: {
+						Count: 1
+						id: "endrem:cold_eye"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
 			]
 			subtitle: "雪怪头目"
 			tasks: [{
@@ -91,6 +125,11 @@
 					type: "xp"
 					xp: 200
 				}
+				{
+					id: "5932A475BEECC1FD"
+					item: "artifacts:steadfast_spikes"
+					type: "item"
+				}
 			]
 			subtitle: "牛头人"
 			tasks: [{
@@ -116,6 +155,18 @@
 					id: "19742E21F25B2485"
 					type: "xp"
 					xp: 200
+				}
+				{
+					count: 3
+					id: "6B58476E65C331C4"
+					item: {
+						Count: 1
+						id: "tacz:ammo"
+						tag: {
+							AmmoId: "emxcust:emx_cus_tool"
+						}
+					}
+					type: "item"
 				}
 			]
 			subtitle: "分身术"
@@ -156,6 +207,17 @@
 					type: "xp"
 					xp: 400
 				}
+				{
+					id: "1A54F653B0655A90"
+					item: {
+						Count: 1
+						id: "tacz:ammo"
+						tag: {
+							AmmoId: "emxcust:emx_cus_tool"
+						}
+					}
+					type: "item"
+				}
 			]
 			subtitle: "哭泣"
 			tasks: [{
@@ -190,6 +252,18 @@
 					type: "xp"
 					xp: 450
 				}
+				{
+					count: 3
+					id: "5A73FBEFF853A392"
+					item: {
+						Count: 1
+						id: "tacz:ammo"
+						tag: {
+							AmmoId: "emxcust:emx_cus_tool"
+						}
+					}
+					type: "item"
+				}
 			]
 			subtitle: "九头怪物"
 			tasks: [{
@@ -217,6 +291,18 @@
 					type: "xp"
 					xp: 300
 				}
+				{
+					count: 3
+					id: "70FF75790BA668D8"
+					item: {
+						Count: 1
+						id: "tacz:ammo"
+						tag: {
+							AmmoId: "emxcust:emx_cus_tool"
+						}
+					}
+					type: "item"
+				}
 			]
 			subtitle: "白雪公主"
 			tasks: [{
@@ -231,11 +317,18 @@
 			dependencies: ["05083A2F98B3AA23"]
 			description: ["看似平平无奇，实际它可以快速摧毁绝大多数玩家可以破坏的方块，可以作用于巨型黑曜石上"]
 			id: "29F7806622CC226E"
-			rewards: [{
-				id: "009EA53ACCEAF5D1"
-				type: "xp"
-				xp: 100
-			}]
+			rewards: [
+				{
+					id: "009EA53ACCEAF5D1"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "7A963AC6A7669A31"
+					item: "terramity:piston_cuffs"
+					type: "item"
+				}
+			]
 			tasks: [{
 				id: "6D7A5DBB2EBF29AD"
 				item: "twilightforest:carminite_reactor"
@@ -273,6 +366,26 @@
 			]
 			description: ["使用砷铅铁反应堆可以快速破坏巨型黑曜石"]
 			id: "455C46092F09B9F0"
+			rewards: [
+				{
+					count: 4
+					id: "156F5CF0C1C1B50D"
+					item: "paraglider:spirit_orb"
+					type: "item"
+				}
+				{
+					count: 5
+					id: "0F6561DE8A125FA4"
+					item: {
+						Count: 1
+						id: "tacz:ammo"
+						tag: {
+							AmmoId: "emxcust:emx_cus_tool"
+						}
+					}
+					type: "item"
+				}
+			]
 			tasks: [{
 				id: "2B29B0E2D5F2D9C1"
 				item: {
@@ -331,6 +444,17 @@
 					item: "twilightforest:carminite"
 					type: "item"
 				}
+				{
+					id: "720247822BAF95B3"
+					item: {
+						Count: 1
+						id: "tacz:ammo"
+						tag: {
+							AmmoId: "emxcust:emx_cus_tool"
+						}
+					}
+					type: "item"
+				}
 			]
 			tasks: [{
 				consume_items: true
@@ -352,15 +476,14 @@
 			description: ["开启福利阶段的证明"]
 			id: "13C10990C9267F2F"
 			rewards: [{
-				count: 40
-				id: "7C45E6253C78D391"
+				count: 16
+				id: "3BF1852D30EE157B"
 				item: "paraglider:spirit_orb"
 				type: "item"
 			}]
 			tasks: [{
-				id: "34B5A7BF26FF705C"
-				item: "lootr:trophy"
-				type: "item"
+				id: "5E505F5966BD2395"
+				type: "checkmark"
 			}]
 			x: 13.0d
 			y: 2.0d
@@ -370,47 +493,58 @@
 			description: ["似乎开启了某个新的章节"]
 			id: "44F93B6DF62B8340"
 			min_required_dependencies: 1
-			rewards: [{
-				icon: "aquaculture:treasure_chest"
-				id: "5F491EE607DF381E"
-				table_id: 7293452712939900517L
-				type: "random"
-			}]
-			tasks: [
+			rewards: [
 				{
-					id: "2D3E0DBF7C17012C"
-					item: "twilightforest:pink_castle_door"
-					type: "item"
+					icon: "aquaculture:treasure_chest"
+					id: "5F491EE607DF381E"
+					table_id: 7293452712939900517L
+					type: "random"
 				}
 				{
-					id: "7662385A89FB08F3"
-					item: "twilightforest:yellow_castle_door"
-					type: "item"
-				}
-				{
-					id: "7F500C9DE07F6CC4"
-					item: "twilightforest:blue_castle_door"
-					type: "item"
-				}
-				{
-					id: "12191537952B2D9F"
-					item: "twilightforest:violet_castle_door"
+					count: 2
+					id: "3F27B4B75E731259"
+					item: {
+						Count: 1
+						id: "tacz:ammo"
+						tag: {
+							AmmoId: "emxcust:emx_cus_tool"
+						}
+					}
 					type: "item"
 				}
 			]
-			title: "抄家*2！"
+			tasks: [{
+				advancement: "twilightforest:progression_end"
+				criterion: ""
+				id: "5F1734B50036CF03"
+				type: "advancement"
+			}]
+			title: "解放暮色"
 			x: 15.0d
 			y: 2.0d
 		}
 		{
 			dependencies: ["3B20E69B4EE31231"]
 			id: "3630DD0FBFF6D8D4"
-			rewards: [{
-				icon: "aquaculture:treasure_chest"
-				id: "4D8464E248A94A9B"
-				table_id: 6294883545144261954L
-				type: "random"
-			}]
+			rewards: [
+				{
+					icon: "aquaculture:treasure_chest"
+					id: "4D8464E248A94A9B"
+					table_id: 6294883545144261954L
+					type: "random"
+				}
+				{
+					id: "2A36CDC9CEB1C641"
+					item: {
+						Count: 1
+						id: "tacz:ammo"
+						tag: {
+							AmmoId: "emxcust:emx_cus_tool"
+						}
+					}
+					type: "item"
+				}
+			]
 			tasks: [{
 				consume_items: true
 				count: 64L
@@ -425,11 +559,19 @@
 		{
 			dependencies: ["153480C48C561C45"]
 			id: "7789C0AFE63977F3"
-			rewards: [{
-				id: "7C6E37F7545EDD3D"
-				type: "xp"
-				xp: 100
-			}]
+			rewards: [
+				{
+					id: "7C6E37F7545EDD3D"
+					type: "xp"
+					xp: 100
+				}
+				{
+					count: 4
+					id: "589BA716B4E88837"
+					item: "paraglider:spirit_orb"
+					type: "item"
+				}
+			]
 			size: 2.0d
 			subtitle: "新世界"
 			tasks: [{
@@ -463,6 +605,17 @@
 					id: "07831C8C04E2735F"
 					type: "xp"
 					xp: 100
+				}
+				{
+					id: "5D94DA1856152CF4"
+					item: {
+						Count: 1
+						id: "tacz:ammo"
+						tag: {
+							AmmoId: "emxcust:emx_cus_tool"
+						}
+					}
+					type: "item"
 				}
 			]
 			subtitle: "寻找娜迦"
@@ -693,5 +846,5 @@
 		}
 	]
 	subtitle: ["最熟悉的一章"]
-	title: "2.2：暮色森林"
+	title: "2.3：暮色森林"
 }

@@ -391,8 +391,8 @@
 				type: "item"
 			}]
 			title: "boss币->钻石币"
-			x: -4.5d
-			y: -3.0d
+			x: -6.0d
+			y: -5.0d
 		}
 		{
 			can_repeat: true
@@ -424,7 +424,7 @@
 				type: "kill"
 				value: 1L
 			}]
-			title: "击杀一次凋灵以开启邪恶精髓兑换"
+			title: "击杀一次凋灵以开启以下兑换"
 			x: -6.0d
 			y: -8.5d
 		}
@@ -495,61 +495,6 @@
 			title: "boss币 -> 金币x100"
 			x: -6.0d
 			y: -3.0d
-		}
-		{
-			can_repeat: true
-			description: [""]
-			icon: "minecraft:beacon"
-			id: "7B6885DC6312FF1A"
-			rewards: [{
-				id: "67EDAB2B9E91CE87"
-				item: "minecraft:beacon"
-				type: "item"
-			}]
-			tasks: [
-				{
-					consume_items: true
-					id: "0CBC648F4D861A46"
-					item: {
-						Count: 1
-						id: "castle_in_the_sky:levitation_stone"
-						tag: {
-							castle_in_the_sky: { }
-						}
-					}
-					type: "item"
-				}
-				{
-					consume_items: true
-					count: 3L
-					id: "1033C670BD4605DD"
-					item: "minecraft:diamond_block"
-					type: "item"
-				}
-				{
-					consume_items: true
-					count: 3L
-					id: "07282AEC20366ABD"
-					item: "minecraft:emerald_block"
-					type: "item"
-				}
-				{
-					consume_items: true
-					id: "40254AB001216D8F"
-					item: "minecraft:glowstone"
-					type: "item"
-				}
-				{
-					consume_items: true
-					count: 10L
-					id: "5154851353BAF882"
-					item: "dotcoinmod:diamond_coin"
-					type: "item"
-				}
-			]
-			title: "信标兑换"
-			x: -6.0d
-			y: -5.0d
 		}
 		{
 			can_repeat: true
@@ -630,27 +575,7 @@
 		}
 		{
 			can_repeat: true
-			icon: "animatedmobsmod:ender_king_spawn_egg"
-			id: "694542796A87D525"
-			rewards: [{
-				id: "0B2A515C4A919AE2"
-				item: "animatedmobsmod:ender_king_spawn_egg"
-				type: "item"
-			}]
-			tasks: [{
-				consume_items: true
-				count: 5L
-				id: "2CC9547DF04A6F7C"
-				item: "minecraft:dragon_breath"
-				type: "item"
-			}]
-			title: "末影之王boss召唤物兑换"
-			x: 3.5d
-			y: -7.0d
-		}
-		{
-			can_repeat: true
-			description: ["大奖是蝴蝶刀，有了它可以一刀一个小水滴（）"]
+			description: ["大奖是蝴蝶刀（）"]
 			icon: {
 				Count: 1
 				id: "lrtactical:melee"
@@ -677,6 +602,202 @@
 			title: "cs刀包抽取"
 			x: 4.5d
 			y: -5.0d
+		}
+		{
+			can_repeat: true
+			icon: {
+				Count: 1
+				id: "extradisks:262144k_storage_disk"
+				tag: {
+					Id: [I;
+						2113221576
+						-531937884
+						-1103712343
+						-2001357044
+					]
+				}
+			}
+			id: "16A9999CCE53B21C"
+			rewards: [{
+				id: "165908EC849E44CB"
+				item: {
+					Count: 1
+					id: "extradisks:262144k_storage_disk"
+					tag: { }
+				}
+				type: "item"
+			}]
+			subtitle: "再也不用担心内存爆炸了"
+			tasks: [{
+				consume_items: true
+				count: 10L
+				id: "5FE1BF355125BE6C"
+				item: "kubejs:netherite_coin"
+				match_nbt: false
+				only_from_crafting: false
+				type: "item"
+			}]
+			title: "262m存储磁盘"
+			x: -1.5d
+			y: -3.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["01D16F69E48238DA"]
+			icon: "minecraft:blaze_rod"
+			id: "00898091FF420D3F"
+			rewards: [{
+				count: 64
+				id: "02AC48463BC526C7"
+				item: "minecraft:blaze_rod"
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 128L
+				id: "6A669D7F09905DC6"
+				item: "dotcoinmod:gold_coin"
+				match_nbt: false
+				only_from_crafting: false
+				type: "item"
+			}]
+			title: "烈焰棒兑换"
+			x: -4.5d
+			y: -8.5d
+		}
+		{
+			can_repeat: true
+			dependencies: ["01D16F69E48238DA"]
+			icon: "minecraft:wither_skeleton_skull"
+			id: "7DB8AE0DDBCC5D37"
+			rewards: [{
+				id: "737B476F52CDC513"
+				item: "minecraft:wither_skeleton_skull"
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				id: "037F3F9DF6315EC0"
+				item: "dotcoinmod:diamond_coin"
+				match_nbt: false
+				only_from_crafting: false
+				type: "item"
+			}]
+			title: "凋零骷髅头颅兑换"
+			x: -6.0d
+			y: -10.0d
+		}
+		{
+			dependencies: ["07AE256A44548A33"]
+			icon: "enigmaticlegacy:etherium_scraps"
+			id: "31A8FEAC9BAE46DC"
+			rewards: [
+				{
+					count: 4
+					id: "6BB043EF4A7D2B19"
+					item: "enigmaticlegacy:etherium_scraps"
+					type: "item"
+				}
+				{
+					count: 4
+					id: "26C865F4969261B3"
+					item: "minecraft:netherite_scrap"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "19C28A62C20A11D9"
+				item: "enigmaticlegacy:etherium_ingot"
+				type: "item"
+			}]
+			title: "化整为零"
+			x: 0.5d
+			y: -8.5d
+		}
+		{
+			can_repeat: true
+			dependencies: ["07AE256A44548A33"]
+			icon: "eeeabsmobs:immortal_ingot"
+			id: "2B8EDE8E2103BA62"
+			rewards: [{
+				id: "79BE2A179CF65FE7"
+				item: "eeeabsmobs:immortal_ingot"
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				id: "5D5D9997197C5FA2"
+				item: "enigmaticlegacy:etherium_ingot"
+				match_nbt: false
+				only_from_crafting: false
+				type: "item"
+			}]
+			title: "不朽锭兑换"
+			x: 1.5d
+			y: -8.5d
+		}
+		{
+			can_repeat: true
+			id: "466E835F4E0DBB30"
+			rewards: [{
+				count: 2
+				id: "21793E4567DEF6B5"
+				item: "prehistoricexploration:zombifaurus_spawn_egg"
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 64L
+				id: "1800786EDB413840"
+				item: { Count: 64, id: "minecraft:rotten_flesh" }
+				type: "item"
+			}]
+			x: -4.5d
+			y: -3.0d
+		}
+		{
+			description: ["让我猜猜，你是不是和平模式进总力战维度了？"]
+			id: "378A99AE3F1E51D6"
+			rewards: [
+				{
+					id: "71DBB6619FFF03BC"
+					item: "binah:binah_v_2_spawn_egg"
+					type: "item"
+				}
+				{
+					id: "5D54FFEF0A9B23F2"
+					item: "binah:desert_jade"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "2C53E94C54C33232"
+				item: "binah:desert_jade"
+				type: "item"
+			}]
+			x: -3.0d
+			y: -3.0d
+		}
+		{
+			can_repeat: true
+			id: "2E2A46E457FDF687"
+			rewards: [{
+				id: "6D7905C687DDAF97"
+				item: "blue_archivescraft:mysterious_fragments_book"
+				type: "item"
+			}]
+			tasks: [{
+				count: 500L
+				id: "19A9308FD234D750"
+				item: {
+					BigCount: 500
+					Count: 500
+					id: "blue_archivescraft:p"
+				}
+				type: "item"
+			}]
+			x: -3.0d
+			y: -8.5d
 		}
 	]
 	title: "奇怪小玩意兑换"

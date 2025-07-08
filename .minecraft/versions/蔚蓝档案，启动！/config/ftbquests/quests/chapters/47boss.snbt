@@ -1,0 +1,365 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "47boss"
+	group: "3F6E92AE7F64E4AB"
+	icon: {
+		Count: 1
+		id: "cataclysm:ignitium_helmet"
+		tag: {
+			Damage: 0
+		}
+	}
+	id: "15E9BBD1B47B7A87"
+	order_index: 5
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["7D9B5203B4B57D9D"]
+			description: ["灾变的boss都有着极高的难度，请玩家做好充足的准备再去挑战吧"]
+			id: "366072A70FAD38C9"
+			tasks: [{
+				id: "71143146268576F3"
+				title: "开启章节"
+				type: "checkmark"
+			}]
+			x: -6.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["366072A70FAD38C9"]
+			description: ["手持右击后会从玩家手中飞出一个机械之眼的复制飞向最近的远古工厂，同时玩家手中的机械之眼进入3s的冷却。指引玩家寻找boss&4先驱者"]
+			id: "3B900F92F1E1F6E0"
+			rewards: [{
+				count: 2
+				id: "042EF2A01977E7B3"
+				item: "paraglider:spirit_orb"
+				type: "item"
+			}]
+			tasks: [{
+				id: "2AF1CFAAC9A30ABB"
+				item: "cataclysm:mech_eye"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["3B900F92F1E1F6E0"]
+			description: [
+				"先驱者，古人制造的机械凋灵，拥有强大的破坏力"
+				""
+				"对付他要时刻注意它的激光攻击"
+			]
+			id: "71F6A5FB26EA6A00"
+			rewards: [{
+				count: 4
+				id: "2C27F20B0C0B5810"
+				item: "paraglider:spirit_orb"
+				type: "item"
+			}]
+			tasks: [{
+				entity: "cataclysm:the_harbinger"
+				icon: "cataclysm:the_harbinger_spawn_egg"
+				id: "46BB5205DD460C1B"
+				type: "kill"
+				value: 1L
+			}]
+			x: 0.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["71F6A5FB26EA6A00"]
+			description: ["手持右击后会从玩家手中飞出一个沙漠之眼的复制飞向最近的被诅咒的金字塔，同时玩家手中的沙漠之眼进入3s的冷却。带领玩家去寻找boss&e远古遗魂"]
+			id: "75F6C8C5428F0886"
+			rewards: [{
+				count: 2
+				id: "385C433AFA04D4DC"
+				item: "paraglider:spirit_orb"
+				type: "item"
+			}]
+			tasks: [{
+				id: "73CD0D207B017C60"
+				item: "cataclysm:desert_eye"
+				type: "item"
+			}]
+			x: 4.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["71F6A5FB26EA6A00"]
+			description: ["在末地手持右击后会从玩家手中飞出一个虚空之眼的复制飞向最近的废弃堡垒，同时玩家手中的虚空之眼进入3s的冷却。带领着玩家去寻找boss&5末影守卫"]
+			id: "38B6EDAC51B31C38"
+			rewards: [{
+				count: 2
+				id: "0BE1F507E8950BBC"
+				item: "paraglider:spirit_orb"
+				type: "item"
+			}]
+			tasks: [{
+				id: "60EA2D8F9149083B"
+				item: "cataclysm:void_eye"
+				type: "item"
+			}]
+			x: 4.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["71F6A5FB26EA6A00"]
+			description: ["在地狱手持右击后会从玩家手中飞出一个恶兽之眼的复制飞向最近的灵魂锻造厂，同时玩家手中的恶兽之眼进入3s的冷却。他会带领着玩家寻找到boss&6下界合金巨兽"]
+			id: "4E3A153F69F85B4C"
+			rewards: [{
+				count: 2
+				id: "58758CB9E84AC2F0"
+				item: "paraglider:spirit_orb"
+				type: "item"
+			}]
+			tasks: [{
+				id: "35A452EAEFC0DCB9"
+				item: "cataclysm:monstrous_eye"
+				type: "item"
+			}]
+			x: 4.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["71F6A5FB26EA6A00"]
+			description: ["手持右击后会从玩家手中飞出一个诅咒之眼的复制飞向最近的苦寒监牢，同时玩家手中的诅咒之眼进入3s的冷却。它会带着玩家寻找boss&b咒翼灵骸"]
+			id: "68989032B1926123"
+			rewards: [{
+				count: 2
+				id: "2161417337DEBD91"
+				item: "paraglider:spirit_orb"
+				type: "item"
+			}]
+			tasks: [{
+				id: "720CDCFDC17077D2"
+				item: "cataclysm:cursed_eye"
+				type: "item"
+			}]
+			x: 4.5d
+			y: 6.0d
+		}
+		{
+			dependencies: [
+				"7470AE1F0F45FE49"
+				"2D7346BE3F857D84"
+			]
+			description: ["手持右击后会从玩家手中飞出一个深渊之眼的复制飞向最近的沉没之城，同时玩家手中的深渊之眼进入3s的冷却。它会带领玩家寻找boss&5利维坦"]
+			id: "21FE8BE7FBBF4998"
+			rewards: [{
+				count: 2
+				id: "71C42C8FE3018232"
+				item: "paraglider:spirit_orb"
+				type: "item"
+			}]
+			tasks: [{
+				id: "5EA30514F91C2495"
+				item: "cataclysm:abyss_eye"
+				type: "item"
+			}]
+			x: 12.0d
+			y: -1.5d
+		}
+		{
+			dependencies: [
+				"3864065A73378A7C"
+				"22F0FBB189877FC7"
+			]
+			description: ["手持右击后会从玩家手中飞出一个风暴之眼的复制飞向最近的卫城，同时玩家手中的风暴之眼进入3s的冷却。它会带领玩家寻找boss&b斯库拉"]
+			id: "743FC518C062A2F4"
+			rewards: [{
+				count: 2
+				id: "354EA45E710A0AFB"
+				item: "paraglider:spirit_orb"
+				type: "item"
+			}]
+			tasks: [{
+				id: "34935397095CFFD7"
+				item: "cataclysm:storm_eye"
+				type: "item"
+			}]
+			x: 12.0d
+			y: 4.5d
+		}
+		{
+			dependencies: [
+				"3908AE610E4AE5A3"
+				"2B9EBD3ECFB3FEC3"
+			]
+			description: ["手持右击后会从玩家手中飞出一个烈焰之眼的复制飞向最近的烈焰竞技场，同时玩家手中的烈焰之眼进入3s的冷却。它会带领玩家寻找&e焰魔。"]
+			id: "7C1A75E4720AD46F"
+			rewards: [{
+				count: 4
+				id: "55F5D53D9982186E"
+				item: "paraglider:spirit_orb"
+				type: "item"
+			}]
+			tasks: [{
+				id: "7D0A38E6E295C931"
+				item: "cataclysm:flame_eye"
+				type: "item"
+			}]
+			x: 18.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["75F6C8C5428F0886"]
+			description: [
+				"远古遗魂，一具巨大的棘龙骨架，沉睡在诅咒金字塔的最深处，静待挑战者的来临。"
+				""
+				"通过用沙漠项链右击诅咒金字塔深处沉睡的远古遗魂来唤醒。"
+			]
+			id: "7470AE1F0F45FE49"
+			rewards: [{
+				count: 4
+				id: "5507630C8F9DB5A0"
+				item: "paraglider:spirit_orb"
+				type: "item"
+			}]
+			tasks: [{
+				entity: "cataclysm:ancient_remnant"
+				icon: "cataclysm:ancient_remnant_spawn_egg"
+				id: "6C065ADC84EE4233"
+				type: "kill"
+				value: 1L
+			}]
+			x: 8.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["38B6EDAC51B31C38"]
+			description: ["末影守卫，强大的末地守卫者，一个由紫珀砖块、黑曜石、末地石砖虚空石制造而成的强力机械巨怪。它的两肩各长着一块虚空石，身上充满花纹，有着一块紫色的眼睛。背后则搭载一块似乎作为动力源使用的虚空石；末影守卫盘踞在废弃堡垒的最深处，用末影与虚空之力惩罚入侵者。"]
+			id: "2D7346BE3F857D84"
+			rewards: [{
+				count: 4
+				id: "65720A14AABB4E38"
+				item: "paraglider:spirit_orb"
+				type: "item"
+			}]
+			tasks: [{
+				entity: "cataclysm:ender_guardian"
+				icon: "cataclysm:ender_guardian_spawn_egg"
+				id: "07FB3C9ABE699A7E"
+				type: "kill"
+				value: 1L
+			}]
+			x: 8.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["4E3A153F69F85B4C"]
+			description: ["它似乎是以熔岩和红石混合驱动的。它有3只散发橙光的眼睛和由岩浆块和下界砖块构成的凸字形下颚，其中第三只眼睛在它的前额。"]
+			id: "3864065A73378A7C"
+			rewards: [{
+				count: 4
+				id: "24D57518ACE90FA7"
+				item: "paraglider:spirit_orb"
+				type: "item"
+			}]
+			tasks: [{
+				entity: "cataclysm:netherite_monstrosity"
+				icon: "cataclysm:netherite_monstrosity_spawn_egg"
+				id: "1D5C87FBBB50210B"
+				type: "kill"
+				value: 1L
+			}]
+			x: 8.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["68989032B1926123"]
+			description: [
+				"咒翼灵骸，苦寒之地昔日的传奇战士，后来的暴虐统领，今日的诅咒亡灵。"
+				""
+				"咒翼灵骸看上去是一个只剩骨架的且长有巨大双翼的灵体状态亡灵，双眸为白色，它装备着咒魂盔甲，随使用技能的不同而持有歼灭战锤、断魂战戟、咒魂弓等武器。"
+			]
+			id: "22F0FBB189877FC7"
+			rewards: [{
+				count: 4
+				id: "794CF364004A95D2"
+				item: "paraglider:spirit_orb"
+				type: "item"
+			}]
+			tasks: [{
+				entity: "cataclysm:maledictus"
+				icon: "cataclysm:maledictus_spawn_egg"
+				id: "6A693B05CF2E3A0A"
+				type: "kill"
+				value: 1L
+			}]
+			x: 8.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["21FE8BE7FBBF4998"]
+			description: ["利维坦，掌握深渊之力，甚至能撕裂时空的恐怖捕食者。海洋之中当之无愧的霸主。要小心避开激光。"]
+			id: "3908AE610E4AE5A3"
+			rewards: [{
+				count: 8
+				id: "40C4BFCEC904714C"
+				item: "paraglider:spirit_orb"
+				type: "item"
+			}]
+			tasks: [{
+				entity: "cataclysm:the_leviathan"
+				icon: "cataclysm:the_leviathan_spawn_egg"
+				id: "320F854AF1140A40"
+				type: "kill"
+				value: 1L
+			}]
+			x: 15.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["743FC518C062A2F4"]
+			description: [
+				"斯库拉，一个古希腊传说中女性海妖的名字，而你登临卫城之巅，面对的那触及风暴，亦或就是风暴本身的女王——也是斯库拉"
+				""
+				"斯库拉的大部分攻击招式都可以据目标的最大生命值造成一定&b百分比伤害"
+			]
+			id: "2B9EBD3ECFB3FEC3"
+			rewards: [{
+				count: 8
+				id: "506EA17670FF178B"
+				item: "paraglider:spirit_orb"
+				type: "item"
+			}]
+			tasks: [{
+				entity: "cataclysm:scylla"
+				icon: "cataclysm:scylla_spawn_egg"
+				id: "32A4A22B2012AB7E"
+				type: "kill"
+				value: 1L
+			}]
+			x: 15.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["7C1A75E4720AD46F"]
+			description: [
+				"焰魔，烈焰之主宰，至尊之战神。模组最强十星boss之一。"
+				""
+				"炎魔每次攻击都会为玩家施加3-6层烧伤的负面效果，持续10秒，可叠加，最多255级"
+				"&e（烧伤：持有该buff的目标受伤时受到等同于烧伤层数的追加伤害，该buff持续时间结束时，造成等同于buff层数的伤害。该若buff持有者在水中时则会失效）"
+			]
+			id: "1BA85CC835E18199"
+			rewards: [{
+				count: 20
+				id: "22E14BD3D87E77E1"
+				item: "paraglider:spirit_orb"
+				type: "item"
+			}]
+			tasks: [{
+				entity: "cataclysm:ignis"
+				icon: "cataclysm:ignis_spawn_egg"
+				id: "29FEF4302327CD11"
+				type: "kill"
+				value: 1L
+			}]
+			x: 22.0d
+			y: 1.5d
+		}
+	]
+	title: "4.6：灾变boss"
+}

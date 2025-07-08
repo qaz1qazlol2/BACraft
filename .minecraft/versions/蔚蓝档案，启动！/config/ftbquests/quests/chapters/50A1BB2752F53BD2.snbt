@@ -24,6 +24,7 @@
 	quest_links: [ ]
 	quests: [
 		{
+			can_repeat: true
 			id: "0DA768CCD68ABAF1"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -37,7 +38,7 @@
 				item: "twilightforest:lich_trophy"
 				type: "item"
 			}]
-			x: 4.5d
+			x: 4.0d
 			y: -0.5d
 		}
 		{
@@ -55,9 +56,10 @@
 				type: "item"
 			}]
 			x: 3.0d
-			y: -0.5d
+			y: -2.0d
 		}
 		{
+			can_repeat: true
 			id: "38A63D1BE05E3C01"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -71,7 +73,7 @@
 				item: "twilightforest:hydra_trophy"
 				type: "item"
 			}]
-			x: 6.0d
+			x: 5.5d
 			y: -0.5d
 		}
 		{
@@ -109,6 +111,7 @@
 			y: -2.0d
 		}
 		{
+			can_repeat: true
 			id: "6A4637C5F60F7631"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -122,7 +125,7 @@
 				item: "twilightforest:snow_queen_trophy"
 				type: "item"
 			}]
-			x: 7.5d
+			x: 7.0d
 			y: -0.5d
 		}
 		{
@@ -143,6 +146,7 @@
 			y: -2.0d
 		}
 		{
+			can_repeat: true
 			id: "2C5807D53055954D"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -156,7 +160,7 @@
 				item: "twilightforest:ur_ghast_trophy"
 				type: "item"
 			}]
-			x: 9.0d
+			x: 8.5d
 			y: -0.5d
 		}
 		{

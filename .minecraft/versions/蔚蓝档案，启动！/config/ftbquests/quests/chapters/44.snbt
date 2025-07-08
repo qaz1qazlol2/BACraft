@@ -1,0 +1,355 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "44"
+	group: "3F6E92AE7F64E4AB"
+	icon: "legendary_monsters:cloud_rod"
+	id: "7EFEA7804266010F"
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["45974B994B771101"]
+			description: [
+				"本模组的生物都有自己的竟技场，你可以在主世界、下界、末地中寻找到它们。"
+				""
+				"模组链接：https://www.mcmod.cn/class/12933.html"
+			]
+			id: "0D78F984C8DD5B59"
+			tasks: [{
+				id: "7B10DAC1629D8C21"
+				title: "传说中的怪物们"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0D78F984C8DD5B59"]
+			description: [
+				"玩家一共可以遇到一家四口分别为：霜冻傀儡，古老守护者，凋零恶煞，蔓生巨像"
+				""
+				"均为3星boss"
+			]
+			id: "5D216A64D188BD0D"
+			tasks: [{
+				id: "4B0BAD700533CD6B"
+				title: "傀儡一族"
+				type: "checkmark"
+			}]
+			x: -4.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0D78F984C8DD5B59"]
+			description: ["在地狱玩家可以遇到两个boss：骷髅龙蜥和熔岩食者"]
+			id: "4D2A4D35E9BE612D"
+			tasks: [{
+				id: "6E3853793574BF71"
+				title: "地狱的伙计"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["0D78F984C8DD5B59"]
+			description: [
+				"在末地玩家可以遇到两个boss分别为：末影使者和潜影拟态者"
+				""
+				"其中潜影拟态者的建筑内有一共八个箱子"
+			]
+			id: "156E31843C083D5C"
+			tasks: [{
+				id: "7C83E665614DCA01"
+				title: "末地友人"
+				type: "checkmark"
+			}]
+			x: 4.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0D78F984C8DD5B59"]
+			description: ["玩家在主世界可以遇到的boss为：云傀以及魄攫圣骑和沙丘哨兵"]
+			id: "6AF582EF4443300D"
+			tasks: [{
+				id: "2E4AFF26EAC568B5"
+				title: "主世界的威胁"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["5D216A64D188BD0D"]
+			description: [
+				"在雪原的霜冻神殿内会生成Boss霜冻傀儡。。技能会给玩家附带减速效果，且带有aoe攻击"
+				""
+				"建筑名称：霜冻神殿"
+			]
+			id: "37078FD785FF024F"
+			rewards: [{
+				count: 2
+				id: "55336C4423D7A056"
+				item: "paraglider:spirit_orb"
+				type: "item"
+			}]
+			tasks: [{
+				entity: "legendary_monsters:frostbitten_golem"
+				icon: "legendary_monsters:frostbitten_golem_spawn_egg"
+				id: "6BDCCD3E5A89DBD5"
+				type: "kill"
+				value: 1L
+			}]
+			x: -6.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["5D216A64D188BD0D"]
+			description: [
+				"在主世界荒古要塞内会生成Boss荒古守卫者与精英怪暗伏者同时生成小怪尖刺蠕虫，在地牢顶部可以看见它。"
+				""
+				"建筑名称：荒古要塞"
+			]
+			id: "7AA6E91099B1E676"
+			rewards: [{
+				count: 2
+				id: "5C891780CF3D1E13"
+				item: "paraglider:spirit_orb"
+				type: "item"
+			}]
+			tasks: [{
+				entity: "legendary_monsters:ancient_guardian"
+				icon: "legendary_monsters:ancient_guardian_spawn_egg"
+				id: "3C689DA6172DF44C"
+				type: "kill"
+				value: 1L
+			}]
+			x: -6.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["5D216A64D188BD0D"]
+			description: [
+				"在灵魂要塞遗迹内会生成Boss凋灵恶煞。"
+				""
+				"建筑名称：灵魂堡垒遗迹"
+			]
+			id: "2E44D5412D481957"
+			rewards: [{
+				count: 2
+				id: "04207FE16C2457A9"
+				item: "paraglider:spirit_orb"
+				type: "item"
+			}]
+			tasks: [{
+				entity: "legendary_monsters:withered_abomination"
+				icon: "legendary_monsters:withered_abomination_spawn_egg"
+				id: "5ED0BD1E08F33626"
+				type: "kill"
+				value: 1L
+			}]
+			x: -6.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["5D216A64D188BD0D"]
+			description: [
+				"在覆苔神殿内会生成Boss蔓生巨像。"
+				""
+				"建筑名称：覆苔神殿"
+			]
+			id: "504A54498412E93C"
+			rewards: [{
+				count: 2
+				id: "4F09D2DC867EDA70"
+				item: "paraglider:spirit_orb"
+				type: "item"
+			}]
+			tasks: [{
+				entity: "legendary_monsters:overgrown_colossus"
+				icon: "legendary_monsters:overgrown_colossus_spawn_egg"
+				id: "4A00C3D80A6080D2"
+				type: "kill"
+				value: 1L
+			}]
+			x: -6.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["4D2A4D35E9BE612D"]
+			description: [
+				"在骷髅蜥龙巢穴内会生成Boss骷髅蜥龙。"
+				""
+				"建筑名称：斯凯洛托龙巢穴"
+			]
+			id: "35D92DE55D8209DD"
+			rewards: [{
+				count: 4
+				id: "75501E3A3888ED96"
+				item: "paraglider:spirit_orb"
+				type: "item"
+			}]
+			tasks: [{
+				entity: "legendary_monsters:skeletosaurus"
+				icon: "legendary_monsters:skeletosaurus_spawn_egg"
+				id: "2AC7BD4CC3B058FC"
+				title: "嘟嘟哒嘟嘟哒"
+				type: "kill"
+				value: 1L
+			}]
+			x: -1.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["4D2A4D35E9BE612D"]
+			description: [
+				"在熔岩食者巢穴内会生成熔岩食者。"
+				""
+				"建筑名称：熔岩食者巢穴"
+			]
+			id: "5F418E4A3E7B9AC0"
+			rewards: [{
+				count: 4
+				id: "3AE17CBDB60B23A9"
+				item: "paraglider:spirit_orb"
+				type: "item"
+			}]
+			tasks: [{
+				entity: "legendary_monsters:lava_eater"
+				icon: "legendary_monsters:lava_eater_spawn_egg"
+				id: "7C37ED28081AF715"
+				type: "kill"
+				value: 1L
+			}]
+			x: 1.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["156E31843C083D5C"]
+			description: [
+				"在古老高塔遗迹内会生成Boss末影遣使。"
+				""
+				"建筑名称：古塔遗迹"
+			]
+			id: "359EE0066BE10680"
+			rewards: [{
+				count: 4
+				id: "2A87167E2C5F2B69"
+				item: "paraglider:spirit_orb"
+				type: "item"
+			}]
+			tasks: [{
+				entity: "legendary_monsters:endersent"
+				icon: "legendary_monsters:endersent_spawn_egg"
+				id: "28D78AD58CDC40D3"
+				type: "kill"
+				value: 1L
+			}]
+			x: 6.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["156E31843C083D5C"]
+			description: [
+				"在潜影高塔中会生成Boss潜影拟态者。"
+				""
+				"建筑名称：舒尔克塔"
+			]
+			id: "5CBC7660E4782037"
+			rewards: [{
+				count: 4
+				id: "4DD0FA3AB652B514"
+				item: "paraglider:spirit_orb"
+				type: "item"
+			}]
+			tasks: [{
+				entity: "legendary_monsters:shulker_mimic"
+				icon: "legendary_monsters:shulker_mimic_spawn_egg"
+				id: "1BA3A3FA7B8CF710"
+				type: "kill"
+				value: 1L
+			}]
+			x: 6.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["6AF582EF4443300D"]
+			description: [
+				"在废弃墓穴内会生成Boss魄攫圣骑与小怪缠魂骑士与缠魂守卫。"
+				""
+				"建筑名称：废弃墓穴"
+			]
+			id: "2D12A9F08B868DA9"
+			rewards: [{
+				count: 4
+				id: "43ED9E64AAE39F2C"
+				item: "paraglider:spirit_orb"
+				type: "item"
+			}]
+			tasks: [{
+				entity: "legendary_monsters:posessed_paladin"
+				icon: "legendary_monsters:posessed_paladin_spawn_egg"
+				id: "6F4CF2F8ADD9FEE2"
+				type: "kill"
+				value: 1L
+			}]
+			x: -1.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["6AF582EF4443300D"]
+			description: [
+				"在荒废金字塔内会生成Boss沙丘哨兵。"
+				""
+				"&6（长得挺像豌豆射手）"
+				""
+				"建筑名称：荒废金字塔"
+			]
+			id: "4EAE6B981EA0BAB0"
+			rewards: [{
+				count: 2
+				id: "352C0D8FA9EA1F47"
+				item: "paraglider:spirit_orb"
+				type: "item"
+			}]
+			tasks: [{
+				entity: "legendary_monsters:dune_sentinel"
+				icon: "legendary_monsters:dune_sentinel_spawn_egg"
+				id: "6B8C66435D77EB07"
+				type: "kill"
+				value: 1L
+			}]
+			x: 1.5d
+			y: 5.0d
+		}
+		{
+			dependencies: [
+				"2D12A9F08B868DA9"
+				"4EAE6B981EA0BAB0"
+			]
+			description: [
+				"在浮云神殿内会生成Boss浮云傀儡与中立生物惊灵。难度极高"
+				""
+				"建筑名称：浮云神殿"
+			]
+			id: "64DCD1D139FC9E6B"
+			rewards: [{
+				count: 8
+				id: "2D3516041F1D424B"
+				item: "paraglider:spirit_orb"
+				type: "item"
+			}]
+			tasks: [{
+				entity: "legendary_monsters:cloud_golem"
+				icon: "legendary_monsters:cloud_golem_spawn_egg"
+				id: "4163D9F336D92EBF"
+				type: "kill"
+				value: 1L
+			}]
+			x: 0.0d
+			y: 6.5d
+		}
+	]
+	title: "4.3：传说怪物"
+}

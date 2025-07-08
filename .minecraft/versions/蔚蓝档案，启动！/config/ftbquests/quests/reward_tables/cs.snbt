@@ -73,6 +73,33 @@
 				}
 			}
 		}
+		{
+			item: {
+				Count: 1
+				id: "lrtactical:melee"
+				tag: {
+					MeleeWeaponId: "cs2_wt:stiletto"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "lrtactical:melee"
+				tag: {
+					MeleeWeaponId: "cs2_wt:push"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "lrtactical:melee"
+				tag: {
+					MeleeWeaponId: "cs2_wt:talon"
+				}
+			}
+		}
 	]
 	title: "cs刀包抽取"
 }
