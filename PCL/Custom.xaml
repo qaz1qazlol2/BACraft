@@ -1,0 +1,163 @@
+<local:MyCard Title="公告" Margin="0,0,0,15" CanSwap="False" IsSwaped="False">   <!-- 这个没必要改变 -->
+    <StackPanel Margin="23,50,23,50">
+         <local:MyImage Height="250" HorizontalAlignment="Center" Source="https://webcnstatic.yostar.net/ba_cn_web/prod/upload/uwzPlg6Y.jpeg" />   <!-- 这个没必要改变 -->
+        <TextBlock TextWrapping="Wrap" Margin="50,0,0,4"
+                    Text="" />    
+        <TextBlock TextWrapping="Wrap" Margin="50,0,0,4"
+                    Text="" />  
+        <TextBlock TextWrapping="Wrap" Margin="50,0,0,4" FontSize="15" Foreground="#FF0000" HorizontalAlignment="Center"
+                    Text="如进游戏卡加载界面请下拉点击功能列表里面的开关动态加载界面并且输入N关闭动态加载界面" />                     
+        <TextBlock TextWrapping="Wrap" Margin="60,0,0,4" FontSize="16" Foreground="#FF0000" HorizontalAlignment="Center"
+                    Text="关闭动态加载后还进不去请下拉点击功能列表里面自带的内存清理后再次进入游戏" />       
+        <TextBlock TextWrapping="Wrap" Margin="50,0,0,4"
+                    Text="" />  
+        <TextBlock TextWrapping="Wrap" Margin="50,0,0,4"
+                    Text="" />  
+        <TextBlock TextWrapping="Wrap" Margin="50,0,0,4"
+                    Text="下个版本将会修改精英怪的数值，并且使用新的货币模组体系" />                     <!-- 内容直接复制到里面就行了，它会自动换行的，不怕突然超出 -->
+        <TextBlock TextWrapping="Wrap" Margin="500,0,0,4"
+                    Text="发布时间2025年5月28日" />           <!-- 这改一下时间就得了 -->
+    </StackPanel>
+</local:MyCard>
+
+<local:MyCard Title="异常问题" Margin="0,0,0,15" CanSwap="True" IsSwaped="True">   <!-- 这个没必要改变 -->
+    <StackPanel Margin="23,50,23,50">
+         <local:MyImage Height="250" HorizontalAlignment="Center" Source="https://s21.ax1x.com/2025/05/03/pEbWpQO.png" />   <!-- 这个没必要改变 -->
+        <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" FontSize="21"
+                    Text="在游戏中可能会出现问题如下:" />          <!-- 这个没必要改变 -->
+        <TextBlock TextWrapping="Wrap" Margin="0,0,0,4"
+                    Text="目前动态加载界面一闪而过后变成mc默认加载界面，为正常现象，目前无法修复。" />          <!-- 有什么内容添加上去就行，通顺就可以了 -->
+    </StackPanel>
+</local:MyCard>
+
+<local:MyCard Title="功能" Margin="0,0,0,15" CanSwap="True" IsSwaped="True">    <!-- 这个没必要改变 -->
+    <StackPanel Margin="25,40,23,15">
+        <local:MyImage Height="200" HorizontalAlignment="Center" Source="https://s21.ax1x.com/2025/05/03/pEbR2Zj.png" />      <!-- 这个没必要改变 -->
+        <StackPanel Orientation="Horizontal" HorizontalAlignment="Center">
+            <local:MyButton Margin="0,0,10,0" Width="140" Height="35" HorizontalAlignment="Left" Padding="13,0,13,0" ColorType="Highlight"
+                        Text="蔚蓝档案，启动！" EventType="启动游戏" EventData="蔚蓝档案，启动！" />                                             <!-- 这个没必要改变 -->
+            <local:MyButton Margin="0,0,10,0" Width="140" Height="35" HorizontalAlignment="Left" Padding="13,0,13,0"
+                        Text="QQ群" EventType="弹出窗口" EventData="QQ群|1：“977106713”" />              <!-- 除了加Q群没什么要改，\n这个后面的都是换了行 --> 
+            <local:MyButton Margin="0,0,10,0" Width="140" Height="35" HorizontalAlignment="Left" Padding="13,0,13,0"
+                        Text="打开官网" EventType="打开网页" EventData="https://allforhina.com/" />                        <!-- 如果换官网的话，那就把地址换就行了 -->
+        </StackPanel>
+            <StackPanel Orientation="Horizontal" HorizontalAlignment="Center" Margin="0,10,0,0">
+            <local:MyButton Margin="10,0,10,0" Width="140" Height="35" HorizontalAlignment="Left" Padding="13,0,13,0" ColorType="Highlight"
+                        Text="开关动态加载界面" EventType="执行命令" EventData="changer.cmd" /> 
+            <local:MyButton Margin="10,0,10,0" Width="140" Height="35" HorizontalAlignment="Left" Padding="13,0,13,0" ColorType="Highlight"
+                        Text="内存优化" EventType="内存优化"  /> 
+        </StackPanel>
+    </StackPanel>
+</local:MyCard>
+
+<local:MyCard Title="更新日志" Margin="0,0,0,15" CanSwap="True" IsSwaped="True">   <!-- 这个没必要改变 -->
+    <StackPanel Margin="23,50,23,50">
+         <local:MyImage Height="200" HorizontalAlignment="Center" Source="https://s21.ax1x.com/2025/05/03/pEbRcLQ.png" />      <!-- 这个没必要改变 -->
+        <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" FontSize="21"
+                    Text="1.2：" />                     <!-- 内容直接复制到里面就行了，它会自动换行的，不怕突然超出，记得加版本在前 -->
+        <TextBlock TextWrapping="Wrap" Margin="50,0,0,4"
+                    Text="1.枪包更新" />
+        <TextBlock TextWrapping="Wrap" Margin="50,0,0,4"
+                    Text="2.其他模组更新" />
+        <TextBlock TextWrapping="Wrap" Margin="50,0,0,4"
+                    Text="3.核心模组更新（现在动态加载界面不会显示了）" />
+        <TextBlock TextWrapping="Wrap" Margin="50,0,0,4"
+                    Text="4.更改legendarytooltips模组配置来修复无尽箱子的无字天书" />
+        <TextBlock TextWrapping="Wrap" Margin="50,0,0,4"
+                    Text="5.同步任务ban物品体系" />
+        <TextBlock TextWrapping="Wrap" Margin="500,0,0,4"
+                    Text="发布时间2025年5月28日" />           <!-- 这改一下时间就得了 -->
+    </StackPanel>
+</local:MyCard>
+
+<local:MyCard Title="感谢名单" Margin="0,0,0,15" CanSwap="True" IsSwaped="True">      <!-- 添加名单的话就加一行就行了 -->
+    <StackPanel Margin="25,40,23,15">
+         <local:MyImage Height="200" HorizontalAlignment="Center" Source="https://s21.ax1x.com/2025/05/03/pEbRyQS.png" />     <!-- 这个没必要改变 -->
+        <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" FontSize="21"
+                    Text="感谢名单：" />
+        <TextBlock TextWrapping="Wrap" Margin="0,0,0,4"
+                    Text="2024年8月1日：" />
+         <TextBlock TextWrapping="Wrap" Margin="0,0,0,4"
+                    Text="一个mc界ba元素最多的整合包横空出世，出现在大众的视野中，作者为小水滴的源头" />
+        <TextBlock TextWrapping="Wrap" Margin="0,0,0,4"
+                    Text="在经历了多次修改，调整，重做后成为如今这般模样。" />
+        <TextBlock TextWrapping="Wrap" Margin="0,0,0,4"
+                    Text="感谢下面这些人员，他们为这个整合包做出了诸多努力：" />
+        <TextBlock TextWrapping="Wrap" Margin="0,0,0,4"
+                    Text="（排名不分先后）" />
+        <TextBlock TextWrapping="Wrap" Margin="0,0,0,4"
+                    Text="小水滴的源头（整合包作者，ba mod作者，提出学生buff想法）" />
+        <TextBlock TextWrapping="Wrap" Margin="0,0,0,4"
+                    Text="wzz（我之战）：（ba mod，学生技能特性制作者）" />
+        <TextBlock TextWrapping="Wrap" Margin="0,0,0,4"
+                    Text="sfhuewui（整合包作者，任务系统作者，kubejs魔改作者，测试员，整合包更新）" />
+        <TextBlock TextWrapping="Wrap" Margin="0,0,0,4"
+                    Text="qaz1qazlol（整合包作者，Kubejs魔改参与成员，Github仓库所有者，Gitee仓库所有者）" />
+        <TextBlock TextWrapping="Wrap" Margin="0,0,0,4"
+                    Text="没人要的yego（鄂图曼弯刀23/100★）：整合包群群主，提供3000人群交流测试平台u" />
+        <TextBlock TextWrapping="Wrap" Margin="0,0,0,4"
+                    Text="pspfsx（风纪委员会限定）：整合包群老群主，提供交流测试平台" />
+        <TextBlock TextWrapping="Wrap" Margin="0,0,0,4"
+                    Text="宇泽-梦（反转）：贴图绘制" />
+        <TextBlock TextWrapping="Wrap" Margin="0,0,0,4"
+                    Text="GCOshine ： NIGA头子" />
+        <TextBlock TextWrapping="Wrap" Margin="0,0,0,4"
+                    Text="旧梦：建筑师" />
+        <TextBlock TextWrapping="Wrap" Margin="0,0,0,4"
+                    Text="基沃托斯联邦建设三局：建筑师" />
+        <TextBlock TextWrapping="Wrap" Margin="0,0,0,4"
+                    Text="又又桐：主页模板提供者" />
+        <TextBlock TextWrapping="Wrap" Margin="0,0,0,4"
+                    Text="对着爱丽丝发癫：枪包数值配方贴图修改" />
+        <TextBlock TextWrapping="Wrap" Margin="0,0,0,4"
+                    Text="还有这些人员，他们提供的建议让这个整合包变得更好：" />
+        <TextBlock TextWrapping="Wrap" Margin="0,0,0,4"
+                    Text="不知不知daki" />
+        <TextBlock TextWrapping="Wrap" Margin="0,0,0,4"
+                    Text="晴（精力旺盛版）" />
+        <TextBlock TextWrapping="Wrap" Margin="0,0,0,4"
+                    Text="ニジヨスグジバ" />
+        <TextBlock TextWrapping="Wrap" Margin="0,0,0,4"
+                    Text="Frank" />
+        <TextBlock TextWrapping="Wrap" Margin="0,0,0,4"
+                    Text="冰凛_IR" />
+        <TextBlock TextWrapping="Wrap" Margin="0,0,0,4"
+                    Text="热爱游戏的Kevin" />
+        <TextBlock TextWrapping="Wrap" Margin="0,0,0,4"
+                    Text="" />
+        <TextBlock TextWrapping="Wrap" Margin="0,0,0,4"
+                    Text="billbill舰长和充电人员：" />
+        <TextBlock TextWrapping="Wrap" Margin="0,0,0,4"
+                    Text="私募的yego（老舰长）" />
+        <TextBlock TextWrapping="Wrap" Margin="0,0,0,4"
+                    Text="Moon22nights（舰长）" />
+        <TextBlock TextWrapping="Wrap" Margin="0,0,0,4"
+                    Text="另外的一个（高档充电）" />
+        <TextBlock TextWrapping="Wrap" Margin="0,0,0,4"
+                    Text="PSPFSX（充电）" />
+        <TextBlock TextWrapping="Wrap" Margin="0,0,0,4"
+                    Text="凯旋之岚杨柳（充电）" />
+        <TextBlock TextWrapping="Wrap" Margin="0,0,0,4"
+                    Text="默白____（充电）" />
+        <TextBlock TextWrapping="Wrap" Margin="0,0,0,4"
+                    Text="Zeta0(Frank)（充电）" />
+        <TextBlock TextWrapping="Wrap" Margin="0,0,0,4"
+                    Text="我永逺喜歓hina（充电）" />
+        <TextBlock TextWrapping="Wrap" Margin="0,0,0,4"
+                    Text="水滴的榜一（充电）" />
+        <TextBlock TextWrapping="Wrap" Margin="0,0,0,4"
+                    Text="sfhuewui（充电）" />
+        <TextBlock TextWrapping="Wrap" Margin="0,0,0,4"
+                    Text="qaz1qazlol（充电）" />
+        <TextBlock TextWrapping="Wrap" Margin="0,0,0,4"
+                    Text="" />
+        <TextBlock TextWrapping="Wrap" Margin="0,0,0,4"
+                    Text="" />
+        <TextBlock TextWrapping="Wrap" Margin="0,0,0,4"
+                    Text="以及各位游玩整合包的玩家们" />
+        <TextBlock TextWrapping="Wrap" Margin="0,0,0,4"
+                    Text="Thank You" />
+        <TextBlock TextWrapping="Wrap" Margin="0,0,0,4"
+                    Text="" /> 
+    </StackPanel>
+</local:MyCard>
