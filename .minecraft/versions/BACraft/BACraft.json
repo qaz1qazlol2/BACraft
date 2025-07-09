@@ -210,7 +210,7 @@
       "url": "https://piston-data.mojang.com/v1/objects/0b4dba049482496c507b2387a73a913230ebbd76/server.txt"
     }
   },
-  "id": "蔚蓝档案，启动！",
+  "id": "BACraft",
   "javaVersion": {
     "component": "java-runtime-gamma",
     "majorVersion": 17
