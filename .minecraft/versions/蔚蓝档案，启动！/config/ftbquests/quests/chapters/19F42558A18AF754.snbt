@@ -3,7 +3,7 @@
 	default_quest_shape: ""
 	filename: "19F42558A18AF754"
 	group: "3A341F8C3B4A5B73"
-	icon: "kubejs:gold_coin"
+	icon: "dotcoinmod:gold_coin"
 	id: "19F42558A18AF754"
 	images: [{
 		height: 8.0d
