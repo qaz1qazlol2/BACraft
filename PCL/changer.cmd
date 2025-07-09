@@ -14,14 +14,14 @@ if errorlevel 1 goto enable
 
 :enable
 
-echo true> ../.minecraft/blue_start_video.txt
+echo true> "../.minecraft/versions/蔚蓝档案，启动！/blue_start_video.txt"
 echo 启用成功
 pause
 exit
 
 :disable
 
-echo false> ../.minecraft/blue_start_video.txt
+echo false> "../.minecraft/versions/蔚蓝档案，启动！/blue_start_video.txt"
 echo 禁用成功
 pause
 exit
