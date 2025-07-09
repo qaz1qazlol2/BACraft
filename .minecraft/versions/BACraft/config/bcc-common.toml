@@ -5,9 +5,9 @@
 	#Range: > 0
 	modpackProjectID = 114514
 	#The name of the modpack
-	modpackName = "Blue Archives Craft Remake"
+	modpackName = "BACraft"
 	#The version of the modpack
-	modpackVersion = "1.6"
+	modpackVersion = "1.0"
 	#Use the metadata.json to determine the modpack version
 	#ONLY ENABLE THIS IF YOU KNOW WHAT YOU ARE DOING
 	useMetadata = false
