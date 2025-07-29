@@ -116,20 +116,15 @@
 		"Cloud Golem Health Multiplier" = 150.0
 		#Enables Projectile Damage for Cloud Golem
 		"Allow Cloud Golem Projectile Damage" = true
-		#Enables Boss Music for Cloud Golem
-		"Allow Cloud Golem Boss Music" = true
-		#Cloud Golem music volume
-		#Range: 0.0 ~ 1000.0
-		"Cloud Golem music volume" = 0.0
 		#Cloud Golem loses Consciousness after Laser Attack
 		"Allow Cloud Golem Loses Consciousness" = true
 		#Cloud Golem can Charge once more after missing when he is low on HP
 		"Allow Cloud Golem Charge once More" = true
 		#Enables/Disables Cloud Golem Invulnerability Time (this boss is not getting schredded in 0.5seconds by frame - ignore weapons)
-		"Allow Cloud Golem Invulnerability Time" = true
+		"Allow Cloud Golem Invulnerability Time" = false
 		#Maximum damage that can be dealt to Cloud Golem
 		#Range: 0.0 ~ 1000.0
-		"Cloud Golem Damage Cap" = 18.0
+		"Cloud Golem Damage Cap" = 1000.0
 
 	["Mob Settings"."Cloud Golem's Falling Cloud Settings"]
 		#Multiplies damage dealt by Falling Cloud
@@ -231,4 +226,15 @@
 		#Multiplies health of Skeloraptor
 		#Range: 0.0 ~ 1000.0
 		"Skeloraptor Health Multiplier" = 1.0
+
+	["Mob Settings"."General Settings"]
+		#allow custom bossbars
+		"Allow Custom Boss Bars" = true
+		#allow boss music
+		"Allow Boss Music" = true
+		#Boss Music Volume Multiplier
+		#Range: 0.0 ~ 1000.0
+		"Boss Music Volume Multiplier" = 1.0
+		#Allow Falling Cloud Particles
+		"Allow Falling Cloud Particles" = true
 
