@@ -1,9 +1,6 @@
 
 [Etc]
-	#Lava Opacity for the Ignitium Helemt.
-	#Range: 0.01 ~ 1.0
-	lavaVisionOpacity = 0.5
-	#Whether to disable certain aspects of the Ignitium Helemt. Enable if issues with shaders persist.
+	#Off the Custom Rendering
 	shadersCompat = false
 	#ScreenShake(on/off)
 	"ScreenShake(on/off)" = true
@@ -260,7 +257,7 @@
 	"Endergolem's prevent attacks from far away Range" = 6.0
 	#Golem's Health Multiplier
 	#Range: 0.0 ~ 1000000.0
-	GolemHealthMultiplier = 1.0
+	GolemHealthMultiplier = 2.0
 	#Golem's Damage Multiplier
 	#Range: 0.0 ~ 1000000.0
 	GolemDamageMultiplier = 1.0
@@ -283,7 +280,7 @@
 	"Ignis's prevent attacks from far away Range" = 15.0
 	#Ignis's DamageCap
 	#Range: 0.0 ~ 1000000.0
-	IgnisDamageCap = 60.0
+	IgnisDamageCap = 1160.0
 	#Ignis's DamageTime
 	#Range: 0 ~ 100
 	IgnisDamageTime = 15
@@ -367,7 +364,7 @@
 	"Leviathan's Tentacle Hp Damage" = 0.03
 	#Leviathan's DamageCap
 	#Range: 0.0 ~ 1000000.0
-	LeviathanDamageCap = 60.0
+	LeviathanDamageCap = 1160.0
 	#Leviathan's DamageTime
 	#Range: 0 ~ 100
 	"Leviathan DamageTime" = 15
@@ -618,10 +615,10 @@
 	"Scylla's Anchor Damage" = 16.0
 	#Scylla's Healing with out target
 	#Range: 0.0 ~ 1000000.0
-	"Scylla NatureHealing" = 25.0
+	"Scylla NatureHealing" = 1125.0
 	#Scylla's DamageCap
 	#Range: 0.0 ~ 1000000.0
-	"Scylla DamageCap" = 60.0
+	"Scylla DamageCap" = 1000.0
 	#Scylla's DamageTime
 	#Range: 0 ~ 100
 	"Scylla DamageTime" = 25
@@ -634,4 +631,18 @@
 	#Scylla's Lightning Storm HP Damage
 	#Range: 0.0 ~ 1000000.0
 	"Scylla's Lightning Storm HP Damage" = 0.4
+	#Scylla weather change
+	"Scylla Weather Change" = true
+
+["Boss Respawner"]
+	#on/off
+	MonstrosityRespawner = true
+	#on/off
+	EnderGuardianRespawner = true
+	#on/off
+	HarbingerRespawner = true
+	#on/off
+	RemnantRespawner = true
+	#on/off
+	ScyllaRespawner = true
 
