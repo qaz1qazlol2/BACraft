@@ -66,7 +66,7 @@
 	#Range: 128 ~ 51200
 	"#1) Ram Required (IN MB)" = 8192
 	#If the player has less than the required amount of RAM assigned to the modpack then they will be alerted as the game starts and the game will close.
-	"#2) Check RAM meets requirement?" = true
+	"#2) Check RAM meets requirement?" = false
 	#Will the window show on top of all other windows? I highly recommend this is left as true.
 	"#3) Display message box topmost?" = true
 	#Customise the text that appears in the error message. Will display custom message instead of the default text.
