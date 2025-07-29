@@ -5,11 +5,72 @@
 	group: "349B3345B63646FF"
 	icon: "illagerinvasion:horn_of_sight"
 	id: "7D9B5203B4B57D9D"
+	images: [
+		{
+			height: 1.0d
+			image: "relics:item/magma_walker_fire"
+			rotation: 0.0d
+			width: 1.0d
+			x: -7.5d
+			y: 0.5d
+		}
+		{
+			height: 1.0d
+			image: "relics:item/magma_walker_fire"
+			rotation: 0.0d
+			width: 1.0d
+			x: -3.5d
+			y: 0.5d
+		}
+		{
+			height: 1.0d
+			image: "relics:item/magma_walker_fire"
+			rotation: 0.0d
+			width: 1.0d
+			x: -1.0d
+			y: -0.5d
+		}
+		{
+			height: 1.0d
+			image: "relics:item/magma_walker_fire"
+			rotation: 0.0d
+			width: 1.0d
+			x: -1.0d
+			y: -2.0d
+		}
+		{
+			height: 1.0d
+			image: "relics:item/magma_walker_fire"
+			rotation: 0.0d
+			width: 1.0d
+			x: -1.0d
+			y: 1.5d
+		}
+		{
+			height: 1.0d
+			image: "relics:item/magma_walker_fire"
+			rotation: 0.0d
+			width: 1.0d
+			x: -1.0d
+			y: 3.0d
+		}
+		{
+			height: 1.0d
+			image: "relics:item/magma_walker_fire"
+			rotation: 0.0d
+			width: 1.0d
+			x: 2.0d
+			y: 0.5d
+		}
+	]
 	order_index: 4
 	quest_links: [ ]
 	quests: [
 		{
-			dependencies: ["76CF3B4DF1B68DEF"]
+			dependencies: [
+				"76CF3B4DF1B68DEF"
+				"153480C48C561C45"
+			]
 			description: ["找到一个村庄。"]
 			id: "332225AA4DD0C652"
 			rewards: [{
@@ -24,7 +85,7 @@
 				id: "0E1CD06FC6C22CA0"
 				type: "advancement"
 			}]
-			x: -9.0d
+			x: -7.5d
 			y: 0.0d
 		}
 		{
@@ -44,7 +105,7 @@
 				type: "kill"
 				value: 12L
 			}]
-			x: -5.0d
+			x: -3.5d
 			y: 0.0d
 		}
 		{
@@ -64,7 +125,7 @@
 				type: "kill"
 				value: 1L
 			}]
-			x: -0.5d
+			x: -1.0d
 			y: -2.5d
 		}
 		{
@@ -78,13 +139,18 @@
 				type: "item"
 			}]
 			tasks: [{
-				entity: "illageandspillage:spiritcaller"
-				icon: "illageandspillage:spiritcaller_spawn_egg"
-				id: "4CA24833812A9B5B"
-				type: "kill"
-				value: 1L
+				id: "23A4B1BD8A8641A8"
+				item: {
+					Count: 1
+					id: "illageandspillage:spellbound_book"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
 			}]
-			x: -0.5d
+			title: "击杀灵魂感应师"
+			x: -1.0d
 			y: -1.0d
 		}
 		{
@@ -98,13 +164,11 @@
 				type: "item"
 			}]
 			tasks: [{
-				entity: "illageandspillage:magispeller"
-				icon: "illageandspillage:magispeller_spawn_egg"
-				id: "4A5FC5ABE06D567D"
-				type: "kill"
-				value: 1L
+				id: "6E5F6714CD7DBC1A"
+				item: "illageandspillage:bag_of_horrors"
+				type: "item"
 			}]
-			x: -0.5d
+			x: -1.0d
 			y: 1.0d
 		}
 		{
@@ -118,13 +182,12 @@
 				type: "item"
 			}]
 			tasks: [{
-				entity: "illageandspillage:freakager"
-				icon: "illageandspillage:freakager_spawn_egg"
-				id: "601ACF61FB87DBAD"
-				type: "kill"
-				value: 1L
+				id: "782FF6D0832BBAA7"
+				item: "illageandspillage:totem_of_banishment"
+				type: "item"
 			}]
-			x: -0.5d
+			title: "击杀魔法师"
+			x: -1.0d
 			y: 2.5d
 		}
 		{

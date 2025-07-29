@@ -1,6 +1,6 @@
 {
 	default_hide_dependency_lines: false
-	default_quest_shape: ""
+	default_quest_shape: "hexagon"
 	filename: "16A623DC748CED40"
 	group: "349B3345B63646FF"
 	icon: "minecraft:command_block"
@@ -29,7 +29,8 @@
 		{
 			description: [
 				"不止这个世界的生物，当获得学生能力后，你也会拥有指定的&a攻击类型&f和&a装甲类型&f，但是他们是&6随机分配&f的......"
-				"现在，把刚才获得的随机饰品装备到饰品栏指定位置吧！"
+				""
+				"(整合包部分学生特效不兼容光影，请见谅)"
 			]
 			id: "50432D78A7FFE83A"
 			rewards: [{
@@ -94,38 +95,20 @@
 				"&5&l震动&f："
 				"仅对&5弹力装甲&f的生物造成&5弱点打击&f，对其他无影响"
 				""
+				"&4（注：鼠标侧键才是匕首的攻击键，如果觉得不顺手，可以去按键设置中tacz近战自行调整）"
 			]
 			id: "5759D90354C17059"
-			rewards: [
-				{
-					id: "189314E84B949EB5"
-					item: {
-						Count: 1
-						id: "tacz:modern_kinetic_gun"
-						tag: {
-							GunCurrentAmmoCount: 1
-							GunFireMode: "SEMI"
-							GunId: "dknife:t_knife"
-							HasBulletInBarrel: 1b
-						}
+			rewards: [{
+				id: "2321A7CD932444BB"
+				item: {
+					Count: 1
+					id: "lrtactical:melee"
+					tag: {
+						MeleeWeaponId: "ab_wt:hands"
 					}
-					type: "item"
 				}
-				{
-					id: "78A8E71011A59907"
-					item: {
-						Count: 1
-						id: "tacz:modern_kinetic_gun"
-						tag: {
-							GunCurrentAmmoCount: 1
-							GunFireMode: "SEMI"
-							GunId: "dknife:ct_knife"
-							HasBulletInBarrel: 1b
-						}
-					}
-					type: "item"
-				}
-			]
+				type: "item"
+			}]
 			subtitle: "知己知彼"
 			tasks: [{
 				id: "66D0BDD2C8D38B07"
@@ -138,7 +121,11 @@
 		}
 		{
 			dependency_requirement: "one_completed"
-			description: ["当然，你也可以选择不使用学生的能力去探索这个世界。如果你&6未拥有任何学生能力&f，你可以右键使用卡片以&c冷却时间&f的代价换取一段时间的能力加成~"]
+			description: [
+				"当然，你也可以选择不使用学生的能力去探索这个世界。如果你&6未拥有任何学生能力&f，你可以右键使用卡片以&c冷却时间&f的代价换取一段时间的能力加成~"
+				""
+				"&6(使用时记得开启光影)"
+			]
 			id: "3042BE11616FA4B1"
 			rewards: [{
 				id: "14371039B935AB75"
@@ -156,7 +143,7 @@
 				type: "checkmark"
 			}]
 			x: 2.5d
-			y: -4.0d
+			y: -5.5d
 		}
 		{
 			description: [
@@ -220,7 +207,8 @@
 				"整合包仓库提供+辅助更新维护：qaz1qazlol"
 				"模组药水效果贴图绘制:牢梦(我喂小夏喝鲜榨，小夏把我身体榨)"
 				"模组建筑师:旧梦,基沃托斯联邦建设三局，SC星鲤工作室"
-				""
+				"kjs魔改：GCC酱_0ff1c1a1"
+				"低配包：找早濑优香暖手"
 				"&4（ps：这个任务物品领了会被硬控，最好别领）"
 			]
 			id: "685EA8C5766F9621"
@@ -255,6 +243,7 @@
 				"1:拆解台:无法合成，可以破坏和放置，但无法使用"
 				"2.创造者的恩赐"
 				"3.虚空珍珠"
+				"4.虚伪审判"
 			]
 			id: "1A8062052B44884F"
 			rewards: [{
@@ -277,11 +266,6 @@
 				""
 			]
 			id: "1E4977E102751174"
-			rewards: [{
-				id: "3469289592424BC4"
-				item: "kubejs:gold_coin"
-				type: "item"
-			}]
 			tasks: [{
 				id: "12A385E859AF2A86"
 				title: "关于ysm模型"
@@ -293,6 +277,10 @@
 		{
 			description: [
 				"&9手持什亭之匣+蹲下+右键即可进入什亭之匣内部"
+				""
+				"什停之匣需要玩家佩戴七咒之戒后在七咒的末影箱中获得，也可以在生成夏莱小屋建筑后在建筑内的末影箱内获得"
+				""
+				"可以找阿罗娜或者普拉娜消耗120青辉石自选学生力量"
 				""
 				"&5tips：如果进入什亭之匣后发现掉入水中请输入 /tp 0 0 0"
 				"&4tips2：请不要在什亭之匣内丢出任意物品，会导致物品消失"
@@ -342,11 +330,15 @@
 				title: "暴击机制"
 				type: "checkmark"
 			}]
-			x: 7.0d
-			y: -1.0d
+			x: 2.5d
+			y: -4.0d
 		}
 		{
-			description: ["整合包提升自身最核心的地方在于&4生命值上限&f。玩家可以通过&9饰品，女神雕像，吃东西（玩家每吃5种不同的食物就能提升2点生命值上限）&f，等各个方面提高生命值上限，大部分学生的力量和生命值上限均挂钩，所以提升生命值上限是很重要的路线。"]
+			description: [
+				"整合包提升自身最核心的地方在于&4生命值上限&f。玩家可以通过&9饰品，女神雕像，吃东西（玩家每吃5种不同的食物就能提升2点生命值上限）&f，等各个方面提高生命值上限，大部分学生的力量和生命值上限均挂钩，所以提升生命值上限是很重要的路线。"
+				""
+				"（注：如果遇到护甲栏靴子部分消失的情况请关闭饰品栏中足部的饰品显示。所有饰品不要佩戴相同的，严重的会导致坏档。）"
+			]
 			id: "317AF130217A7285"
 			rewards: [{
 				id: "32D38C9E69EE7C34"
@@ -419,12 +411,27 @@
 				type: "checkmark"
 			}]
 			title: "枪包出处"
-			x: 2.5d
-			y: -5.5d
+			x: 7.0d
+			y: -1.0d
 		}
 		{
-			description: ["整合包内有非常多的遗迹和地牢，所以外出探索发育速度可能比家里蹲要快很多，不同的学园生成物品也需要玩家到达对应的地形获取。"]
+			description: [
+				"整合包内有非常多的遗迹和地牢，所以外出探索发育速度可能比家里蹲要快很多，不同的学园生成物品也需要玩家到达对应的地形获取。"
+				""
+				"（提示：如果出现击杀了boss却没有完成任务的情况下，请灵活运用右下角的编辑模式，并且某些boss具有联动生成效果，请仔细观看boss图鉴）"
+			]
 			id: "5C26A1BB46F7A111"
+			rewards: [{
+				id: "109294CD52386FBC"
+				item: {
+					Count: 1
+					id: "tacz:ammo_box"
+					tag: {
+						Level: 2
+					}
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "781498A12AE78C25"
 				title: "遗迹"
@@ -450,12 +457,7 @@
 			y: 1.375d
 		}
 		{
-			description: [
-				"由于整合包的大型建筑并没有做防刷怪机制，所以在学院区域内请开启和平"
-				""
-				"整合包默认关闭生成建筑覆盖地形，用指令&b/blue_archivecraft_loots  [开启/关闭]生成结构清除区块&f来进行覆盖 "
-				"（不开也行，拿来当野生boss刷新点）"
-			]
+			description: ["玩家探索世界的时候会得到学院的生成券，为避免卡顿和覆盖原因，请到开局给予的基沃托斯维度内生成。"]
 			id: "1AE7FF8E22ECBAA6"
 			size: 3.0d
 			tasks: [{
@@ -470,7 +472,7 @@
 			description: [
 				"当玩家凑齐十个神名精髓之后可以进行自选学生，除了部分fes学生之外均可自选。"
 				""
-				"（本整合包仅面向多人游玩才可随意搭配学生，单人还是玩轮椅吧）"
+				"（本整合包仅面向多人游玩才可随意搭配学生，且整合包内存在学生之间强度差异，游玩时请根据游戏人数进行搭配）"
 			]
 			id: "3C71D05C495F5680"
 			rewards: [{
@@ -502,6 +504,11 @@
 				"&4(注：整合包7星及以上的boss以及总力战boss并未做单人存档考虑)"
 			]
 			id: "1465631C0190EBF4"
+			rewards: [{
+				id: "0769F54D09CF8E6E"
+				item: "ringsofascension:ring_health"
+				type: "item"
+			}]
 			tasks: [{
 				id: "0152AB56771AAF5B"
 				title: "整合包阶段参考"

@@ -518,25 +518,6 @@
 		}
 		{
 			can_repeat: true
-			icon: "eeeabsmobs:immortal_boss_egg"
-			id: "58AB49EC1AEA789F"
-			rewards: [{
-				id: "1A573904E79040B8"
-				item: "eeeabsmobs:immortal_boss_egg"
-				type: "item"
-			}]
-			tasks: [{
-				consume_items: true
-				id: "331B1A3D14BEF098"
-				item: "minecraft:nether_star"
-				type: "item"
-			}]
-			title: "不朽者boss召唤物兑换"
-			x: 0.5d
-			y: -7.0d
-		}
-		{
-			can_repeat: true
 			icon: "threateningly_mobs:saint_spawn_egg"
 			id: "19F753AA29AC4AD1"
 			rewards: [{
@@ -570,7 +551,7 @@
 				type: "item"
 			}]
 			title: "战争机器boss召唤物兑换"
-			x: 2.5d
+			x: 0.5d
 			y: -7.0d
 		}
 		{
@@ -706,8 +687,10 @@
 				}
 			]
 			tasks: [{
+				consume_items: true
 				id: "19C28A62C20A11D9"
 				item: "enigmaticlegacy:etherium_ingot"
+				match_nbt: true
 				type: "item"
 			}]
 			title: "化整为零"
@@ -787,17 +770,138 @@
 				type: "item"
 			}]
 			tasks: [{
+				consume_items: true
 				count: 500L
 				id: "19A9308FD234D750"
-				item: {
-					BigCount: 500
-					Count: 500
-					id: "blue_archivescraft:p"
-				}
+				item: "blue_archivescraft:p"
 				type: "item"
 			}]
 			x: -3.0d
 			y: -8.5d
+		}
+		{
+			description: [
+				"在森林生物群系中生成，由茶叶和茶枝构成。"
+				""
+				"采集茶叶有两种方法："
+				""
+				"用斧砍下枝条，会掉落若干茶叶和木棍或茶枝，小概率掉落茶树苗。"
+				""
+				"用剪刀右键茶叶，就可以剪下茶叶，掉落若干茶叶和木棍或茶枝，小概率掉落茶树苗。"
+				""
+				"模组链接：https://www.mcmod.cn/class/3597.html"
+			]
+			id: "333EC5E5B0B56E5F"
+			rewards: [{
+				id: "6393BC852EFCFC3F"
+				item: "simplytea:tea_sapling"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "4CEADB7F313F3C3D"
+					item: "minecraft:emerald"
+					type: "item"
+				}
+				{
+					id: "5287589CE03418FC"
+					item: "minecraft:oak_sapling"
+					type: "item"
+				}
+			]
+			title: "茶树"
+			x: -1.5d
+			y: -8.5d
+		}
+		{
+			icon: {
+				Count: 1
+				id: "lrtactical:melee"
+				tag: {
+					MeleeWeaponId: "ab_wt:ryuu_lchimonji"
+				}
+			}
+			id: "4F733DB9261AD0CE"
+			rewards: [{
+				id: "14BD58732F4FC154"
+				item: {
+					Count: 1
+					id: "lrtactical:melee"
+					tag: {
+						MeleeWeaponId: "ab_wt:ryuu_lchimonji"
+					}
+				}
+				type: "item"
+			}]
+			tasks: [
+				{
+					entity: "minecraft:zombie"
+					id: "2F20B8F40C843731"
+					type: "kill"
+					value: 500L
+				}
+				{
+					entity: "minecraft:skeleton"
+					id: "30F6D395C11345BC"
+					type: "kill"
+					value: 500L
+				}
+			]
+			title: "真——竜神の剣を喰らえ！"
+			x: -3.0d
+			y: -10.0d
+		}
+		{
+			can_repeat: true
+			icon: {
+				Count: 1
+				id: "lrtactical:melee"
+				tag: {
+					MeleeWeaponId: "ab_wt:carian_knight_sword"
+				}
+			}
+			id: "26E07A17F799DE48"
+			rewards: [{
+				id: "37DF900F6BADC99D"
+				item: {
+					Count: 1
+					id: "lrtactical:melee"
+					tag: {
+						MeleeWeaponId: "ab_wt:carian_knight_sword"
+					}
+				}
+				type: "item"
+			}]
+			tasks: [
+				{
+					consume_items: true
+					count: 2L
+					id: "5D4B6CC3E5AFA250"
+					item: { Count: 2, id: "eeeabsmobs:ancient_drive_crystal" }
+					match_nbt: true
+					type: "item"
+				}
+				{
+					consume_items: true
+					id: "2B9DBD49560A63DC"
+					item: {
+						Count: 1
+						id: "aquamirae:coral_lance"
+						tag: {
+							Damage: 0
+							Enchantments: [{
+								id: "minecraft:unbreaking"
+								lvl: 4s
+							}]
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+			]
+			title: "伟哉卡利亚！"
+			x: -1.5d
+			y: -10.0d
 		}
 	]
 	title: "奇怪小玩意兑换"

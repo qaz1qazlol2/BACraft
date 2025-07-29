@@ -13,12 +13,19 @@
 		x: 13.5d
 		y: -4.0d
 	}]
-	order_index: 6
+	order_index: 5
 	quest_links: [ ]
 	quests: [
 		{
-			dependencies: ["45974B994B771101"]
-			description: ["当你点到这里时候，相信你已经有足够实力挑战世界BOSS了；出发吧，勇敢的sensei啊"]
+			dependencies: [
+				"45974B994B771101"
+				"7D9B5203B4B57D9D"
+			]
+			description: [
+				"当你点到这里时候，相信你已经有足够实力挑战世界BOSS了；出发吧，勇敢的sensei啊"
+				""
+				"（前置任务：海灵物语/灾厄的号角）"
+			]
 			id: "708DB8AF157F9D09"
 			rewards: [{
 				id: "2A2A1135B5622E9D"

@@ -11,12 +11,16 @@
 		}
 	}
 	id: "58C43DDF5875E246"
-	order_index: 4
+	order_index: 3
 	quest_links: [ ]
 	quests: [
 		{
 			dependencies: ["7D9B5203B4B57D9D"]
-			description: ["玩家需要制作“结构之眼”来寻找模组结构"]
+			description: [
+				"玩家需要制作“结构之眼”来寻找模组结构"
+				""
+				"前置任务：灾厄的号角"
+			]
 			id: "78B391565476F87E"
 			rewards: [{
 				count: 2
@@ -71,11 +75,15 @@
 				type: "item"
 			}]
 			tasks: [{
-				entity: "eeeabsmobs:nameless_guardian"
-				icon: "eeeabsmobs:nameless_guardian_egg"
-				id: "47C31A26E986199B"
-				type: "kill"
-				value: 1L
+				id: "68A22E3CC44FB5CF"
+				item: {
+					Count: 1
+					id: "eeeabsmobs:guardian_core"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
 			}]
 			x: 1.5d
 			y: 0.0d
@@ -105,5 +113,5 @@
 			y: 0.0d
 		}
 	]
-	title: "4.5：EEEAB's"
+	title: "4.4：EEEAB's"
 }

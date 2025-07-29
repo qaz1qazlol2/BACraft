@@ -18,12 +18,14 @@
 	quests: [
 		{
 			description: [
-				"你在夏莱办公室偷偷地玩Minecraft这款游戏的时候，看到自己玩了两年的极限生存存档被高压苦力怕炸死的那一刹那，眼前出现了闪光，然后你昏迷了过去。"
-				"当你醒来时发现自己在&a一处荒野&f，周围感觉非常的&6熟悉又陌生&f。你下意识地摸了摸自己的口袋，&6好在卡片还在自己的身边&f，但是你不经意间发现自己的&d手指上多了一颗戒指&f。"
-				" "
 				"&6&l如果遇到不会合成的物品，请善用JEI的搜索功能查询"
 				""
+				"所有学生使用枪械时都会有额外的伤害加成。"
+				""
 				"&4（提示：如果玩家认为只需要搜完装备和饰品就可以当爽包玩，那你还是太天真了骚年，老老实实叠血量吧。）"
+				""
+				"开关死亡不掉落"
+				"{ \"text\": \"EDIT HERE\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"1FE6BFFD65CB7AA3\" } }"
 			]
 			icon: "minecraft:grass_block"
 			id: "65C8B0D68C47F76B"
@@ -81,19 +83,18 @@
 				}
 			]
 			size: 1.5d
-			subtitle: "我这是......来到游戏里了？"
 			tasks: [{
 				id: "7685401FFA81CA96"
 				title: "1"
 				type: "checkmark"
 			}]
-			title: "误入迷途"
+			title: "初入世界"
 			x: -13.5d
 			y: 0.0d
 		}
 		{
 			dependencies: ["14B512D2368CF76C"]
-			description: ["作为一个两年的极限生存玩家，你十分的清楚这款游戏的基本流程"]
+			description: ["作为一个mc生存专家，你十分的清楚这款游戏的基本流程"]
 			id: "78B907BB9329FEF1"
 			rewards: [
 				{
@@ -298,8 +299,8 @@
 				type: "checkmark"
 			}]
 			title: "超维容器"
-			x: -14.5d
-			y: -1.5d
+			x: -11.5d
+			y: -0.5d
 		}
 		{
 			dependencies: ["65C8B0D68C47F76B"]
@@ -369,7 +370,7 @@
 				type: "checkmark"
 			}]
 			title: "关于七咒之戒"
-			x: -14.5d
+			x: -14.0d
 			y: 1.5d
 		}
 		{
@@ -588,7 +589,6 @@
 					type: "item"
 				}
 			]
-			subtitle: "钻石护体"
 			tasks: [{
 				count: 3L
 				id: "3E5F47B7837EB914"
@@ -791,8 +791,8 @@
 				value: 1L
 			}]
 			title: "永恒的伙伴？"
-			x: -16.5d
-			y: 2.0d
+			x: -15.0d
+			y: 3.0d
 		}
 		{
 			dependencies: ["4893DCA839739ECA"]
@@ -1321,7 +1321,10 @@
 			y: 9.0d
 		}
 		{
-			dependencies: ["03F26114763A10A8"]
+			dependencies: [
+				"03F26114763A10A8"
+				"65C8B0D68C47F76B"
+			]
 			id: "69586F72F127E94D"
 			invisible_until_tasks: 1
 			rewards: [{
@@ -1363,11 +1366,14 @@
 				}
 			]
 			title: "熟悉的物品"
-			x: -11.5d
-			y: -1.5d
+			x: -15.0d
+			y: 1.0d
 		}
 		{
-			dependencies: ["03F26114763A10A8"]
+			dependencies: [
+				"03F26114763A10A8"
+				"65C8B0D68C47F76B"
+			]
 			dependency_requirement: "one_started"
 			description: [
 				"当你获得了两个相同的BA饰品时，可以将他们在铁砧上合并来强化它们。（现在去尝试一下吧）"
@@ -1401,8 +1407,8 @@
 				type: "item"
 			}]
 			title: "铁砧"
-			x: -12.5d
-			y: -2.5d
+			x: -13.5d
+			y: -2.0d
 		}
 		{
 			dependencies: ["25D0930094D2962A"]
@@ -1929,7 +1935,7 @@
 				title: "生成小空便利店"
 				type: "checkmark"
 			}]
-			x: -13.0d
+			x: -12.5d
 			y: 1.5d
 		}
 		{
@@ -2193,7 +2199,7 @@
 				id: "0F34F9BA92CF91F3"
 				type: "advancement"
 			}]
-			x: -3.5d
+			x: -3.0d
 			y: 6.5d
 		}
 		{
@@ -2304,7 +2310,7 @@
 				id: "401D3FCA76AFD841"
 				type: "advancement"
 			}]
-			x: -2.5d
+			x: -2.0d
 			y: 6.5d
 		}
 		{
@@ -2327,23 +2333,7 @@
 				id: "03C59081D0894438"
 				type: "advancement"
 			}]
-			x: -1.5d
-			y: 6.5d
-		}
-		{
-			id: "47468BE2425E28F4"
-			rewards: [{
-				id: "64E8DD2309117395"
-				item: "potionring:ring_of_speed"
-				type: "item"
-			}]
-			tasks: [{
-				advancement: "minecraft:nether/brew_potion"
-				criterion: ""
-				id: "474FAB2C1C0E86A2"
-				type: "advancement"
-			}]
-			x: -0.5d
+			x: -1.0d
 			y: 6.5d
 		}
 		{
@@ -2359,7 +2349,7 @@
 				id: "1EEC919F8ACC197E"
 				type: "advancement"
 			}]
-			x: 0.5d
+			x: 0.0d
 			y: 6.5d
 		}
 		{
@@ -2463,14 +2453,14 @@
 			dependencies: ["65C8B0D68C47F76B"]
 			description: ["如果不知道boss在哪里的话，请使用探险家指南针去搜索boss对应结构（部分boss结构已经在boss图鉴说明了地点）"]
 			id: "2058FF0ECDAC09E7"
-			rewards: [{
-				id: "4D89468CD00EE53E"
-				type: "xp"
-				xp: 100
-			}]
-			tasks: [
+			rewards: [
 				{
-					id: "1D134A72401A9D65"
+					id: "4D89468CD00EE53E"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "6B32D9B19559E84B"
 					item: {
 						Count: 1
 						id: "explorerscompass:explorerscompass"
@@ -2478,38 +2468,19 @@
 					}
 					type: "item"
 				}
-				{
-					id: "7E24BFE5871B106B"
-					item: {
-						Count: 1
-						id: "naturescompass:naturescompass"
-						tag: { }
-					}
-					type: "item"
-				}
 			]
-			title: "寻路好帮手"
-			x: -11.5d
-			y: -0.5d
-		}
-		{
-			dependencies: ["2058FF0ECDAC09E7"]
-			description: ["也是在mc里面住上大别墅了"]
-			id: "58D4EC58BB774834"
-			rewards: [{
-				count: 4
-				id: "5CCE2AC88EA06BEC"
-				item: "minecraft:iron_ingot"
+			tasks: [{
+				id: "7E24BFE5871B106B"
+				item: {
+					Count: 1
+					id: "naturescompass:naturescompass"
+					tag: { }
+				}
 				type: "item"
 			}]
-			tasks: [{
-				id: "78848BAD100E5859"
-				structure: "shrines:luxury_villa"
-				type: "structure"
-			}]
-			title: "白色别墅"
-			x: -10.0d
-			y: -0.5d
+			title: "寻路好帮手"
+			x: -14.5d
+			y: -1.5d
 		}
 		{
 			id: "352F7AC79A675FCF"
@@ -2518,6 +2489,7 @@
 				item: "bountifulbaubles:mad_aura"
 				type: "item"
 			}]
+			subtitle: "野外生成"
 			tasks: [{
 				entity: "born_in_chaos_v1:fallen_chaos_knight"
 				id: "1E20D219529E130E"
@@ -2525,7 +2497,7 @@
 				value: 1L
 			}]
 			x: -6.5d
-			y: 0.5d
+			y: 1.5d
 		}
 		{
 			id: "2B130A9054764D24"
@@ -2575,6 +2547,7 @@
 					type: "item"
 				}
 			]
+			subtitle: "野外生成"
 			tasks: [{
 				entity: "born_in_chaos_v1:nightmare_stalker"
 				id: "45FC1C8A53C0F04D"
@@ -2582,7 +2555,7 @@
 				value: 1L
 			}]
 			x: -7.5d
-			y: 1.5d
+			y: 2.5d
 		}
 		{
 			id: "1B7F7D3F556EC0CF"
@@ -2597,6 +2570,7 @@
 				}
 				type: "item"
 			}]
+			subtitle: "野外生成"
 			tasks: [{
 				entity: "born_in_chaos_v1:dire_hound_leader"
 				id: "4EE2DC848DFE71BD"
@@ -2604,7 +2578,7 @@
 				value: 1L
 			}]
 			x: -5.5d
-			y: 1.5d
+			y: 2.5d
 		}
 		{
 			id: "1EA9A1E9B860DC36"
@@ -2631,8 +2605,8 @@
 		{
 			id: "7DD71F6E5A003350"
 			rewards: [{
-				id: "6DA3A8817CB76E13"
-				item: "kubejs:kapian"
+				id: "141BAED91C754918"
+				item: "blue_archivescraft:prena_pats_card"
 				type: "item"
 			}]
 			tasks: [{
@@ -2690,7 +2664,7 @@
 				title: "注意"
 				type: "checkmark"
 			}]
-			x: -15.0d
+			x: -14.0d
 			y: 3.5d
 		}
 		{
@@ -2734,6 +2708,7 @@
 				item: "artifacts:vampiric_glove"
 				type: "item"
 			}]
+			subtitle: "野外生成"
 			tasks: [{
 				entity: "born_in_chaos_v1:lifestealer_true_form"
 				id: "4DA6DA1A55B829FA"
@@ -2741,7 +2716,7 @@
 				value: 1L
 			}]
 			x: -6.5d
-			y: 2.5d
+			y: 3.5d
 		}
 		{
 			id: "2327FC96D5C176A3"
@@ -2750,6 +2725,7 @@
 				item: "bountifulbaubles:cross_necklace"
 				type: "item"
 			}]
+			subtitle: "野外生成"
 			tasks: [{
 				entity: "born_in_chaos_v1:missioner"
 				id: "2183F2411A6CDCE9"
@@ -2757,7 +2733,7 @@
 				value: 1L
 			}]
 			x: -6.5d
-			y: 1.5d
+			y: 2.5d
 		}
 		{
 			dependencies: ["76CF3B4DF1B68DEF"]
@@ -2831,24 +2807,36 @@
 				"（如果击杀没有记入，则去商店用腐肉兑换生成蛋）"
 			]
 			id: "33A81E5F6B2C1135"
-			rewards: [{
-				id: "40EB9FA129C3EFC0"
-				item: "bountifulbaubles:apple"
+			rewards: [
+				{
+					id: "40EB9FA129C3EFC0"
+					item: "bountifulbaubles:apple"
+					type: "item"
+				}
+				{
+					id: "591F6F6EF2CDA3DC"
+					item: {
+						Count: 1
+						id: "lrtactical:melee"
+						tag: {
+							MeleeWeaponId: "ab_wt:jade_bamboo"
+						}
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "6BE8735ECDEEF6CC"
+				item: "prehistoricexploration:zombifaurus_flesh"
 				type: "item"
 			}]
-			tasks: [{
-				entity: "prehistoricexploration:zombifaurus"
-				icon: "prehistoricexploration:zombifaurus_spawn_egg"
-				id: "5FE1CA632DC7BFCC"
-				title: "僵尸蛇颈龙"
-				type: "kill"
-				value: 1L
-			}]
+			title: "僵尸蛇颈龙"
 			x: -11.0d
 			y: 12.5d
 		}
 		{
 			can_repeat: true
+			dependencies: ["1C907241A96DB3D8"]
 			description: ["整合包建议开启死亡不掉落游玩。"]
 			icon: "minecraft:command_block"
 			id: "1FE6BFFD65CB7AA3"
@@ -2862,11 +2850,12 @@
 				type: "checkmark"
 			}]
 			title: "死亡不掉落"
-			x: -9.5d
-			y: -4.5d
+			x: -9.0d
+			y: -2.5d
 		}
 		{
 			can_repeat: true
+			dependencies: ["1C907241A96DB3D8"]
 			description: ["开启旧版生成后会一次性生成所有建筑分块。关闭后需要玩家自己去探索生成分块（默认开启）"]
 			icon: "minecraft:command_block"
 			id: "2E324516194F84D6"
@@ -2880,11 +2869,12 @@
 				type: "checkmark"
 			}]
 			title: "开启/关闭旧版生成"
-			x: -8.5d
-			y: -4.5d
+			x: -7.0d
+			y: -2.5d
 		}
 		{
 			can_repeat: true
+			dependencies: ["1C907241A96DB3D8"]
 			description: ["是否选择让未花的冲刺可以破坏方块。"]
 			icon: "minecraft:command_block"
 			id: "37C0BC3656AEF171"
@@ -2898,11 +2888,12 @@
 				type: "checkmark"
 			}]
 			title: "[开启/关闭]未花破坏方块"
-			x: -7.5d
-			y: -4.5d
+			x: -7.0d
+			y: -0.5d
 		}
 		{
 			can_repeat: true
+			dependencies: ["1C907241A96DB3D8"]
 			description: ["可以用于重置ai聊天的记录。"]
 			icon: "minecraft:command_block"
 			id: "7F21475A9DA08A37"
@@ -2916,11 +2907,12 @@
 				type: "checkmark"
 			}]
 			title: "桃信-清除聊天记录"
-			x: -9.5d
-			y: -3.5d
+			x: -9.0d
+			y: -0.5d
 		}
 		{
 			can_repeat: true
+			dependencies: ["1C907241A96DB3D8"]
 			description: ["玩家自选后没有护甲和伤害类型时可以用这个指令进行刷新。"]
 			icon: "minecraft:command_block"
 			id: "153A19BF7E607ABB"
@@ -2934,11 +2926,12 @@
 				type: "checkmark"
 			}]
 			title: "刷新护甲伤害抗性类型"
-			x: -7.5d
-			y: -3.5d
+			x: -8.0d
+			y: 0.0d
 		}
 		{
 			can_repeat: true
+			dependencies: ["1C907241A96DB3D8"]
 			description: ["清理掉落物。"]
 			icon: "minecraft:command_block"
 			id: "40BE511AA90B184B"
@@ -2952,9 +2945,19 @@
 				type: "checkmark"
 			}]
 			title: "清理掉落物"
-			x: -8.5d
-			y: -3.5d
+			x: -8.0d
+			y: -3.0d
+		}
+		{
+			id: "1C907241A96DB3D8"
+			tasks: [{
+				id: "1ADD198D22D3F0C0"
+				title: "控制台"
+				type: "checkmark"
+			}]
+			x: -8.0d
+			y: -1.5d
 		}
 	]
-	title: "&a1.1:新世界之旅"
+	title: "&a1.1:新世界之旅（主线）"
 }

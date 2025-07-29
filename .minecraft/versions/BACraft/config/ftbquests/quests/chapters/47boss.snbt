@@ -11,12 +11,16 @@
 		}
 	}
 	id: "15E9BBD1B47B7A87"
-	order_index: 5
+	order_index: 4
 	quest_links: [ ]
 	quests: [
 		{
 			dependencies: ["7D9B5203B4B57D9D"]
-			description: ["灾变的boss都有着极高的难度，请玩家做好充足的准备再去挑战吧"]
+			description: [
+				"灾变的boss都有着极高的难度，请玩家做好充足的准备再去挑战吧"
+				""
+				"前置任务：灾厄的号角"
+			]
 			id: "366072A70FAD38C9"
 			tasks: [{
 				id: "71143146268576F3"
@@ -59,11 +63,9 @@
 				type: "item"
 			}]
 			tasks: [{
-				entity: "cataclysm:the_harbinger"
-				icon: "cataclysm:the_harbinger_spawn_egg"
-				id: "46BB5205DD460C1B"
-				type: "kill"
-				value: 1L
+				id: "4662772FCECD84B5"
+				item: "cataclysm:witherite_block"
+				type: "item"
 			}]
 			x: 0.5d
 			y: 1.5d
@@ -218,18 +220,20 @@
 				type: "item"
 			}]
 			tasks: [{
-				entity: "cataclysm:ancient_remnant"
-				icon: "cataclysm:ancient_remnant_spawn_egg"
-				id: "6C065ADC84EE4233"
-				type: "kill"
-				value: 1L
+				id: "30FAF07DEDAD367A"
+				item: "cataclysm:ancient_metal_block"
+				type: "item"
 			}]
 			x: 8.0d
 			y: -3.0d
 		}
 		{
 			dependencies: ["38B6EDAC51B31C38"]
-			description: ["末影守卫，强大的末地守卫者，一个由紫珀砖块、黑曜石、末地石砖虚空石制造而成的强力机械巨怪。它的两肩各长着一块虚空石，身上充满花纹，有着一块紫色的眼睛。背后则搭载一块似乎作为动力源使用的虚空石；末影守卫盘踞在废弃堡垒的最深处，用末影与虚空之力惩罚入侵者。"]
+			description: [
+				"末影守卫，强大的末地守卫者，一个由紫珀砖块、黑曜石、末地石砖虚空石制造而成的强力机械巨怪。它的两肩各长着一块虚空石，身上充满花纹，有着一块紫色的眼睛。背后则搭载一块似乎作为动力源使用的虚空石；末影守卫盘踞在废弃堡垒的最深处，用末影与虚空之力惩罚入侵者。"
+				""
+				"&5每次造成伤害，有30%概率让玩家手持和背包内的任意物品互换。"
+			]
 			id: "2D7346BE3F857D84"
 			rewards: [{
 				count: 4
@@ -238,11 +242,9 @@
 				type: "item"
 			}]
 			tasks: [{
-				entity: "cataclysm:ender_guardian"
-				icon: "cataclysm:ender_guardian_spawn_egg"
-				id: "07FB3C9ABE699A7E"
-				type: "kill"
-				value: 1L
+				id: "3AFC530585AAB780"
+				item: "cataclysm:gauntlet_of_guard"
+				type: "item"
 			}]
 			x: 8.0d
 			y: 0.0d
@@ -258,11 +260,15 @@
 				type: "item"
 			}]
 			tasks: [{
-				entity: "cataclysm:netherite_monstrosity"
-				icon: "cataclysm:netherite_monstrosity_spawn_egg"
-				id: "1D5C87FBBB50210B"
-				type: "kill"
-				value: 1L
+				id: "7682D39F51EBDDCD"
+				item: {
+					Count: 1
+					id: "cataclysm:infernal_forge"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
 			}]
 			x: 8.0d
 			y: 3.0d
@@ -282,18 +288,20 @@
 				type: "item"
 			}]
 			tasks: [{
-				entity: "cataclysm:maledictus"
-				icon: "cataclysm:maledictus_spawn_egg"
-				id: "6A693B05CF2E3A0A"
-				type: "kill"
-				value: 1L
+				id: "209445350B6B2883"
+				item: { Count: 3, id: "cataclysm:cursium_ingot" }
+				type: "item"
 			}]
 			x: 8.0d
 			y: 6.0d
 		}
 		{
 			dependencies: ["21FE8BE7FBBF4998"]
-			description: ["利维坦，掌握深渊之力，甚至能撕裂时空的恐怖捕食者。海洋之中当之无愧的霸主。要小心避开激光。"]
+			description: [
+				"利维坦，掌握深渊之力，甚至能撕裂时空的恐怖捕食者。海洋之中当之无愧的霸主。要小心避开激光。"
+				""
+				"&5当利维坦存在时，附近的玩家每30秒玩家的操作会被颠倒7秒"
+			]
 			id: "3908AE610E4AE5A3"
 			rewards: [{
 				count: 8
@@ -302,11 +310,9 @@
 				type: "item"
 			}]
 			tasks: [{
-				entity: "cataclysm:the_leviathan"
-				icon: "cataclysm:the_leviathan_spawn_egg"
-				id: "320F854AF1140A40"
-				type: "kill"
-				value: 1L
+				id: "5A8132D60D340147"
+				item: "cataclysm:abyssal_egg"
+				type: "item"
 			}]
 			x: 15.0d
 			y: -1.5d
@@ -317,6 +323,8 @@
 				"斯库拉，一个古希腊传说中女性海妖的名字，而你登临卫城之巅，面对的那触及风暴，亦或就是风暴本身的女王——也是斯库拉"
 				""
 				"斯库拉的大部分攻击招式都可以据目标的最大生命值造成一定&b百分比伤害"
+				""
+				"&b攻击为玩家施加“击之潮”效果（击之潮：玩家无法通过除学生buff以外的任何手段回血，且取消受击无敌帧）"
 			]
 			id: "2B9EBD3ECFB3FEC3"
 			rewards: [{
@@ -326,11 +334,9 @@
 				type: "item"
 			}]
 			tasks: [{
-				entity: "cataclysm:scylla"
-				icon: "cataclysm:scylla_spawn_egg"
-				id: "32A4A22B2012AB7E"
-				type: "kill"
-				value: 1L
+				id: "0DAA82E3602E9A98"
+				item: { Count: 32, id: "cataclysm:essence_of_the_storm" }
+				type: "item"
 			}]
 			x: 15.0d
 			y: 4.5d
@@ -361,5 +367,5 @@
 			y: 1.5d
 		}
 	]
-	title: "4.6：灾变boss"
+	title: "4.5：灾变boss"
 }

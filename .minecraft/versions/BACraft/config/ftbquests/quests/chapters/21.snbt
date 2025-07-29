@@ -10,8 +10,8 @@
 		image: "blue_archivescraft:textures/mob_effect/haruka.png"
 		rotation: 0.0d
 		width: 8.0d
-		x: 7.5d
-		y: 2.0d
+		x: 8.0d
+		y: -1.5d
 	}]
 	order_index: 0
 	quest_links: [ ]
@@ -48,7 +48,7 @@
 			]
 			title: "“热情”的居民"
 			x: 2.0d
-			y: -4.5d
+			y: -4.0d
 		}
 		{
 			dependencies: ["3D5438ABA0B90DC8"]
@@ -75,7 +75,7 @@
 			}]
 			title: "光辉岁月"
 			x: 2.0d
-			y: -2.5d
+			y: -2.0d
 		}
 		{
 			dependencies: ["3D5438ABA0B90DC8"]
@@ -100,8 +100,8 @@
 				type: "advancement"
 			}]
 			title: "阴森的要塞"
-			x: -2.0d
-			y: -0.5d
+			x: -2.5d
+			y: -3.0d
 		}
 		{
 			dependencies: ["4FEEFC8DE6E40F90"]
@@ -130,7 +130,7 @@
 				type: "item"
 			}]
 			x: 4.0d
-			y: -3.5d
+			y: -3.0d
 		}
 		{
 			dependencies: ["624817C22CD9AE9F"]
@@ -164,8 +164,8 @@
 				item: "minecraft:blaze_rod"
 				type: "item"
 			}]
-			x: -2.0d
-			y: 1.5d
+			x: -2.5d
+			y: -6.0d
 		}
 		{
 			dependencies: ["4FEEFC8DE6E40F90"]
@@ -194,7 +194,7 @@
 				type: "item"
 			}]
 			x: 4.0d
-			y: -4.5d
+			y: -4.0d
 		}
 		{
 			dependencies: ["640F66E4B0C7C168"]
@@ -218,8 +218,8 @@
 				item: "minecraft:netherite_scrap"
 				type: "item"
 			}]
-			x: -4.0d
-			y: -3.5d
+			x: -0.5d
+			y: 0.0d
 		}
 		{
 			dependencies: ["663651248B60DCDA"]
@@ -249,8 +249,8 @@
 				item: "minecraft:netherite_ingot"
 				type: "item"
 			}]
-			x: -6.5d
-			y: -3.5d
+			x: -0.5d
+			y: 1.5d
 		}
 		{
 			description: [
@@ -294,7 +294,7 @@
 				type: "dimension"
 			}]
 			title: "进入下界"
-			x: 0.0d
+			x: -0.5d
 			y: -3.0d
 		}
 		{
@@ -322,8 +322,8 @@
 				item: "minecraft:ancient_debris"
 				type: "item"
 			}]
-			x: -2.0d
-			y: -3.5d
+			x: -0.5d
+			y: -1.5d
 		}
 		{
 			dependencies: ["3D5438ABA0B90DC8"]
@@ -351,7 +351,7 @@
 			}]
 			title: "下界探险家"
 			x: 2.0d
-			y: -3.5d
+			y: -3.0d
 		}
 		{
 			dependencies: [
@@ -387,8 +387,8 @@
 				type: "advancement"
 			}]
 			title: "下界防具？"
-			x: -6.5d
-			y: -5.5d
+			x: 1.5d
+			y: 1.5d
 		}
 		{
 			dependencies: ["624817C22CD9AE9F"]
@@ -406,8 +406,8 @@
 				type: "item"
 			}]
 			title: "酿造必备"
-			x: -4.0d
-			y: 1.5d
+			x: -5.0d
+			y: -4.5d
 		}
 		{
 			dependencies: [
@@ -441,8 +441,8 @@
 				type: "item"
 			}]
 			title: "炼金师"
-			x: -2.0d
-			y: 3.5d
+			x: -5.0d
+			y: -6.0d
 		}
 		{
 			dependencies: ["624817C22CD9AE9F"]
@@ -482,8 +482,8 @@
 				}
 			]
 			title: "强袭要塞"
-			x: -4.0d
-			y: -0.5d
+			x: -5.0d
+			y: -3.0d
 		}
 		{
 			dependencies: ["104DA4358F119814"]
@@ -531,7 +531,7 @@
 			]
 			title: "攻占堡垒"
 			x: 4.0d
-			y: -2.5d
+			y: -2.0d
 		}
 		{
 			dependencies: ["418A3A4A47A6D86E"]
@@ -561,8 +561,8 @@
 				type: "item"
 			}]
 			title: "刽子手"
-			x: -6.0d
-			y: -0.5d
+			x: -7.0d
+			y: -3.0d
 		}
 		{
 			dependencies: ["7AD0D5E23A517669"]
@@ -603,8 +603,8 @@
 				item: "minecraft:nether_star"
 				type: "item"
 			}]
-			x: -10.0d
-			y: -0.5d
+			x: -8.5d
+			y: -1.5d
 		}
 		{
 			dependencies: ["3D5438ABA0B90DC8"]
@@ -640,8 +640,8 @@
 				type: "biome"
 			}]
 			title: "寻找诡异森林"
-			x: 0.0d
-			y: -1.0d
+			x: -0.5d
+			y: -6.0d
 		}
 		{
 			dependencies: [
@@ -698,47 +698,52 @@
 				}
 			]
 			title: "获取末影珍珠"
-			x: 0.0d
-			y: 1.5d
-		}
-		{
-			dependencies: ["3D5438ABA0B90DC8"]
-			description: ["可以使用惊骇水晶驯服boss，或者直接杀死）"]
-			id: "5A7B48DD43F6A487"
-			tasks: [{
-				id: "0BF8D3A71AB10792"
-				title: "1"
-				type: "checkmark"
-			}]
-			title: "注意事项"
-			x: 2.0d
-			y: -1.0d
+			x: -1.5d
+			y: -8.5d
 		}
 		{
 			dependencies: [
 				"053610A7D970CF56"
 				"3F4A47AC7417FE04"
 			]
-			description: ["探索告一段落了，试着去暮色一趟吧，需要大量的花和一颗钻石"]
+			description: [
+				"探索告一段落了，试着去暮色一趟吧，需要大量的花和一颗钻石。"
+				""
+				"（有基佬开我裤链！！！！）"
+			]
 			id: "153480C48C561C45"
-			rewards: [{
-				id: "4842CCBE0C0585B4"
-				item: {
-					Count: 1
-					id: "endrem:nether_eye"
-					tag: {
-						Damage: 0
+			rewards: [
+				{
+					id: "4842CCBE0C0585B4"
+					item: {
+						Count: 1
+						id: "endrem:nether_eye"
+						tag: {
+							Damage: 0
+						}
 					}
+					type: "item"
 				}
-				type: "item"
-			}]
+				{
+					id: "373577487B440D82"
+					item: {
+						Count: 1
+						id: "lrtactical:melee"
+						tag: {
+							MeleeWeaponId: "ab_wt:ryuu_lchimonji_kai"
+						}
+					}
+					type: "item"
+				}
+			]
+			size: 2.0d
 			tasks: [{
 				id: "391A10A16FCB9BE5"
-				title: "探索告一段落"
+				title: "终·探索告一段落"
 				type: "checkmark"
 			}]
-			x: -12.5d
-			y: -2.0d
+			x: -4.5d
+			y: -1.0d
 		}
 		{
 			dependencies: ["197D470FE95F5B1C"]
@@ -747,7 +752,7 @@
 				""
 				"得到他的认可，可以得到一套强力的装备。"
 				""
-				"建筑名称：堡垒竞技场"
+				"建筑名称：不破之身"
 			]
 			id: "3F4A47AC7417FE04"
 			rewards: [
@@ -803,16 +808,20 @@
 				}
 			]
 			tasks: [{
-				entity: "legionary:unbreakable"
-				icon: "legionary:unbreakable_spawn_egg"
-				id: "19F073608622B4A9"
-				type: "kill"
-				value: 1L
+				id: "42C0B11FF841A865"
+				item: {
+					Count: 1
+					id: "legionary:thermal_stone"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
 			}]
 			title: "传奇猪灵工匠"
-			x: -10.0d
-			y: -3.5d
+			x: -2.5d
+			y: 1.5d
 		}
 	]
-	title: "2.1：诡异的世界"
+	title: "2.1：诡异的世界（主线）"
 }

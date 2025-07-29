@@ -466,25 +466,6 @@
 			x: 6.5d
 			y: -3.0d
 		}
-		{
-			can_repeat: true
-			disable_toast: true
-			id: "3B58B64DD231DF10"
-			invisible: true
-			rewards: [{
-				auto: "invisible"
-				command: "/clear @p potionring:ring_of_resistance"
-				id: "55068E07F679933D"
-				type: "command"
-			}]
-			tasks: [{
-				id: "47C683AB9FF4A6C1"
-				item: "potionring:ring_of_resistance"
-				type: "item"
-			}]
-			x: 6.5d
-			y: -1.5d
-		}
 	]
 	title: "开发者的小彩蛋"
 }

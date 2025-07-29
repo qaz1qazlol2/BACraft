@@ -5,11 +5,10 @@
 	group: "3F6E92AE7F64E4AB"
 	icon: "born_in_chaos_v1:infernal_evil_pumpkin_s"
 	id: "33A410892E6586ED"
-	order_index: 3
+	order_index: 2
 	quest_links: [ ]
 	quests: [
 		{
-			dependencies: ["45974B994B771101"]
 			description: ["这个世界的危险，无处不在。"]
 			id: "62D5C70F9A12839E"
 			tasks: [{
@@ -68,11 +67,9 @@
 				type: "item"
 			}]
 			tasks: [{
-				entity: "born_in_chaos_v1:nightmare_stalker"
-				icon: "born_in_chaos_v1:nightmare_stalker_spawn_egg"
-				id: "69F4FC148EB6F3CE"
-				type: "kill"
-				value: 1L
+				id: "7CFA7A8D4A8737DA"
+				item: "born_in_chaos_v1:nightmare_claw"
+				type: "item"
 			}]
 			x: -0.5d
 			y: -3.0d
@@ -88,11 +85,9 @@
 				type: "item"
 			}]
 			tasks: [{
-				entity: "born_in_chaos_v1:dire_hound_leader"
-				icon: "born_in_chaos_v1:dire_hound_leader_spawn_egg"
-				id: "2196C029E7D6C4F7"
-				type: "kill"
-				value: 1L
+				id: "0A41D4CFB8987C4B"
+				item: "born_in_chaos_v1:fangofthe_hound_leader"
+				type: "item"
 			}]
 			x: -0.5d
 			y: -1.0d
@@ -116,11 +111,9 @@
 				type: "item"
 			}]
 			tasks: [{
-				entity: "born_in_chaos_v1:glutton_fish"
-				icon: "born_in_chaos_v1:glutton_fish_spawn_egg"
-				id: "283BF159071ED657"
-				type: "kill"
-				value: 1L
+				id: "6DA4CD53AED09008"
+				item: "born_in_chaos_v1:sea_terror_stomach"
+				type: "item"
 			}]
 			x: -0.5d
 			y: 2.0d
@@ -143,13 +136,63 @@
 				item: "paraglider:spirit_orb"
 				type: "item"
 			}]
-			tasks: [{
-				entity: "born_in_chaos_v1:missioner"
-				icon: "born_in_chaos_v1:missioner_spawn_egg"
-				id: "12699F8619CE76CD"
-				type: "kill"
-				value: 1L
-			}]
+			tasks: [
+				{
+					id: "665E3ADE6AF00D3D"
+					item: {
+						Count: 1
+						id: "born_in_chaos_v1:charmof_power"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "29FC48C8AF02FD2A"
+					item: {
+						Count: 1
+						id: "born_in_chaos_v1:charmof_resistance"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "3929070140088D6E"
+					item: {
+						Count: 1
+						id: "born_in_chaos_v1:charmof_stealth"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "30F552131637CF0E"
+					item: {
+						Count: 1
+						id: "born_in_chaos_v1:charmof_endurance"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "10ECAC0E251CC56F"
+					item: {
+						Count: 1
+						id: "born_in_chaos_v1:charmof_fury"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
 			x: -0.5d
 			y: 4.0d
 		}
@@ -196,26 +239,20 @@
 				type: "item"
 			}]
 			tasks: [{
-				entity: "born_in_chaos_v1:krampus"
-				icon: "born_in_chaos_v1:krampus_spawn_egg"
-				id: "3C99C3653E741E21"
-				type: "kill"
-				value: 1L
+				id: "0E96EA7AA0152B65"
+				item: "born_in_chaos_v1:krampuss_bag"
+				type: "item"
 			}]
 			x: -0.5d
 			y: 0.5d
 		}
 		{
-			dependencies: [
-				"6832DC4E6ADF7CF5"
-				"265681900433CF7F"
-				"1FA7BFCE35762A90"
-				"27136759197A4C06"
-				"0A51E81FFD78699E"
-				"7174D10A16636DAA"
-				"7DFF3AFCBF27E7D3"
+			dependencies: ["45974B994B771101"]
+			description: [
+				"南瓜领主的小弟。野外随机遇见恶魔南瓜破坏后生成"
+				""
+				"前置任务：海灵物语"
 			]
-			description: ["南瓜领主的小弟。野外随机遇见恶魔南瓜破坏后生成"]
 			id: "4926E739AB0E3225"
 			rewards: [{
 				count: 6
@@ -224,11 +261,15 @@
 				type: "item"
 			}]
 			tasks: [{
-				entity: "born_in_chaos_v1:pumpkinhead"
-				icon: "born_in_chaos_v1:sir_pumpkinhead_spawn_egg"
-				id: "1F9BE996C3DEFE54"
-				type: "kill"
-				value: 1L
+				id: "6EC08E01E8FAF72B"
+				item: {
+					Count: 1
+					id: "born_in_chaos_v1:pumpkinstaffa"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
 			}]
 			x: 3.0d
 			y: 0.5d
@@ -244,15 +285,19 @@
 				type: "item"
 			}]
 			tasks: [{
-				entity: "born_in_chaos_v1:lord_pumpkinhead"
-				icon: "born_in_chaos_v1:infernal_evil_pumpkin"
-				id: "67BFA1F54C76D284"
-				type: "kill"
-				value: 1L
+				id: "3B15D1F000C1E047"
+				item: {
+					Count: 1
+					id: "born_in_chaos_v1:pumpkinhandgun"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
 			}]
 			x: 6.0d
 			y: 0.5d
 		}
 	]
-	title: "4.4：生于混沌的生物"
+	title: "4.3：生于混沌的生物"
 }

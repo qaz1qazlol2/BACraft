@@ -11,15 +11,15 @@
 		image: "blue_archivescraft:textures/mob_effect/mutsuki.png"
 		rotation: 0.0d
 		width: 8.0d
-		x: 16.5d
-		y: 1.5d
+		x: 11.0d
+		y: -1.0d
 	}]
 	order_index: 1
 	progression_mode: "linear"
 	quest_links: [ ]
 	quests: [
 		{
-			dependencies: ["0E60F4A2D051CF49"]
+			dependencies: ["05E16AAE9144DB55"]
 			icon: "mokels_boss_mantyd:boss_mantyd_spawn_egg"
 			id: "7AEE48B9B5BF9F90"
 			rewards: [{
@@ -32,11 +32,11 @@
 				item: "mokels_boss_mantyd:plantation_rune"
 				type: "item"
 			}]
-			x: 4.5d
-			y: -1.5d
+			x: 17.0d
+			y: 1.5d
 		}
 		{
-			dependencies: ["0E60F4A2D051CF49"]
+			dependencies: ["05E16AAE9144DB55"]
 			id: "73EE57FECB08616C"
 			rewards: [{
 				id: "2B8126302B0D0AFE"
@@ -54,298 +54,68 @@
 				type: "kill"
 				value: 1L
 			}]
-			x: 6.0d
-			y: -1.5d
-		}
-		{
-			dependencies: ["0E60F4A2D051CF49"]
-			icon: "aquamirae:maw_spawn_egg"
-			id: "040CD99FD2E961D7"
-			rewards: [
-				{
-					id: "765F5EFF97332208"
-					item: {
-						Count: 1
-						id: "aquamirae:terrible_helmet"
-						tag: {
-							Damage: 0
-						}
-					}
-					type: "item"
-				}
-				{
-					id: "07ECF80EEE8A35B6"
-					item: {
-						Count: 1
-						id: "aquamirae:terrible_chestplate"
-						tag: {
-							Damage: 0
-						}
-					}
-					type: "item"
-				}
-				{
-					id: "4D04F08BB98545B5"
-					item: {
-						Count: 1
-						id: "aquamirae:terrible_leggings"
-						tag: {
-							Damage: 0
-						}
-					}
-					type: "item"
-				}
-				{
-					id: "2FAC4C3E08D3CDAE"
-					item: {
-						Count: 1
-						id: "aquamirae:terrible_boots"
-						tag: {
-							Damage: 0
-						}
-					}
-					type: "item"
-				}
-			]
-			tasks: [{
-				entity: "aquamirae:maw"
-				icon: "aquamirae:maw_spawn_egg"
-				id: "29E455F9606C1DD6"
-				type: "kill"
-				value: 1L
-			}]
-			x: 7.5d
-			y: -1.5d
-		}
-		{
-			dependencies: ["0E60F4A2D051CF49"]
-			icon: "aquamirae:eel_spawn_egg"
-			id: "057A8BD0B7B755D2"
-			rewards: [
-				{
-					id: "4375FF9468B1D43B"
-					item: {
-						Count: 1
-						id: "aquamirae:abyssal_heaume"
-						tag: {
-							Damage: 0
-						}
-					}
-					type: "item"
-				}
-				{
-					id: "0FD5B439F9B73BD7"
-					item: {
-						Count: 1
-						id: "aquamirae:abyssal_brigantine"
-						tag: {
-							Damage: 0
-						}
-					}
-					type: "item"
-				}
-				{
-					id: "14D99A500C31BAE0"
-					item: {
-						Count: 1
-						id: "aquamirae:abyssal_leggings"
-						tag: {
-							Damage: 0
-						}
-					}
-					type: "item"
-				}
-				{
-					id: "71B3F0A09DD3DC5C"
-					item: {
-						Count: 1
-						id: "aquamirae:abyssal_boots"
-						tag: {
-							Damage: 0
-						}
-					}
-					type: "item"
-				}
-				{
-					id: "1C8399CC35ABDFDF"
-					item: {
-						Count: 1
-						id: "aquamirae:abyssal_tiara"
-						tag: {
-							Damage: 0
-						}
-					}
-					type: "item"
-				}
-			]
-			tasks: [{
-				entity: "aquamirae:eel"
-				icon: "aquamirae:eel_spawn_egg"
-				id: "42A408767429765C"
-				type: "kill"
-				value: 1L
-			}]
-			x: 3.0d
-			y: 0.0d
-		}
-		{
-			dependencies: ["0E60F4A2D051CF49"]
-			icon: "aquamirae:captain_cornelia_spawn_egg"
-			id: "1F988838EDB0FFF3"
-			rewards: [{
-				id: "41F8471A0BE0ED18"
-				item: "terramity:exodium_shield_amulet"
-				type: "item"
-			}]
-			tasks: [{
-				entity: "aquamirae:captain_cornelia"
-				id: "7D30AD2CF5368C00"
-				type: "kill"
-				value: 1L
-			}]
-			x: 4.5d
-			y: 0.0d
-		}
-		{
-			dependencies: ["1F988838EDB0FFF3"]
-			description: ["你要先击杀船长的幽灵"]
-			hide_dependency_lines: true
-			id: "7FFD68DA4FF0AE0A"
-			rewards: [
-				{
-					id: "4ECC6ECEC2FD6ED7"
-					item: {
-						Count: 1
-						id: "born_in_chaos_v1:dark_metal_armor_helmet"
-						tag: {
-							Damage: 0
-						}
-					}
-					type: "item"
-				}
-				{
-					id: "6105D6BC4A8B94A5"
-					item: {
-						Count: 1
-						id: "born_in_chaos_v1:dark_metal_armor_chestplate"
-						tag: {
-							Damage: 0
-						}
-					}
-					type: "item"
-				}
-				{
-					id: "7FDBECADA4D37FEC"
-					item: {
-						Count: 1
-						id: "born_in_chaos_v1:dark_metal_armor_leggings"
-						tag: {
-							Damage: 0
-						}
-					}
-					type: "item"
-				}
-				{
-					id: "51E8E6FEA707CADF"
-					item: {
-						Count: 1
-						id: "born_in_chaos_v1:dark_metal_armor_boots"
-						tag: {
-							Damage: 0
-						}
-					}
-					type: "item"
-				}
-			]
-			tasks: [{
-				id: "1AE32020C8B3C259"
-				title: "暗金属套装"
-				type: "checkmark"
-			}]
-			x: 3.0d
-			y: 1.5d
-		}
-		{
-			dependencies: ["7FFD68DA4FF0AE0A"]
-			icon: "born_in_chaos_v1:fallen_chaos_knight_spawn_egg"
-			id: "4BE38DCEE293D229"
-			rewards: [{
-				id: "438AB0DA2BAA30C4"
-				item: "terramity:chaos_heart_ring"
-				type: "item"
-			}]
-			tasks: [{
-				entity: "born_in_chaos_v1:fallen_chaos_knight"
-				icon: "born_in_chaos_v1:fallen_chaos_knight_spawn_egg"
-				id: "3A9DA535085701D3"
-				type: "kill"
-				value: 1L
-			}]
-			x: 4.5d
-			y: 1.5d
-		}
-		{
-			dependencies: ["0E60F4A2D051CF49"]
-			icon: "born_in_chaos_v1:nightmare_stalker_spawn_egg"
-			id: "34A4C73B5969F6C5"
-			rewards: [{
-				id: "60307F55A83C9B9C"
-				item: "terramity:purity_pendant"
-				type: "item"
-			}]
-			tasks: [{
-				entity: "born_in_chaos_v1:nightmare_stalker"
-				icon: "born_in_chaos_v1:nightmare_stalker_spawn_egg"
-				id: "5BA72337CFAA18C0"
-				type: "kill"
-				value: 1L
-			}]
-			x: 3.0d
+			x: 20.0d
 			y: 3.0d
 		}
 		{
-			dependencies: ["0E60F4A2D051CF49"]
-			id: "1B1A10B4C0BCA426"
-			rewards: [
-				{
-					id: "1F5E61E9CF226962"
-					item: {
-						Count: 1
-						id: "cataclysm:bone_reptile_helmet"
-						tag: {
-							Damage: 0
-						}
-					}
-					type: "item"
-				}
-				{
-					id: "00873F8306C0E0AB"
-					item: {
-						Count: 1
-						id: "cataclysm:bone_reptile_chestplate"
-						tag: {
-							Damage: 0
-						}
-					}
-					type: "item"
-				}
-				{
-					id: "186D0E3087494BD7"
-					item: "cataclysm:necklace_of_the_desert"
-					type: "item"
-				}
-			]
-			tasks: [{
-				count: 64L
-				id: "109D247BF473AE98"
-				item: "minecraft:bone"
+			can_repeat: true
+			icon: "enigmaticlegacy:etherium_ingot"
+			id: "1F988838EDB0FFF3"
+			rewards: [{
+				count: 8
+				id: "7BD6D6E771557E63"
+				item: "blue_archivescraft:cyanoaugite"
 				type: "item"
 			}]
-			x: 6.0d
+			tasks: [{
+				consume_items: true
+				id: "2281B9E9A6AF036B"
+				item: "enigmaticlegacy:etherium_ingot"
+				type: "item"
+			}]
+			x: 3.0d
+			y: -1.5d
+		}
+		{
+			can_repeat: true
+			icon: "minecraft:gunpowder"
+			id: "4BE38DCEE293D229"
+			rewards: [{
+				count: 30
+				id: "26F69A172746B6A1"
+				item: "minecraft:gunpowder"
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				id: "3F157220B1E4DB37"
+				item: "born_in_chaos_v1:pieceofdarkmetal"
+				type: "item"
+			}]
+			x: 3.0d
+			y: -3.0d
+		}
+		{
+			can_repeat: true
+			icon: "terramity:daemonium"
+			id: "34A4C73B5969F6C5"
+			rewards: [{
+				count: 5
+				id: "6057439D84C67E2F"
+				item: "blue_archivescraft:cyanoaugite"
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				id: "56F6C88D5F8631D9"
+				item: "terramity:daemonium"
+				type: "item"
+			}]
+			x: 3.0d
 			y: 0.0d
 		}
 		{
-			dependencies: ["1B1A10B4C0BCA426"]
+			dependencies: ["05E16AAE9144DB55"]
 			id: "0D9804C66EE48C94"
 			rewards: [{
 				id: "6F837141B8B2C61E"
@@ -359,34 +129,11 @@
 				type: "kill"
 				value: 1L
 			}]
-			x: 6.0d
-			y: 1.5d
+			x: 18.5d
+			y: -3.0d
 		}
 		{
-			dependencies: ["0E60F4A2D051CF49"]
-			id: "1F23406C3CAA14B9"
-			rewards: [{
-				id: "4351EC8B0950589F"
-				item: {
-					Count: 1
-					id: "cataclysm:monstrous_helm"
-					tag: {
-						Damage: 0
-					}
-				}
-				type: "item"
-			}]
-			tasks: [{
-				count: 5L
-				id: "177767C27D8DC0A2"
-				item: "minecraft:netherite_ingot"
-				type: "item"
-			}]
-			x: 6.0d
-			y: 3.0d
-		}
-		{
-			dependencies: ["1F23406C3CAA14B9"]
+			dependencies: ["05E16AAE9144DB55"]
 			id: "1FACE6CFCFD3BBBE"
 			rewards: [{
 				id: "1D2F38194A1BC352"
@@ -400,35 +147,11 @@
 				type: "kill"
 				value: 1L
 			}]
-			x: 7.5d
-			y: 3.0d
+			x: 18.5d
+			y: -1.5d
 		}
 		{
-			dependencies: ["0E60F4A2D051CF49"]
-			id: "283D887B16D86BD3"
-			rewards: [{
-				id: "51667104E2DB2F74"
-				item: "enigmaticaddons:scorched_charm"
-				type: "item"
-			}]
-			tasks: [
-				{
-					count: 10L
-					id: "13987C2BFAEB6BB6"
-					item: { Count: 10, id: "minecraft:blaze_rod" }
-					type: "item"
-				}
-				{
-					id: "7EF05C6D6CB2F7E9"
-					item: "terramity:flameguard_pendant"
-					type: "item"
-				}
-			]
-			x: 12.0d
-			y: 0.0d
-		}
-		{
-			dependencies: ["283D887B16D86BD3"]
+			dependencies: ["05E16AAE9144DB55"]
 			id: "34D652FA1AA6DC0F"
 			rewards: [
 				{
@@ -483,77 +206,11 @@
 				type: "kill"
 				value: 1L
 			}]
-			x: 10.5d
+			x: 17.0d
 			y: 0.0d
 		}
 		{
-			dependencies: ["0E60F4A2D051CF49"]
-			id: "0CEDC74706FB070E"
-			rewards: [
-				{
-					id: "6F1A1085B8BF5846"
-					item: {
-						Count: 1
-						id: "cataclysm:cursium_helmet"
-						tag: {
-							Damage: 0
-						}
-					}
-					type: "item"
-				}
-				{
-					id: "23B9FB374F63B462"
-					item: {
-						Count: 1
-						id: "cataclysm:cursium_chestplate"
-						tag: {
-							Damage: 0
-						}
-					}
-					type: "item"
-				}
-				{
-					id: "2C4D2305959D2F2C"
-					item: {
-						Count: 1
-						id: "cataclysm:cursium_leggings"
-						tag: {
-							Damage: 0
-						}
-					}
-					type: "item"
-				}
-				{
-					id: "72F2278B0B729FB2"
-					item: {
-						Count: 1
-						id: "cataclysm:cursium_boots"
-						tag: {
-							Damage: 0
-						}
-					}
-					type: "item"
-				}
-			]
-			tasks: [
-				{
-					count: 64L
-					id: "2184818B01101762"
-					item: { Count: 64, id: "minecraft:lapis_lazuli" }
-					type: "item"
-				}
-				{
-					count: 9L
-					id: "03B59A4B6195929D"
-					item: { Count: 9, id: "minecraft:phantom_membrane" }
-					type: "item"
-				}
-			]
-			x: 7.5d
-			y: 0.0d
-		}
-		{
-			dependencies: ["0CEDC74706FB070E"]
+			dependencies: ["05E16AAE9144DB55"]
 			id: "29C6F7AA8DA011A1"
 			rewards: [{
 				id: "5D757081E2A22A8B"
@@ -567,28 +224,11 @@
 				type: "kill"
 				value: 1L
 			}]
-			x: 9.0d
-			y: 0.0d
+			x: 21.5d
+			y: -3.0d
 		}
 		{
-			dependencies: ["0E60F4A2D051CF49"]
-			id: "5932A43323D0D8BE"
-			rewards: [{
-				id: "087086FDECC14E73"
-				item: "cataclysm:tidal_claws"
-				type: "item"
-			}]
-			tasks: [{
-				count: 10L
-				id: "40FD984879CF99B6"
-				item: { Count: 10, id: "minecraft:salmon" }
-				type: "item"
-			}]
-			x: 7.5d
-			y: 1.5d
-		}
-		{
-			dependencies: ["5932A43323D0D8BE"]
+			dependencies: ["05E16AAE9144DB55"]
 			id: "251098CEC1A4C82A"
 			rewards: [{
 				id: "2BE54F79A9A8FACE"
@@ -608,34 +248,11 @@
 				type: "kill"
 				value: 1L
 			}]
-			x: 9.0d
-			y: 1.5d
+			x: 20.0d
+			y: -3.0d
 		}
 		{
-			dependencies: ["0E60F4A2D051CF49"]
-			id: "5FDF9A4332019461"
-			rewards: [{
-				id: "43F5B2F66A935805"
-				item: {
-					Count: 1
-					id: "cataclysm:bloom_stone_pauldrons"
-					tag: {
-						Damage: 0
-					}
-				}
-				type: "item"
-			}]
-			tasks: [{
-				count: 5L
-				id: "4B054188F133F4A1"
-				item: { Count: 5, id: "minecraft:ender_eye" }
-				type: "item"
-			}]
-			x: 9.0d
-			y: -1.5d
-		}
-		{
-			dependencies: ["5FDF9A4332019461"]
+			dependencies: ["05E16AAE9144DB55"]
 			id: "7E73BB2940C1AD18"
 			rewards: [{
 				count: 4
@@ -650,71 +267,29 @@
 				type: "kill"
 				value: 1L
 			}]
-			x: 10.5d
+			x: 20.0d
+			y: 0.0d
+		}
+		{
+			can_repeat: true
+			id: "7B11A994EA278BDB"
+			rewards: [{
+				count: 6
+				id: "2C6BA24EC399FB36"
+				item: "blue_archivescraft:cyanoaugite"
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				id: "0FC2643062773B5A"
+				item: "terramity:profanum"
+				type: "item"
+			}]
+			x: 4.5d
 			y: -1.5d
 		}
 		{
-			dependencies: ["0E60F4A2D051CF49"]
-			id: "1CFCD0932E2B2ECA"
-			rewards: [{
-				id: "784733A4A828B67A"
-				item: {
-					Count: 1
-					id: "eeeabsmobs:guardian_axe"
-					tag: {
-						CodeAddFlag: 1b
-						Damage: 0
-						Unbreakable: 1b
-					}
-				}
-				type: "item"
-			}]
-			tasks: [{
-				count: 10L
-				id: "676A1EF13471248C"
-				item: { Count: 10, id: "minecraft:diamond" }
-				type: "item"
-			}]
-			x: 1.5d
-			y: 4.5d
-		}
-		{
-			dependencies: ["1CFCD0932E2B2ECA"]
-			id: "7B11A994EA278BDB"
-			rewards: [{
-				id: "01885C81721531A1"
-				item: "terramity:focus_scarf"
-				type: "item"
-			}]
-			tasks: [{
-				entity: "eeeabsmobs:nameless_guardian"
-				icon: "eeeabsmobs:nameless_guardian_egg"
-				id: "1158B3EE36C7718C"
-				type: "kill"
-				value: 1L
-			}]
-			x: 3.0d
-			y: 4.5d
-		}
-		{
-			dependencies: ["0E60F4A2D051CF49"]
-			id: "0A5113AF26D600C4"
-			rewards: [{
-				id: "73E2028DBBD17998"
-				item: "enigmaticaddons:illusion_lantern"
-				type: "item"
-			}]
-			tasks: [{
-				count: 3L
-				id: "164BF2F9F6CD9117"
-				item: { Count: 3, id: "eeeabsmobs:immortal_ingot" }
-				type: "item"
-			}]
-			x: 10.5d
-			y: 1.5d
-		}
-		{
-			dependencies: ["0A5113AF26D600C4"]
+			dependencies: ["05E16AAE9144DB55"]
 			id: "7CF526F363AB20C2"
 			rewards: [{
 				id: "3DB7914E3B40F275"
@@ -734,80 +309,29 @@
 				type: "kill"
 				value: 1L
 			}]
-			x: 12.0d
-			y: 1.5d
+			x: 20.0d
+			y: -1.5d
 		}
 		{
-			dependencies: ["0E60F4A2D051CF49"]
+			can_repeat: true
 			id: "37D8CD7B86E0CFFC"
 			rewards: [{
-				count: 10
-				id: "5EE4A27A39FD8E73"
-				item: "minecraft:netherite_ingot"
+				count: 5
+				id: "74BA0F021C14C826"
+				item: "blue_archivescraft:cyanoaugite"
 				type: "item"
 			}]
 			tasks: [{
-				entity: "corundumguardian:corundum_guardian"
-				icon: "corundumguardian:corundum_guardian_spawn_egg"
-				id: "5385E1A9E7B83CBA"
-				type: "kill"
-				value: 1L
+				consume_items: true
+				id: "6BC6B34BABCA6510"
+				item: "born_in_chaos_v1:seedof_chaos"
+				type: "item"
 			}]
 			x: 1.5d
 			y: -1.5d
 		}
 		{
-			dependencies: ["0E60F4A2D051CF49"]
-			id: "699D0F4F5895859D"
-			rewards: [
-				{
-					id: "2DEE52490FFDBBB4"
-					item: "graveyard:upper_bone_staff"
-					type: "item"
-				}
-				{
-					id: "0A88EF91DC1E0FF7"
-					item: "graveyard:middle_bone_staff"
-					type: "item"
-				}
-				{
-					id: "1F6593DFC9D62308"
-					item: "graveyard:lower_bone_staff"
-					type: "item"
-				}
-				{
-					id: "2866EDE1225D7495"
-					item: "enigmaticlegacy:monster_charm"
-					type: "item"
-				}
-				{
-					id: "1500CE9D28C59E8B"
-					item: {
-						Count: 1
-						id: "graveyard:bone_dagger"
-						tag: {
-							Damage: 0
-						}
-					}
-					type: "item"
-				}
-				{
-					id: "0579097075B54725"
-					item: "graveyard:vial_of_blood"
-					type: "item"
-				}
-			]
-			tasks: [{
-				count: 10L
-				id: "4D9188B7E1B5CAFB"
-				item: { Count: 10, id: "graveyard:dark_iron_ingot" }
-				type: "item"
-			}]
-			x: 9.0d
-			y: 3.0d
-		}
-		{
-			dependencies: ["699D0F4F5895859D"]
+			dependencies: ["05E16AAE9144DB55"]
 			id: "401B3796654F4214"
 			rewards: [{
 				id: "1B0F1F6E40062FBE"
@@ -821,30 +345,11 @@
 				type: "kill"
 				value: 1L
 			}]
-			x: 10.5d
-			y: 3.0d
+			x: 17.0d
+			y: -3.0d
 		}
 		{
-			dependencies: ["0E60F4A2D051CF49"]
-			id: "4B5B416FD2B309AF"
-			rewards: [{
-				count: 4
-				id: "3ED81FB1C3BDAA3E"
-				item: "minecraft:enchanted_golden_apple"
-				type: "item"
-			}]
-			tasks: [{
-				entity: "illageandspillage:absorber"
-				icon: "illageandspillage:absorber_spawn_egg"
-				id: "058608BAD4C386CE"
-				type: "kill"
-				value: 1L
-			}]
-			x: 1.5d
-			y: 0.0d
-		}
-		{
-			dependencies: ["0E60F4A2D051CF49"]
+			dependencies: ["05E16AAE9144DB55"]
 			id: "52204DB50C6ABF57"
 			rewards: [{
 				id: "23CC819F7EAED348"
@@ -862,11 +367,11 @@
 				type: "kill"
 				value: 1L
 			}]
-			x: 1.5d
-			y: 1.5d
+			x: 18.5d
+			y: 3.0d
 		}
 		{
-			dependencies: ["0E60F4A2D051CF49"]
+			dependencies: ["05E16AAE9144DB55"]
 			id: "290919948C63F573"
 			rewards: [{
 				id: "375F1671F889393B"
@@ -886,11 +391,11 @@
 				type: "kill"
 				value: 1L
 			}]
-			x: 1.5d
-			y: 3.0d
+			x: 20.0d
+			y: 1.5d
 		}
 		{
-			dependencies: ["0E60F4A2D051CF49"]
+			dependencies: ["05E16AAE9144DB55"]
 			id: "0E257E7DB580C8AB"
 			rewards: [{
 				id: "63761BAF2B3819ED"
@@ -904,62 +409,75 @@
 				type: "kill"
 				value: 1L
 			}]
-			x: 4.5d
-			y: 3.0d
+			x: 18.5d
+			y: 1.5d
 		}
 		{
-			dependencies: ["0E60F4A2D051CF49"]
+			can_repeat: true
+			icon: "blue_archivescraft:cyanoaugite"
 			id: "19B079CA1C677419"
 			rewards: [{
-				id: "193EA4681790FD00"
-				item: "legendary_monsters:void_entity_warper"
+				count: 40
+				id: "16DAF3E0F87AD78B"
+				item: "blue_archivescraft:cyanoaugite"
 				type: "item"
 			}]
 			tasks: [{
-				entity: "legendary_monsters:cloud_golem"
-				icon: "legendary_monsters:cloud_golem_spawn_egg"
-				id: "2EF23DE20714A51A"
-				type: "kill"
-				value: 1L
+				consume_items: true
+				id: "44EF09C1C27C90E6"
+				item: {
+					Count: 1
+					id: "legendary_monsters:atmospheric_boots"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
 			}]
 			x: 1.5d
 			y: -3.0d
 		}
 		{
-			dependencies: ["0E60F4A2D051CF49"]
+			can_repeat: true
+			description: ["需要特定工具才能挖掘的矿石。"]
 			id: "6DC18CA44F4C3B25"
 			rewards: [{
-				id: "224D8426879CDF7D"
-				item: "enigmaticlegacy:cursed_scroll"
+				count: 20
+				id: "2470AF4EB2A5AEE2"
+				item: "blue_archivescraft:cyanoaugite"
 				type: "item"
 			}]
 			tasks: [{
-				id: "37C7DF0669C0EA2C"
-				item: "mokels_bossfight_saphyra:nameless_gatekeeper_remembrance"
+				consume_items: true
+				id: "785E85AF3ADC9E1E"
+				item: "terramity:iridium"
 				type: "item"
 			}]
-			x: 3.0d
-			y: -3.0d
+			x: 1.5d
+			y: 0.0d
 		}
 		{
-			dependencies: ["0E60F4A2D051CF49"]
-			icon: "mokels_bossfight_saphyra:mothboss_spawn_egg"
+			can_repeat: true
+			icon: "blue_archivescraft:p"
 			id: "686322A9532920B2"
 			rewards: [{
-				id: "58FF82D8E7D52C71"
-				item: "enigmaticaddons:totem_of_malice"
+				count: 5
+				id: "784294B9D7C089DE"
+				item: "blue_archivescraft:cyanoaugite"
 				type: "item"
 			}]
 			tasks: [{
-				id: "516DE555FF34235E"
-				item: "mokels_bossfight_saphyra:saphyra_remembrance"
+				consume_items: true
+				count: 64L
+				id: "0307BC7306319C16"
+				item: { Count: 64, id: "blue_archivescraft:p" }
 				type: "item"
 			}]
 			x: 4.5d
 			y: -3.0d
 		}
 		{
-			dependencies: ["0E60F4A2D051CF49"]
+			dependencies: ["05E16AAE9144DB55"]
 			id: "14A8ACA06E7255B3"
 			rewards: [
 				{
@@ -980,11 +498,12 @@
 				type: "kill"
 				value: 1L
 			}]
-			x: 6.0d
-			y: -3.0d
+			x: 21.5d
+			y: 1.5d
 		}
 		{
-			dependencies: ["0E60F4A2D051CF49"]
+			can_repeat: true
+			description: ["珍贵的合金，内部含有灼热的高温。"]
 			id: "37D8053F23F561B0"
 			rewards: [{
 				id: "2559D9DA7B4D1575"
@@ -999,57 +518,16 @@
 				type: "item"
 			}]
 			tasks: [{
-				entity: "terramity:hellrok"
-				icon: "terramity:hellrok_spawn_egg"
-				id: "6DADC108D4966244"
-				type: "kill"
-				value: 1L
-			}]
-			x: 7.5d
-			y: -3.0d
-		}
-		{
-			dependencies: ["0E60F4A2D051CF49"]
-			id: "2D523AED1C1F696D"
-			rewards: [{
-				id: "7496C438D855F020"
-				item: "terramity:fragile_divinity"
+				consume_items: true
+				id: "4AAC3F6934C7E4D2"
+				item: "terramity:hellspec_alloy"
 				type: "item"
 			}]
-			tasks: [{
-				entity: "terramity:virtue"
-				icon: "terramity:virtue_spawn_egg"
-				id: "7F80F891ACC4C510"
-				type: "kill"
-				value: 1L
-			}]
-			x: 9.0d
-			y: -3.0d
+			x: 3.0d
+			y: 1.5d
 		}
 		{
-			dependencies: ["0E60F4A2D051CF49"]
-			id: "02E72A61FBF797C5"
-			rewards: [{
-				id: "4C92F9980D7848F7"
-				item: {
-					Count: 1
-					id: "enigmaticlegacy:mining_charm"
-					tag: { }
-				}
-				type: "item"
-			}]
-			tasks: [{
-				entity: "terramity:gob"
-				icon: "terramity:gob_spawn_egg"
-				id: "31C5F7C1573B268B"
-				type: "kill"
-				value: 1L
-			}]
-			x: 10.5d
-			y: -3.0d
-		}
-		{
-			dependencies: ["0E60F4A2D051CF49"]
+			dependencies: ["05E16AAE9144DB55"]
 			id: "66FA69E02287FFBB"
 			rewards: [{
 				id: "2E32B140EFAF8334"
@@ -1067,11 +545,11 @@
 				}
 				type: "item"
 			}]
-			x: 12.0d
-			y: -3.0d
+			x: 21.5d
+			y: -1.5d
 		}
 		{
-			dependencies: ["0E60F4A2D051CF49"]
+			dependencies: ["05E16AAE9144DB55"]
 			id: "73050BA3FC59D8AD"
 			rewards: [
 				{
@@ -1092,11 +570,11 @@
 				type: "kill"
 				value: 1L
 			}]
-			x: 12.0d
-			y: -1.5d
+			x: 18.5d
+			y: 0.0d
 		}
 		{
-			dependencies: ["0E60F4A2D051CF49"]
+			dependencies: ["05E16AAE9144DB55"]
 			id: "326765FDE16A9C61"
 			rewards: [
 				{
@@ -1121,54 +599,77 @@
 				type: "kill"
 				value: 1L
 			}]
-			x: 3.0d
+			x: 17.0d
 			y: -1.5d
 		}
 		{
-			dependencies: ["44F93B6DF62B8340"]
-			hide_dependency_lines: true
-			hide_dependent_lines: true
-			id: "0E60F4A2D051CF49"
-			min_required_dependencies: 1
+			dependencies: ["05E16AAE9144DB55"]
+			icon: "cataclysm:scylla_spawn_egg"
+			id: "3740EDDE1BCACCB0"
 			rewards: [
 				{
-					id: "030E9716FA7AB1F6"
-					item: "terramity:stygian_safety_talisman"
+					id: "05CBC46F914BC5F5"
+					item: "enigmaticlegacy:berserk_charm"
 					type: "item"
 				}
 				{
-					id: "04ECDB5A69F28D5A"
-					item: "bountifulbaubles:bezoar"
+					id: "1510F1954E220639"
+					item: "enigmaticlegacy:cursed_scroll"
 					type: "item"
 				}
 			]
-			size: 5.0d
-			tasks: [{
-				id: "33955EB8D453C1AE"
-				title: "解锁章节"
-				type: "checkmark"
-			}]
-			title: "解锁篇章"
-			x: 7.5d
-			y: -7.5d
-		}
-		{
-			dependencies: ["0E60F4A2D051CF49"]
-			icon: "cataclysm:scylla_spawn_egg"
-			id: "3740EDDE1BCACCB0"
-			rewards: [{
-				id: "01A261DCE82291BF"
-				item: "bountifulbaubles:starfish"
-				type: "item"
-			}]
 			tasks: [{
 				entity: "cataclysm:scylla"
 				id: "64F9E625C580107F"
 				type: "kill"
 				value: 1L
 			}]
-			x: 12.0d
-			y: 3.0d
+			x: 21.5d
+			y: 0.0d
+		}
+		{
+			can_repeat: true
+			id: "2F225C0D990943BF"
+			rewards: [{
+				count: 20
+				id: "50ECFAE9551ED712"
+				item: "blue_archivescraft:cyanoaugite"
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				id: "7F731672EDB5ADCA"
+				item: "terramity:virentium_alloy_ingot"
+				type: "item"
+			}]
+			x: 4.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["44F93B6DF62B8340"]
+			hide_dependent_lines: true
+			id: "05E16AAE9144DB55"
+			rewards: [
+				{
+					id: "56DCFA7330DA433A"
+					item: "terramity:stygian_safety_talisman"
+					type: "item"
+				}
+				{
+					id: "4E889CC26F304B9E"
+					item: "bountifulbaubles:bezoar"
+					type: "item"
+				}
+			]
+			size: 5.0d
+			tasks: [{
+				id: "2889F63F413A7C94"
+				title: "BOSS"
+				type: "checkmark"
+			}]
+			title: "BOSS悬赏"
+			x: 26.5d
+			y: -1.0d
 		}
 	]
 	title: "vol5.2：灾厄异变（送福利）"

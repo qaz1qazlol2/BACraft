@@ -38,8 +38,8 @@
 				item: "twilightforest:lich_trophy"
 				type: "item"
 			}]
-			x: 4.0d
-			y: -0.5d
+			x: 4.5d
+			y: 2.0d
 		}
 		{
 			id: "4AAC9936AE2CD697"
@@ -55,8 +55,8 @@
 				item: "twilightforest:naga_trophy"
 				type: "item"
 			}]
-			x: 3.0d
-			y: -2.0d
+			x: 3.5d
+			y: 0.5d
 		}
 		{
 			can_repeat: true
@@ -73,8 +73,8 @@
 				item: "twilightforest:hydra_trophy"
 				type: "item"
 			}]
-			x: 5.5d
-			y: -0.5d
+			x: 6.0d
+			y: 2.0d
 		}
 		{
 			id: "2307553FBB1ED955"
@@ -90,8 +90,8 @@
 				item: "twilightforest:minoshroom_trophy"
 				type: "item"
 			}]
-			x: 6.0d
-			y: -2.0d
+			x: 6.5d
+			y: 0.5d
 		}
 		{
 			id: "7FA9D84D2169E23F"
@@ -107,8 +107,8 @@
 				item: "twilightforest:alpha_yeti_trophy"
 				type: "item"
 			}]
-			x: 7.5d
-			y: -2.0d
+			x: 8.0d
+			y: 0.5d
 		}
 		{
 			can_repeat: true
@@ -125,8 +125,8 @@
 				item: "twilightforest:snow_queen_trophy"
 				type: "item"
 			}]
-			x: 7.0d
-			y: -0.5d
+			x: 7.5d
+			y: 2.0d
 		}
 		{
 			id: "18BD1C870177DFFF"
@@ -142,8 +142,8 @@
 				item: "twilightforest:knight_phantom_trophy"
 				type: "item"
 			}]
-			x: 9.0d
-			y: -2.0d
+			x: 9.5d
+			y: 0.5d
 		}
 		{
 			can_repeat: true
@@ -160,8 +160,8 @@
 				item: "twilightforest:ur_ghast_trophy"
 				type: "item"
 			}]
-			x: 8.5d
-			y: -0.5d
+			x: 9.0d
+			y: 2.0d
 		}
 		{
 			id: "4F8C25C2BF3A8F4F"
@@ -198,8 +198,8 @@
 				}
 			]
 			title: "暮色巨人"
-			x: 4.5d
-			y: -2.0d
+			x: 5.0d
+			y: 0.5d
 		}
 	]
 	title: "3.11：眼睛抽奖"

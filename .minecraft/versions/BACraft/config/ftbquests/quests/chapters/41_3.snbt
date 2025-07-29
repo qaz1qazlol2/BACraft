@@ -5,24 +5,48 @@
 	group: "3F6E92AE7F64E4AB"
 	icon: "mokels_bossfight_saphyra:saphyra_remembrance"
 	id: "6C953FC5805FE71A"
+	images: [{
+		height: 7.0d
+		image: "ba_painting:textures/painting/terror23.png"
+		rotation: 0.0d
+		width: 5.0d
+		x: 3.0d
+		y: -1.0d
+	}]
 	order_index: 0
 	quest_links: [ ]
 	quests: [{
 		dependencies: ["45974B994B771101"]
-		description: ["具体攻略请查看minecraft文件夹中的攻略。"]
+		description: [
+			"具体攻略请查看minecraft文件夹中的攻略。、"
+			""
+			"（前置任务海灵物语）"
+		]
 		id: "004F2965F0DD3C15"
-		rewards: [{
-			count: 8
-			id: "46786AA14AAF756C"
-			item: "paraglider:spirit_orb"
-			type: "item"
-		}]
+		rewards: [
+			{
+				count: 8
+				id: "46786AA14AAF756C"
+				item: "paraglider:spirit_orb"
+				type: "item"
+			}
+			{
+				id: "523984758D4177B3"
+				item: "mokels_bossfight_saphyra:saphyra_remembrance"
+				type: "item"
+			}
+			{
+				id: "2C58BB54D48E6B9F"
+				item: "mokels_bossfight_saphyra:nameless_gatekeeper_remembrance"
+				type: "item"
+			}
+		]
 		tasks: [{
 			id: "147D886334E02851"
 			title: "攻略查看"
 			type: "checkmark"
 		}]
-		x: -0.5d
+		x: 0.0d
 		y: -1.0d
 	}]
 	title: "4.1：破碎女神"

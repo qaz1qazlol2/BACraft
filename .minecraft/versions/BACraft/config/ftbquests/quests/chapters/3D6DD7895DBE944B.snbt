@@ -1,11 +1,19 @@
 {
 	default_hide_dependency_lines: false
-	default_quest_shape: ""
+	default_quest_shape: "square"
 	filename: "3D6DD7895DBE944B"
 	group: "349B3345B63646FF"
 	icon: "minecraft:map"
 	id: "3D6DD7895DBE944B"
-	order_index: 5
+	images: [{
+		height: 10.0d
+		image: "blue_archivescraft:textures/momotalk/students/atsuko_swimsuit.png"
+		rotation: 0.0d
+		width: 10.0d
+		x: 15.5d
+		y: 1.0d
+	}]
+	order_index: 6
 	quest_links: [ ]
 	quests: [
 		{
@@ -22,7 +30,7 @@
 				title: "小空便利店"
 				type: "checkmark"
 			}]
-			x: -4.0d
+			x: 4.5d
 			y: 0.0d
 		}
 		{
@@ -39,7 +47,7 @@
 				title: "基沃托斯街道"
 				type: "checkmark"
 			}]
-			x: 2.0d
+			x: 6.5d
 			y: 0.0d
 		}
 		{
@@ -56,7 +64,7 @@
 				title: "阿拜多斯"
 				type: "checkmark"
 			}]
-			x: 8.0d
+			x: 8.5d
 			y: 0.0d
 		}
 		{
@@ -68,7 +76,7 @@
 				title: "山海经"
 				type: "checkmark"
 			}]
-			x: 13.5d
+			x: 10.5d
 			y: 0.0d
 		}
 		{
@@ -80,7 +88,7 @@
 				title: "百鬼夜行"
 				type: "checkmark"
 			}]
-			x: 19.0d
+			x: 20.5d
 			y: 0.0d
 		}
 		{
@@ -92,7 +100,7 @@
 				title: "格黑娜"
 				type: "checkmark"
 			}]
-			x: 23.0d
+			x: 22.5d
 			y: 0.0d
 		}
 		{
@@ -104,7 +112,7 @@
 				title: "千禧年"
 				type: "checkmark"
 			}]
-			x: 28.0d
+			x: 24.5d
 			y: 0.0d
 		}
 		{
@@ -116,7 +124,7 @@
 				title: "方舟"
 				type: "checkmark"
 			}]
-			x: 33.5d
+			x: 26.5d
 			y: 0.0d
 		}
 		{
@@ -137,7 +145,7 @@
 				title: "小空"
 				type: "checkmark"
 			}]
-			x: -4.0d
+			x: 4.5d
 			y: 2.5d
 		}
 		{
@@ -152,7 +160,7 @@
 				id: "412CB5073CC2AF0D"
 				type: "checkmark"
 			}]
-			x: 2.0d
+			x: 6.5d
 			y: 2.5d
 		}
 		{
@@ -163,7 +171,7 @@
 				id: "7FFBD616B7C85135"
 				type: "checkmark"
 			}]
-			x: 8.0d
+			x: 8.5d
 			y: 2.5d
 		}
 		{
@@ -174,7 +182,7 @@
 				id: "334B63EC626FB6AD"
 				type: "checkmark"
 			}]
-			x: 13.5d
+			x: 10.5d
 			y: 2.5d
 		}
 		{
@@ -185,7 +193,7 @@
 				id: "0B4982CEB69DD8E8"
 				type: "checkmark"
 			}]
-			x: 19.0d
+			x: 20.5d
 			y: 2.5d
 		}
 		{
@@ -202,7 +210,7 @@
 				id: "4C70E1E16A284C88"
 				type: "checkmark"
 			}]
-			x: 23.0d
+			x: 22.5d
 			y: 2.5d
 		}
 		{
@@ -213,7 +221,7 @@
 				id: "269113B04136BB79"
 				type: "checkmark"
 			}]
-			x: 33.5d
+			x: 26.5d
 			y: 2.5d
 		}
 		{
@@ -232,7 +240,37 @@
 				id: "519983BD85486E9D"
 				type: "checkmark"
 			}]
-			x: 28.0d
+			x: 24.5d
+			y: 2.5d
+		}
+		{
+			description: ["在高山地形玩家可以获得圣三一的生成券。"]
+			icon: {
+				Count: 1
+				id: "simplytea:cup_tea_black"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "6BD042212BF8AD73"
+			tasks: [{
+				id: "05FE8A2F2920D9A4"
+				title: "方舟"
+				type: "checkmark"
+			}]
+			title: "圣三一"
+			x: 28.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["6BD042212BF8AD73"]
+			description: ["一共20个npc，由于趣味性较足，在此不做透露。"]
+			id: "2EB7B29241EAF406"
+			tasks: [{
+				id: "45E201A16D2B335A"
+				type: "checkmark"
+			}]
+			x: 28.5d
 			y: 2.5d
 		}
 	]

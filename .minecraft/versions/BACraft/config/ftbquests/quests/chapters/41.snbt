@@ -317,6 +317,7 @@
 				"“这不就是末影之眼吗？”你疑惑地看着在空中的眼睛。而当你将末影珍珠与烈焰粉结合得到末影之眼时，你发现无论如何，你手中的末影之眼也不会飞出。"
 				""
 			]
+			hide_dependent_lines: true
 			icon: "minecraft:ender_eye"
 			id: "1A749D45C9B1CF79"
 			rewards: [{

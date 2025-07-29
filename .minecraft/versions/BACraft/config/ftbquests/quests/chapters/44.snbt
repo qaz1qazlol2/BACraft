@@ -2,18 +2,28 @@
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "44"
-	group: "3F6E92AE7F64E4AB"
+	group: "349B3345B63646FF"
 	icon: "legendary_monsters:cloud_rod"
 	id: "7EFEA7804266010F"
-	order_index: 2
+	images: [{
+		height: 5.0d
+		image: "blue_archivescraft:textures/fire.png"
+		rotation: 0.0d
+		width: 5.0d
+		x: 0.0d
+		y: 0.0d
+	}]
+	order_index: 5
 	quest_links: [ ]
 	quests: [
 		{
-			dependencies: ["45974B994B771101"]
+			dependencies: ["76CF3B4DF1B68DEF"]
 			description: [
 				"本模组的生物都有自己的竟技场，你可以在主世界、下界、末地中寻找到它们。"
 				""
 				"模组链接：https://www.mcmod.cn/class/12933.html"
+				""
+				"（前置任务：海灵物语）"
 			]
 			id: "0D78F984C8DD5B59"
 			tasks: [{
@@ -37,7 +47,7 @@
 				title: "傀儡一族"
 				type: "checkmark"
 			}]
-			x: -4.0d
+			x: -3.0d
 			y: 0.0d
 		}
 		{
@@ -65,7 +75,7 @@
 				title: "末地友人"
 				type: "checkmark"
 			}]
-			x: 4.0d
+			x: 3.0d
 			y: 0.0d
 		}
 		{
@@ -95,13 +105,11 @@
 				type: "item"
 			}]
 			tasks: [{
-				entity: "legendary_monsters:frostbitten_golem"
-				icon: "legendary_monsters:frostbitten_golem_spawn_egg"
-				id: "6BDCCD3E5A89DBD5"
-				type: "kill"
-				value: 1L
+				id: "685DEF1192415BE8"
+				item: "legendary_monsters:primal_ice_shard"
+				type: "item"
 			}]
-			x: -6.0d
+			x: -5.0d
 			y: 0.5d
 		}
 		{
@@ -119,13 +127,17 @@
 				type: "item"
 			}]
 			tasks: [{
-				entity: "legendary_monsters:ancient_guardian"
-				icon: "legendary_monsters:ancient_guardian_spawn_egg"
-				id: "3C689DA6172DF44C"
-				type: "kill"
-				value: 1L
+				id: "7E06EA44B2775A8F"
+				item: {
+					Count: 1
+					id: "legendary_monsters:anchor_handle"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
 			}]
-			x: -6.0d
+			x: -5.0d
 			y: -0.5d
 		}
 		{
@@ -143,13 +155,11 @@
 				type: "item"
 			}]
 			tasks: [{
-				entity: "legendary_monsters:withered_abomination"
-				icon: "legendary_monsters:withered_abomination_spawn_egg"
-				id: "5ED0BD1E08F33626"
-				type: "kill"
-				value: 1L
+				id: "797D71E13AD675BA"
+				item: "legendary_monsters:withered_horn"
+				type: "item"
 			}]
-			x: -6.0d
+			x: -5.0d
 			y: -1.5d
 		}
 		{
@@ -167,13 +177,11 @@
 				type: "item"
 			}]
 			tasks: [{
-				entity: "legendary_monsters:overgrown_colossus"
-				icon: "legendary_monsters:overgrown_colossus_spawn_egg"
-				id: "4A00C3D80A6080D2"
-				type: "kill"
-				value: 1L
+				id: "725580382CEAC8BE"
+				item: "legendary_monsters:nature_crystal"
+				type: "item"
 			}]
-			x: -6.0d
+			x: -5.0d
 			y: 1.5d
 		}
 		{
@@ -191,13 +199,11 @@
 				type: "item"
 			}]
 			tasks: [{
-				entity: "legendary_monsters:skeletosaurus"
-				icon: "legendary_monsters:skeletosaurus_spawn_egg"
-				id: "2AC7BD4CC3B058FC"
-				title: "嘟嘟哒嘟嘟哒"
-				type: "kill"
-				value: 1L
+				id: "3A3626DD1B8A1F1C"
+				item: "legendary_monsters:dinosaur_bone"
+				type: "item"
 			}]
+			title: "嘟嘟哒嘟嘟哒"
 			x: -1.5d
 			y: -5.0d
 		}
@@ -216,11 +222,9 @@
 				type: "item"
 			}]
 			tasks: [{
-				entity: "legendary_monsters:lava_eater"
-				icon: "legendary_monsters:lava_eater_spawn_egg"
-				id: "7C37ED28081AF715"
-				type: "kill"
-				value: 1L
+				id: "248F91F14B0CEB86"
+				item: "legendary_monsters:lava_eaters_skin"
+				type: "item"
 			}]
 			x: 1.5d
 			y: -5.0d
@@ -240,13 +244,11 @@
 				type: "item"
 			}]
 			tasks: [{
-				entity: "legendary_monsters:endersent"
-				icon: "legendary_monsters:endersent_spawn_egg"
-				id: "28D78AD58CDC40D3"
-				type: "kill"
-				value: 1L
+				id: "26813AE9B5D307CC"
+				item: "legendary_monsters:chorus_crystal"
+				type: "item"
 			}]
-			x: 6.0d
+			x: 5.0d
 			y: -1.5d
 		}
 		{
@@ -264,13 +266,11 @@
 				type: "item"
 			}]
 			tasks: [{
-				entity: "legendary_monsters:shulker_mimic"
-				icon: "legendary_monsters:shulker_mimic_spawn_egg"
-				id: "1BA3A3FA7B8CF710"
-				type: "kill"
-				value: 1L
+				id: "232B719D1FA2E56B"
+				item: "legendary_monsters:large_shulker_shell"
+				type: "item"
 			}]
-			x: 6.0d
+			x: 5.0d
 			y: 1.5d
 		}
 		{
@@ -288,11 +288,9 @@
 				type: "item"
 			}]
 			tasks: [{
-				entity: "legendary_monsters:posessed_paladin"
-				icon: "legendary_monsters:posessed_paladin_spawn_egg"
-				id: "6F4CF2F8ADD9FEE2"
-				type: "kill"
-				value: 1L
+				id: "368BD48CFBA55411"
+				item: "legendary_monsters:corrupted_soul"
+				type: "item"
 			}]
 			x: -1.5d
 			y: 5.0d
@@ -314,11 +312,9 @@
 				type: "item"
 			}]
 			tasks: [{
-				entity: "legendary_monsters:dune_sentinel"
-				icon: "legendary_monsters:dune_sentinel_spawn_egg"
-				id: "6B8C66435D77EB07"
-				type: "kill"
-				value: 1L
+				id: "3FEC19F14E063E2A"
+				item: "legendary_monsters:crystal_of_sandstorm"
+				type: "item"
 			}]
 			x: 1.5d
 			y: 5.0d
@@ -329,7 +325,7 @@
 				"4EAE6B981EA0BAB0"
 			]
 			description: [
-				"在浮云神殿内会生成Boss浮云傀儡与中立生物惊灵。难度极高"
+				"在浮云神殿内会生成Boss浮云傀儡与中立生物惊灵。难度极高，推荐后期再来挑战"
 				""
 				"建筑名称：浮云神殿"
 			]
@@ -341,15 +337,13 @@
 				type: "item"
 			}]
 			tasks: [{
-				entity: "legendary_monsters:cloud_golem"
-				icon: "legendary_monsters:cloud_golem_spawn_egg"
-				id: "4163D9F336D92EBF"
-				type: "kill"
-				value: 1L
+				id: "0CD6A63318BCE05F"
+				item: "legendary_monsters:air_rune"
+				type: "item"
 			}]
 			x: 0.0d
 			y: 6.5d
 		}
 	]
-	title: "4.3：传说怪物"
+	title: "1.4：传说怪物"
 }

@@ -17,14 +17,13 @@
 	quest_links: [ ]
 	quests: [
 		{
+			dependencies: ["1FDB230CCA3A9AA6"]
 			description: [
 				"当你手持贝壳号角并在寒冰迷宫的海边按住右键吹响，船长科妮莉亚亡灵（以下简称船长）会从水中浮现。"
 				""
 				"难度：较难"
 				""
 				"针对学生：佳代子"
-				""
-				"地点：Ice Maze"
 			]
 			id: "1C19BB0965959C09"
 			rewards: [{
@@ -60,16 +59,17 @@
 				type: "kill"
 				value: 1L
 			}]
-			x: 1.5d
-			y: -1.5d
+			x: -17.5d
+			y: 6.0d
 		}
 		{
+			dependencies: ["6D704D69C917578C"]
 			description: [
-				"需兑换boss召唤蛋手动进行召唤"
+				"击杀无名守护者后出现"
 				""
 				"&c难度：极难（10⭐）"
 				""
-				"针对学生：爱丽丝，幼瞬，美游，阿露，柚子"
+				"针对学生：爱丽丝，幼瞬，维什戴尔"
 			]
 			id: "244E93A28A6505BB"
 			rewards: [{
@@ -85,10 +85,11 @@
 				type: "kill"
 				value: 1L
 			}]
-			x: -6.0d
-			y: 3.5d
+			x: -11.5d
+			y: 17.0d
 		}
 		{
+			dependencies: ["1FDB230CCA3A9AA6"]
 			description: [
 				"需兑换boss召唤蛋手动进行召唤"
 				""
@@ -106,237 +107,15 @@
 				type: "kill"
 				value: 1L
 			}]
-			x: -0.5d
-			y: -1.5d
+			x: -19.5d
+			y: 6.0d
 		}
 		{
-			description: [
-				"在一座娜迦庭院内只会生成一只娜迦，作为暮色森林主进度的第一个 BOSS"
-				""
-				"难度：较为简单"
-				""
-				"针对手段：携带盾牌打"
-			]
-			icon: "twilightforest:naga_spawn_egg"
-			id: "7223C4844C69DB6F"
-			rewards: [{
-				id: "5F6056669776EFA5"
-				item: "twilightforest:naga_courtyard_miniature_structure"
-				type: "item"
-			}]
-			subtitle: "庭院守护者"
-			tasks: [{
-				entity: "twilightforest:naga"
-				id: "4A59470B8FE2BC9B"
-				type: "kill"
-				value: 1L
-			}]
-			x: -2.5d
-			y: 2.5d
-		}
-		{
-			description: [
-				"每一座巫妖塔中只会在主塔的顶层生成一位巫妖，当玩家到达这里时，巫妖就会现身并开始不友好地攻击闯入者。"
-				""
-				"难度：一般"
-				""
-				"针对学生：小春"
-			]
-			icon: "twilightforest:lich_spawn_egg"
-			id: "104704617FE8CDEE"
-			rewards: [{
-				id: "78963FD1D3980C63"
-				item: "twilightforest:lich_tower_miniature_structure"
-				type: "item"
-			}]
-			tasks: [{
-				entity: "twilightforest:lich"
-				id: "306990B33F085461"
-				type: "kill"
-				value: 1L
-			}]
-			x: -1.5d
-			y: 2.5d
-		}
-		{
-			description: [
-				"在一座牛头人迷宫内只会生成一只米诺菇，通常都会位于第二层的某处，当冒险者靠近一个充满菌丝、四面都是栅栏围着的房间时，就会看见内部看守着宝箱的米诺菇。"
-				""
-				"难度：普通"
-				""
-				"针对学生：未花"
-			]
-			icon: "twilightforest:minoshroom_spawn_egg"
-			id: "7271D3F13F0404FB"
-			rewards: [{
-				id: "48355DC4589A9A83"
-				item: {
-					Count: 1
-					id: "twilightforest:mazebreaker_pickaxe"
-					tag: {
-						Damage: 0
-						Enchantments: [
-							{
-								id: "minecraft:efficiency"
-								lvl: 4s
-							}
-							{
-								id: "minecraft:unbreaking"
-								lvl: 3s
-							}
-							{
-								id: "minecraft:fortune"
-								lvl: 2s
-							}
-						]
-					}
-				}
-				type: "item"
-			}]
-			tasks: [{
-				entity: "twilightforest:minoshroom"
-				id: "0CC70C2C7572A581"
-				type: "kill"
-				value: 1L
-			}]
-			x: -0.5d
-			y: 2.5d
-		}
-		{
-			description: [
-				"强大的九头蛇栖身于火焰沼泽的深处，当玩家接近它所栖身的洞穴时，九头蛇就会出现，并毫不留情地杀死一切试图闯入它的领地范围的人。"
-				""
-				"难度：较为困难"
-				""
-				"针对手段：抗火药水即可"
-			]
-			icon: "twilightforest:hydra_spawn_egg"
-			id: "0481C38823798D4B"
-			rewards: [{
-				id: "4309C131C4D93884"
-				item: "threateningly_mobs:riptooth_teeth"
-				type: "item"
-			}]
-			tasks: [{
-				entity: "twilightforest:hydra"
-				id: "303AF1AF4A32883E"
-				type: "kill"
-				value: 1L
-			}]
-			x: 0.5d
-			y: 2.5d
-		}
-		{
-			description: [
-				"古老强大的骑士文明曾是暮色森林中最辉煌的那一支，但如今他们已经衰落。现在骑士们不安的亡灵游荡在黑暗森林中的骑士要塞，在空荡荡的墓室中等待着入侵者的到来。"
-				""
-				"难度：较低"
-				""
-				"针对学生：王小桃，日奈带范围伤害"
-			]
-			icon: "twilightforest:knight_phantom_spawn_egg"
-			id: "71457ADFA2B5A440"
-			rewards: [{
-				id: "3EAD9A373C8BF249"
-				item: "twilightforest:knightmetal_ring"
-				type: "item"
-			}]
-			tasks: [{
-				entity: "twilightforest:knight_phantom"
-				id: "0BD147A88A112CD5"
-				type: "kill"
-				value: 5L
-			}]
-			x: 0.5d
-			y: 1.5d
-		}
-		{
-			description: [
-				"没人知道在过去发生了什么，这片森林只是伴随着一场灾难永远地成为了文明的遗迹。如今被称作暮初恶魂的生物盘踞在黑暗高塔顶部，终日徘徊在破碎不堪的塔楼遗址上空，并毫不珍惜昔日曾属于自己的高塔。"
-				""
-				"难度：较高"
-				""
-				"针对学生：白子"
-			]
-			icon: "twilightforest:ur_ghast_spawn_egg"
-			id: "4B0DB258A8D6B246"
-			rewards: [{
-				id: "667A138C06C357E2"
-				item: {
-					Count: 1
-					id: "twilightdelight:teardrop_sword"
-					tag: {
-						Damage: 0
-					}
-				}
-				type: "item"
-			}]
-			tasks: [{
-				entity: "twilightforest:ur_ghast"
-				id: "41C5CDB929EE8064"
-				type: "kill"
-				value: 1L
-			}]
-			x: 1.5d
-			y: 1.5d
-		}
-		{
-			description: [
-				"在一座雪怪巢穴中只会生成一只雪怪首领，洞窟内的地形和视野都造成了很大的攻略问题，此外还有随时随地生成的雪怪进行干扰，总之速战速决吧。"
-				""
-				"难度：普通"
-				""
-				"针对手段：路边一条任意输出"
-			]
-			icon: "twilightforest:alpha_yeti_spawn_egg"
-			id: "720E723FAFFD9193"
-			rewards: [{
-				id: "4EDDEA8AB827756F"
-				item: "twilightforest:alpha_yeti_fur"
-				type: "item"
-			}]
-			tasks: [{
-				entity: "twilightforest:alpha_yeti"
-				id: "63CD58D7F9678095"
-				type: "kill"
-				value: 1L
-			}]
-			x: 0.5d
-			y: 3.5d
-		}
-		{
-			description: [
-				"野心勃勃的冰雪女王是这片森林中最危险的独裁者。她将自己封藏在冰川之上，于极光宫殿的最顶层的禁室中，妄图以此隔绝一切外来的威胁。当你在极光宫殿中看见满是冰做成的螺旋楼梯时，那么上面就一定是冰雪女王的藏身之地了。"
-				""
-				"难度：普通"
-				""
-				"针对学生：爱用品优香"
-			]
-			icon: "twilightforest:snow_queen_spawn_egg"
-			id: "427C180449B21214"
-			rewards: [{
-				id: "7E6D5E1118E57FE3"
-				item: "legendary_monsters:primal_ice_shard"
-				type: "item"
-			}]
-			tasks: [{
-				entity: "twilightforest:snow_queen"
-				id: "7F49C4692D8F7681"
-				type: "kill"
-				value: 1L
-			}]
-			x: 1.5d
-			y: 3.5d
-		}
-		{
+			dependencies: ["6D704D69C917578C"]
 			description: [
 				"通过用炽燃余烬右键点击烈焰竞技场顶层中心的烈焰祭坛召唤。"
 				""
 				"&c难度：极难（10⭐）"
-				""
-				"针对手段：输出位，抗伤，奶妈，辅助即可"
-				""
-				"地点：Burning Arena"
 			]
 			icon: "cataclysm:ignis_spawn_egg"
 			id: "00A4E955FAA7569F"
@@ -351,18 +130,17 @@
 				type: "kill"
 				value: 1L
 			}]
-			x: -8.0d
-			y: 3.5d
+			x: -13.5d
+			y: 17.0d
 		}
 		{
+			dependencies: ["1547A20F605C1E6F"]
 			description: [
 				"地狱随机生成灵魂锻造厂（直接生成于内部灵魂火堆的位置）"
 				""
 				"难度：困难"
 				""
 				"针对手段：输出位，抗伤，奶妈，辅助即可"
-				""
-				"地点：Soul Black Smith"
 			]
 			icon: "cataclysm:netherite_monstrosity_spawn_egg"
 			id: "3833BAFC6BFC45E0"
@@ -383,18 +161,17 @@
 				type: "kill"
 				value: 1L
 			}]
-			x: -7.5d
-			y: 14.5d
+			x: -17.5d
+			y: 9.5d
 		}
 		{
+			dependencies: ["1547A20F605C1E6F"]
 			description: [
 				"自废弃堡垒第三层中心的特定方块生成"
 				""
 				"难度：困难"
 				""
 				"针对手段：输出位，抗伤，奶妈，辅助即可"
-				""
-				"地点：Ruined Citadel"
 			]
 			icon: "cataclysm:ender_guardian_spawn_egg"
 			id: "360AC32235F8A4B1"
@@ -415,18 +192,17 @@
 				type: "kill"
 				value: 1L
 			}]
-			x: -5.5d
-			y: 13.5d
+			x: -13.5d
+			y: 9.5d
 		}
 		{
+			dependencies: ["1547A20F605C1E6F"]
 			description: [
 				"右键苦寒监牢（结构）中被诅咒的墓碑 召唤"
 				""
 				"难度：困难"
 				""
 				"针对学生：爱丽丝，幼瞬，美游，阿露，柚子"
-				""
-				"地点：Frosted Prison"
 			]
 			icon: "cataclysm:maledictus_spawn_egg"
 			id: "3E1FABA676523410"
@@ -441,18 +217,17 @@
 				type: "kill"
 				value: 1L
 			}]
-			x: -6.5d
-			y: 14.0d
+			x: -15.5d
+			y: 9.5d
 		}
 		{
+			dependencies: ["021317202E20B853"]
 			description: [
 				"通过在沉没之城中心的水底用深渊祭品右击中心的深渊祭坛召唤。"
 				""
 				"难度：困难"
 				""
 				"针对手段：输出位，抗伤，奶妈，辅助即可"
-				""
-				"地点：Sunken City"
 			]
 			icon: "cataclysm:the_leviathan_spawn_egg"
 			id: "47D2453B99EE813E"
@@ -467,10 +242,11 @@
 				type: "kill"
 				value: 1L
 			}]
-			x: -5.5d
-			y: 14.5d
+			x: -15.5d
+			y: 13.0d
 		}
 		{
+			dependencies: ["1FDB230CCA3A9AA6"]
 			description: [
 				"手持并消耗下界之星"
 				""
@@ -479,8 +255,6 @@
 				"难度：困难"
 				""
 				"针对手段：输出位，抗伤，奶妈，辅助即可"
-				""
-				"地点：Ancient Factory"
 			]
 			icon: "cataclysm:the_harbinger_spawn_egg"
 			id: "710DB0F8D0D7A1FD"
@@ -495,18 +269,17 @@
 				type: "kill"
 				value: 1L
 			}]
-			x: -6.5d
-			y: 15.0d
+			x: -15.5d
+			y: 6.0d
 		}
 		{
+			dependencies: ["1FDB230CCA3A9AA6"]
 			description: [
 				"通过用沙漠项链右击诅咒金字塔深处沉睡的远古遗魂来唤醒。（消耗沙漠项链）"
 				""
 				"难度：困难"
 				""
 				"针对手段：输出位，抗伤，奶妈，辅助即可"
-				""
-				"地点：Cursed Pyramid"
 			]
 			icon: "cataclysm:ancient_remnant_spawn_egg"
 			id: "2B5BDD33A6706A74"
@@ -521,10 +294,11 @@
 				type: "kill"
 				value: 1L
 			}]
-			x: -7.5d
-			y: 13.5d
+			x: -9.5d
+			y: 6.0d
 		}
 		{
+			dependencies: ["021317202E20B853"]
 			description: [
 				"需要使用古陵之眼寻找"
 				""
@@ -546,17 +320,12 @@
 				type: "kill"
 				value: 1L
 			}]
-			x: -0.5d
-			y: -2.5d
+			x: -9.5d
+			y: 13.0d
 		}
 		{
-			description: [
-				"林地府邸（自然生成，固定 1 只）"
-				""
-				"难度：普通"
-				""
-				"针对学生：未花破枪，或者千寻定住以及诺亚标记"
-			]
+			dependencies: ["1547A20F605C1E6F"]
+			description: ["林地府邸（自然生成，固定 1 只）"]
 			icon: "illagerinvasion:invoker_spawn_egg"
 			id: "437011FFBCCC0306"
 			rewards: [{
@@ -570,17 +339,14 @@
 				type: "kill"
 				value: 1L
 			}]
-			x: 6.0d
-			y: 13.0d
+			x: -11.5d
+			y: 9.5d
 		}
 		{
+			dependencies: ["35B143A22B536A9B"]
 			description: [
 				"玩家在主世界中会找到一个新结构，结构外面有着漂亮的樱花树，也有着来自不明的告示牌."
 				"中间有着一个巨大的樱花树，这是通往boss的竞技场"
-				""
-				"难度：普通"
-				""
-				"针对手段：无特殊机制，注意躲技能就行"
 			]
 			icon: "mokels_boss_mantyd:boss_mantyd_spawn_egg"
 			id: "42ECE34B23423C53"
@@ -595,17 +361,12 @@
 				type: "kill"
 				value: 1L
 			}]
-			x: 7.0d
-			y: 6.0d
+			x: 0.5d
+			y: 2.0d
 		}
 		{
-			description: [
-				"野外随机刷新一个红色的地牢，通往boss竞技场"
-				""
-				"难度：较难"
-				""
-				"针对手段：机制在于攻击会增加debuff条，会有不好的事情发生，所以注意躲技能就行（推荐一奶一前排）"
-			]
+			dependencies: ["1547A20F605C1E6F"]
+			description: ["野外随机刷新一个红色的地牢，通往boss竞技场"]
 			icon: "mokels_bossfight_saphyra:nameless_spawn_egg"
 			id: "0E5667DC3F857770"
 			rewards: [{
@@ -619,17 +380,11 @@
 				type: "kill"
 				value: 1L
 			}]
-			x: 6.0d
-			y: 6.0d
+			x: -3.5d
+			y: 9.5d
 		}
 		{
-			description: [
-				"刷新在森林，白桦林，黑森林等等"
-				""
-				" 难度：较难"
-				""
-				"针对学生：千寻"
-			]
+			description: ["击杀史莱姆后生成。"]
 			icon: "threateningly_mobs:re_rock_snail_spawn_egg"
 			id: "468F011F0A90A710"
 			rewards: [{
@@ -647,13 +402,7 @@
 			y: -4.0d
 		}
 		{
-			description: [
-				"刷新在森林，丛林等等"
-				""
-				"难度：较难"
-				""
-				"针对手段：看起来很睿智，没什么强大的地方，找个安全的地方输出就行"
-			]
+			description: ["击杀古老守护者后生成"]
 			icon: "threateningly_mobs:earth_loong_spawn_egg"
 			id: "56904EDCDC1FD9A9"
 			rewards: [{
@@ -671,13 +420,7 @@
 			y: -5.0d
 		}
 		{
-			description: [
-				"刷新在平原，雪地平原，向日葵平原，冰刺，草甸，小树林"
-				""
-				"难度：较难"
-				""
-				"针对学生：千寻"
-			]
+			description: ["击杀兔子后概率生成。"]
 			icon: "threateningly_mobs:titan_rabbit_re_spawn_egg"
 			id: "2D4AF33B4DEC329E"
 			rewards: [{
@@ -695,13 +438,7 @@
 			y: 0.0d
 		}
 		{
-			description: [
-				"刷新在沙漠，恶地"
-				""
-				"难度：较难"
-				""
-				"针对学生：泉奈"
-			]
+			description: ["击杀沙丘哨兵后生成"]
 			icon: "threateningly_mobs:armor_desert_spawn_egg"
 			id: "6AC5080979D715E3"
 			rewards: [{
@@ -710,8 +447,9 @@
 				type: "item"
 			}]
 			tasks: [{
-				entity: "threateningly_mobs:armor_of_desert"
-				id: "4868B0A7E6492EDE"
+				entity: "threateningly_mobs:armor_desert"
+				icon: "threateningly_mobs:armor_desert_spawn_egg"
+				id: "290E692A473C9BC6"
 				type: "kill"
 				value: 1L
 			}]
@@ -719,13 +457,7 @@
 			y: -5.0d
 		}
 		{
-			description: [
-				"主世界夜晚随机刷新"
-				""
-				"难度：较难"
-				""
-				"针对手段：一个法师，有召唤和魔法远程两个攻击方式，除了长得像主教没什么强大的地方"
-			]
+			description: ["击杀祈灵师后生成。"]
 			icon: "threateningly_mobs:lich_re_spawn_egg"
 			id: "3CA469F0601AE606"
 			rewards: [{
@@ -744,13 +476,7 @@
 			y: -3.0d
 		}
 		{
-			description: [
-				"刷新在海洋，沙漠群系"
-				""
-				"难度：普通"
-				""
-				"针对手段：生崽速度很快，推荐集火干掉"
-			]
+			description: ["击杀珊瑚巨像后生成"]
 			icon: "threateningly_mobs:beast_horseshoe_crab_spawn_egg"
 			id: "46880D4DF094086F"
 			rewards: [{
@@ -768,13 +494,7 @@
 			y: -2.0d
 		}
 		{
-			description: [
-				"主世界晚上和地狱随机刷新"
-				""
-				"难度：较难"
-				""
-				"针对学生：泉奈，或者宇泽玲纱和夏老师解除负面"
-			]
+			description: ["击杀lich后生成"]
 			icon: "threateningly_mobs:moon_priest_spawn_egg"
 			id: "2D7C6C9C994FC194"
 			rewards: [{
@@ -792,13 +512,7 @@
 			y: -4.0d
 		}
 		{
-			description: [
-				"刷新在雪地，冷水深水海洋，冰刺"
-				""
-				"难度：较难"
-				""
-				"针对手段：拥有最原始的踩踏和撕咬技能"
-			]
+			description: ["击杀地脉龙后生成"]
 			icon: "threateningly_mobs:inferno_spawn_egg"
 			id: "12374984AED8A2D2"
 			rewards: [{
@@ -816,13 +530,7 @@
 			y: -2.0d
 		}
 		{
-			description: [
-				"夜晚丛林群系随机刷新"
-				""
-				"难度：较难"
-				""
-				"针对学生：猫型学生或者邮箱"
-			]
+			description: ["击杀远古遗魂后生成"]
 			icon: "threateningly_mobs:solscarab_maximus_spawn_egg"
 			id: "5B9B6B12937451E0"
 			rewards: [{
@@ -840,13 +548,7 @@
 			y: -6.0d
 		}
 		{
-			description: [
-				"海洋群系随机刷新"
-				""
-				"难度：普通"
-				""
-				"针对学生：玛丽"
-			]
+			description: ["击杀沧溟巡守后生成"]
 			icon: "threateningly_mobs:hydra_spawn_egg"
 			id: "2429CF1C5BC05F3D"
 			rewards: [{
@@ -864,13 +566,7 @@
 			y: -3.0d
 		}
 		{
-			description: [
-				"刷新在草甸，针叶林，森林群系"
-				""
-				"难度：困难"
-				""
-				"针对学生：睦月"
-			]
+			description: ["击杀蔓生巨像后生成。"]
 			icon: "threateningly_mobs:regalhart_spawn_egg"
 			id: "7B89A0EA25973E49"
 			rewards: [{
@@ -888,37 +584,7 @@
 			y: -2.0d
 		}
 		{
-			description: [
-				"刷新在萨瓦纳草原，草甸，黑森林，恶地"
-				""
-				"难度：困难"
-				""
-				"针对学生：伊织等灵活的学生"
-			]
-			icon: "threateningly_mobs:steelboar_spawn_egg"
-			id: "401A3D3971C7BAF4"
-			rewards: [{
-				id: "6F18734D68BF0E7A"
-				item: "threateningly_mobs:steel_tusk"
-				type: "item"
-			}]
-			tasks: [{
-				entity: "threateningly_mobs:steelboar"
-				id: "3E512FB77609E907"
-				type: "kill"
-				value: 1L
-			}]
-			x: 5.0d
-			y: -3.0d
-		}
-		{
-			description: [
-				"玄武岩群系随机刷新"
-				""
-				"难度：较难"
-				""
-				"针对学生：白子，纱织"
-			]
+			description: ["击杀熔岩食者后生成。"]
 			id: "6E96D5C23591412D"
 			rewards: [{
 				id: "3E75637D237FA86D"
@@ -936,12 +602,11 @@
 			y: -3.0d
 		}
 		{
+			dependencies: ["6D704D69C917578C"]
 			description: [
-				"需兑换boss召唤蛋手动进行召唤"
+				"击杀月神祭司后自动召唤"
 				""
 				"&c难度：极难（10⭐）"
-				""
-				"针对学生：推荐若藻等远程角色"
 			]
 			id: "15D84307754B2D9C"
 			rewards: [{
@@ -956,17 +621,11 @@
 				type: "kill"
 				value: 1L
 			}]
-			x: -7.0d
-			y: 3.5d
+			x: -17.5d
+			y: 17.0d
 		}
 		{
-			description: [
-				"很少概率在地狱恶地生成"
-				""
-				"难度：较高"
-				""
-				"针对学生：任意输出学生"
-			]
+			description: ["击杀下界合金巨兽后生成。"]
 			id: "0ED8CC9906F62656"
 			rewards: [{
 				id: "798733819DA1F636"
@@ -984,13 +643,7 @@
 			y: -4.0d
 		}
 		{
-			description: [
-				"沙漠群系刷新"
-				""
-				"难度：较难"
-				""
-				"机制：会喷出火球和毒液进行攻击"
-			]
+			description: ["击杀骷髅巨龙后生成"]
 			id: "4BB97FED4124CC0F"
 			rewards: [{
 				id: "2730697B577908C1"
@@ -1008,15 +661,7 @@
 			y: -1.0d
 		}
 		{
-			description: [
-				"雪原群系刷新"
-				""
-				"难度：较难"
-				""
-				"机制：会喷出大量细雪来掩盖和限制玩家行动"
-				""
-				"针对学生：白子"
-			]
+			description: ["击杀冰冻魔像后生成"]
 			id: "55FAC0D8FAB9F2BD"
 			rewards: [{
 				id: "0576A45B6009FE58"
@@ -1034,62 +679,8 @@
 			y: -1.0d
 		}
 		{
-			description: [
-				"欲生成boss，必须在夜晚依次将上、中、下共3块骨杖残片骨杖残片依次从左至右放置于祭坛前的碎裂深石中心，然后将一瓶血&4（血瓶）&f倒在祭坛中央的祭坛方块上。"
-				""
-				"&4注意：如果要将血瓶充满，请将其放到副手，并使用骨头匕首击杀村民，直到充满。"
-				""
-				"难度：较难"
-				""
-				"地点：Lich  Prison"
-				" "
-				"针对学生：王小桃和日奈"
-			]
-			id: "2FAD41A982FD3AD1"
-			tasks: [{
-				entity: "graveyard:lich"
-				icon: "graveyard:lich_spawn_egg"
-				id: "08617DA8CAAE1CEF"
-				type: "kill"
-				value: 1L
-			}]
-			x: 0.5d
-			y: -1.5d
-		}
-		{
-			description: [
-				"袭击倒数第二或第三波必定刷新"
-				""
-				"难度：普通"
-				""
-				"机制：攻击前摇比较大，范围较远"
-				""
-				"针对学生：明日奈"
-			]
-			id: "2BB3E1A35CF1A6FC"
-			rewards: [{
-				id: "14F29C4DE84EF7EA"
-				item: "minecraft:enchanted_golden_apple"
-				type: "item"
-			}]
-			tasks: [{
-				entity: "illageandspillage:absorber"
-				icon: "illageandspillage:absorber_spawn_egg"
-				id: "773DF7D8EB83BA37"
-				type: "kill"
-				value: 1L
-			}]
-			x: 4.5d
-			y: 11.0d
-		}
-		{
-			description: [
-				"袭击倒数第二或第三波概率刷新"
-				""
-				"难度：较难"
-				""
-				"针对学生：伊织，泉奈"
-			]
+			dependencies: ["1547A20F605C1E6F"]
+			description: ["袭击尾声概率刷新"]
 			id: "5750D7121CA8BEDE"
 			rewards: [{
 				id: "3BE59AD8F69038F1"
@@ -1109,19 +700,12 @@
 				type: "kill"
 				value: 1L
 			}]
-			x: 5.0d
-			y: 12.0d
+			x: -7.5d
+			y: 9.5d
 		}
 		{
-			description: [
-				"袭击倒数第二或第三波概率刷新"
-				""
-				"难度：较难"
-				""
-				"机制：与腐败蜘蛛一起登场，骑在蜘蛛上的时候要先把他打下来"
-				""
-				"针对学生：花子，亚津子群奶"
-			]
+			dependencies: ["1547A20F605C1E6F"]
+			description: ["袭击尾波概率刷新"]
 			id: "5B2624A28763E7E3"
 			rewards: [{
 				id: "7CBDEDE572F6A632"
@@ -1135,17 +719,12 @@
 				type: "kill"
 				value: 1L
 			}]
-			x: 6.0d
-			y: 12.0d
+			x: -9.5d
+			y: 9.5d
 		}
 		{
-			description: [
-				"袭击倒数第二或第三波概率刷新"
-				""
-				"难度：较难"
-				""
-				"针对学生：美咲，日和，柚子"
-			]
+			dependencies: ["1547A20F605C1E6F"]
+			description: ["袭击尾声概率刷新"]
 			id: "24AB23F4D0C41219"
 			rewards: [{
 				id: "67451175BBB07B38"
@@ -1165,10 +744,11 @@
 				type: "kill"
 				value: 1L
 			}]
-			x: 5.5d
-			y: 11.0d
+			x: -5.5d
+			y: 9.5d
 		}
 		{
+			dependencies: ["35B143A22B536A9B"]
 			description: [
 				"末地随机刷新"
 				""
@@ -1186,18 +766,15 @@
 				type: "kill"
 				value: 1L
 			}]
-			x: 1.5d
-			y: -2.5d
+			x: 2.5d
+			y: 2.0d
 		}
 		{
+			dependencies: ["35B143A22B536A9B"]
 			description: [
 				"下界随机刷新"
 				""
 				"难度：普通"
-				""
-				"针对学生：小春"
-				""
-				"地点：Skeletosaurus Nest"
 			]
 			id: "0EE24EA4CBA83CE9"
 			rewards: [{
@@ -1212,44 +789,15 @@
 				type: "kill"
 				value: 1L
 			}]
-			x: -2.5d
-			y: 8.5d
+			x: -9.5d
+			y: 2.0d
 		}
 		{
-			description: [
-				"地狱维度任意位置随机刷新"
-				""
-				"难度：较低"
-				""
-				"针对学生：玛丽"
-				""
-				"地点：Soul Fortress Remains"
-			]
-			id: "7AC6E580B9609973"
-			rewards: [{
-				id: "5D444E2A5A95A8D1"
-				item: "legendary_monsters:withered_horn"
-				type: "item"
-			}]
-			tasks: [{
-				entity: "legendary_monsters:withered_abomination"
-				icon: "legendary_monsters:withered_abomination_spawn_egg"
-				id: "443B4A6ADBF26DD8"
-				type: "kill"
-				value: 1L
-			}]
-			x: -2.5d
-			y: 9.5d
-		}
-		{
+			dependencies: ["35B143A22B536A9B"]
 			description: [
 				"地狱维度任意位置随机刷新"
 				""
 				"难度：普通"
-				""
-				"针对学生：白子，星野"
-				""
-				"地点：Lava Eater Spawn"
 			]
 			id: "1AD140B99E00A0C6"
 			rewards: [{
@@ -1264,19 +812,12 @@
 				type: "kill"
 				value: 1L
 			}]
-			x: -1.0d
-			y: 12.5d
+			x: -1.5d
+			y: 2.0d
 		}
 		{
-			description: [
-				"主世界雪原随机生成"
-				""
-				"难度：普通"
-				""
-				"针对手段：造成缓慢效果，注意躲技能即可"
-				""
-				"地点：Frostbitten Temple"
-			]
+			dependencies: ["35B143A22B536A9B"]
+			description: ["主世界雪原随机生成"]
 			id: "7CF9CE4BB7995585"
 			rewards: [{
 				id: "6F219F0C9F90FF69"
@@ -1290,19 +831,12 @@
 				type: "kill"
 				value: 1L
 			}]
-			x: -2.5d
-			y: 10.5d
+			x: -11.5d
+			y: 2.0d
 		}
 		{
-			description: [
-				"主世界沙漠群系随机生成"
-				""
-				"难度：普通"
-				""
-				"针对手段：长得像豌豆射手，注意躲避他的炮弹"
-				""
-				"地点：Ruined Pyramid"
-			]
+			dependencies: ["35B143A22B536A9B"]
+			description: ["主世界沙漠群系随机生成"]
 			id: "43D4E63BB8DB605C"
 			rewards: [{
 				id: "6D76AF02D76BA5DA"
@@ -1322,18 +856,15 @@
 				type: "kill"
 				value: 1L
 			}]
-			x: 0.5d
-			y: 7.5d
+			x: -7.5d
+			y: 2.0d
 		}
 		{
+			dependencies: ["021317202E20B853"]
 			description: [
 				"在高山地形浮云神殿内刷新"
 				""
 				"难度：困难"
-				""
-				"针对学生：小梓，诺亚，邮箱"
-				""
-				"地点：Cloudy Temple"
 			]
 			id: "3725A61300A3D126"
 			rewards: [{
@@ -1354,19 +885,12 @@
 				type: "kill"
 				value: 1L
 			}]
-			x: -1.0d
-			y: 10.0d
+			x: -11.5d
+			y: 13.0d
 		}
 		{
-			description: [
-				"雪原群系地下遗迹随机刷新"
-				""
-				"难度：普通"
-				""
-				"针对学生：小雪，莉音"
-				""
-				"地点：Abandoned Crypt"
-			]
+			dependencies: ["35B143A22B536A9B"]
+			description: ["雪原群系地下遗迹随机刷新"]
 			id: "5D17FA2B22180AA8"
 			tasks: [{
 				entity: "legendary_monsters:posessed_paladin"
@@ -1375,19 +899,12 @@
 				type: "kill"
 				value: 1L
 			}]
-			x: -2.5d
-			y: 7.5d
+			x: -3.5d
+			y: 2.0d
 		}
 		{
-			description: [
-				"野外随机刷新"
-				""
-				"难度：普通"
-				""
-				"针对学生：伊草遥香，古关忧"
-				""
-				"地点：Ancient Stronghold"
-			]
+			dependencies: ["35B143A22B536A9B"]
+			description: ["野外随机刷新"]
 			id: "439A6CF6C03A6964"
 			rewards: [{
 				id: "65CFA74C3BF5E64E"
@@ -1401,18 +918,15 @@
 				type: "kill"
 				value: 1L
 			}]
-			x: 0.5d
-			y: 8.5d
+			x: -5.5d
+			y: 2.0d
 		}
 		{
+			dependencies: ["35B143A22B536A9B"]
 			description: [
 				"野外随机刷新"
 				""
 				"难度：普通"
-				""
-				"针对学生：宇泽玲纱，夏老师"
-				""
-				"地点：Mossy Temple"
 			]
 			id: "3335EBEE702221C0"
 			rewards: [{
@@ -1427,10 +941,11 @@
 				type: "kill"
 				value: 1L
 			}]
-			x: 0.0d
-			y: 11.5d
+			x: -13.5d
+			y: 2.0d
 		}
 		{
+			dependencies: ["1FDB230CCA3A9AA6"]
 			description: [
 				"击杀地精获取地精之帽后右键野外的精致地精雕像"
 				""
@@ -1453,10 +968,11 @@
 				type: "kill"
 				value: 1L
 			}]
-			x: -8.0d
-			y: 9.0d
+			x: -13.5d
+			y: 6.0d
 		}
 		{
+			dependencies: ["1547A20F605C1E6F"]
 			description: [
 				"嗅探兽挨一次雷劈"
 				""
@@ -1477,10 +993,11 @@
 				type: "kill"
 				value: 1L
 			}]
-			x: -7.0d
-			y: 9.0d
+			x: -19.5d
+			y: 9.5d
 		}
 		{
+			dependencies: ["021317202E20B853"]
 			description: [
 				"超级嗅探兽再挨一次雷劈"
 				""
@@ -1501,19 +1018,16 @@
 				type: "kill"
 				value: 1L
 			}]
-			x: -7.0d
-			y: 8.0d
+			x: -19.5d
+			y: 13.0d
 		}
 		{
+			dependencies: ["6D704D69C917578C"]
 			description: [
 				"当玩家击败魔法师·梅林与女巫·喀耳刻时，它们的身体将保留直至触发召唤仪式。"
 				""
 				"(手持神秘面纱右击幽冥教堂中的供奉祭坛即可召唤出第一阶段的双BOSS，击败它们后这两位BOSS将会召唤出最终BOSS：大法师·甘道夫。)"
 				"&c难度：极高（10⭐）"
-				""
-				"推荐学生：爱用品邮箱，小护士，日奈，亚子"
-				""
-				"地点：Chthonic Cathedral"
 			]
 			icon: {
 				Count: 1
@@ -1541,195 +1055,15 @@
 				type: "kill"
 				value: 1L
 			}]
-			x: -7.0d
-			y: 2.5d
+			x: -15.5d
+			y: 17.0d
 		}
 		{
-			description: [
-				"Krampus会在圣诞节期间的雪地中生成，在玩家的“顽皮值”达到100点时，它也会强制生成。"
-				""
-				"也有小概率会在游戏的第10个晚上于亮度≤8的寒冷生物群系生成。"
-				""
-				"难度：较难"
-				""
-				"针对学生：濑名，日奈"
-			]
-			id: "16A6625F5C1B40A9"
-			rewards: [{
-				id: "0C4B9ADD632BDAB8"
-				item: "ironfurnaces:item_xmas"
-				type: "item"
-			}]
-			tasks: [{
-				entity: "born_in_chaos_v1:krampus"
-				icon: "born_in_chaos_v1:krampus_spawn_egg"
-				id: "6EC1953F2325E80F"
-				type: "kill"
-				value: 1L
-			}]
-			x: -1.0d
-			y: 11.5d
-		}
-		{
-			description: [
-				"窃命者会在游戏的第六日夜中随着聊天栏警告开始刷新在光照等或低于8的环境下。"
-				""
-				"警告词:"
-				""
-				"“Something powerful is invading your world“"
-				""
-				"“一些强力的东西在入侵你的世界”"
-				""
-				"难度：普通"
-				""
-				"针对学生：未花，日奈"
-			]
-			id: "3971E9329A2B7B7B"
-			rewards: [{
-				id: "21853A9DE0FCB1D8"
-				item: "born_in_chaos_v1:lifestealer_bone"
-				type: "item"
-			}]
-			tasks: [{
-				entity: "born_in_chaos_v1:lifestealer_true_form"
-				icon: "born_in_chaos_v1:lifestealer_spawn_egg"
-				id: "06FC5F40F5F91750"
-				type: "kill"
-				value: 1L
-			}]
-			x: 0.5d
-			y: 10.5d
-		}
-		{
-			description: [
-				"野外随机生成"
-				""
-				"难度：普通"
-				""
-				"针对学生：爱用品邮箱，冰室濑名"
-			]
-			id: "795901CAE3BCA187"
-			rewards: [{
-				id: "6E9155FDA907827A"
-				item: "legendary_monsters:corrupted_soul"
-				type: "item"
-			}]
-			tasks: [{
-				entity: "born_in_chaos_v1:fallen_chaos_knight"
-				icon: "born_in_chaos_v1:fallen_chaos_knight_spawn_egg"
-				id: "77FB50B0C800410D"
-				type: "kill"
-				value: 1L
-			}]
-			x: -1.0d
-			y: 6.5d
-		}
-		{
-			description: [
-				"野外随机刷新"
-				""
-				"难度：普通"
-				""
-				"针对学生：桐藤渚，铃美"
-			]
-			id: "1350BE1E122C3E2E"
-			rewards: [{
-				id: "00BC9AC3580E4650"
-				item: "born_in_chaos_v1:fangofthe_hound_leader"
-				type: "item"
-			}]
-			tasks: [{
-				entity: "born_in_chaos_v1:dire_hound_leader"
-				icon: "born_in_chaos_v1:dire_hound_leader_spawn_egg"
-				id: "364E32074C258720"
-				type: "kill"
-				value: 1L
-			}]
-			x: -1.5d
-			y: 7.5d
-		}
-		{
-			description: [
-				"野外随机刷新"
-				""
-				"难度：较难"
-				""
-				"针对学生：小春，美弥"
-			]
-			id: "512702F7B2F93AB3"
-			rewards: [{
-				id: "2C5BA489A72A404E"
-				item: {
-					Count: 1
-					id: "born_in_chaos_v1:missionary_hat_helmet"
-					tag: {
-						Damage: 0
-					}
-				}
-				type: "item"
-			}]
-			tasks: [{
-				entity: "born_in_chaos_v1:missioner"
-				icon: "born_in_chaos_v1:missioner_spawn_egg"
-				id: "76AD93C017C5BC1E"
-				type: "kill"
-				value: 1L
-			}]
-			x: -2.0d
-			y: 11.5d
-		}
-		{
-			description: [
-				"挖掉怪样的南瓜召唤"
-				""
-				"难度：较难"
-				""
-				"机制：隶属于南瓜领主的小弟，会瞬移攻击玩家，第二阶段会下马用魔法攻击和召唤小弟"
-				""
-				"针对学生：小春，花子，小梓"
-				""
-				"地点：Infernal Pumpkin"
-			]
-			icon: "born_in_chaos_v1:sir_pumpkinhead_spawn_egg"
-			id: "1B47151F41EF96EF"
-			rewards: [{
-				id: "0208739E5A8860F5"
-				item: "born_in_chaos_v1:infernal_evil_pumpkin"
-				type: "item"
-			}]
-			tasks: [
-				{
-					entity: "born_in_chaos_v1:sir_pumpkinhead"
-					icon: "born_in_chaos_v1:sir_pumpkinhead_spawn_egg"
-					id: "0A000CBEEF4E53A2"
-					type: "kill"
-					value: 1L
-				}
-				{
-					entity: "born_in_chaos_v1:pumpkinhead"
-					id: "1BA0C063F9ED8C45"
-					type: "kill"
-					value: 1L
-				}
-				{
-					entity: "born_in_chaos_v1:felsteed"
-					id: "7CFA1D728F177FD1"
-					type: "kill"
-					value: 1L
-				}
-			]
-			x: -1.0d
-			y: 9.0d
-		}
-		{
+			dependencies: ["6D704D69C917578C"]
 			description: [
 				"对自然生成的恶魔南瓜使用转化试剂生成。"
 				""
 				"&c难度：极难（10⭐）"
-				""
-				"机制：拥有极快的速度和远程攻击手段，还有附加的负面buff以及召唤小弟的力量，第二阶段会下马与马一起对玩家造成攻击"
-				""
-				"针对学生：砂狼白子（色彩化），反转星野，未花"
 			]
 			icon: "born_in_chaos_v1:lord_pumpkinhead_spawn_egg"
 			id: "0B2A763E1D420EA2"
@@ -1771,36 +1105,11 @@
 					value: 1L
 				}
 			]
-			x: -7.0d
-			y: 4.5d
+			x: -19.5d
+			y: 17.0d
 		}
 		{
-			description: [
-				"野外随机刷新"
-				""
-				"难度：较难"
-				""
-				"机制：晚上的时候只有一个眼睛靠近你，注意警惕四周"
-				""
-				"针对学生：日奈，濑名"
-			]
-			id: "4CB088E2251597A2"
-			rewards: [{
-				id: "3432592BFF55C92A"
-				item: "born_in_chaos_v1:nightmare_stalker_skull"
-				type: "item"
-			}]
-			tasks: [{
-				entity: "born_in_chaos_v1:nightmare_stalker"
-				icon: "born_in_chaos_v1:nightmare_stalker_spawn_egg"
-				id: "6104F7F11F43EA28"
-				type: "kill"
-				value: 1L
-			}]
-			x: 0.5d
-			y: 9.5d
-		}
-		{
+			dependencies: ["1FDB230CCA3A9AA6"]
 			description: [
 				"身处海洋试炼尖塔之下的Boss，玩家可在试炼尖塔最高层的讲台上看到挑战它的提示。试炼守护者是你的terramity之旅中遇到的第三个Boss。"
 				""
@@ -1823,29 +1132,11 @@
 				type: "kill"
 				value: 1L
 			}]
-			x: -9.0d
-			y: 9.0d
+			x: -11.5d
+			y: 6.0d
 		}
 		{
-			description: ["来自地狱的骑士，生成在地狱之中。"]
-			icon: "terramity:hellrok_spawn_egg"
-			id: "5B21938DDCEA0147"
-			rewards: [{
-				id: "48B8986B3B464E1C"
-				item: "terramity:hellspec_alloy"
-				type: "item"
-			}]
-			tasks: [{
-				entity: "terramity:hellrok"
-				id: "7CB329B94881DC2F"
-				type: "kill"
-				value: 1L
-			}]
-			x: -1.0d
-			y: 13.5d
-		}
-		{
-			description: ["击杀利维坦后自动刷新（未完成）"]
+			description: ["击杀利维坦后自动刷新"]
 			id: "52B2CD5EE7B5343C"
 			rewards: [{
 				id: "726021D0115F0BB4"
@@ -1859,36 +1150,12 @@
 				type: "kill"
 				value: 1L
 			}]
-			x: 8.0d
+			x: 5.0d
 			y: -3.0d
 		}
 		{
-			id: "0F9809E5D4244826"
-			rewards: [{
-				id: "01AAA7B789A61CCB"
-				item: "born_in_chaos_v1:sea_terror_stomach"
-				type: "item"
-			}]
-			tasks: [{
-				entity: "born_in_chaos_v1:glutton_fish"
-				icon: "born_in_chaos_v1:glutton_fish_spawn_egg"
-				id: "0C1018216554BC8F"
-				type: "kill"
-				value: 1L
-			}]
-			title: "巨食人鱼"
-			x: -0.5d
-			y: 7.5d
-		}
-		{
-			description: [
-				"在冰原生成，平时休眠状态会将一块冰晶握在手中，可以趁机偷取，受到攻击苏醒，会将冰晶含进嘴里。伤害主要为高伤害和寒冰吐息，有缓慢效果和击退。"
-				""
-				"难度：适中"
-				""
-				""
-				"地点：Frostmaw Spawn"
-			]
+			dependencies: ["35B143A22B536A9B"]
+			description: ["在冰原生成，平时休眠状态会将一块冰晶握在手中，可以趁机偷取，受到攻击苏醒，会将冰晶含进嘴里。伤害主要为高伤害和寒冰吐息，有缓慢效果和击退。"]
 			icon: "mowziesmobs:frostmaw_spawn_egg"
 			id: "482EA1D6E7FB477D"
 			rewards: [{
@@ -1908,17 +1175,12 @@
 				type: "kill"
 				value: 1L
 			}]
-			x: 2.5d
-			y: 15.0d
+			x: -19.5d
+			y: 2.0d
 		}
 		{
-			description: [
-				"在草原生成，攻击为从天上打下来的强烈阳光，以及能够召唤小怪，杀死主将即可。"
-				""
-				"难度:较为简单"
-				""
-				"地点：Umvuthana Grove"
-			]
+			dependencies: ["35B143A22B536A9B"]
+			description: ["在草原生成，攻击为从天上打下来的强烈阳光，以及能够召唤小怪，杀死主将即可。"]
 			icon: "mowziesmobs:umvuthi_spawn_egg"
 			id: "6B37D36E413DBE90"
 			rewards: [{
@@ -1932,17 +1194,12 @@
 				type: "kill"
 				value: 1L
 			}]
-			x: 2.0d
-			y: 16.0d
+			x: -17.5d
+			y: 2.0d
 		}
 		{
-			description: [
-				"会在地下的地牢中生成，全身无敌，技能多为击退和控制，要小心它破坏地形的冲击波，当它使用下劈的动作时会出现硬直，要在这个时候攻击它背后的旧伤，每次攻击一次，慢慢磨死就好。"
-				""
-				"难度：较为简单"
-				""
-				"地点：Wrought Chamber"
-			]
+			dependencies: ["35B143A22B536A9B"]
+			description: ["会在地下的地牢中生成，全身无敌，技能多为击退和控制，要小心它破坏地形的冲击波，当它使用下劈的动作时会出现硬直，要在这个时候攻击它背后的旧伤，每次攻击一次，慢慢磨死就好。"]
 			icon: "mowziesmobs:wroughtnaut_spawn_egg"
 			id: "6FBB2FA52969B704"
 			rewards: [{
@@ -1956,15 +1213,12 @@
 				type: "kill"
 				value: 1L
 			}]
-			x: 3.0d
-			y: 16.0d
+			x: -15.5d
+			y: 2.0d
 		}
 		{
-			description: [
-				"目前不清楚机制，且无针对学生"
-				""
-				"&6难度7星"
-			]
+			dependencies: ["021317202E20B853"]
+			description: [""]
 			id: "55E3E1DF317CD9AB"
 			rewards: [{
 				id: "225709D277C06EB1"
@@ -1978,29 +1232,20 @@
 				type: "kill"
 				value: 1L
 			}]
-			x: -6.5d
+			x: -17.5d
 			y: 13.0d
 		}
 		{
 			dependencies: [
-				"34D652FA1AA6DC0F"
 				"244E93A28A6505BB"
-				"73050BA3FC59D8AD"
 				"0B2A763E1D420EA2"
 				"15D84307754B2D9C"
 				"5E0A05443373E70E"
 				"37D8CD7B86E0CFFC"
 				"1F988838EDB0FFF3"
-				"2FAD41A982FD3AD1"
-				"057A8BD0B7B755D2"
 				"04379A9BDB38F240"
 				"352F7AC79A675FCF"
 				"1B7F7D3F556EC0CF"
-				"0F9809E5D4244826"
-				"4CB088E2251597A2"
-				"512702F7B2F93AB3"
-				"16A6625F5C1B40A9"
-				"1B47151F41EF96EF"
 				"7E73BB2940C1AD18"
 				"3833BAFC6BFC45E0"
 				"710DB0F8D0D7A1FD"
@@ -2008,21 +1253,11 @@
 				"0D9804C66EE48C94"
 				"3E1FABA676523410"
 				"63A9BA20F99A687D"
-				"2BB3E1A35CF1A6FC"
 				"5750D7121CA8BEDE"
 				"24AB23F4D0C41219"
 				"437011FFBCCC0306"
-				"104704617FE8CDEE"
-				"7223C4844C69DB6F"
-				"71457ADFA2B5A440"
-				"7271D3F13F0404FB"
-				"0481C38823798D4B"
-				"4B0DB258A8D6B246"
-				"720E723FAFFD9193"
-				"427C180449B21214"
 				"5E0A05443373E70E"
 				"0EE24EA4CBA83CE9"
-				"7AC6E580B9609973"
 				"1AD140B99E00A0C6"
 				"7CF9CE4BB7995585"
 				"3335EBEE702221C0"
@@ -2034,12 +1269,9 @@
 				"0E5667DC3F857770"
 				"6FBB2FA52969B704"
 				"482EA1D6E7FB477D"
-				"5B21938DDCEA0147"
-				"02E72A61FBF797C5"
 				"3A0DD276C2D05F26"
 				"5B624397C4106FCE"
 				"2B268BED219500CC"
-				"2D523AED1C1F696D"
 				"468F011F0A90A710"
 				"56904EDCDC1FD9A9"
 				"2D4AF33B4DEC329E"
@@ -2051,7 +1283,6 @@
 				"5B9B6B12937451E0"
 				"2429CF1C5BC05F3D"
 				"7B89A0EA25973E49"
-				"401A3D3971C7BAF4"
 				"6E96D5C23591412D"
 				"0ED8CC9906F62656"
 				"55FAC0D8FAB9F2BD"
@@ -2059,11 +1290,19 @@
 				"52B2CD5EE7B5343C"
 				"5B2624A28763E7E3"
 				"18BD14E6C7FC2082"
+				"00A4E955FAA7569F"
+				"2CC44C9805777AC3"
 			]
-			description: ["手持右键即可进入总力战维度，祝你上一档。"]
+			dependency_requirement: "one_completed"
+			description: [
+				"手持右键即可进入总力战维度，祝你上一档。"
+				""
+				"（7-10星boss并未做单人考虑，所以只需要打过前三个难度的所有boss后即可挑战总力战boss）"
+			]
 			hide_dependency_lines: true
 			icon: "binah:binah_desert_trophy"
 			id: "6EDEF5ED9DABE391"
+			min_required_dependencies: 27
 			rewards: [{
 				id: "1FE8C9AF363E1522"
 				item: "binah:desert_jade"
@@ -2075,10 +1314,11 @@
 				title: "“十字神明——比娜”"
 				type: "checkmark"
 			}]
-			x: -8.0d
-			y: -4.0d
+			x: 4.0d
+			y: 16.0d
 		}
 		{
+			dependencies: ["021317202E20B853"]
 			id: "18BD14E6C7FC2082"
 			tasks: [{
 				entity: "mokels_bossfight_saphyra:mothboss"
@@ -2087,8 +1327,88 @@
 				type: "kill"
 				value: 1L
 			}]
-			x: 6.5d
-			y: 5.0d
+			x: -13.5d
+			y: 13.0d
+		}
+		{
+			description: ["这部分boss会在玩家击败固定生物后刷新"]
+			id: "4C5490DFB557BB5C"
+			size: 5.0d
+			tasks: [{
+				id: "5496D27A2D812CBD"
+				title: "附加型bos"
+				type: "checkmark"
+			}]
+			title: "联结生成boss"
+			x: 15.0d
+			y: -2.5d
+		}
+		{
+			icon: "minecraft:coal"
+			id: "35B143A22B536A9B"
+			size: 3.0d
+			tasks: [{
+				dimension: "minecraft:overworld"
+				id: "0BE2DCEA9F44B4C8"
+				type: "dimension"
+			}]
+			title: "简单BOSS"
+			x: -22.0d
+			y: 2.0d
+		}
+		{
+			icon: "minecraft:iron_ingot"
+			id: "1FDB230CCA3A9AA6"
+			size: 3.0d
+			tasks: [{
+				dimension: "minecraft:overworld"
+				id: "0C9728CFD9B143AF"
+				type: "dimension"
+			}]
+			title: "微难BOSS"
+			x: -22.0d
+			y: 6.0d
+		}
+		{
+			icon: "minecraft:gold_ingot"
+			id: "1547A20F605C1E6F"
+			size: 3.0d
+			tasks: [{
+				dimension: "minecraft:overworld"
+				id: "0B5E9D7CA2FD25BD"
+				type: "dimension"
+			}]
+			title: "困难BOSS"
+			x: -22.0d
+			y: 9.5d
+		}
+		{
+			description: ["不建议单人玩家挑战"]
+			icon: "minecraft:diamond"
+			id: "021317202E20B853"
+			size: 3.0d
+			tasks: [{
+				dimension: "minecraft:overworld"
+				id: "77C812E7A7FF0ABA"
+				type: "dimension"
+			}]
+			title: "高难BOSS"
+			x: -22.0d
+			y: 13.0d
+		}
+		{
+			description: ["不建议人数低于3的存档挑战"]
+			icon: "minecraft:netherite_ingot"
+			id: "6D704D69C917578C"
+			size: 3.0d
+			tasks: [{
+				dimension: "minecraft:overworld"
+				id: "7D9EA7C8BDFB4965"
+				type: "dimension"
+			}]
+			title: "超高难BOSS"
+			x: -22.0d
+			y: 17.0d
 		}
 	]
 	title: "vol5.1：boss图鉴"

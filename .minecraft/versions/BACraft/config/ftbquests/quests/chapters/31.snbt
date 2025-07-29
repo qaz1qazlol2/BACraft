@@ -137,7 +137,7 @@
 				item: "twilightforest:minoshroom_trophy"
 				type: "item"
 			}]
-			x: 8.5d
+			x: 7.5d
 			y: 0.0d
 		}
 		{
@@ -271,7 +271,7 @@
 				item: "twilightforest:hydra_trophy"
 				type: "item"
 			}]
-			x: 11.0d
+			x: 9.0d
 			y: 0.0d
 		}
 		{
@@ -335,8 +335,8 @@
 				type: "item"
 			}]
 			title: "暗藏玄机"
-			x: 8.5d
-			y: 4.0d
+			x: 8.0d
+			y: 3.0d
 		}
 		{
 			dependencies: [
@@ -355,15 +355,11 @@
 				item: "twilightforest:magic_beans"
 				type: "item"
 			}]
-			x: 11.0d
-			y: -2.0d
+			x: 12.0d
+			y: 0.0d
 		}
 		{
-			dependencies: [
-				"18E0788F30C7C671"
-				"2E3FB032249F247B"
-				"3B20E69B4EE31231"
-			]
+			dependencies: ["2AF776055E5DCEE3"]
 			description: ["使用砷铅铁反应堆可以快速破坏巨型黑曜石"]
 			id: "455C46092F09B9F0"
 			rewards: [
@@ -397,8 +393,8 @@
 				}
 				type: "item"
 			}]
-			x: 11.0d
-			y: 2.0d
+			x: 14.0d
+			y: 0.0d
 		}
 		{
 			dependencies: ["2AF776055E5DCEE3"]
@@ -427,8 +423,8 @@
 				}
 				type: "item"
 			}]
-			x: 13.0d
-			y: 0.0d
+			x: 12.0d
+			y: 2.0d
 		}
 		{
 			dependencies: ["2AF776055E5DCEE3"]
@@ -468,7 +464,7 @@
 				}
 				type: "item"
 			}]
-			x: 13.0d
+			x: 12.0d
 			y: -2.0d
 		}
 		{
@@ -485,8 +481,8 @@
 				id: "5E505F5966BD2395"
 				type: "checkmark"
 			}]
-			x: 13.0d
-			y: 2.0d
+			x: 15.5d
+			y: 0.0d
 		}
 		{
 			dependencies: ["13C10990C9267F2F"]
@@ -512,6 +508,17 @@
 					}
 					type: "item"
 				}
+				{
+					id: "078110F0A07070BA"
+					item: {
+						Count: 1
+						id: "tacz:workbench_b"
+						tag: {
+							BlockId: "pgp:printer"
+						}
+					}
+					type: "item"
+				}
 			]
 			tasks: [{
 				advancement: "twilightforest:progression_end"
@@ -520,8 +527,8 @@
 				type: "advancement"
 			}]
 			title: "解放暮色"
-			x: 15.0d
-			y: 2.0d
+			x: 17.0d
+			y: 0.0d
 		}
 		{
 			dependencies: ["3B20E69B4EE31231"]
@@ -554,7 +561,7 @@
 			}]
 			title: "抄家！"
 			x: 8.5d
-			y: -4.0d
+			y: -3.5d
 		}
 		{
 			dependencies: ["153480C48C561C45"]
@@ -841,7 +848,7 @@
 				title: "探访神稿遗址"
 				type: "structure"
 			}]
-			x: 6.5d
+			x: 6.0d
 			y: 0.0d
 		}
 	]

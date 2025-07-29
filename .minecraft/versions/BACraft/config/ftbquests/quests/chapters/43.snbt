@@ -10,7 +10,11 @@
 	quests: [
 		{
 			dependencies: ["45974B994B771101"]
-			description: ["注：本模组的所有生物均有会随着玩家人数而增加生命值的设定。"]
+			description: [
+				"注：本模组的所有生物均有会随着玩家人数而增加生命值的设定。"
+				""
+				"（前置任务：海灵物语）"
+			]
 			id: "110415B35E83AFC7"
 			rewards: [
 				{
@@ -81,11 +85,9 @@
 				type: "item"
 			}]
 			tasks: [{
-				entity: "terramity:gob"
-				icon: "terramity:gob_spawn_egg"
-				id: "70C5ADF0D1641A67"
-				type: "kill"
-				value: 1L
+				id: "1A33F717509132D7"
+				item: "terramity:music_sheet_of_the_gnome_king"
+				type: "item"
 			}]
 			x: -2.0d
 			y: 0.0d
@@ -122,18 +124,20 @@
 				type: "item"
 			}]
 			tasks: [{
-				entity: "terramity:super_sniffer"
-				icon: "terramity:super_sniffer_spawn_egg"
-				id: "1D2CCBB0DF873C2C"
-				type: "kill"
-				value: 1L
+				id: "08A5BDBAEDDFE70D"
+				item: "terramity:music_sheet_of_the_legendary_super_sniffer"
+				type: "item"
 			}]
 			x: 6.0d
 			y: -4.5d
 		}
 		{
 			dependencies: ["7C9F701A299BC68B"]
-			description: ["当超级嗅探兽二阶段后再次雷击即可进化成究极嗅探兽，他比超级嗅探兽更强，且更具破坏力。"]
+			description: [
+				"当超级嗅探兽二阶段后再次雷击即可进化成究极嗅探兽，他比超级嗅探兽更强，且更具破坏力。"
+				""
+				"&eBOSS血量每低1%就获得1%伤害和闪避加成。"
+			]
 			id: "0F1F6BFB52F15677"
 			rewards: [{
 				count: 4
@@ -142,11 +146,9 @@
 				type: "item"
 			}]
 			tasks: [{
-				entity: "terramity:ultra_sniffer"
-				icon: "terramity:ultra_sniffer_spawn_egg"
-				id: "2A6F1FAB5365D42A"
-				type: "kill"
-				value: 1L
+				id: "63353F9FCE982CA4"
+				item: "terramity:music_sheet_of_the_omnipotent_ultra_sniffer"
+				type: "item"
 			}]
 			x: 10.0d
 			y: -4.5d
@@ -201,11 +203,9 @@
 				type: "item"
 			}]
 			tasks: [{
-				entity: "terramity:trial_guardian"
-				icon: "terramity:trial_guardian_spawn_egg"
-				id: "3D5569723827CBB6"
-				type: "kill"
-				value: 1L
+				id: "4F45840D8FB18641"
+				item: "terramity:music_sheet_of_the_trial_guardian"
+				type: "item"
 			}]
 			x: 10.0d
 			y: 4.0d
@@ -306,11 +306,9 @@
 				type: "item"
 			}]
 			tasks: [{
-				entity: "terramity:virtue"
-				icon: "terramity:virtue_spawn_egg"
-				id: "4F2B4908853373D9"
-				type: "kill"
-				value: 1L
+				id: "18135D9B375F1D20"
+				item: "terramity:angel_feather"
+				type: "item"
 			}]
 			x: 10.0d
 			y: 0.0d
@@ -340,6 +338,8 @@
 				""
 				"附近玩家会因甘道夫出现而获得震颤2s，屏幕剧烈抖动。甘道夫刚生成时会获得缓降1s和进攻2s。"
 				""
+				"&e攻击为玩家施加30秒震撼buff（震撼：使玩家在跳跃的一瞬间被拉回地面，且造成伤害降低20%）"
+				""
 				"&4（本整合包的十星boss之一，拥有变态的伤害和机动性，且有大范围杀伤，切记不要硬吃他的伤害）"
 			]
 			id: "20F3B2EBD11ED227"
@@ -350,11 +350,15 @@
 				type: "item"
 			}]
 			tasks: [{
-				entity: "terramity:gundalf"
-				icon: "terramity:gundalf_spawn_egg"
-				id: "7DF87D7191DECC42"
-				type: "kill"
-				value: 1L
+				id: "228EC61C62D7FB6A"
+				item: {
+					Count: 1
+					id: "terramity:gundalfs_hat_helmet"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
 			}]
 			x: 17.5d
 			y: 0.0d
