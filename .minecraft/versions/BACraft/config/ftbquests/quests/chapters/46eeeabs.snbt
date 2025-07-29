@@ -11,7 +11,7 @@
 		}
 	}
 	id: "58C43DDF5875E246"
-	order_index: 3
+	order_index: 2
 	quest_links: [ ]
 	quests: [
 		{
@@ -113,5 +113,5 @@
 			y: 0.0d
 		}
 	]
-	title: "4.4：EEEAB's"
+	title: "4.3：EEEAB's"
 }

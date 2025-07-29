@@ -71,7 +71,11 @@
 				"76CF3B4DF1B68DEF"
 				"153480C48C561C45"
 			]
-			description: ["找到一个村庄。"]
+			description: [
+				"找到一个村庄。"
+				""
+				"（完成主世界和地狱的主线任务）"
+			]
 			id: "332225AA4DD0C652"
 			rewards: [{
 				count: 2
@@ -197,7 +201,11 @@
 				"69BAB4F974FAF30D"
 				"40A6B356A860D1F1"
 			]
-			description: ["一个极其麻烦的boss，在林地府邸中生成。"]
+			description: [
+				"一个极其麻烦的boss，在林地府邸中生成。"
+				""
+				"(注：击杀后会进行连续boss战，请做好准备)"
+			]
 			id: "51DB4F31302BF611"
 			rewards: [{
 				count: 4

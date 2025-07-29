@@ -26,21 +26,29 @@
 				"针对学生：佳代子"
 			]
 			id: "1C19BB0965959C09"
-			rewards: [{
-				id: "10045DA81C289ED9"
-				item: {
-					Count: 1
-					id: "aquamirae:coral_lance"
-					tag: {
-						Damage: 0
-						Enchantments: [{
-							id: "minecraft:unbreaking"
-							lvl: 4s
-						}]
+			rewards: [
+				{
+					id: "10045DA81C289ED9"
+					item: {
+						Count: 1
+						id: "aquamirae:coral_lance"
+						tag: {
+							Damage: 0
+							Enchantments: [{
+								id: "minecraft:unbreaking"
+								lvl: 4s
+							}]
+						}
 					}
+					type: "item"
 				}
-				type: "item"
-			}]
+				{
+					command: "/curios add ring @p 1"
+					icon: "bountifulbaubles:curious_ring"
+					id: "18E9CEA04D2E8300"
+					type: "command"
+				}
+			]
 			subtitle: "求生者吹响的稀疏号角自会惊醒她的灵魂。"
 			tasks: [{
 				entity: "aquamirae:captain_cornelia"
@@ -99,6 +107,12 @@
 			]
 			icon: "corundumguardian:corundum_guardian_spawn_egg"
 			id: "5E9CA99D695AC167"
+			rewards: [{
+				command: "/curios add ring @p 1"
+				icon: "bountifulbaubles:curious_ring"
+				id: "3C8C64D56F92AA1E"
+				type: "command"
+			}]
 			subtitle: "来自未知世界的战争机器"
 			tasks: [{
 				entity: "corundumguardian:corundum_guardian"
@@ -144,17 +158,25 @@
 			]
 			icon: "cataclysm:netherite_monstrosity_spawn_egg"
 			id: "3833BAFC6BFC45E0"
-			rewards: [{
-				id: "3DF0130D9E2009B0"
-				item: {
-					Count: 1
-					id: "cataclysm:infernal_forge"
-					tag: {
-						Damage: 0
+			rewards: [
+				{
+					id: "3DF0130D9E2009B0"
+					item: {
+						Count: 1
+						id: "cataclysm:infernal_forge"
+						tag: {
+							Damage: 0
+						}
 					}
+					type: "item"
 				}
-				type: "item"
-			}]
+				{
+					count: 60
+					id: "47B03F1F50166A31"
+					item: "blue_archivescraft:cyanoaugite"
+					type: "item"
+				}
+			]
 			tasks: [{
 				entity: "cataclysm:netherite_monstrosity"
 				id: "19BD3991C4B41B73"
@@ -175,17 +197,25 @@
 			]
 			icon: "cataclysm:ender_guardian_spawn_egg"
 			id: "360AC32235F8A4B1"
-			rewards: [{
-				id: "09F7651EE8123DE9"
-				item: {
-					Count: 1
-					id: "terramity:enderswap_sceptre"
-					tag: {
-						Damage: 0
+			rewards: [
+				{
+					id: "09F7651EE8123DE9"
+					item: {
+						Count: 1
+						id: "terramity:enderswap_sceptre"
+						tag: {
+							Damage: 0
+						}
 					}
+					type: "item"
 				}
-				type: "item"
-			}]
+				{
+					count: 60
+					id: "4EE983D67854D90E"
+					item: "blue_archivescraft:cyanoaugite"
+					type: "item"
+				}
+			]
 			tasks: [{
 				entity: "cataclysm:ender_guardian"
 				id: "4739734144D69C52"
@@ -206,11 +236,19 @@
 			]
 			icon: "cataclysm:maledictus_spawn_egg"
 			id: "3E1FABA676523410"
-			rewards: [{
-				id: "5EAF648992F09B57"
-				item: "cataclysm:cursed_eye"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "5EAF648992F09B57"
+					item: "cataclysm:cursed_eye"
+					type: "item"
+				}
+				{
+					count: 60
+					id: "4C4C4427C96F83D9"
+					item: "blue_archivescraft:cyanoaugite"
+					type: "item"
+				}
+			]
 			tasks: [{
 				entity: "cataclysm:maledictus"
 				id: "16F366091A45742A"
@@ -258,11 +296,19 @@
 			]
 			icon: "cataclysm:the_harbinger_spawn_egg"
 			id: "710DB0F8D0D7A1FD"
-			rewards: [{
-				id: "567D8448E423030A"
-				item: "cataclysm:flame_eye"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "567D8448E423030A"
+					item: "cataclysm:flame_eye"
+					type: "item"
+				}
+				{
+					command: "/curios add ring @p 1"
+					icon: "bountifulbaubles:curious_ring"
+					id: "1025848B344D0901"
+					type: "command"
+				}
+			]
 			tasks: [{
 				entity: "cataclysm:the_harbinger"
 				id: "714C006785026F8E"
@@ -283,11 +329,19 @@
 			]
 			icon: "cataclysm:ancient_remnant_spawn_egg"
 			id: "2B5BDD33A6706A74"
-			rewards: [{
-				id: "253D7C7D1D72F863"
-				item: "cataclysm:remnant_skull"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "253D7C7D1D72F863"
+					item: "cataclysm:remnant_skull"
+					type: "item"
+				}
+				{
+					command: "/curios add ring @p 1"
+					icon: "bountifulbaubles:curious_ring"
+					id: "71E169C16A2AC925"
+					type: "command"
+				}
+			]
 			tasks: [{
 				entity: "cataclysm:ancient_remnant"
 				id: "7C02737D5BCDE482"
@@ -328,11 +382,19 @@
 			description: ["林地府邸（自然生成，固定 1 只）"]
 			icon: "illagerinvasion:invoker_spawn_egg"
 			id: "437011FFBCCC0306"
-			rewards: [{
-				id: "36F2A35248372E70"
-				item: "illageandspillage:totem_of_banishment"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "36F2A35248372E70"
+					item: "illageandspillage:totem_of_banishment"
+					type: "item"
+				}
+				{
+					count: 60
+					id: "3D67E5AC9CF54936"
+					item: "blue_archivescraft:cyanoaugite"
+					type: "item"
+				}
+			]
 			tasks: [{
 				entity: "illagerinvasion:invoker"
 				id: "233C2C9CC5DC3278"
@@ -350,11 +412,19 @@
 			]
 			icon: "mokels_boss_mantyd:boss_mantyd_spawn_egg"
 			id: "42ECE34B23423C53"
-			rewards: [{
-				id: "2ABC31B8E5A8223D"
-				item: "mokels_boss_mantyd:plantation_rune"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "2ABC31B8E5A8223D"
+					item: "mokels_boss_mantyd:plantation_rune"
+					type: "item"
+				}
+				{
+					count: 15
+					id: "2D710B80383D430E"
+					item: "blue_archivescraft:cyanoaugite"
+					type: "item"
+				}
+			]
 			tasks: [{
 				entity: "mokels_boss_mantyd:boss_mantyd"
 				id: "7D81A56359A9CDB2"
@@ -369,11 +439,19 @@
 			description: ["野外随机刷新一个红色的地牢，通往boss竞技场"]
 			icon: "mokels_bossfight_saphyra:nameless_spawn_egg"
 			id: "0E5667DC3F857770"
-			rewards: [{
-				id: "41F46FC60BFA5720"
-				item: "mokels_bossfight_saphyra:nameless_gatekeeper_remembrance"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "41F46FC60BFA5720"
+					item: "mokels_bossfight_saphyra:nameless_gatekeeper_remembrance"
+					type: "item"
+				}
+				{
+					count: 60
+					id: "489845D8AED19DA9"
+					item: "blue_archivescraft:cyanoaugite"
+					type: "item"
+				}
+			]
 			tasks: [{
 				entity: "mokels_bossfight_saphyra:nameless"
 				id: "1EA3A5BD11C7B6E5"
@@ -387,11 +465,19 @@
 			description: ["击杀史莱姆后生成。"]
 			icon: "threateningly_mobs:re_rock_snail_spawn_egg"
 			id: "468F011F0A90A710"
-			rewards: [{
-				id: "0D9F64335CE79DE6"
-				item: "threateningly_mobs:nature_embryo"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "0D9F64335CE79DE6"
+					item: "threateningly_mobs:nature_embryo"
+					type: "item"
+				}
+				{
+					count: 30
+					id: "0414A4CC00C109EC"
+					item: "blue_archivescraft:cyanoaugite"
+					type: "item"
+				}
+			]
 			tasks: [{
 				entity: "threateningly_mobs:re_rock_snail"
 				id: "5AD82CD6D6EB34E1"
@@ -405,11 +491,19 @@
 			description: ["击杀古老守护者后生成"]
 			icon: "threateningly_mobs:earth_loong_spawn_egg"
 			id: "56904EDCDC1FD9A9"
-			rewards: [{
-				id: "49249D066D3BC2BE"
-				item: "threateningly_mobs:earthloong_skull"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "49249D066D3BC2BE"
+					item: "threateningly_mobs:earthloong_skull"
+					type: "item"
+				}
+				{
+					count: 30
+					id: "06FFED9635E607B1"
+					item: "blue_archivescraft:cyanoaugite"
+					type: "item"
+				}
+			]
 			tasks: [{
 				entity: "threateningly_mobs:earth_loong"
 				id: "3C4DE011D58A518F"
@@ -423,11 +517,19 @@
 			description: ["击杀兔子后概率生成。"]
 			icon: "threateningly_mobs:titan_rabbit_re_spawn_egg"
 			id: "2D4AF33B4DEC329E"
-			rewards: [{
-				id: "17CF9CDBCEC96F1E"
-				item: "threateningly_mobs:furious_incisors"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "17CF9CDBCEC96F1E"
+					item: "threateningly_mobs:furious_incisors"
+					type: "item"
+				}
+				{
+					count: 30
+					id: "4641C0B2B091CFB2"
+					item: "blue_archivescraft:cyanoaugite"
+					type: "item"
+				}
+			]
 			tasks: [{
 				entity: "threateningly_mobs:titan_rabbit_re"
 				id: "46720FFA5F348F2C"
@@ -441,11 +543,19 @@
 			description: ["击杀沙丘哨兵后生成"]
 			icon: "threateningly_mobs:armor_desert_spawn_egg"
 			id: "6AC5080979D715E3"
-			rewards: [{
-				id: "1B251E3F40F7F199"
-				item: "threateningly_mobs:desert_armor_shard"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "1B251E3F40F7F199"
+					item: "threateningly_mobs:desert_armor_shard"
+					type: "item"
+				}
+				{
+					count: 30
+					id: "2088199A707FB9E3"
+					item: "blue_archivescraft:cyanoaugite"
+					type: "item"
+				}
+			]
 			tasks: [{
 				entity: "threateningly_mobs:armor_desert"
 				icon: "threateningly_mobs:armor_desert_spawn_egg"
@@ -460,11 +570,19 @@
 			description: ["击杀祈灵师后生成。"]
 			icon: "threateningly_mobs:lich_re_spawn_egg"
 			id: "3CA469F0601AE606"
-			rewards: [{
-				id: "3E03452E8211DA01"
-				item: "threateningly_mobs:skeleton_necklace"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "3E03452E8211DA01"
+					item: "threateningly_mobs:skeleton_necklace"
+					type: "item"
+				}
+				{
+					count: 30
+					id: "52D4B96A200DC038"
+					item: "blue_archivescraft:cyanoaugite"
+					type: "item"
+				}
+			]
 			tasks: [{
 				entity: "threateningly_mobs:lich_re"
 				icon: "threateningly_mobs:lich_re_spawn_egg"
@@ -479,11 +597,19 @@
 			description: ["击杀珊瑚巨像后生成"]
 			icon: "threateningly_mobs:beast_horseshoe_crab_spawn_egg"
 			id: "46880D4DF094086F"
-			rewards: [{
-				id: "7F2075B1D71F9FD0"
-				item: "threateningly_mobs:magic_bladefragments"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "7F2075B1D71F9FD0"
+					item: "threateningly_mobs:magic_bladefragments"
+					type: "item"
+				}
+				{
+					count: 30
+					id: "73CE8FB0FE1F7E9F"
+					item: "blue_archivescraft:cyanoaugite"
+					type: "item"
+				}
+			]
 			tasks: [{
 				entity: "threateningly_mobs:beast_horseshoe_crab"
 				id: "562AA475BB90538E"
@@ -497,11 +623,19 @@
 			description: ["击杀lich后生成"]
 			icon: "threateningly_mobs:moon_priest_spawn_egg"
 			id: "2D7C6C9C994FC194"
-			rewards: [{
-				id: "4B10F8ED85016E66"
-				item: "threateningly_mobs:moon_priest_head"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "4B10F8ED85016E66"
+					item: "threateningly_mobs:moon_priest_head"
+					type: "item"
+				}
+				{
+					count: 30
+					id: "0D6470CD4D30BFC1"
+					item: "blue_archivescraft:cyanoaugite"
+					type: "item"
+				}
+			]
 			tasks: [{
 				entity: "threateningly_mobs:moon_priest"
 				id: "1970362391A302FA"
@@ -515,11 +649,19 @@
 			description: ["击杀地脉龙后生成"]
 			icon: "threateningly_mobs:inferno_spawn_egg"
 			id: "12374984AED8A2D2"
-			rewards: [{
-				id: "6801E2D6F8BAAC3F"
-				item: "threateningly_mobs:inferno_jade"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "6801E2D6F8BAAC3F"
+					item: "threateningly_mobs:inferno_jade"
+					type: "item"
+				}
+				{
+					count: 30
+					id: "7757EFDDA68E32A7"
+					item: "blue_archivescraft:cyanoaugite"
+					type: "item"
+				}
+			]
 			tasks: [{
 				entity: "threateningly_mobs:inferno"
 				id: "2F1EE4EC8258FA3D"
@@ -533,11 +675,19 @@
 			description: ["击杀远古遗魂后生成"]
 			icon: "threateningly_mobs:solscarab_maximus_spawn_egg"
 			id: "5B9B6B12937451E0"
-			rewards: [{
-				id: "782BC158F9BD4E7B"
-				item: "threateningly_mobs:bettle_horn"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "782BC158F9BD4E7B"
+					item: "threateningly_mobs:bettle_horn"
+					type: "item"
+				}
+				{
+					count: 30
+					id: "6FD244D62C65CE95"
+					item: "blue_archivescraft:cyanoaugite"
+					type: "item"
+				}
+			]
 			tasks: [{
 				entity: "threateningly_mobs:solscarab_maximus"
 				id: "51C2A105E65527EE"
@@ -551,11 +701,19 @@
 			description: ["击杀沧溟巡守后生成"]
 			icon: "threateningly_mobs:hydra_spawn_egg"
 			id: "2429CF1C5BC05F3D"
-			rewards: [{
-				id: "1D7321DC7239C9F9"
-				item: "threateningly_mobs:sea_hydra_eyes"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "1D7321DC7239C9F9"
+					item: "threateningly_mobs:sea_hydra_eyes"
+					type: "item"
+				}
+				{
+					count: 30
+					id: "3800A804E47AF8C6"
+					item: "blue_archivescraft:cyanoaugite"
+					type: "item"
+				}
+			]
 			tasks: [{
 				entity: "threateningly_mobs:hydra"
 				id: "1ABED7841A6AADEE"
@@ -569,11 +727,19 @@
 			description: ["击杀蔓生巨像后生成。"]
 			icon: "threateningly_mobs:regalhart_spawn_egg"
 			id: "7B89A0EA25973E49"
-			rewards: [{
-				id: "0596461EF3471492"
-				item: "threateningly_mobs:nature_shell"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "0596461EF3471492"
+					item: "threateningly_mobs:nature_shell"
+					type: "item"
+				}
+				{
+					count: 30
+					id: "79D5FE3B9E355CBC"
+					item: "blue_archivescraft:cyanoaugite"
+					type: "item"
+				}
+			]
 			tasks: [{
 				entity: "threateningly_mobs:regalhart"
 				id: "62D0F13E8265D79D"
@@ -586,11 +752,19 @@
 		{
 			description: ["击杀熔岩食者后生成。"]
 			id: "6E96D5C23591412D"
-			rewards: [{
-				id: "3E75637D237FA86D"
-				item: "threateningly_mobs:basalt_wyvern_horn"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "3E75637D237FA86D"
+					item: "threateningly_mobs:basalt_wyvern_horn"
+					type: "item"
+				}
+				{
+					count: 30
+					id: "67A354755830AD29"
+					item: "blue_archivescraft:cyanoaugite"
+					type: "item"
+				}
+			]
 			tasks: [{
 				entity: "threateningly_mobs:basalt_wyvern"
 				icon: "threateningly_mobs:basalt_wyvern_spawn_egg"
@@ -627,11 +801,19 @@
 		{
 			description: ["击杀下界合金巨兽后生成。"]
 			id: "0ED8CC9906F62656"
-			rewards: [{
-				id: "798733819DA1F636"
-				item: "threateningly_mobs:terradragon_heatbone"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "798733819DA1F636"
+					item: "threateningly_mobs:terradragon_heatbone"
+					type: "item"
+				}
+				{
+					count: 30
+					id: "7316C6C3DF48A509"
+					item: "blue_archivescraft:cyanoaugite"
+					type: "item"
+				}
+			]
 			tasks: [{
 				entity: "threateningly_mobs:terra_dragon"
 				icon: "threateningly_mobs:terra_dragon_spawn_egg"
@@ -645,11 +827,19 @@
 		{
 			description: ["击杀骷髅巨龙后生成"]
 			id: "4BB97FED4124CC0F"
-			rewards: [{
-				id: "2730697B577908C1"
-				item: "threateningly_mobs:demon_eyes"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "2730697B577908C1"
+					item: "threateningly_mobs:demon_eyes"
+					type: "item"
+				}
+				{
+					count: 30
+					id: "10843D8E992499B8"
+					item: "blue_archivescraft:cyanoaugite"
+					type: "item"
+				}
+			]
 			tasks: [{
 				entity: "threateningly_mobs:ferox_death_worm"
 				icon: "threateningly_mobs:ferox_death_worm_spawn_egg"
@@ -663,11 +853,19 @@
 		{
 			description: ["击杀冰冻魔像后生成"]
 			id: "55FAC0D8FAB9F2BD"
-			rewards: [{
-				id: "0576A45B6009FE58"
-				item: "threateningly_mobs:ice_demon_eyes"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "0576A45B6009FE58"
+					item: "threateningly_mobs:ice_demon_eyes"
+					type: "item"
+				}
+				{
+					count: 30
+					id: "14710AA4094A6136"
+					item: "blue_archivescraft:cyanoaugite"
+					type: "item"
+				}
+			]
 			tasks: [{
 				entity: "threateningly_mobs:ferox_ice_worm"
 				icon: "threateningly_mobs:ferox_ice_worm_spawn_egg"
@@ -682,17 +880,25 @@
 			dependencies: ["1547A20F605C1E6F"]
 			description: ["袭击尾声概率刷新"]
 			id: "5750D7121CA8BEDE"
-			rewards: [{
-				id: "3BE59AD8F69038F1"
-				item: {
-					Count: 1
-					id: "threateningly_mobs:skeleton_book"
-					tag: {
-						Damage: 0
+			rewards: [
+				{
+					id: "3BE59AD8F69038F1"
+					item: {
+						Count: 1
+						id: "threateningly_mobs:skeleton_book"
+						tag: {
+							Damage: 0
+						}
 					}
+					type: "item"
 				}
-				type: "item"
-			}]
+				{
+					count: 60
+					id: "295EDD9922F552FF"
+					item: "blue_archivescraft:cyanoaugite"
+					type: "item"
+				}
+			]
 			tasks: [{
 				entity: "illageandspillage:spiritcaller"
 				icon: "illageandspillage:spiritcaller_spawn_egg"
@@ -707,11 +913,19 @@
 			dependencies: ["1547A20F605C1E6F"]
 			description: ["袭击尾波概率刷新"]
 			id: "5B2624A28763E7E3"
-			rewards: [{
-				id: "7CBDEDE572F6A632"
-				item: "endrem:undead_soul"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "7CBDEDE572F6A632"
+					item: "endrem:undead_soul"
+					type: "item"
+				}
+				{
+					count: 60
+					id: "6744DDF76AA8A22B"
+					item: "blue_archivescraft:cyanoaugite"
+					type: "item"
+				}
+			]
 			tasks: [{
 				entity: "illageandspillage:freakager"
 				icon: "illageandspillage:freakager_spawn_egg"
@@ -726,17 +940,25 @@
 			dependencies: ["1547A20F605C1E6F"]
 			description: ["袭击尾声概率刷新"]
 			id: "24AB23F4D0C41219"
-			rewards: [{
-				id: "67451175BBB07B38"
-				item: {
-					Count: 1
-					id: "illageandspillage:spellbound_book"
-					tag: {
-						Damage: 0
+			rewards: [
+				{
+					id: "67451175BBB07B38"
+					item: {
+						Count: 1
+						id: "illageandspillage:spellbound_book"
+						tag: {
+							Damage: 0
+						}
 					}
+					type: "item"
 				}
-				type: "item"
-			}]
+				{
+					count: 60
+					id: "33276E8E7C6325A1"
+					item: "blue_archivescraft:cyanoaugite"
+					type: "item"
+				}
+			]
 			tasks: [{
 				entity: "illageandspillage:magispeller"
 				icon: "illageandspillage:magispeller_spawn_egg"
@@ -759,6 +981,12 @@
 				"地点：Ancient Tower remains"
 			]
 			id: "5E0A05443373E70E"
+			rewards: [{
+				count: 15
+				id: "725DB373F82F08CD"
+				item: "blue_archivescraft:cyanoaugite"
+				type: "item"
+			}]
 			tasks: [{
 				entity: "legendary_monsters:endersent"
 				icon: "legendary_monsters:endersent_spawn_egg"
@@ -777,11 +1005,19 @@
 				"难度：普通"
 			]
 			id: "0EE24EA4CBA83CE9"
-			rewards: [{
-				id: "06B30401282BCC66"
-				item: "born_in_chaos_v1:bone_heart"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "06B30401282BCC66"
+					item: "born_in_chaos_v1:bone_heart"
+					type: "item"
+				}
+				{
+					count: 15
+					id: "0A2B942DBCB3842D"
+					item: "blue_archivescraft:cyanoaugite"
+					type: "item"
+				}
+			]
 			tasks: [{
 				entity: "legendary_monsters:skeletosaurus"
 				icon: "legendary_monsters:skeletosaurus_spawn_egg"
@@ -800,11 +1036,19 @@
 				"难度：普通"
 			]
 			id: "1AD140B99E00A0C6"
-			rewards: [{
-				id: "5D49A5715CEEA551"
-				item: "legendary_monsters:lava_eaters_skin"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "5D49A5715CEEA551"
+					item: "legendary_monsters:lava_eaters_skin"
+					type: "item"
+				}
+				{
+					count: 15
+					id: "3A768568AFB7E0DB"
+					item: "blue_archivescraft:cyanoaugite"
+					type: "item"
+				}
+			]
 			tasks: [{
 				entity: "legendary_monsters:lava_eater"
 				icon: "legendary_monsters:lava_eater_spawn_egg"
@@ -819,11 +1063,19 @@
 			dependencies: ["35B143A22B536A9B"]
 			description: ["主世界雪原随机生成"]
 			id: "7CF9CE4BB7995585"
-			rewards: [{
-				id: "6F219F0C9F90FF69"
-				item: "legendary_monsters:eye_of_frost"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "6F219F0C9F90FF69"
+					item: "legendary_monsters:eye_of_frost"
+					type: "item"
+				}
+				{
+					count: 15
+					id: "12F24E7E66EC3F18"
+					item: "blue_archivescraft:cyanoaugite"
+					type: "item"
+				}
+			]
 			tasks: [{
 				entity: "legendary_monsters:frostbitten_golem"
 				icon: "legendary_monsters:frostbitten_golem_spawn_egg"
@@ -838,17 +1090,25 @@
 			dependencies: ["35B143A22B536A9B"]
 			description: ["主世界沙漠群系随机生成"]
 			id: "43D4E63BB8DB605C"
-			rewards: [{
-				id: "6D76AF02D76BA5DA"
-				item: {
-					Count: 1
-					id: "legendary_monsters:sand_cannon"
-					tag: {
-						Damage: 0
+			rewards: [
+				{
+					id: "6D76AF02D76BA5DA"
+					item: {
+						Count: 1
+						id: "legendary_monsters:sand_cannon"
+						tag: {
+							Damage: 0
+						}
 					}
+					type: "item"
 				}
-				type: "item"
-			}]
+				{
+					count: 15
+					id: "3091767DC1FA920E"
+					item: "blue_archivescraft:cyanoaugite"
+					type: "item"
+				}
+			]
 			tasks: [{
 				entity: "legendary_monsters:dune_sentinel"
 				icon: "legendary_monsters:dune_sentinel_spawn_egg"
@@ -892,6 +1152,12 @@
 			dependencies: ["35B143A22B536A9B"]
 			description: ["雪原群系地下遗迹随机刷新"]
 			id: "5D17FA2B22180AA8"
+			rewards: [{
+				count: 15
+				id: "65534CB2E66C9843"
+				item: "blue_archivescraft:cyanoaugite"
+				type: "item"
+			}]
 			tasks: [{
 				entity: "legendary_monsters:posessed_paladin"
 				icon: "legendary_monsters:posessed_paladin_spawn_egg"
@@ -906,11 +1172,19 @@
 			dependencies: ["35B143A22B536A9B"]
 			description: ["野外随机刷新"]
 			id: "439A6CF6C03A6964"
-			rewards: [{
-				id: "65CFA74C3BF5E64E"
-				item: "legendary_monsters:eye_of_many_ribs"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "65CFA74C3BF5E64E"
+					item: "legendary_monsters:eye_of_many_ribs"
+					type: "item"
+				}
+				{
+					count: 15
+					id: "54495989EE8041DF"
+					item: "blue_archivescraft:cyanoaugite"
+					type: "item"
+				}
+			]
 			tasks: [{
 				entity: "legendary_monsters:ancient_guardian"
 				icon: "legendary_monsters:ancient_guardian_spawn_egg"
@@ -929,11 +1203,19 @@
 				"难度：普通"
 			]
 			id: "3335EBEE702221C0"
-			rewards: [{
-				id: "5EEE18C686F8C8B7"
-				item: "legendary_monsters:eye_of_moss"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "5EEE18C686F8C8B7"
+					item: "legendary_monsters:eye_of_moss"
+					type: "item"
+				}
+				{
+					count: 15
+					id: "5F90302DA5A0711E"
+					item: "blue_archivescraft:cyanoaugite"
+					type: "item"
+				}
+			]
 			tasks: [{
 				entity: "legendary_monsters:overgrown_colossus"
 				icon: "legendary_monsters:overgrown_colossus_spawn_egg"
@@ -956,11 +1238,18 @@
 				"地点：Court of Gnomes"
 			]
 			id: "5534504A9E44095A"
-			rewards: [{
-				id: "271AAEF9EED4A223"
-				item: "terramity:music_sheet_of_the_gnome_king"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "271AAEF9EED4A223"
+					item: "terramity:music_sheet_of_the_gnome_king"
+					type: "item"
+				}
+				{
+					command: "/curios add ring @p 1"
+					id: "22170347E4C444D4"
+					type: "command"
+				}
+			]
 			tasks: [{
 				entity: "terramity:gob"
 				icon: "terramity:gob_spawn_egg"
@@ -981,11 +1270,27 @@
 				"针对学生：静子，桔梗"
 			]
 			id: "3A0DD276C2D05F26"
-			rewards: [{
-				id: "0988DD80A70F0D52"
-				item: "terramity:music_sheet_of_the_legendary_super_sniffer"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "0988DD80A70F0D52"
+					item: "terramity:music_sheet_of_the_legendary_super_sniffer"
+					type: "item"
+				}
+				{
+					command: "/curios add belt @p 1"
+					icon: "terramity:leather_belt"
+					id: "7F9975C35B47C747"
+					title: "添加一个腰带栏位"
+					type: "command"
+				}
+				{
+					command: "/curios add charm @p 2"
+					icon: "bountifulbaubles:curious_amulet"
+					id: "12DF28057411384F"
+					title: "增加两个护符栏位"
+					type: "command"
+				}
+			]
 			tasks: [{
 				entity: "terramity:super_sniffer"
 				icon: "terramity:super_sniffer_spawn_egg"
@@ -1120,11 +1425,19 @@
 				"地点：Trial Spire"
 			]
 			id: "2B268BED219500CC"
-			rewards: [{
-				id: "6535B2A09FBC599B"
-				item: "terramity:music_sheet_of_the_trial_guardian"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "6535B2A09FBC599B"
+					item: "terramity:music_sheet_of_the_trial_guardian"
+					type: "item"
+				}
+				{
+					command: "/curios add ring @p 1"
+					icon: "bountifulbaubles:curious_ring"
+					id: "027C2B0385C57A73"
+					type: "command"
+				}
+			]
 			tasks: [{
 				entity: "terramity:trial_guardian"
 				icon: "terramity:trial_guardian_spawn_egg"
@@ -1138,11 +1451,19 @@
 		{
 			description: ["击杀利维坦后自动刷新"]
 			id: "52B2CD5EE7B5343C"
-			rewards: [{
-				id: "726021D0115F0BB4"
-				item: "threateningly_mobs:whale_blood"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "726021D0115F0BB4"
+					item: "threateningly_mobs:whale_blood"
+					type: "item"
+				}
+				{
+					count: 30
+					id: "0FBE749A9404BC25"
+					item: "blue_archivescraft:cyanoaugite"
+					type: "item"
+				}
+			]
 			tasks: [{
 				entity: "threateningly_mobs:abyss_fang"
 				icon: "threateningly_mobs:abyss_fang_spawn_egg"
@@ -1158,17 +1479,25 @@
 			description: ["在冰原生成，平时休眠状态会将一块冰晶握在手中，可以趁机偷取，受到攻击苏醒，会将冰晶含进嘴里。伤害主要为高伤害和寒冰吐息，有缓慢效果和击退。"]
 			icon: "mowziesmobs:frostmaw_spawn_egg"
 			id: "482EA1D6E7FB477D"
-			rewards: [{
-				id: "50DE74542A989523"
-				item: {
-					Count: 1
-					id: "mowziesmobs:ice_crystal"
-					tag: {
-						Damage: 0
+			rewards: [
+				{
+					id: "50DE74542A989523"
+					item: {
+						Count: 1
+						id: "mowziesmobs:ice_crystal"
+						tag: {
+							Damage: 0
+						}
 					}
+					type: "item"
 				}
-				type: "item"
-			}]
+				{
+					count: 15
+					id: "1814EC24EFEC1434"
+					item: "blue_archivescraft:cyanoaugite"
+					type: "item"
+				}
+			]
 			tasks: [{
 				entity: "mowziesmobs:frostmaw"
 				id: "5FCC7E65D98EEEC6"
@@ -1183,11 +1512,19 @@
 			description: ["在草原生成，攻击为从天上打下来的强烈阳光，以及能够召唤小怪，杀死主将即可。"]
 			icon: "mowziesmobs:umvuthi_spawn_egg"
 			id: "6B37D36E413DBE90"
-			rewards: [{
-				id: "409A61F0B4D21858"
-				item: "mowziesmobs:grant_suns_blessing"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "409A61F0B4D21858"
+					item: "mowziesmobs:grant_suns_blessing"
+					type: "item"
+				}
+				{
+					count: 15
+					id: "65FDE6D75A20EAA9"
+					item: "blue_archivescraft:cyanoaugite"
+					type: "item"
+				}
+			]
 			tasks: [{
 				entity: "mowziesmobs:umvuthi"
 				id: "5176175B266A1C49"
@@ -1202,11 +1539,19 @@
 			description: ["会在地下的地牢中生成，全身无敌，技能多为击退和控制，要小心它破坏地形的冲击波，当它使用下劈的动作时会出现硬直，要在这个时候攻击它背后的旧伤，每次攻击一次，慢慢磨死就好。"]
 			icon: "mowziesmobs:wroughtnaut_spawn_egg"
 			id: "6FBB2FA52969B704"
-			rewards: [{
-				id: "3DF64FC6432786E0"
-				item: "mowziesmobs:wrought_helmet"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "3DF64FC6432786E0"
+					item: "mowziesmobs:wrought_helmet"
+					type: "item"
+				}
+				{
+					count: 15
+					id: "5F4B527420E231A8"
+					item: "blue_archivescraft:cyanoaugite"
+					type: "item"
+				}
+			]
 			tasks: [{
 				entity: "mowziesmobs:ferrous_wroughtnaut"
 				id: "351202E0160DD17F"
@@ -1344,6 +1689,7 @@
 			y: -2.5d
 		}
 		{
+			description: ["青辉石奖励"]
 			icon: "minecraft:coal"
 			id: "35B143A22B536A9B"
 			size: 3.0d
@@ -1357,6 +1703,7 @@
 			y: 2.0d
 		}
 		{
+			description: ["奖励增加戒指栏位"]
 			icon: "minecraft:iron_ingot"
 			id: "1FDB230CCA3A9AA6"
 			size: 3.0d

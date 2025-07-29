@@ -518,25 +518,6 @@
 		}
 		{
 			can_repeat: true
-			icon: "threateningly_mobs:saint_spawn_egg"
-			id: "19F753AA29AC4AD1"
-			rewards: [{
-				id: "42BE024B74349D0B"
-				item: "threateningly_mobs:saint_spawn_egg"
-				type: "item"
-			}]
-			tasks: [{
-				consume_items: true
-				id: "5F66C7A185C8E020"
-				item: "enigmaticlegacy:enchantment_transposer"
-				type: "item"
-			}]
-			title: "伪善圣徒boss召唤物兑换"
-			x: 1.5d
-			y: -7.0d
-		}
-		{
-			can_repeat: true
 			icon: "corundumguardian:corundum_guardian_spawn_egg"
 			id: "7FCD2D926ABD4B92"
 			rewards: [{
@@ -694,8 +675,8 @@
 				type: "item"
 			}]
 			title: "化整为零"
-			x: 0.5d
-			y: -8.5d
+			x: 2.5d
+			y: -7.0d
 		}
 		{
 			can_repeat: true
@@ -717,7 +698,7 @@
 			}]
 			title: "不朽锭兑换"
 			x: 1.5d
-			y: -8.5d
+			y: -7.0d
 		}
 		{
 			can_repeat: true

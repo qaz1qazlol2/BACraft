@@ -647,6 +647,7 @@
 		}
 		{
 			dependencies: ["44F93B6DF62B8340"]
+			description: ["完成暮色篇章后即可解锁"]
 			hide_dependent_lines: true
 			id: "05E16AAE9144DB55"
 			rewards: [
@@ -670,6 +671,216 @@
 			title: "BOSS悬赏"
 			x: 26.5d
 			y: -1.0d
+		}
+		{
+			can_repeat: true
+			icon: {
+				Count: 1
+				id: "blue_archivescraft:amulet"
+				tag: {
+					EnhancementLevel: 0
+					ExtraHealth: 0.15f
+					UltimateLevel: 0
+				}
+			}
+			id: "359266460C555AFA"
+			rewards: [{
+				id: "06E2DB9A4DCF1F1D"
+				item: {
+					Count: 1
+					id: "blue_archivescraft:amulet"
+					tag: {
+						EnhancementLevel: 0
+						ExtraHealth: 0.15f
+						UltimateLevel: 0
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 120L
+				id: "13373DADD688F268"
+				item: { Count: 120, id: "blue_archivescraft:cyanoaugite" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: 4.5d
+		}
+		{
+			can_repeat: true
+			icon: {
+				Count: 1
+				id: "blue_archivescraft:watch"
+				tag: {
+					EnhancementLevel: 0
+					ExtraNoDamage: 0.15f
+					UltimateLevel: 0
+				}
+			}
+			id: "31131F09D14533F2"
+			rewards: [{
+				id: "606D0589FD61D338"
+				item: {
+					Count: 1
+					id: "blue_archivescraft:watch"
+					tag: {
+						EnhancementLevel: 0
+						ExtraNoDamage: 0.15f
+						UltimateLevel: 0
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 120L
+				id: "0E464168EAA705B5"
+				item: { Count: 120, id: "blue_archivescraft:cyanoaugite" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: 3.0d
+		}
+		{
+			can_repeat: true
+			icon: {
+				Count: 1
+				id: "blue_archivescraft:boots"
+				tag: {
+					EnhancementLevel: 0
+					ExtraMoveSpeed: 0.15f
+					UltimateLevel: 0
+				}
+			}
+			id: "381D3833E8F5F8FB"
+			rewards: [{
+				id: "777A3130D567BA3D"
+				item: {
+					Count: 1
+					id: "blue_archivescraft:boots"
+					tag: {
+						EnhancementLevel: 0
+						ExtraMoveSpeed: 0.15f
+						UltimateLevel: 0
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 120L
+				id: "195E1DA718BBD097"
+				item: { Count: 120, id: "blue_archivescraft:cyanoaugite" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: 3.0d
+		}
+		{
+			can_repeat: true
+			icon: {
+				Count: 1
+				id: "blue_archivescraft:glove"
+				tag: {
+					EnhancementLevel: 0
+					ExtraAttackDamage: 0.15f
+					UltimateLevel: 0
+				}
+			}
+			id: "7AFC0F6483828693"
+			rewards: [{
+				id: "74E7BFC00A9D995D"
+				item: {
+					Count: 1
+					id: "blue_archivescraft:glove"
+					tag: {
+						EnhancementLevel: 0
+						ExtraAttackDamage: 0.15f
+						UltimateLevel: 0
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 120L
+				id: "21C74209D6AB133B"
+				item: { Count: 120, id: "blue_archivescraft:cyanoaugite" }
+				type: "item"
+			}]
+			x: 4.5d
+			y: 4.5d
+		}
+		{
+			can_repeat: true
+			icon: {
+				Count: 1
+				id: "blue_archivescraft:cap"
+				tag: {
+					EnhancementLevel: 0
+					ExtraDamage: 10.0f
+					UltimateLevel: 0
+				}
+			}
+			id: "57CD737794405BB4"
+			rewards: [{
+				id: "348AA551ABFB7150"
+				item: {
+					Count: 1
+					id: "blue_archivescraft:cap"
+					tag: {
+						EnhancementLevel: 0
+						ExtraDamage: 10.0f
+						UltimateLevel: 0
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 120L
+				id: "36C6FFDE6B8B93E0"
+				item: { Count: 120, id: "blue_archivescraft:cyanoaugite" }
+				type: "item"
+			}]
+			x: 4.5d
+			y: 3.0d
+		}
+		{
+			can_repeat: true
+			icon: {
+				Count: 1
+				id: "blue_archivescraft:necklace"
+				tag: {
+					CriticalStrike: 0.15f
+					EnhancementLevel: 0
+					UltimateLevel: 0
+				}
+			}
+			id: "55022714F58AAAC7"
+			rewards: [{
+				id: "78632BF23A60A3DA"
+				item: {
+					Count: 1
+					id: "blue_archivescraft:necklace"
+					tag: {
+						CriticalStrike: 0.15f
+						EnhancementLevel: 0
+						UltimateLevel: 0
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 240L
+				id: "333FCD95DAAB53E5"
+				item: { Count: 120, id: "blue_archivescraft:cyanoaugite" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: 4.5d
 		}
 	]
 	title: "vol5.2：灾厄异变（送福利）"

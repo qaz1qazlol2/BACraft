@@ -1607,6 +1607,13 @@
 					item: "blue_archivescraft:mysterious_book"
 					type: "item"
 				}
+				{
+					command: "/curios add charm @p 1"
+					icon: "bountifulbaubles:curious_amulet"
+					id: "4EDF98C15F23BB8A"
+					title: "增加一个护符栏位"
+					type: "command"
+				}
 			]
 			tasks: [{
 				id: "3F9FF469986A134B"
@@ -1714,43 +1721,50 @@
 				"建筑名称：金罗萨花园"
 			]
 			id: "146E0FB48AF54FF6"
-			rewards: [{
-				id: "3A9F50A2B5BDF472"
-				item: {
-					Count: 1
-					id: "relics:holy_locket"
-					tag: {
-						abilities: {
-							belief: {
-								points: 0
-								stats: {
-									amount: 0.23289d
-									capacity: 10.83814d
-									count: 2.49615d
-									radius: 3.97146d
+			rewards: [
+				{
+					id: "3A9F50A2B5BDF472"
+					item: {
+						Count: 1
+						id: "relics:holy_locket"
+						tag: {
+							abilities: {
+								belief: {
+									points: 0
+									stats: {
+										amount: 0.23289d
+										capacity: 10.83814d
+										count: 2.49615d
+										radius: 3.97146d
+									}
 								}
-							}
-							blessing: {
-								points: 0
-								stats: {
-									consumption: 6.53802d
+								blessing: {
+									points: 0
+									stats: {
+										consumption: 6.53802d
+									}
+									temp: {
+										ticking: 1b
+									}
 								}
-								temp: {
-									ticking: 1b
-								}
-							}
-							repentance: {
-								points: 0
-								stats: {
-									damage: 0.12253d
-									radius: 3.88644d
+								repentance: {
+									points: 0
+									stats: {
+										damage: 0.12253d
+										radius: 3.88644d
+									}
 								}
 							}
 						}
 					}
+					type: "item"
 				}
-				type: "item"
-			}]
+				{
+					id: "1D82A4A5D0957DFD"
+					item: "paraglider:heart_container"
+					type: "item"
+				}
+			]
 			tasks: [{
 				id: "2E8483554ED863C1"
 				item: "mokels_boss_mantyd:plantation_rune"
@@ -2636,24 +2650,6 @@
 			title: "女神雕像"
 			x: -11.5d
 			y: 1.0d
-		}
-		{
-			dependencies: ["5BBE71F0B0401F9A"]
-			description: ["物品右键后可以直接增加两点生命值上限，也可以在铁砧上和一本普通的书合成一本无法破坏的附魔书。"]
-			icon: "blue_archivescraft:mysterious_book"
-			id: "7C60863FA76AE01E"
-			rewards: [{
-				id: "7A6FDC6E0BCA528B"
-				item: "blue_archivescraft:mysterious_book"
-				type: "item"
-			}]
-			tasks: [{
-				id: "56164D1D5E09FACD"
-				title: "奥秘之书"
-				type: "checkmark"
-			}]
-			x: -10.0d
-			y: 1.5d
 		}
 		{
 			dependencies: ["0F1821EDCACB07DA"]

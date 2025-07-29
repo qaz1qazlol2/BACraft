@@ -395,6 +395,20 @@
 		{
 			dependencies: ["0607D930600F8B92"]
 			id: "7DB3E8B1698904CC"
+			rewards: [{
+				id: "598DD36F45622577"
+				item: {
+					Count: 1
+					id: "tacz:modern_kinetic_gun"
+					tag: {
+						GunCurrentAmmoCount: 30
+						GunFireMode: "AUTO"
+						GunId: "emxcust:rd704_murusama"
+						HasBulletInBarrel: 1b
+					}
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "1B19FF8AB076E4E5"
 				item: {
@@ -421,5 +435,5 @@
 			y: 0.0d
 		}
 	]
-	title: "3.2：虚空的呼唤"
+	title: "3.2：虚空的呼唤（主线）"
 }
