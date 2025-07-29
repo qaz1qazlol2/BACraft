@@ -14,7 +14,7 @@
 	numAffixes = 2
 	defaultColor = "#FFFFFF"
 	weight = 1
-	growthFactor = 3
+	growthFactor = 2
 	effects = []
 	presetAffixes = ["arctic","desecrating","infested","hasty","lively","paralyzing","molten","wounding"]
 
@@ -23,7 +23,7 @@
 	numAffixes = 3
 	defaultColor = "#00FF00"
 	weight = 1
-	growthFactor = 3
+	growthFactor = 0
 	effects = []
 	presetAffixes = ["arctic","desecrating","infested","hasty","lively","paralyzing","molten","wounding"]
 
@@ -32,7 +32,7 @@
 	numAffixes = 4
 	defaultColor = "#00FFFF"
 	weight = 1
-	growthFactor = 8
+	growthFactor = 3
 	effects = []
 	presetAffixes = ["arctic","desecrating","infested","hasty","lively","paralyzing","molten","wounding"]
 
@@ -50,7 +50,7 @@
 	numAffixes = 6
 	defaultColor = "#FF00FF"
 	weight = 1
-	growthFactor = 12
+	growthFactor = 10
 	effects = []
 	presetAffixes = ["arctic","desecrating","infested","hasty","lively","paralyzing","molten","wounding"]
 
@@ -59,7 +59,7 @@
 	numAffixes = 7
 	defaultColor = "#FF9B00"
 	weight = 1
-	growthFactor = 14
+	growthFactor = 15
 	effects = []
 	presetAffixes = ["arctic","desecrating","infested","hasty","lively","paralyzing","molten","wounding"]
 
@@ -68,7 +68,7 @@
 	numAffixes = 10
 	defaultColor = "#FF0000"
 	weight = 1
-	growthFactor = 20
+	growthFactor = 30
 	effects = []
 	presetAffixes = ["arctic","desecrating","infested","hasty","lively","paralyzing","molten","wounding"]
 

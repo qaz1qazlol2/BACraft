@@ -850,8 +850,8 @@
 
 [[entities]]
 	entity = "legionary:unbreakable"
-	minTier = 4
-	maxTier = 3
+	minTier = 3
+	maxTier = 2
 	presetAffixes = []
 	affixList = ["champions:shielding", "champions:adaptable"]
 	affixPermission = "BLACKLIST"
