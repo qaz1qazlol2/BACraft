@@ -27,7 +27,7 @@ B:game_intro_fade_out = 'true';
 B:show_custom_window_icon = 'true';
 S:custom_window_icon_macos = '/config/fancymenu/assets/arona.icns';
 S:custom_window_icon_32 = '/config/fancymenu/assets/arona.png';
-S:custom_window_title = 'Minecraft* Forge 1.20.1 | BACraft 1.0 | 与你的日常，便是奇迹！';
+S:custom_window_title = 'Minecraft* Forge 1.20.1 | BACraft 1.1 | 与你的日常，便是奇迹！';
 S:custom_window_icon_16 = '/config/fancymenu/assets/arona16x16.png';
 
 
@@ -53,6 +53,7 @@ S:anchor_overlay_color_base_override = '';
 F:layout_editor_grid_snapping_strength = '1.0';
 I:layout_editor_grid_size = '10';
 B:invert_anchor_overlay_color = 'false';
+B:enable_buddy = 'true';
 S:anchor_overlay_color_border_override = '';
 F:anchor_overlay_opacity_normal = '0.5';
 F:anchor_overlay_opacity_busy = '0.7';
