@@ -12646,31 +12646,22 @@ const Xiaoyu                                                                    
     )
     Xiaoyu.addAdvanced(
         'terramity:conductite_laser_rifle',
-        (
-            item,
-            advanced,
-            text
-        ) =>
-        {
-            text.
-            remove(1)
-            text.
-            add(
-                1,
-                "§7弹药：电池"
-            )
-            text.
-            remove(2)
-            text.
-            add(
-                2,
-                "§d按住 §6Shift §d查看使用说明"
-            )
-            if (event.shift){
-                text.remove(2)
-                text.add(2,Text.white("§e背包中有大于 1 电池时"))
-                text.add(3,Text.white("§d手持武器§6 shift+右键 §d可填充弹药"))
-                text.add(4,Text.white("§91 电池 = 100子弹 每发射三发子弹进入冷却"))
+        (item, advanced, text) => {
+            if (text.size() >= 2) {
+                text.remove(1);
+                text.add(1, "§7弹药：电池");
+                if (text.size() >= 3) {
+                    text.remove(2);
+                }
+                text.add(2, "§d按住 §6Shift §d查看使用说明");
+                if (event.shift) {
+                    while (text.size() > 2) {
+                        text.remove(2);
+                    }
+                    text.add(2, Text.white("§e背包中有大于 1 电池时"));
+                    text.add(3, Text.white("§d手持武器§6 shift+右键 §d可填充弹药"));
+                    text.add(4, Text.white("§91 电池 = 100子弹 每发射三发子弹进入冷却"));
+                }
             }
         }
     )
@@ -13715,36 +13706,29 @@ const Xiaoyu                                                                    
     )
     Xiaoyu.addAdvanced(
         'terramity:famine_gauntlet',
-        (
-            item,
-            advanced,
-            text
-        ) =>
-        {
-            text.
-            remove(2)
-            text.
-            add(
-                2,
-                "§6被动效果："
-            )
-            text.
-            remove(3)
-            text.
-            add(
-                3,
-                "§9 +造成的伤害增加量等同于玩家饱和度的四分之一"
-            )
-            text.
-            remove(4)
-            text.
-            add(
-                4,
-                "§d 按住 §6Shift §d说人话"
-            )
-            if (event.shift){
-                text.remove(4)
-                text.add(4,Text.white("§3 ⚘(饱食度越多-增加的伤害越高)"))
+        (item, advanced, text) => {
+            if (text.size() >= 3) {
+                text.remove(2);
+                text.add(2, "§6被动效果：");
+                if (text.size() >= 4) {
+                    text.remove(3);
+                }
+                text.add(3, "§9 +造成的伤害增加量等同于玩家饱和度的四分之一");
+                if (text.size() >= 5) {
+                    text.remove(4);
+                }
+                text.add(4, "§d 按住 §6Shift §d说人话");
+                
+                if (event.shift) {
+                    while (text.size() > 4) {
+                        text.remove(4);
+                    }
+                    text.add(4, Text.white("§3 ⚘(饱食度越多-增加的伤害越高)"));
+                }
+            } else {
+                text.add("§6被动效果：");
+                text.add("§9 +造成的伤害增加量等同于玩家饱和度的四分之一");
+                text.add("§d 按住 §6Shift §d说人话");
             }
         }
     )
@@ -14156,61 +14140,43 @@ const Xiaoyu                                                                    
     )
     Xiaoyu.addAdvanced(
         'terramity:guardians_hand',
-        (
-            item,
-            advanced,
-            text
-        ) =>
-        {
-            text.
-            remove(2)
-            text.
-            add(
-                2,
-                "§6被动效果："
-            )
-            text.
-            remove(3)
-            text.
-            add(
-                3,
-                "§9 +1 交互距离"
-            )
-            text.
-            remove(4)
-            text.
-            add(
-                4,
-                "§d 按住 §6Shift §d查看详细说明"
-            )
-            if (event.shift){
-                text.remove(4)
-                text.add(4,Text.white("§9 ⚘(方块范围-攻击距离)"))
+        (item, advanced, text) => {
+            if (text.size() > 2) {
+                text.remove(2);
+            }
+            text.add(Math.min(2, text.size()), "§6被动效果：");
+            if (text.size() > 3) {
+                text.remove(3);
+            }
+            text.add(Math.min(3, text.size()), "§9 +1 交互距离");
+            if (text.size() > 4) {
+                text.remove(4);
+            }
+            text.add(Math.min(4, text.size()), "§d 按住 §6Shift §d查看详细说明");
+            if (event.shift) {
+                while (text.size() > 4) {
+                    text.remove(4);
+                }
+                text.add(4, Text.white("§9 ⚘(方块范围-攻击距离)"));
+                if (text.size() > 4) {
+                    text.add(5, Text.white("§b - 徒手攻击距离增加1格"));
+                    text.add(6, Text.white("§b - 方块交互距离增加1格"));
+                }
             }
         }
     )
     Xiaoyu.addAdvanced(
         'terramity:terawatt_bracers',
-        (
-            item,
-            advanced,
-            text
-        ) =>
-        {
-            text.
-            remove(2)
-            text.
-            add(
-                2,
-                "§6被动效果："
-            )
-            text.
-            remove(3)
-            text.
-            add(
-                3,
-                "§e -攻击时有 15% 的几率召唤闪电攻击，每一级§a 幸运值 §e会使该几率增加 5%"
-            )
+        (item, advanced, text) => {
+            if (text.size() > 2) {
+                text.remove(2);
+            }
+            const minSizeForInsert = Math.max(2, text.size());
+            text.add(minSizeForInsert, "§6被动效果：");
+            if (text.size() > 3) {
+                text.remove(3);
+            }
+            text.add(3, "§e -攻击时有 15% 的几率召唤闪电攻击，每一级§a 幸运值 §e会使该几率增加 5%");
         }
     )
     Xiaoyu.addAdvanced(
