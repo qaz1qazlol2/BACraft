@@ -40,6 +40,7 @@ GCOshine ： NIGA头子
 
 星草大帝：低配包维护
 
+HachiHikari：Kubejs魔改参与成员
 
 还有这些人员，他们提供的建议让这个整合包变得更好：
 
