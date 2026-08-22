@@ -1,7 +1,10 @@
+
+
 # BACraft
 # 想体验最新测试版本请安装git后输入 
 # git clone --recursive https://bgithub.xyz/qaz1qazlol2/BACraft.git
 # Win10及以上（非精简版）使用 winget install Git.Git 来安装git
+克隆后请查看 `.minecraft/README.md` 获取模组文件夹。
 整合包主体部分
 
 2024年8月1日：
@@ -84,8 +87,6 @@ qaz1qazlol（充电）
 
 
 
-
 以及各位游玩整合包的玩家们
 
 Thank You
-
